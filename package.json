@@ -1,7 +1,7 @@
 {
   "name": "bc-minecraft-bedrock-vanilla-data",
-  "version": "1.0.10",
-  "description": "A library that provides object and handling for minecraft projects",
+  "version": "1.0.0",
+  "description": "A library that provides minecraft bedrock data",
   "main": "./lib/src/main.js",
   "types": "./lib/src/main.d.ts",
   "scripts": {
@@ -37,7 +37,6 @@
     "lib/**/*",
     "!lib/test"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.2.17",
     "@types/mocha": "^8.2.1",
