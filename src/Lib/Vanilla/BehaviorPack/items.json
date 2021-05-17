@@ -1,0 +1,186 @@
+[
+  {
+    "id": "minecraft:apple",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:appleEnchanted",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:baked_potato",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:beef",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:beetroot",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:beetroot_seeds",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:beetroot_soup",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:bread",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:camera",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:carrot",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:chicken",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:chorus_fruit",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:clownfish",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_beef",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_chicken",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_fish",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_porkchop",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_rabbit",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cooked_salmon",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cookie",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:dried_kelp",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:fish",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:golden_apple",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:golden_carrot",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:honeycomb",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:honey_bottle",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:melon",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:melon_seeds",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mushroom_stew",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:muttonCooked",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:muttonRaw",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:nether_wart",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:poisonous_potato",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:porkchop",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:potato",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pufferfish",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pumpkin_pie",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pumpkin_seeds",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:rabbit",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:rabbit_stew",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:rotten_flesh",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:salmon",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:spider_eye",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:suspicious_stew",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:sweet_berries",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:wheat_seeds",
+    "max_damage": 0
+  }
+]

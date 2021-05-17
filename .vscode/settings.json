@@ -1,9 +1,10 @@
 {
   "editor.insertSpaces": true,
-  "tslint.enable": true,
-  "typescript.tsc.autoDetect": "off",
   "typescript.preferences.quoteStyle": "single",
+
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+
+  "json.schemas": [{ "fileMatch": ["src/**/blocks.json"], "url": "./.vscode/schemas/blocks.json" }]
 }

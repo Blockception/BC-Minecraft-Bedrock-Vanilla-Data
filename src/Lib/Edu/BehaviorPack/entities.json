@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "minecraft:agent",
+    "events": []
+  },
+  {
+    "id": "minecraft:chalkboard",
+    "events": []
+  },
+  {
+    "id": "minecraft:balloon",
+    "events": []
+  },
+  {
+    "id": "minecraft:npc",
+    "events": []
+  },
+  {
+    "id": "minecraft:tripod_camera",
+    "events": []
+  }
+]
