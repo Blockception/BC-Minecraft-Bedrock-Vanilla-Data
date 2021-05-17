@@ -1,0 +1,146 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Scraper {
+    ///DOLATER <summary>add description for class: IdentifierExtension</summary>
+    public static partial class IdentifierExtension {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="FindID"></param>
+        public static Boolean HasID<T>(this T[] Data, String FindID)
+            where T : IIdentifier {
+            Int32 Max = Data.Length;
+
+            for (Int32 I = 0; I < Max; I++) {
+                T Item = Data[I];
+
+                if (Item.ID == FindID) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="FindID"></param>
+        public static Boolean HasID<T>(this T[] Data, String FindID, Int32 StartIndex)
+            where T : IIdentifier {
+            Int32 Max = Data.Length;
+
+            for (Int32 I = StartIndex; I < Max; I++) {
+                T Item = Data[I];
+
+                if (Item.ID == FindID) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="FindID"></param>
+        public static Boolean HasID<T>(this List<T> Data, String FindID)
+            where T : IIdentifier {
+            Int32 Max = Data.Count;
+
+            for (Int32 I = 0; I < Max; I++) {
+                T Item = Data[I];
+
+                if (Item.ID == FindID) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="FindID"></param>
+        public static Boolean HasID<T>(this List<T> Data, String FindID, Int32 StartIndex)
+            where T : IIdentifier {
+            Int32 Max = Data.Count;
+
+            for (Int32 I = StartIndex; I < Max; I++) {
+                T Item = Data[I];
+
+                if (Item.ID == FindID) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="Excluded"></param>
+        /// <returns></returns>
+        public static List<T> Clean<T>(this List<T> Data, List<T> Excluded)
+            where T : IIdentifier {
+
+            Int32 Count = Data.Count;
+            var Out = new List<T>(Data.Count);
+
+            for (Int32 I = 0; I < Count; I++) {
+                T Item = Data[I];
+                String ID = Item.ID;
+
+                if (Excluded.HasID(ID) || Out.HasID(ID)) {
+                    continue;
+                }
+
+                Out.Add(Item);
+            }
+
+            return Out;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="Data"></param>
+        /// <param name="Excluded"></param>
+        /// <returns></returns>
+        public static List<T> Clean<T>(this List<T> Data)
+            where T : IIdentifier {
+
+            Int32 Count = Data.Count;
+            var Out = new List<T>(Data.Count);
+
+            for (Int32 I = 0; I < Count; I++) {
+                T Item = Data[I];
+                String ID = Item.ID;
+
+                //If the data has a later entry that has the same ID, such the lastest found item instead
+                if (Out.HasID(ID)) {
+                    continue;
+                }
+
+                Out.Add(Item);
+            }
+
+            return Out;
+        }
+    }
+}

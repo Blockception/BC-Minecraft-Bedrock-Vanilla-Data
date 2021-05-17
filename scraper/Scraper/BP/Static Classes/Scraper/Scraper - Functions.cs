@@ -9,7 +9,7 @@
         /// <summary>
         /// 
         /// </summary>
-        public readonly static ConvertJson<Entity> Entity = null;
+        public readonly static ConvertJson<Entity> Entity = BP.Entity.Convert;
 
         /// <summary>
         /// 

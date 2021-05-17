@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Scraper.BP {
     ///DOLATER <summary>add description for class: Scraper</summary>
@@ -21,11 +22,11 @@ namespace Scraper.BP {
         /// <param name="Source"></param>
         /// <param name="container"></param>
         public static void Scrape(String Source, Container container) {
-            Scraper.Block.FromFolder(container.Blocks, Source);
-            Scraper.Entity.FromFolder(container.Entities, Source);
-            Scraper.Item.FromFolder(container.Items, Source);
-            Scraper.LootTable.FromFolder(container.LootTables, Source);
-            Scraper.Trading.FromFolder(container.Trading, Source);
+            Scraper.Block.FromFolder(container.Blocks, Path.Join(Source, "blocks"));
+            Scraper.Entity.FromFolder(container.Entities, Path.Join(Source, "entities"));
+            Scraper.Item.FromFolder(container.Items, Path.Join(Source, "items"));
+            Scraper.LootTable.FromFolder(container.LootTables, Path.Join(Source, "loot_tables"));
+            Scraper.Trading.FromFolder(container.Trading, Path.Join(Source, "trading"));
         }
     }
 }

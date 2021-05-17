@@ -32,7 +32,7 @@ namespace Scraper {
         /// <param name="Func"></param>
         /// <param name="Folder"></param>
         public static void FromFolder<T>([AllowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder) {
-            if (Func == null) {
+            if (Func == null || !Directory.Exists(Folder)) {
                 return;
             }
 
@@ -50,7 +50,7 @@ namespace Scraper {
         /// <param name="Func"></param>
         /// <param name="Folder"></param>
         public static void FromFolder<T>([AllowNull] this ConvertFile<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder) {
-            if (Func == null) {
+            if (Func == null || !Directory.Exists(Folder)) {
                 return;
             }
 

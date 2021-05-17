@@ -12,7 +12,12 @@ namespace Scraper {
         /// <summary>
         /// 
         /// </summary>
-        public static readonly String OutputFolder = Path.Join(FindFolder(WorkFolder, "src"), "Lib");
+        public static readonly String SourceFolder = FindFolder(WorkFolder, "src");
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String OutputFolder = Path.Join(SourceFolder, "Lib");
 
         /// <summary>
         /// 
@@ -22,7 +27,22 @@ namespace Scraper {
         /// <summary>
         /// 
         /// </summary>
-        public static readonly String OutputVanillia = Path.Join(OutputFolder, "Vanillia");
+        public static readonly String OutputVanillia = Path.Join(OutputFolder, "Vanilla");
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String BaseFolder = Path.Join(SourceFolder, "Base");
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String BaseEdu = Path.Join(BaseFolder, "Edu");
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String BaseVanillia = Path.Join(BaseFolder, "Vanilla");
 
         /// <summary>
         /// 

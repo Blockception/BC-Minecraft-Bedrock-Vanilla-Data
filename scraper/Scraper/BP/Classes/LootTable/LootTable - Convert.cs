@@ -12,7 +12,7 @@ namespace Scraper.BP {
             Int32 Index = Filepath.IndexOf("loot_tables");
 
             if (Index >= 0) {
-                String ID = Filepath[Index..(Filepath.Length - 5)];
+                String ID = Filepath[Index..(Filepath.Length)].Replace('\\', '/');
 
                 Receiver.Add(new LootTable(ID));
             }
