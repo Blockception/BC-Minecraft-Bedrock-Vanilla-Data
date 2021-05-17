@@ -1,5 +1,9 @@
 [
   {
+    "id": "minecraft:agent",
+    "events": []
+  },
+  {
     "id": "minecraft:area_effect_cloud",
     "events": []
   },
@@ -43,21 +47,11 @@
   },
   {
     "id": "minecraft:blaze",
-    "events": [
-      "minecraft:entity_spawned",
-      "switch_to_melee",
-      "switch_to_ranged",
-      "minecraft:on_hurt_event"
-    ]
+    "events": []
   },
   {
     "id": "minecraft:boat",
-    "events": [
-      "minecraft:entered_bubble_column_down",
-      "minecraft:entered_bubble_column_up",
-      "minecraft:exited_bubble_column",
-      "minecraft:sink"
-    ]
+    "events": []
   },
   {
     "id": "minecraft:cat",
@@ -92,9 +86,12 @@
       "from_egg",
       "minecraft:entity_spawned",
       "minecraft:entity_born",
-      "minecraft:ageable_grow_up",
-      "minecraft:spawn_adult"
+      "minecraft:ageable_grow_up"
     ]
+  },
+  {
+    "id": "minecraft:cod",
+    "events": []
   },
   {
     "id": "minecraft:command_block_minecart",
@@ -110,8 +107,7 @@
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:entity_transformed",
-      "minecraft:ageable_grow_up",
-      "minecraft:spawn_adult"
+      "minecraft:ageable_grow_up"
     ]
   },
   {
@@ -127,14 +123,14 @@
     "id": "minecraft:dolphin",
     "events": [
       "minecraft:entity_spawned",
-      "ageable_grow_up",
-      "become_angry",
-      "on_calm",
-      "stop_dryingout",
-      "start_dryingout",
-      "dried_out",
-      "navigation_on_land",
-      "navigation_off_land"
+      "minecraft:ageable_grow_up",
+      "minecraft:become_angry",
+      "minecraft:on_calm",
+      "minecraft:stop_dryingout",
+      "minecraft:start_dryingout",
+      "minecraft:dried_out",
+      "minecraft:navigation_on_land",
+      "minecraft:navigation_off_land"
     ]
   },
   {
@@ -174,18 +170,6 @@
     "events": []
   },
   {
-    "id": "minecraft:enderman",
-    "events": [
-      "minecraft:entity_spawned",
-      "minecraft:become_angry",
-      "minecraft:on_calm"
-    ]
-  },
-  {
-    "id": "minecraft:endermite",
-    "events": []
-  },
-  {
     "id": "minecraft:ender_crystal",
     "events": [
       "minecraft:crystal_explode"
@@ -207,6 +191,18 @@
     ]
   },
   {
+    "id": "minecraft:enderman",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:become_angry",
+      "minecraft:on_calm"
+    ]
+  },
+  {
+    "id": "minecraft:endermite",
+    "events": []
+  },
+  {
     "id": "minecraft:evocation_illager",
     "events": [
       "minecraft:spawn_for_raid",
@@ -226,10 +222,6 @@
   },
   {
     "id": "minecraft:fireworks_rocket",
-    "events": []
-  },
-  {
-    "id": "minecraft:cod",
     "events": []
   },
   {
@@ -348,10 +340,7 @@
       "minecraft:defend_wandering_trader",
       "minecraft:become_angry",
       "minecraft:on_calm",
-      "minecraft:on_chest",
-      "minecraft:add_attributes",
-      "minecraft:spawn_baby",
-      "minecraft:spawn_adult"
+      "minecraft:on_chest"
     ]
   },
   {
@@ -458,8 +447,7 @@
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
-      "minecraft:on_saddled",
-      "minecraft:spawn_adult"
+      "minecraft:on_saddled"
     ]
   },
   {
@@ -540,9 +528,6 @@
     "events": [
       "minecraft:entity_spawned",
       "minecraft:to_full_puff",
-      "minecraft:start_half_puff",
-      "minecraft:on_half_puff",
-      "minecraft:start_full_puff",
       "minecraft:on_full_puff",
       "minecraft:from_full_puff",
       "minecraft:on_deflate",
@@ -587,8 +572,6 @@
     "id": "minecraft:sheep",
     "events": [
       "minecraft:entity_spawned",
-      "spawn_adult",
-      "spawn_baby",
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
       "minecraft:on_sheared",
@@ -660,14 +643,14 @@
     "events": []
   },
   {
-    "id": "minecraft:snowball",
-    "events": []
-  },
-  {
     "id": "minecraft:snow_golem",
     "events": [
       "minecraft:on_sheared"
     ]
+  },
+  {
+    "id": "minecraft:snowball",
+    "events": []
   },
   {
     "id": "minecraft:spider",
@@ -947,8 +930,7 @@
       "minecraft:entity_transformed",
       "minecraft:entity_spawned",
       "minecraft:on_calm",
-      "minecraft:become_angry",
-      "minecraft:spawn_as_strider_jockey"
+      "minecraft:become_angry"
     ]
   },
   {
@@ -966,11 +948,9 @@
     "events": [
       "villager_converted",
       "minecraft:entity_spawned",
-      "minecraft:spawn_skilled_adult",
       "minecraft:entity_transformed",
       "minecraft:become_cleric",
-      "from_village",
-      "minecraft:add_biome_and_skin"
+      "from_village"
     ]
   }
 ]

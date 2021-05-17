@@ -507,6 +507,10 @@
     "states": []
   },
   {
+    "id": "minecraft:underwater_tnt",
+    "states": []
+  },
+  {
     "id": "minecraft:underwater_torch",
     "states": [
       {
@@ -521,9 +525,5 @@
         "name": "torch_facing_direction"
       }
     ]
-  },
-  {
-    "id": "minecraft:underwater_tnt",
-    "states": []
   }
 ]
