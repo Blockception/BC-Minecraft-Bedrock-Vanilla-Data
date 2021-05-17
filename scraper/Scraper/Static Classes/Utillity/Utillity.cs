@@ -56,11 +56,7 @@ namespace Scraper {
 
         public static Context GetFolders() {
             Directory.CreateDirectory(Utillity.WorkFolder);
-
             var Out = new Context();
-
-            AddIf(Out.VanillaBP, DownloadUnpack("VanillaBP", Minecraft.BehaviorPackUri));
-            AddIf(Out.VanillaRP, DownloadUnpack("VanillaRP", Minecraft.ResourcepackUri));
 
             String Install = Minecraft.InstallationFolder();
 
@@ -68,9 +64,15 @@ namespace Scraper {
                 String BPS = Path.Join(Install, "data", "behavior_packs");
                 String RPS = Path.Join(Install, "data", "resource_packs");
 
+                Existsif(Out.VanillaBP, BPS, "vanilla");
                 Existsif(Out.EduBP, BPS, "education");
+
+                Existsif(Out.VanillaRP, RPS, "vanilla");
                 Existsif(Out.EduRP, RPS, "education");
             }
+
+            AddIf(Out.VanillaBP, DownloadUnpack("VanillaBP", Minecraft.BehaviorPackUri));
+            AddIf(Out.VanillaRP, DownloadUnpack("VanillaRP", Minecraft.ResourcepackUri));
 
             return Out;
         }

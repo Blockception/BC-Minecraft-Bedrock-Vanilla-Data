@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Text.Json.Serialization;
-using Scraper.BP.Converters;
+using Scraper.Converters;
 
 namespace Scraper.BP {
+    public class TradingConverter : IDToStringConverter<Trading> { }
+
+
     ///DOLATER <summary>add description for class: Trading</summary>
     [JsonConverter(typeof(TradingConverter))]
     public partial class Trading {

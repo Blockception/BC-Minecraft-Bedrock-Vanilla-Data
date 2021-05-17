@@ -66,5 +66,35 @@ namespace Scraper {
                 Writer?.Close();
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Filepath"></param>
+        /// <returns></returns>
+        public static JsonDocument GetDoc(String Filepath) {
+            if (!File.Exists(Filepath)) return null;
+
+            JsonDocument Doc = null;
+            Stream Reader = null;
+
+            var Options = new JsonDocumentOptions() {
+                AllowTrailingCommas = true,
+                CommentHandling = JsonCommentHandling.Skip
+            };
+
+            try {
+                Reader = new FileStream(Filepath, FileMode.Open, FileAccess.Read);
+                Doc = JsonDocument.Parse(Reader, Options);
+            }
+            catch (Exception ex) {
+                Console.WriteLine(ex.ToString());
+            }
+            finally {
+                if (Reader != null) { Reader.Close(); }
+            }
+
+            return Doc;
+        }
     }
 }

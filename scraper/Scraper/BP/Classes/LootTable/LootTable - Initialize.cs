@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Text.Json.Serialization;
-using Scraper.BP.Converters;
+using Scraper.Converters;
 
 namespace Scraper.BP {
+    public class LootTableConverter : IDToStringConverter<LootTable> { }
+
     ///DOLATER <summary>add description for class: LootTable</summary>
     [JsonConverter(typeof(LootTableConverter))]
     public partial class LootTable {

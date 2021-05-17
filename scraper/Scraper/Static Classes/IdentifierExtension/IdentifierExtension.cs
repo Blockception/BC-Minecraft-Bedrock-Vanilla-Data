@@ -112,6 +112,8 @@ namespace Scraper {
                 Out.Add(Item);
             }
 
+            Out.Sort((x, y) => x.ID.CompareTo(y.ID));
+
             return Out;
         }
 
@@ -139,6 +141,8 @@ namespace Scraper {
 
                 Out.Add(Item);
             }
+
+            Out.Sort((x, y) => x.ID.CompareTo(y.ID));
 
             return Out;
         }

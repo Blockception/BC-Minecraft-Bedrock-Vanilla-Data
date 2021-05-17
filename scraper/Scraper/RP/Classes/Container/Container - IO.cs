@@ -11,11 +11,16 @@ namespace Scraper.RP {
         /// <returns></returns>
         public static Container Load(String Folder) {
             var Out = new Container {
-                /*Blocks = Json.LoadEnsure<List<Block>>(Path.Join(Folder, "blocks.json")),
+                AnimationControllers = Json.LoadEnsure<List<AnimationController>>(Path.Join(Folder, "animation_controllers.json")),
+                Animations = Json.LoadEnsure<List<Animation>>(Path.Join(Folder, "animations.json")),
                 Entities = Json.LoadEnsure<List<Entity>>(Path.Join(Folder, "entities.json")),
-                Items = Json.LoadEnsure<List<Item>>(Path.Join(Folder, "items.json")),
-                LootTables = Json.LoadEnsure<List<LootTable>>(Path.Join(Folder, "loot_tables.json")),
-                Trading = Json.LoadEnsure<List<Trading>>(Path.Join(Folder, "trading.json"))*/
+                Fogs = Json.LoadEnsure<List<Fog>>(Path.Join(Folder, "fogs.json")),
+                Materials = Json.LoadEnsure<List<Material>>(Path.Join(Folder, "materials.json")),
+                Models = Json.LoadEnsure<List<Model>>(Path.Join(Folder, "models.json")),
+                Particles = Json.LoadEnsure<List<Particle>>(Path.Join(Folder, "particles.json")),
+                RenderControllers = Json.LoadEnsure<List<RenderController>>(Path.Join(Folder, "render_controllers.json")),
+                Sounds = Json.LoadEnsure<List<Sound>>(Path.Join(Folder, "sounds.json")),
+                Textures = Json.LoadEnsure<List<Texture>>(Path.Join(Folder, "textures.json")),
             };
 
             return Out;
@@ -28,11 +33,16 @@ namespace Scraper.RP {
         public void Save(String Folder) {
             Directory.CreateDirectory(Folder);
 
-            /*Json.Save(this.Blocks, Path.Join(Folder, "blocks.json"));
+            Json.Save(this.AnimationControllers, Path.Join(Folder, "animation_controllers.json"));
+            Json.Save(this.Animations, Path.Join(Folder, "animations.json"));
             Json.Save(this.Entities, Path.Join(Folder, "entities.json"));
-            Json.Save(this.Items, Path.Join(Folder, "items.json"));
-            Json.Save(this.LootTables, Path.Join(Folder, "loot_tables.json"));
-            Json.Save(this.Trading, Path.Join(Folder, "trading.json"));*/
+            Json.Save(this.Fogs, Path.Join(Folder, "fogs.json"));
+            Json.Save(this.Materials, Path.Join(Folder, "materials.json"));
+            Json.Save(this.Models, Path.Join(Folder, "models.json"));
+            Json.Save(this.Particles, Path.Join(Folder, "particles.json"));
+            Json.Save(this.RenderControllers, Path.Join(Folder, "render_controllers.json"));
+            Json.Save(this.Sounds, Path.Join(Folder, "sounds.json"));
+            Json.Save(this.Textures, Path.Join(Folder, "textures.json"));
         }
     }
 }
