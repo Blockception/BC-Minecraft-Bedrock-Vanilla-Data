@@ -6,5 +6,8 @@
     "source.fixAll.eslint": true
   },
 
-  "json.schemas": [{ "fileMatch": ["src/**/blocks.json"], "url": "./.vscode/schemas/blocks.json" }]
+  "json.schemas": [
+    { "fileMatch": ["src/**/blocks.json"], "url": "./.vscode/schemas/blocks.json" },
+    { "fileMatch": ["src/**/items.json"], "url": "./.vscode/schemas/items.json" }
+  ]
 }
