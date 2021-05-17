@@ -1,17 +1,17 @@
 import { BehaviorPack } from "./BehaviorPack/BehaviorPack";
-import { Identifiable } from "./Identifiable";
+import { ResourcePack } from "./ResourcePack/ResourcePack";
 
+/**
+ *
+ */
 export interface MinecraftDataSet {
-  BehaviorPack: BehaviorPack;
-  ResourcePack: ResourcePack;
-}
+  /**
+   *
+   */
+  readonly BehaviorPack: BehaviorPack;
 
-export interface ResourcePack {
-  animation_controllers: Identifiable[];
-  animations: Identifiable[];
-  blocks: Identifiable[];
-  entities: Identifiable[];
-  items: Identifiable[];
-  partices: Identifiable[];
-  sounds: Identifiable[];
+  /**
+   *
+   */
+  readonly ResourcePack: ResourcePack;
 }

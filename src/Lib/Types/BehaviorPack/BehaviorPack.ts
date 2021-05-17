@@ -1,11 +1,33 @@
-import { Identifiable } from "../Identifiable";
 import { Block } from "./Block";
 import { Entity } from "./Entity";
+import { Item } from "./Item";
 
+/**
+ *
+ */
 export interface BehaviorPack {
-  blocks: Block[];
-  entities: Entity[];
-  items: Identifiable[];
-  loot_tables: string[];
-  trading: string[];
+  /**
+   *
+   */
+  readonly blocks: Block[];
+
+  /**
+   *
+   */
+  readonly entities: Entity[];
+
+  /**
+   *
+   */
+  readonly items: Item[];
+
+  /**
+   *
+   */
+  readonly loot_tables: string[];
+
+  /**
+   *
+   */
+  readonly trading: string[];
 }

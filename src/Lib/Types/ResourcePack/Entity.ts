@@ -11,7 +11,7 @@ export interface Entity extends Identifiable {
   /**
    *
    */
-  events: string[];
+  animations: string[];
 }
 
 /**
@@ -25,7 +25,7 @@ export namespace Entity {
    */
   export function is(value: any): value is Entity {
     if (value) {
-      if (typeof value.id === "string" && Array.isArray(value.events)) return true;
+      if (typeof value.id === "string" && Array.isArray(value.animations)) return true;
     }
 
     return false;
