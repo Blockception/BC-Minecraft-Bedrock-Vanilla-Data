@@ -29,25 +29,27 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 import { MinecraftDataSet } from "./Lib/Types/MinecraftDataSet";
 
-import * as vanilla_bp_ac from "./Lib/Vanillia/BehaviorPack/animation_controllers.json";
-import * as vanilla_bp_anim from "./Lib/Vanillia/BehaviorPack/animations.json";
-import * as vanilla_bp_blocks from "./Lib/Vanillia/BehaviorPack/blocks.json";
-import * as vanilla_bp_entities from "./Lib/Vanillia/BehaviorPack/entities.json";
-import * as vanilla_bp_items from "./Lib/Vanillia/BehaviorPack/items.json";
+/**Import vanilla */
+import * as vanilla_bp_blocks from "./Lib/Vanilla/BehaviorPack/blocks.json";
+import * as vanilla_bp_entities from "./Lib/Vanilla/BehaviorPack/entities.json";
+import * as vanilla_bp_items from "./Lib/Vanilla/BehaviorPack/items.json";
+import * as vanilla_bp_loottables from "./Lib/Vanilla/BehaviorPack/loot_tables.json";
+import * as vanilla_bp_trading from "./Lib/Vanilla/BehaviorPack/trading.json";
 
-import * as vanilla_rp_ac from "./Lib/Vanillia/ResourcePack/animation_controllers.json";
-import * as vanilla_rp_anim from "./Lib/Vanillia/ResourcePack/animations.json";
-import * as vanilla_rp_blocks from "./Lib/Vanillia/ResourcePack/blocks.json";
-import * as vanilla_rp_entities from "./Lib/Vanillia/ResourcePack/entities.json";
-import * as vanilla_rp_items from "./Lib/Vanillia/ResourcePack/items.json";
-import * as vanilla_rp_particles from "./Lib/Vanillia/ResourcePack/particles.json";
-import * as vanilla_rp_sounds from "./Lib/Vanillia/ResourcePack/sounds.json";
+import * as vanilla_rp_ac from "./Lib/Vanilla/ResourcePack/animation_controllers.json";
+import * as vanilla_rp_anim from "./Lib/Vanilla/ResourcePack/animations.json";
+import * as vanilla_rp_blocks from "./Lib/Vanilla/ResourcePack/blocks.json";
+import * as vanilla_rp_entities from "./Lib/Vanilla/ResourcePack/entities.json";
+import * as vanilla_rp_items from "./Lib/Vanilla/ResourcePack/items.json";
+import * as vanilla_rp_particles from "./Lib/Vanilla/ResourcePack/particles.json";
+import * as vanilla_rp_sounds from "./Lib/Vanilla/ResourcePack/sounds.json";
 
-import * as edu_bp_ac from "./Lib/Edu/BehaviorPack/animation_controllers.json";
-import * as edu_bp_anim from "./Lib/Edu/BehaviorPack/animations.json";
+/**Import edu */
 import * as edu_bp_blocks from "./Lib/Edu/BehaviorPack/blocks.json";
 import * as edu_bp_entities from "./Lib/Edu/BehaviorPack/entities.json";
 import * as edu_bp_items from "./Lib/Edu/BehaviorPack/items.json";
+import * as edu_bp_loottables from "./Lib/Edu/BehaviorPack/loot_tables.json";
+import * as edu_bp_trading from "./Lib/Edu/BehaviorPack/trading.json";
 
 import * as edu_rp_ac from "./Lib/Edu/ResourcePack/animation_controllers.json";
 import * as edu_rp_anim from "./Lib/Edu/ResourcePack/animations.json";
@@ -60,11 +62,11 @@ import * as edu_rp_sounds from "./Lib/Edu/ResourcePack/sounds.json";
 export namespace MinecraftData {
   export const Vanilla: MinecraftDataSet = {
     BehaviorPack: {
-      animation_controllers: vanilla_bp_ac,
-      animations: vanilla_bp_anim,
       entities: vanilla_bp_entities,
       items: vanilla_bp_items,
       blocks: vanilla_bp_blocks,
+      loot_tables: vanilla_bp_loottables,
+      trading: vanilla_bp_trading,
     },
     ResourcePack: {
       animation_controllers: vanilla_rp_ac,
@@ -80,11 +82,11 @@ export namespace MinecraftData {
   /**The education data set*/
   export const Edu: MinecraftDataSet = {
     BehaviorPack: {
-      animation_controllers: edu_bp_ac,
-      animations: edu_bp_anim,
       entities: edu_bp_entities,
       items: edu_bp_items,
       blocks: edu_bp_blocks,
+      loot_tables: edu_bp_loottables,
+      trading: edu_bp_trading,
     },
     ResourcePack: {
       animation_controllers: edu_rp_ac,
