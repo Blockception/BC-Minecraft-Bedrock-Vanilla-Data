@@ -4,7 +4,7 @@
         /// <summary>
         /// 
         /// </summary>
-        public readonly static ConvertJson<Block> Block = null;
+        public readonly static ConvertJson<Block> Block = BP.Block.Convert;
 
         /// <summary>
         /// 
@@ -14,7 +14,7 @@
         /// <summary>
         /// 
         /// </summary>
-        public readonly static ConvertJson<Item> Item = null;
+        public readonly static ConvertJson<Item> Item = BP.Item.Convert;
 
         /// <summary>
         /// 

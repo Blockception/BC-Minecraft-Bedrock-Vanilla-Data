@@ -6,6 +6,7 @@ namespace Scraper.BP {
         /// <summary>Creates a new instance of <see cref="Item"/></summary>
         public Item() {
             this.ID = String.Empty;
+            this.MaxDamage = 0;
         }
     }
 }

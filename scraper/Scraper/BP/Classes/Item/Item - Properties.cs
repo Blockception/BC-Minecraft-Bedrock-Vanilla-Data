@@ -8,5 +8,11 @@ namespace Scraper.BP {
         /// </summary>
         [JsonPropertyName("id")]
         public String ID { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [JsonPropertyName("max_damage")]
+        public Int32 MaxDamage { get; set; }
     }
 }

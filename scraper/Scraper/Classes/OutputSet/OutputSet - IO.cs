@@ -22,8 +22,8 @@ namespace Scraper {
         /// </summary>
         /// <param name="Folder"></param>
         public void Save(String Folder) {
-            this.BehaviorPack.Save(Folder);
-            this.ResourePack.Save(Folder);
+            this.BehaviorPack.Save(Path.Join(Folder, "BehaviorPack"));
+            this.ResourePack.Save(Path.Join(Folder, "ResourcePack"));
         }
     }
 }

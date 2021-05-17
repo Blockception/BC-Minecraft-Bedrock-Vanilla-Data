@@ -6,17 +6,17 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Scraper.BP {
-    public partial class Block : IIdentifier {
+    public partial class BlockState {
         /// <summary>
         /// 
         /// </summary>
-        [JsonPropertyName("id")]
-        public String ID { get; set; }
+        [JsonPropertyName("values")]
+        public List<String> Values { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        [JsonPropertyName("states")]
-        public List<BlockState> States { get; set; }
+        [JsonPropertyName("name")]
+        public String Name { get; set; }
     }
 }

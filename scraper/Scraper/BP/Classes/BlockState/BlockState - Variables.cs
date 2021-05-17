@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Scraper.BP {
-    public partial class Block {
-        //DOLATER add variables to class Block
+    public partial class BlockState {
+        //DOLATER add variables to class BlockState
     }
 }
