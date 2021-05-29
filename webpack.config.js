@@ -28,15 +28,16 @@ var config = {
         use: [
           {
             loader: "ts-loader",
-            options: {
-              compilerOptions: {
-                sourceMap: true,
-              },
-            },
+            options: { compilerOptions: { sourceMap: true } },
           },
         ],
       },
-      { test: /\.json$/, exclude: /node_modules/, loader: "json-loader", type: "javascript/auto" },
+      {
+        test: /\.json$/,
+        exclude: /node_modules/,
+        loader: "json-loader",
+        type: "javascript/auto",
+      },
     ],
   },
   resolve: {
