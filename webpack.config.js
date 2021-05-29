@@ -22,13 +22,27 @@ var config = {
   },
   module: {
     rules: [
-      { test: /\.ts$/, exclude: /node_modules/, use: [{ loader: "ts-loader" }] },
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: "ts-loader",
+            options: {
+              compilerOptions: {
+                sourceMap: true,
+              },
+            },
+          },
+        ],
+      },
       { test: /\.json$/, exclude: /node_modules/, loader: "json-loader", type: "javascript/auto" },
     ],
   },
   resolve: {
     roots: [path.resolve("./src")],
     extensions: [".ts", ".js"],
+    mainFields: ["module", "main"],
   },
   optimization: {
     minimize: false,

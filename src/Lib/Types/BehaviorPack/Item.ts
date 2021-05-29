@@ -7,10 +7,6 @@ export interface Item extends Identifiable {
   /**
    *
    */
-  id: string;
-  /**
-   *
-   */
   max_damage: number;
 }
 
