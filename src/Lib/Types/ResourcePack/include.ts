@@ -1,4 +1,4 @@
 /*	Auto generated	*/
 
-export * from "./Entity.ts";
-export * from "./ResourcePack.ts";
+export * from "./Entity";
+export * from "./ResourcePack";
