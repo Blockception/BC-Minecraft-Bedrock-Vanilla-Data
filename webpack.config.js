@@ -4,7 +4,7 @@ var webpack = require("webpack"),
   path = require("path"),
   yargs = require("yargs");
 
-var libraryName = "bc-mcbe-vanilla-data",
+var libraryName = "lib",
   plugins = [],
   outputFile;
 
@@ -17,7 +17,7 @@ var config = {
   output: {
     path: path.join(__dirname, "/lib"),
     filename: outputFile,
-    libraryTarget: "commonjs2",
+    libraryTarget: "var",
     library: libraryName,
   },
   module: {
