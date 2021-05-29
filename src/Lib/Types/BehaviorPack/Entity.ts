@@ -7,10 +7,6 @@ export interface Entity extends Identifiable {
   /**
    *
    */
-  id: string;
-  /**
-   *
-   */
   events: string[];
 }
 
