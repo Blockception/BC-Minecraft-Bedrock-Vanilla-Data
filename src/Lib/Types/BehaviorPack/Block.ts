@@ -32,24 +32,17 @@ export namespace BlockState {
   }
 }
 
-/**
- *
- */
+/**The block interface*/
 export interface Block extends Identifiable {
-  /**
-   *
-   */
+  /**The state of that this block has*/
   states: BlockState[];
 }
 
-/**
- *
- */
+/**The namespace that provides functions for blocks*/
 export namespace Block {
-  /**
-   *
-   * @param value
-   * @returns
+  /**Checks if the given object implements the block interface
+   * @param value The object to check
+   * @returns true or false if the object implements Block
    */
   export function is(value: any): value is Block {
     if (value) {

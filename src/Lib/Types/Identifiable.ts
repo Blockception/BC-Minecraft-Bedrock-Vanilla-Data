@@ -1,10 +1,6 @@
-/**
- *
- */
+/**The interface that governs if a object is identifiable*/
 export interface Identifiable {
-  /**
-   *
-   */
+  /**The identifier of this object*/
   id: string;
 }
 
