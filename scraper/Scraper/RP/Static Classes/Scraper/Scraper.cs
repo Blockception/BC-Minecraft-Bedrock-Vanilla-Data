@@ -22,6 +22,8 @@ namespace Scraper.RP {
         /// <param name="Source"></param>
         /// <param name="container"></param>
         public static void Scrape(String Source, Container container) {
+            Console.WriteLine("Scraping RP: " + Source);
+
             Scraper.AnimationControllers.FromFolder(container.AnimationControllers, Path.Join(Source, "animation_controllers"));
             Scraper.Animations.FromFolder(container.Animations, Path.Join(Source, "animations"));
             Scraper.Entities.FromFolder(container.Entities, Path.Join(Source, "entity"));
