@@ -127,6 +127,9 @@
   { "id": "minecraft:element_97", "states": [] },
   { "id": "minecraft:element_98", "states": [] },
   { "id": "minecraft:element_99", "states": [] },
-  { "id": "minecraft:underwater_torch", "states": [{ "name": "torch_facing_direction", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
+  {
+    "id": "minecraft:underwater_torch",
+    "states": [{ "name": "torch_facing_direction", "values": ["unknown", "west", "east", "north", "south", "top"] }]
+  },
   { "id": "minecraft:underwater_tnt", "states": [] }
 ]

@@ -369,7 +369,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -397,7 +414,34 @@
     "states": [
       {
         "name": "growing_plant_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -406,7 +450,34 @@
     "states": [
       {
         "name": "growing_plant_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -415,7 +486,34 @@
     "states": [
       {
         "name": "growing_plant_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -565,7 +663,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -574,7 +689,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1000,7 +1132,16 @@
     "states": [
       {
         "name": "stone_slab_type_2",
-        "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ]
       },
       { "name": "top_slot_bit", "values": ["0", "1"] }
     ]
@@ -1010,7 +1151,16 @@
     "states": [
       {
         "name": "stone_slab_type_3",
-        "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ]
       },
       { "name": "top_slot_bit", "values": ["0", "1"] }
     ]
@@ -1343,7 +1493,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1352,7 +1519,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1502,7 +1686,34 @@
     "states": [
       {
         "name": "kelp_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -1563,7 +1774,10 @@
   {
     "id": "minecraft:lever",
     "states": [
-      { "name": "lever_direction", "values": ["down_east_west", "east", "west", "south", "north", "up_north_south", "up_east_west", "down_north_south"] },
+      {
+        "name": "lever_direction",
+        "values": ["down_east_west", "east", "west", "south", "north", "up_north_south", "up_east_west", "down_north_south"]
+      },
       { "name": "open_bit", "values": ["0", "1"] }
     ]
   },
@@ -1666,7 +1880,12 @@
   },
   {
     "id": "minecraft:monster_egg",
-    "states": [{ "name": "monster_egg_stone_type", "values": ["stone", "cobblestone", "stone_brick", "mossy_stone_brick", "cracked_stone_brick", "chiseled_stone_brick"] }]
+    "states": [
+      {
+        "name": "monster_egg_stone_type",
+        "values": ["stone", "cobblestone", "stone_brick", "mossy_stone_brick", "cracked_stone_brick", "chiseled_stone_brick"]
+      }
+    ]
   },
   {
     "id": "minecraft:moss_block",
@@ -2072,7 +2291,19 @@
     "states": [
       {
         "name": "flower_type",
-        "values": ["poppy", "orchid", "allium", "houstonia", "tulip_red", "tulip_orange", "tulip_white", "tulip_pink", "oxeye", "cornflower", "lily_of_the_valley"]
+        "values": [
+          "poppy",
+          "orchid",
+          "allium",
+          "houstonia",
+          "tulip_red",
+          "tulip_orange",
+          "tulip_white",
+          "tulip_pink",
+          "oxeye",
+          "cornflower",
+          "lily_of_the_valley"
+        ]
       }
     ]
   },
@@ -2206,7 +2437,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -2375,7 +2623,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -2384,7 +2649,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -2393,7 +2675,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -2447,7 +2746,16 @@
     "states": [
       {
         "name": "stone_slab_type_2",
-        "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ]
       },
       { "name": "top_slot_bit", "values": ["0", "1"] }
     ]
@@ -2457,7 +2765,16 @@
     "states": [
       {
         "name": "stone_slab_type_3",
-        "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ]
       },
       { "name": "top_slot_bit", "values": ["0", "1"] }
     ]
@@ -2608,7 +2925,34 @@
     "states": [
       {
         "name": "twisting_vines_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -2874,7 +3218,34 @@
     "states": [
       {
         "name": "weeping_vines_age",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -2930,7 +3301,24 @@
     "states": [
       {
         "name": "color",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
