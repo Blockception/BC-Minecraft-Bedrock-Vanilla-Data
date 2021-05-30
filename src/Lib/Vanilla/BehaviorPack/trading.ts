@@ -1,3 +1,4 @@
+export const Trading: string[] = 
 [
   "trading/armorer_trades.json",
   "trading/butcher_trades.json",

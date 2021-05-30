@@ -1,3 +1,4 @@
+export const LootTables: string[] = 
 [
   "loot_tables/chests/abandoned_mineshaft.json",
   "loot_tables/chests/bastion_bridge.json",

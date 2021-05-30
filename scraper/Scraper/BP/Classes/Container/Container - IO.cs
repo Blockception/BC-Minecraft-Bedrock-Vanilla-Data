@@ -28,11 +28,11 @@ namespace Scraper.BP {
         public void Save(String Folder) {
             Directory.CreateDirectory(Folder);
 
-            Json.Save(this.Blocks, Path.Join(Folder, "blocks.json"));
-            Json.Save(this.Entities, Path.Join(Folder, "entities.json"));
-            Json.Save(this.Items, Path.Join(Folder, "items.json"));
-            Json.Save(this.LootTables, Path.Join(Folder, "loot_tables.json"));
-            Json.Save(this.Trading, Path.Join(Folder, "trading.json"));
+            Typescript.Save("Block", "../../Types/BehaviorPack/Block", nameof(this.Blocks), this.Blocks, Path.Join(Folder, "blocks.ts"));
+            Typescript.Save("Entity", "../../Types/BehaviorPack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
+            Typescript.Save("Item", "../../Types/BehaviorPack/Item", nameof(this.Items), this.Items, Path.Join(Folder, "items.ts"));
+            Typescript.Save("string", null, nameof(this.LootTables), this.LootTables, Path.Join(Folder, "loot_tables.ts"));
+            Typescript.Save("string", null, nameof(this.Trading), this.Trading, Path.Join(Folder, "trading.ts"));
         }
     }
 }
