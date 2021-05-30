@@ -11,16 +11,16 @@ namespace Scraper.RP {
         /// <returns></returns>
         public static Container Load(String Folder) {
             var Out = new Container {
-                AnimationControllers = Json.LoadEnsure<List<AnimationController>>(Path.Join(Folder, "animation_controllers.json")),
-                Animations = Json.LoadEnsure<List<Animation>>(Path.Join(Folder, "animations.json")),
-                Entities = Json.LoadEnsure<List<Entity>>(Path.Join(Folder, "entities.json")),
-                Fogs = Json.LoadEnsure<List<Fog>>(Path.Join(Folder, "fogs.json")),
-                Materials = Json.LoadEnsure<List<Material>>(Path.Join(Folder, "materials.json")),
-                Models = Json.LoadEnsure<List<Model>>(Path.Join(Folder, "models.json")),
-                Particles = Json.LoadEnsure<List<Particle>>(Path.Join(Folder, "particles.json")),
-                RenderControllers = Json.LoadEnsure<List<RenderController>>(Path.Join(Folder, "render_controllers.json")),
-                Sounds = Json.LoadEnsure<List<Sound>>(Path.Join(Folder, "sounds.json")),
-                Textures = Json.LoadEnsure<List<Texture>>(Path.Join(Folder, "textures.json")),
+                AnimationControllers = Json.LoadEnsure<List<AnimationController>>(Path.Join(Folder, "animation_controllers.ts")),
+                Animations = Json.LoadEnsure<List<Animation>>(Path.Join(Folder, "animations.ts")),
+                Entities = Json.LoadEnsure<List<Entity>>(Path.Join(Folder, "entities.ts")),
+                Fogs = Json.LoadEnsure<List<Fog>>(Path.Join(Folder, "fogs.ts")),
+                Materials = Json.LoadEnsure<List<Material>>(Path.Join(Folder, "materials.ts")),
+                Models = Json.LoadEnsure<List<Model>>(Path.Join(Folder, "models.ts")),
+                Particles = Json.LoadEnsure<List<Particle>>(Path.Join(Folder, "particles.ts")),
+                RenderControllers = Json.LoadEnsure<List<RenderController>>(Path.Join(Folder, "render_controllers.ts")),
+                Sounds = Json.LoadEnsure<List<Sound>>(Path.Join(Folder, "sounds.ts")),
+                Textures = Json.LoadEnsure<List<Texture>>(Path.Join(Folder, "textures.ts")),
             };
 
             return Out;
@@ -33,16 +33,16 @@ namespace Scraper.RP {
         public void Save(String Folder) {
             Directory.CreateDirectory(Folder);
 
-            Json.Save(this.AnimationControllers, Path.Join(Folder, "animation_controllers.json"));
-            Json.Save(this.Animations, Path.Join(Folder, "animations.json"));
-            Json.Save(this.Entities, Path.Join(Folder, "entities.json"));
-            Json.Save(this.Fogs, Path.Join(Folder, "fogs.json"));
-            Json.Save(this.Materials, Path.Join(Folder, "materials.json"));
-            Json.Save(this.Models, Path.Join(Folder, "models.json"));
-            Json.Save(this.Particles, Path.Join(Folder, "particles.json"));
-            Json.Save(this.RenderControllers, Path.Join(Folder, "render_controllers.json"));
-            Json.Save(this.Sounds, Path.Join(Folder, "sounds.json"));
-            Json.Save(this.Textures, Path.Join(Folder, "textures.json"));
+            Typescript.Save("string",null, nameof(this.AnimationControllers), this.AnimationControllers, Path.Join(Folder, "animation_controllers.ts"));
+            Typescript.Save("string", null, nameof(this.Animations), this.Animations, Path.Join(Folder, "animations.ts"));
+            Typescript.Save("Entity", "../../Types/ResourcePack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
+            Typescript.Save("string", null, nameof(this.Fogs), this.Fogs, Path.Join(Folder, "fogs.ts"));
+            Typescript.Save("string", null, nameof(this.Materials), this.Materials, Path.Join(Folder, "materials.ts"));
+            Typescript.Save("string", null, nameof(this.Models), this.Models, Path.Join(Folder, "models.ts"));
+            Typescript.Save("string", null, nameof(this.Particles), this.Particles, Path.Join(Folder, "particles.ts"));
+            Typescript.Save("string", null, nameof(this.RenderControllers), this.RenderControllers, Path.Join(Folder, "render_controllers.ts"));
+            Typescript.Save("string", null, nameof(this.Sounds), this.Sounds, Path.Join(Folder, "sounds.ts"));
+            Typescript.Save("string", null, nameof(this.Textures), this.Textures, Path.Join(Folder, "textures.ts"));
         }
     }
 }
