@@ -10,10 +10,8 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "test": "mocha --debug-brk",
     "clean": "rimraf lib",
-    "pack-production": "webpack --mode=production",
-    "pack-dev": "webpack",
     "pretest": "npm run compile",
-    "prepublishOnly": "npm test && npm run pack-production",
+    "prepublishOnly": "npm test && npm run compile",
     "preversion": "",
     "postversion": "git push && git push --tags",
     "version": "npm run format && git add -A src",
@@ -45,13 +43,9 @@
     "@types/mocha": "^8.2.1",
     "@types/node": "^10.17.54",
     "chai": "^4.3.4",
-    "json-loader": "^0.5.7",
     "mocha": "^8.4.0",
     "rimraf": "^3.0.2",
-    "ts-loader": "^9.2.2",
     "ts-node": "^9.1.1",
-    "typescript": "^4.1.5",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0"
+    "typescript": "^4.1.5"
   }
 }
