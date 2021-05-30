@@ -5,53 +5,53 @@ import { Check_Identifiable, Test_Identifiable } from "../../Identifiable.test";
 
 suite(" content", () => {
   test("animation controllers", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.animation_controllers);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.animation_controllers);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.animation_controllers);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.animation_controllers);
   });
 
   test("animations", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.animations);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.animations);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.animations);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.animations);
   });
 
   test("entities", () => {
-    test_entity(MinecraftData.Edu.ResourcePack.entities);
-    test_entity(MinecraftData.Vanilla.ResourcePack.entities);
+    test_entity(MinecraftData.edu.ResourcePack.entities);
+    test_entity(MinecraftData.vanilla.ResourcePack.entities);
   });
 
   test("fogs", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.fogs);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.fogs);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.fogs);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.fogs);
   });
 
   test("materials", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.materials);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.materials);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.materials);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.materials);
   });
 
   test("models", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.models);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.models);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.models);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.models);
   });
 
   test("particles", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.particles);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.particles);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.particles);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.particles);
   });
 
   test("render_controllers", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.render_controllers);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.render_controllers);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.render_controllers);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.render_controllers);
   });
 
   test("sounds", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.sounds);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.sounds);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.sounds);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.sounds);
   });
 
   test("textures", () => {
-    Check_Identifiable(MinecraftData.Edu.ResourcePack.textures);
-    Check_Identifiable(MinecraftData.Vanilla.ResourcePack.textures);
+    Check_Identifiable(MinecraftData.edu.ResourcePack.textures);
+    Check_Identifiable(MinecraftData.vanilla.ResourcePack.textures);
   });
 });
 

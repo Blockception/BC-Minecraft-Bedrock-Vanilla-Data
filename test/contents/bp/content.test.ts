@@ -7,28 +7,28 @@ import { Check_Identifiable, Test_Identifiable } from "../../Identifiable.test";
 
 suite(" content", () => {
   test("blocks", () => {
-    test_block(MinecraftData.Edu.BehaviorPack.blocks);
-    test_block(MinecraftData.Vanilla.BehaviorPack.blocks);
+    test_block(MinecraftData.edu.BehaviorPack.blocks);
+    test_block(MinecraftData.vanilla.BehaviorPack.blocks);
   });
 
   test("entities", () => {
-    test_entity(MinecraftData.Edu.BehaviorPack.entities);
-    test_entity(MinecraftData.Vanilla.BehaviorPack.entities);
+    test_entity(MinecraftData.edu.BehaviorPack.entities);
+    test_entity(MinecraftData.vanilla.BehaviorPack.entities);
   });
 
   test("items", () => {
-    test_item(MinecraftData.Edu.BehaviorPack.items);
-    test_item(MinecraftData.Vanilla.BehaviorPack.items);
+    test_item(MinecraftData.edu.BehaviorPack.items);
+    test_item(MinecraftData.vanilla.BehaviorPack.items);
   });
 
   test("loot_tables", () => {
-    Check_Identifiable(MinecraftData.Edu.BehaviorPack.loot_tables);
-    Check_Identifiable(MinecraftData.Vanilla.BehaviorPack.loot_tables);
+    Check_Identifiable(MinecraftData.edu.BehaviorPack.loot_tables);
+    Check_Identifiable(MinecraftData.vanilla.BehaviorPack.loot_tables);
   });
 
   test("trading", () => {
-    Check_Identifiable(MinecraftData.Edu.BehaviorPack.trading);
-    Check_Identifiable(MinecraftData.Vanilla.BehaviorPack.trading);
+    Check_Identifiable(MinecraftData.edu.BehaviorPack.trading);
+    Check_Identifiable(MinecraftData.vanilla.BehaviorPack.trading);
   });
 });
 
