@@ -1,5 +1,4 @@
-export const LootTables: string[] = 
-[
+export const LootTables: string[] = [
   "loot_tables/chests/abandoned_mineshaft.json",
   "loot_tables/chests/bastion_bridge.json",
   "loot_tables/chests/bastion_hoglin_stable.json",
@@ -146,5 +145,5 @@ export const LootTables: string[] =
   "loot_tables/gameplay/fishing/jungle_junk.json",
   "loot_tables/gameplay/fishing/junk.json",
   "loot_tables/gameplay/fishing/treasure.json",
-  "loot_tables/gameplay/jungle_fishing.json"
-]
+  "loot_tables/gameplay/jungle_fishing.json",
+];

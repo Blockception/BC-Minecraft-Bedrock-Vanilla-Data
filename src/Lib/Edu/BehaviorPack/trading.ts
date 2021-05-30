@@ -1,2 +1,1 @@
-export const Trading: string[] = 
-[]
+export const Trading: string[] = [];
