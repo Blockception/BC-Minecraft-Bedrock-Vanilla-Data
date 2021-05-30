@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/Blockception/BC-Minecraft-Bedrock-Vanilla-Data#readme",
   "files": [
-    "lib/*.js",
-    "lib/*.js.map",
-    "lib/*.ts"
+    "lib/src/**/*.js",
+    "lib/src/**/*.js.map",
+    "lib/src/**/*.d.ts"
   ],
   "devDependencies": {
     "@types/chai": "^4.2.17",
