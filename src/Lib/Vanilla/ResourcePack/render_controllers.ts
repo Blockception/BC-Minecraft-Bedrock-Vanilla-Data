@@ -1,3 +1,4 @@
+export const RenderControllers: string[] = 
 [
   "controller.render.agent",
   "controller.render.armor",

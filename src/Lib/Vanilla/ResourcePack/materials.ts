@@ -1,3 +1,4 @@
+export const Materials: string[] = 
 [
   "agent",
   "alpha_block",

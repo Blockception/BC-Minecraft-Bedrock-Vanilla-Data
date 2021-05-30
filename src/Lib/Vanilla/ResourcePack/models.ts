@@ -1,3 +1,4 @@
+export const Models: string[] = 
 [
   "geometry.agent",
   "geometry.armor_stand",

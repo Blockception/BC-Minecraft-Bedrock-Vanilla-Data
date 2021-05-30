@@ -1,3 +1,4 @@
+export const Particles: string[] = 
 [
   "minecraft:arrow_spell_emitter",
   "minecraft:balloon_gas_particle",

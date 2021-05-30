@@ -1,3 +1,4 @@
+export const AnimationControllers: string[] = 
 [
   "controller.animation.agent.move",
   "controller.animation.armor_stand.pose",

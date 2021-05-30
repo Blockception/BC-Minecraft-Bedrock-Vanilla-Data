@@ -1,3 +1,4 @@
+export const Textures: string[] = 
 [
   "textures/blocks/acacia_trapdoor",
   "textures/blocks/ancient_debris_side",

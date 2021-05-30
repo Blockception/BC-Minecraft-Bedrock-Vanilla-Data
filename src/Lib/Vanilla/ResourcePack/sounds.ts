@@ -1,3 +1,4 @@
+export const Sounds: string[] = 
 [
   "ambient.basalt_deltas.additions",
   "ambient.basalt_deltas.loop",

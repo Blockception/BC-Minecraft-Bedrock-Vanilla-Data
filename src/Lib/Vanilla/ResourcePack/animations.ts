@@ -1,3 +1,4 @@
+export const Animations: string[] = 
 [
   "animation.actor.billboard",
   "animation.agent.move",

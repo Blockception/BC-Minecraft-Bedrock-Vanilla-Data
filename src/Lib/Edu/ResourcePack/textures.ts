@@ -1,3 +1,4 @@
+export const Textures: string[] = 
 [
   "textures/ui/animation_code_shuffle0",
   "textures/ui/animation_code_shuffle1",

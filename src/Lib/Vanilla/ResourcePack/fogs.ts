@@ -1,3 +1,4 @@
+export const Fogs: string[] = 
 [
   "minecraft:fog_bamboo_jungle",
   "minecraft:fog_bamboo_jungle_hills",
