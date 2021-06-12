@@ -16,16 +16,21 @@
           "type": "object",
           "title": "State",
           "additionalProperties": false,
-          "required": ["name", "values"],
+          "required": ["name", "values", "type"],
           "properties": {
             "name": { "type": "string", "title": "Name" },
             "values": {
               "type": "array",
               "title": "Values",
               "items": {
-                "type": "string",
+                "type": ["string", "integer"],
                 "title": "State Value"
               }
+            },
+            "type": {
+              "title": "Type",
+              "description": "",
+              "enum": ["int", "byte", "string"]
             }
           }
         }
