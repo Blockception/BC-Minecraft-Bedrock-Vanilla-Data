@@ -8,21 +8,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -31,33 +33,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -66,26 +72,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -94,24 +103,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -120,19 +130,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -141,24 +153,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -167,26 +180,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -195,14 +211,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -211,21 +228,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "rail_data_bit"
+        "name": "rail_data_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "rail_direction"
+        "name": "rail_direction",
+        "type": "int"
       }
     ]
   },
@@ -246,14 +265,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -266,19 +286,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -292,16 +314,18 @@ export const Blocks: Block[] =
           "very_damaged",
           "broken"
         ],
-        "name": "damage"
+        "name": "damage",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -314,17 +338,19 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "persistent_bit"
+        "name": "persistent_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "update_bit"
+        "name": "update_bit",
+        "type": "byte"
       }
     ]
   },
@@ -333,17 +359,19 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "persistent_bit"
+        "name": "persistent_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "update_bit"
+        "name": "update_bit",
+        "type": "byte"
       }
     ]
   },
@@ -352,10 +380,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "age_bit"
+        "name": "age_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -363,14 +392,16 @@ export const Blocks: Block[] =
           "small_leaves",
           "large_leaves"
         ],
-        "name": "bamboo_leaf_size"
+        "name": "bamboo_leaf_size",
+        "type": "string"
       },
       {
         "values": [
           "thin",
           "thick"
         ],
-        "name": "bamboo_stalk_thickness"
+        "name": "bamboo_stalk_thickness",
+        "type": "string"
       }
     ]
   },
@@ -379,10 +410,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "age_bit"
+        "name": "age_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -393,7 +425,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "sapling_type"
+        "name": "sapling_type",
+        "type": "string"
       }
     ]
   },
@@ -402,21 +435,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -433,7 +468,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -446,26 +482,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "head_piece_bit"
+        "name": "head_piece_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "occupied_bit"
+        "name": "occupied_bit",
+        "type": "byte"
       }
     ]
   },
@@ -474,10 +513,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "infiniburn_bit"
+        "name": "infiniburn_bit",
+        "type": "byte"
       }
     ]
   },
@@ -486,23 +526,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "honey_level"
+        "name": "honey_level",
+        "type": "int"
       }
     ]
   },
@@ -511,23 +553,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "honey_level"
+        "name": "honey_level",
+        "type": "int"
       }
     ]
   },
@@ -536,16 +580,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -559,23 +604,26 @@ export const Blocks: Block[] =
           "side",
           "multiple"
         ],
-        "name": "attachment"
+        "name": "attachment",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "toggle_bit"
+        "name": "toggle_bit",
+        "type": "byte"
       }
     ]
   },
@@ -584,10 +632,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "big_dripleaf_head"
+        "name": "big_dripleaf_head",
+        "type": "byte"
       },
       {
         "values": [
@@ -596,16 +645,18 @@ export const Blocks: Block[] =
           "partial_tilt",
           "full_tilt"
         ],
-        "name": "big_dripleaf_tilt"
+        "name": "big_dripleaf_tilt",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -614,21 +665,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -637,33 +690,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -672,26 +729,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -700,24 +760,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -726,19 +787,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -747,24 +810,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -773,26 +837,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -801,14 +868,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -817,14 +885,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -837,10 +906,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -849,10 +919,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -861,19 +932,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -886,7 +959,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -894,7 +968,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -902,7 +977,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -910,14 +986,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -926,14 +1004,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -942,14 +1021,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -962,12 +1042,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "deprecated"
+        "name": "deprecated",
+        "type": "int"
       },
       {
         "values": [
@@ -975,7 +1056,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -992,7 +1074,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -1000,7 +1083,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -1008,7 +1092,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -1016,14 +1101,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1032,24 +1119,27 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "brewing_stand_slot_a_bit"
+        "name": "brewing_stand_slot_a_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "brewing_stand_slot_b_bit"
+        "name": "brewing_stand_slot_b_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "brewing_stand_slot_c_bit"
+        "name": "brewing_stand_slot_c_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1062,19 +1152,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -1083,14 +1175,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -1103,24 +1196,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "huge_mushroom_bits"
+        "name": "huge_mushroom_bits",
+        "type": "int"
       }
     ]
   },
@@ -1129,10 +1223,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "drag_down"
+        "name": "drag_down",
+        "type": "byte"
       }
     ]
   },
@@ -1145,24 +1240,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -1171,15 +1267,16 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
-        "name": "bite_counter"
+        "name": "bite_counter",
+        "type": "int"
       }
     ]
   },
@@ -1188,23 +1285,29 @@ export const Blocks: Block[] =
     "states": []
   },
   {
+    "id": "minecraft:camera",
+    "states": []
+  },
+  {
     "id": "minecraft:campfire",
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "extinguished"
+        "name": "extinguished",
+        "type": "byte"
       }
     ]
   },
@@ -1230,7 +1333,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -1239,16 +1343,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -1261,12 +1366,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -1279,19 +1385,21 @@ export const Blocks: Block[] =
           "lava",
           "powder_snow"
         ],
-        "name": "cauldron_liquid"
+        "name": "cauldron_liquid",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
-        "name": "fill_level"
+        "name": "fill_level",
+        "type": "int"
       }
     ]
   },
@@ -1300,34 +1408,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "growing_plant_age"
+        "name": "growing_plant_age",
+        "type": "int"
       }
     ]
   },
@@ -1336,34 +1445,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "growing_plant_age"
+        "name": "growing_plant_age",
+        "type": "int"
       }
     ]
   },
@@ -1372,34 +1482,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "growing_plant_age"
+        "name": "growing_plant_age",
+        "type": "int"
       }
     ]
   },
@@ -1412,7 +1523,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -1421,21 +1533,52 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "conditional_bit"
+        "name": "conditional_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "id": "minecraft:chemical_heat",
+    "states": []
+  },
+  {
+    "id": "minecraft:chemistry_table",
+    "states": [
+      {
+        "values": [
+          "compound_creator",
+          "material_reducer",
+          "element_constructor",
+          "lab_table"
+        ],
+        "name": "chemistry_table_type",
+        "type": "string"
+      },
+      {
+        "values": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -1444,14 +1587,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -1472,14 +1616,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -1508,10 +1653,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1520,10 +1666,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1532,19 +1679,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -1557,7 +1706,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -1565,7 +1715,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -1573,7 +1724,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -1581,14 +1733,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1616,7 +1770,8 @@ export const Blocks: Block[] =
           "red_sandstone",
           "red_nether_brick"
         ],
-        "name": "wall_block_type"
+        "name": "wall_block_type",
+        "type": "string"
       },
       {
         "values": [
@@ -1624,7 +1779,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -1632,7 +1788,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -1640,7 +1797,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -1648,14 +1806,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1664,20 +1824,22 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2"
+          0,
+          1,
+          2
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -1686,10 +1848,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "color_bit"
+        "name": "color_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -1700,7 +1863,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -1709,10 +1873,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "color_bit"
+        "name": "color_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -1723,7 +1888,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -1732,21 +1898,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "conditional_bit"
+        "name": "conditional_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -1755,17 +1923,18 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
-        "name": "composter_fill_level"
+        "name": "composter_fill_level",
+        "type": "int"
       }
     ]
   },
@@ -1791,7 +1960,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -1817,7 +1987,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -1844,14 +2015,16 @@ export const Blocks: Block[] =
           "red",
           "yellow"
         ],
-        "name": "coral_color"
+        "name": "coral_color",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1866,14 +2039,16 @@ export const Blocks: Block[] =
           "red",
           "yellow"
         ],
-        "name": "coral_color"
+        "name": "coral_color",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1888,14 +2063,16 @@ export const Blocks: Block[] =
           "red",
           "yellow"
         ],
-        "name": "coral_color"
+        "name": "coral_color",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "coral_fan_direction"
+        "name": "coral_fan_direction",
+        "type": "int"
       }
     ]
   },
@@ -1910,14 +2087,16 @@ export const Blocks: Block[] =
           "red",
           "yellow"
         ],
-        "name": "coral_color"
+        "name": "coral_color",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "coral_fan_direction"
+        "name": "coral_fan_direction",
+        "type": "int"
       }
     ]
   },
@@ -1926,26 +2105,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "coral_direction"
+        "name": "coral_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "coral_hang_type_bit"
+        "name": "coral_hang_type_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1954,26 +2136,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "coral_direction"
+        "name": "coral_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "coral_hang_type_bit"
+        "name": "coral_hang_type_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -1982,26 +2167,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "coral_direction"
+        "name": "coral_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "coral_hang_type_bit"
+        "name": "coral_hang_type_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2030,21 +2218,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -2053,33 +2243,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2088,10 +2282,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2104,26 +2299,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2140,7 +2338,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -2157,24 +2356,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -2187,10 +2387,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2199,19 +2400,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2220,24 +2423,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -2250,7 +2454,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -2259,26 +2464,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2287,14 +2495,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -2311,10 +2520,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2323,19 +2533,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2344,14 +2556,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -2360,21 +2573,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -2383,33 +2598,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2418,26 +2637,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2446,24 +2668,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -2472,19 +2695,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2493,26 +2718,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2521,19 +2749,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2542,24 +2772,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -2568,14 +2799,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -2584,24 +2816,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -2610,24 +2843,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -2644,7 +2878,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -2653,10 +2888,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2665,10 +2901,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2677,19 +2914,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2702,7 +2941,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -2710,7 +2950,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -2718,7 +2959,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -2726,14 +2968,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2778,10 +3022,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2790,10 +3035,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2802,19 +3048,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2827,7 +3075,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -2835,7 +3084,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -2843,7 +3093,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -2851,14 +3102,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2875,21 +3128,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "rail_data_bit"
+        "name": "rail_data_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "rail_direction"
+        "name": "rail_direction",
+        "type": "int"
       }
     ]
   },
@@ -2906,19 +3161,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -2930,7 +3187,8 @@ export const Blocks: Block[] =
           "normal",
           "coarse"
         ],
-        "name": "dirt_type"
+        "name": "dirt_type",
+        "type": "string"
       }
     ]
   },
@@ -2943,21 +3201,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "triggered_bit"
+        "name": "triggered_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2966,10 +3226,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -2985,14 +3246,16 @@ export const Blocks: Block[] =
           "rose",
           "paeonia"
         ],
-        "name": "double_plant_type"
+        "name": "double_plant_type",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3010,14 +3273,16 @@ export const Blocks: Block[] =
           "quartz",
           "nether_brick"
         ],
-        "name": "stone_slab_type"
+        "name": "stone_slab_type",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3035,14 +3300,16 @@ export const Blocks: Block[] =
           "smooth_sandstone",
           "red_nether_brick"
         ],
-        "name": "stone_slab_type_2"
+        "name": "stone_slab_type_2",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3060,14 +3327,16 @@ export const Blocks: Block[] =
           "granite",
           "polished_granite"
         ],
-        "name": "stone_slab_type_3"
+        "name": "stone_slab_type_3",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3082,14 +3351,16 @@ export const Blocks: Block[] =
           "cut_sandstone",
           "cut_red_sandstone"
         ],
-        "name": "stone_slab_type_4"
+        "name": "stone_slab_type_4",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3098,10 +3369,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -3112,7 +3384,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "wood_type"
+        "name": "wood_type",
+        "type": "string"
       }
     ]
   },
@@ -3133,23 +3406,501 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "triggered_bit"
+        "name": "triggered_bit",
+        "type": "byte"
       }
     ]
+  },
+  {
+    "id": "minecraft:element_0",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_1",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_10",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_100",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_101",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_102",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_103",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_104",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_105",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_106",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_107",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_108",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_109",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_11",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_110",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_111",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_112",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_113",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_114",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_115",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_116",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_117",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_118",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_12",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_13",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_14",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_15",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_16",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_17",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_18",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_19",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_2",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_20",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_21",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_22",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_23",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_24",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_25",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_26",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_27",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_28",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_29",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_3",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_30",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_31",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_32",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_33",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_34",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_35",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_36",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_37",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_38",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_39",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_4",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_40",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_41",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_42",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_43",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_44",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_45",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_46",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_47",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_48",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_49",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_5",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_50",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_51",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_52",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_53",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_54",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_55",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_56",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_57",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_58",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_59",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_6",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_60",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_61",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_62",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_63",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_64",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_65",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_66",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_67",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_68",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_69",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_7",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_70",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_71",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_72",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_73",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_74",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_75",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_76",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_77",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_78",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_79",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_8",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_80",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_81",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_82",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_83",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_84",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_85",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_86",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_87",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_88",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_89",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_9",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_90",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_91",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_92",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_93",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_94",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_95",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_96",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_97",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_98",
+    "states": []
+  },
+  {
+    "id": "minecraft:element_99",
+    "states": []
   },
   {
     "id": "minecraft:emerald_block",
@@ -3168,19 +3919,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -3201,19 +3954,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "end_portal_eye_bit"
+        "name": "end_portal_eye_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3222,14 +3977,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -3242,14 +3998,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -3266,10 +4023,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3278,19 +4036,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -3299,10 +4059,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3311,16 +4072,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "moisturized_amount"
+        "name": "moisturized_amount",
+        "type": "int"
       }
     ]
   },
@@ -3336,7 +4098,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "wood_type"
+        "name": "wood_type",
+        "type": "string"
       }
     ]
   },
@@ -3345,26 +4108,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3373,24 +4139,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -3403,10 +4170,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "update_bit"
+        "name": "update_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3419,24 +4187,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "liquid_depth"
+        "name": "liquid_depth",
+        "type": "int"
       }
     ]
   },
@@ -3445,24 +4214,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "liquid_depth"
+        "name": "liquid_depth",
+        "type": "int"
       }
     ]
   },
@@ -3471,21 +4241,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "item_frame_map_bit"
+        "name": "item_frame_map_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3494,12 +4266,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -3508,14 +4281,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -3536,21 +4310,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "item_frame_map_bit"
+        "name": "item_frame_map_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3559,72 +4335,73 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25",
-          "26",
-          "27",
-          "28",
-          "29",
-          "30",
-          "31",
-          "32",
-          "33",
-          "34",
-          "35",
-          "36",
-          "37",
-          "38",
-          "39",
-          "40",
-          "41",
-          "42",
-          "43",
-          "44",
-          "45",
-          "46",
-          "47",
-          "48",
-          "49",
-          "50",
-          "51",
-          "52",
-          "53",
-          "54",
-          "55",
-          "56",
-          "57",
-          "58",
-          "59",
-          "60",
-          "61",
-          "62",
-          "63"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
         ],
-        "name": "multi_face_direction_bits"
+        "name": "multi_face_direction_bits",
+        "type": "int"
       }
     ]
   },
@@ -3649,21 +4426,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "rail_data_bit"
+        "name": "rail_data_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "rail_direction"
+        "name": "rail_direction",
+        "type": "int"
       }
     ]
   },
@@ -3672,19 +4451,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -3705,14 +4486,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -3721,14 +4503,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -3742,16 +4525,18 @@ export const Blocks: Block[] =
           "side",
           "multiple"
         ],
-        "name": "attachment"
+        "name": "attachment",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -3789,7 +4574,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -3815,7 +4601,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -3828,12 +4615,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "deprecated"
+        "name": "deprecated",
+        "type": "int"
       },
       {
         "values": [
@@ -3841,7 +4629,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -3850,24 +4639,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -3884,21 +4674,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "toggle_bit"
+        "name": "toggle_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3915,7 +4707,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -3944,33 +4737,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -3983,26 +4780,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4011,23 +4811,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "rotation"
+        "name": "rotation",
+        "type": "int"
       }
     ]
   },
@@ -4040,21 +4842,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4063,33 +4867,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4098,26 +4906,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4126,24 +4937,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -4152,19 +4964,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4173,24 +4987,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -4199,26 +5014,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4227,14 +5045,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4243,34 +5062,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "kelp_age"
+        "name": "kelp_age",
+        "type": "int"
       }
     ]
   },
@@ -4279,14 +5099,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4295,10 +5116,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "hanging"
+        "name": "hanging",
+        "type": "byte"
       }
     ]
   },
@@ -4315,14 +5137,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4331,24 +5154,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "liquid_depth"
+        "name": "liquid_depth",
+        "type": "int"
       }
     ]
   },
@@ -4361,19 +5185,21 @@ export const Blocks: Block[] =
           "lava",
           "powder_snow"
         ],
-        "name": "cauldron_liquid"
+        "name": "cauldron_liquid",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
-        "name": "fill_level"
+        "name": "fill_level",
+        "type": "int"
       }
     ]
   },
@@ -4387,21 +5213,24 @@ export const Blocks: Block[] =
           "birch",
           "jungle"
         ],
-        "name": "old_leaf_type"
+        "name": "old_leaf_type",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "persistent_bit"
+        "name": "persistent_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "update_bit"
+        "name": "update_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4413,21 +5242,24 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "new_leaf_type"
+        "name": "new_leaf_type",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "persistent_bit"
+        "name": "persistent_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "update_bit"
+        "name": "update_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4436,19 +5268,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "powered_bit"
+        "name": "powered_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4466,14 +5300,16 @@ export const Blocks: Block[] =
           "up_east_west",
           "down_north_south"
         ],
-        "name": "lever_direction"
+        "name": "lever_direction",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -4482,24 +5318,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "block_light_level"
+        "name": "block_light_level",
+        "type": "int"
       }
     ]
   },
@@ -4508,14 +5345,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4524,24 +5362,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -4550,14 +5389,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4566,14 +5406,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4582,14 +5423,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4602,14 +5444,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4618,12 +5461,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -4640,14 +5484,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4665,7 +5510,8 @@ export const Blocks: Block[] =
           "birch",
           "jungle"
         ],
-        "name": "old_log_type"
+        "name": "old_log_type",
+        "type": "string"
       },
       {
         "values": [
@@ -4673,7 +5519,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -4685,7 +5532,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "new_log_type"
+        "name": "new_log_type",
+        "type": "string"
       },
       {
         "values": [
@@ -4693,7 +5541,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -4702,12 +5551,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -4716,14 +5566,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4736,14 +5587,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -4756,27 +5608,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -4796,7 +5650,8 @@ export const Blocks: Block[] =
           "cracked_stone_brick",
           "chiseled_stone_brick"
         ],
-        "name": "monster_egg_stone_type"
+        "name": "monster_egg_stone_type",
+        "type": "string"
       }
     ]
   },
@@ -4817,19 +5672,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4838,19 +5695,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4875,19 +5734,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4904,12 +5765,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -4934,19 +5796,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4959,19 +5823,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -4980,21 +5846,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "powered_bit"
+        "name": "powered_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5007,14 +5875,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5031,10 +5900,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5043,19 +5913,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5064,10 +5936,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5080,14 +5953,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5096,14 +5970,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5112,14 +5987,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5135,7 +6011,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "wood_type"
+        "name": "wood_type",
+        "type": "string"
       }
     ]
   },
@@ -5154,14 +6031,16 @@ export const Blocks: Block[] =
           "base",
           "merge"
         ],
-        "name": "dripstone_thickness"
+        "name": "dripstone_thickness",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "hanging"
+        "name": "hanging",
+        "type": "byte"
       }
     ]
   },
@@ -5170,19 +6049,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5195,7 +6076,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -5208,10 +6090,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5220,10 +6103,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5232,19 +6116,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5257,7 +6143,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -5265,7 +6152,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -5273,7 +6161,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -5281,14 +6170,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5301,21 +6192,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5324,10 +6217,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5336,24 +6230,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -5362,10 +6257,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5374,19 +6270,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5399,7 +6297,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -5407,7 +6306,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -5415,7 +6315,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -5423,14 +6324,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5443,10 +6346,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5455,10 +6359,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5467,19 +6372,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5492,7 +6399,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_east"
+        "name": "wall_connection_type_east",
+        "type": "string"
       },
       {
         "values": [
@@ -5500,7 +6408,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_north"
+        "name": "wall_connection_type_north",
+        "type": "string"
       },
       {
         "values": [
@@ -5508,7 +6417,8 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_south"
+        "name": "wall_connection_type_south",
+        "type": "string"
       },
       {
         "values": [
@@ -5516,14 +6426,16 @@ export const Blocks: Block[] =
           "short",
           "tall"
         ],
-        "name": "wall_connection_type_west"
+        "name": "wall_connection_type_west",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "wall_post_bit"
+        "name": "wall_post_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5532,19 +6444,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5553,19 +6467,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5578,7 +6494,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "portal_axis"
+        "name": "portal_axis",
+        "type": "string"
       }
     ]
   },
@@ -5587,16 +6504,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -5609,26 +6527,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "output_lit_bit"
+        "name": "output_lit_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "output_subtract_bit"
+        "name": "output_subtract_bit",
+        "type": "byte"
       }
     ]
   },
@@ -5637,21 +6558,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "repeater_delay"
+        "name": "repeater_delay",
+        "type": "int"
       }
     ]
   },
@@ -5664,7 +6587,8 @@ export const Blocks: Block[] =
           "dark",
           "bricks"
         ],
-        "name": "prismarine_block_type"
+        "name": "prismarine_block_type",
+        "type": "string"
       }
     ]
   },
@@ -5673,19 +6597,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5694,19 +6620,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5715,12 +6643,13 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       }
     ]
   },
@@ -5729,27 +6658,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -5758,14 +6689,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5779,7 +6711,8 @@ export const Blocks: Block[] =
           "lines",
           "smooth"
         ],
-        "name": "chisel_type"
+        "name": "chisel_type",
+        "type": "string"
       },
       {
         "values": [
@@ -5787,7 +6720,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -5796,19 +6730,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5822,7 +6758,8 @@ export const Blocks: Block[] =
           "lines",
           "smooth"
         ],
-        "name": "chisel_type"
+        "name": "chisel_type",
+        "type": "string"
       },
       {
         "values": [
@@ -5830,7 +6767,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -5847,19 +6785,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5868,18 +6808,19 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
         ],
-        "name": "rail_direction"
+        "name": "rail_direction",
+        "type": "int"
       }
     ]
   },
@@ -5912,7 +6853,8 @@ export const Blocks: Block[] =
           "cornflower",
           "lily_of_the_valley"
         ],
-        "name": "flower_type"
+        "name": "flower_type",
+        "type": "string"
       }
     ]
   },
@@ -5921,14 +6863,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -5941,24 +6884,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "huge_mushroom_bits"
+        "name": "huge_mushroom_bits",
+        "type": "int"
       }
     ]
   },
@@ -5971,19 +6915,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -5997,7 +6943,8 @@ export const Blocks: Block[] =
           "cut",
           "smooth"
         ],
-        "name": "sand_stone_type"
+        "name": "sand_stone_type",
+        "type": "string"
       }
     ]
   },
@@ -6006,19 +6953,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6046,7 +6995,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -6055,24 +7005,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -6081,24 +7032,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -6107,21 +7059,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "conditional_bit"
+        "name": "conditional_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6134,13 +7088,14 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4"
+          0,
+          1,
+          2,
+          3,
+          4
         ],
-        "name": "respawn_anchor_charge"
+        "name": "respawn_anchor_charge",
+        "type": "int"
       }
     ]
   },
@@ -6152,7 +7107,8 @@ export const Blocks: Block[] =
           "normal",
           "red"
         ],
-        "name": "sand_type"
+        "name": "sand_type",
+        "type": "string"
       }
     ]
   },
@@ -6166,7 +7122,8 @@ export const Blocks: Block[] =
           "cut",
           "smooth"
         ],
-        "name": "sand_stone_type"
+        "name": "sand_stone_type",
+        "type": "string"
       }
     ]
   },
@@ -6175,19 +7132,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6196,10 +7155,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "age_bit"
+        "name": "age_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -6210,7 +7170,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "sapling_type"
+        "name": "sapling_type",
+        "type": "string"
       }
     ]
   },
@@ -6219,23 +7180,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "stability"
+        "name": "stability",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "stability_check"
+        "name": "stability_check",
+        "type": "byte"
       }
     ]
   },
@@ -6244,10 +7207,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "powered_bit"
+        "name": "powered_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6256,19 +7220,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "cluster_count"
+        "name": "cluster_count",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "dead_bit"
+        "name": "dead_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6281,7 +7247,8 @@ export const Blocks: Block[] =
           "double_top",
           "double_bot"
         ],
-        "name": "sea_grass_type"
+        "name": "sea_grass_type",
+        "type": "string"
       }
     ]
   },
@@ -6315,7 +7282,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -6324,14 +7292,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6340,21 +7309,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "no_drop_bit"
+        "name": "no_drop_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6367,14 +7338,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6383,19 +7355,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6408,14 +7382,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6428,19 +7403,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6449,19 +7426,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6470,19 +7449,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6499,23 +7480,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "covered_bit"
+        "name": "covered_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "height"
+        "name": "height",
+        "type": "int"
       }
     ]
   },
@@ -6524,19 +7507,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "extinguished"
+        "name": "extinguished",
+        "type": "byte"
       }
     ]
   },
@@ -6545,24 +7530,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "age"
+        "name": "age",
+        "type": "int"
       }
     ]
   },
@@ -6571,10 +7557,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "hanging"
+        "name": "hanging",
+        "type": "byte"
       }
     ]
   },
@@ -6598,7 +7585,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -6610,7 +7598,8 @@ export const Blocks: Block[] =
           "dry",
           "wet"
         ],
-        "name": "sponge_type"
+        "name": "sponge_type",
+        "type": "string"
       }
     ]
   },
@@ -6623,21 +7612,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6646,33 +7637,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6681,26 +7676,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6709,24 +7707,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -6735,19 +7734,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -6756,24 +7757,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -6782,26 +7784,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -6810,14 +7815,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6843,7 +7849,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -6869,7 +7876,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -6895,7 +7903,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -6904,24 +7913,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -6930,24 +7940,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -6956,14 +7967,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6972,14 +7984,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -6996,7 +8009,8 @@ export const Blocks: Block[] =
           "andesite",
           "andesite_smooth"
         ],
-        "name": "stone_type"
+        "name": "stone_type",
+        "type": "string"
       }
     ]
   },
@@ -7005,19 +8019,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -7026,21 +8042,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7049,24 +8067,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -7084,14 +8103,16 @@ export const Blocks: Block[] =
           "quartz",
           "nether_brick"
         ],
-        "name": "stone_slab_type"
+        "name": "stone_slab_type",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7109,14 +8130,16 @@ export const Blocks: Block[] =
           "smooth_sandstone",
           "red_nether_brick"
         ],
-        "name": "stone_slab_type_2"
+        "name": "stone_slab_type_2",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7134,14 +8157,16 @@ export const Blocks: Block[] =
           "granite",
           "polished_granite"
         ],
-        "name": "stone_slab_type_3"
+        "name": "stone_slab_type_3",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7156,14 +8181,16 @@ export const Blocks: Block[] =
           "cut_sandstone",
           "cut_red_sandstone"
         ],
-        "name": "stone_slab_type_4"
+        "name": "stone_slab_type_4",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7172,19 +8199,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -7199,7 +8228,8 @@ export const Blocks: Block[] =
           "chiseled",
           "smooth"
         ],
-        "name": "stone_brick_type"
+        "name": "stone_brick_type",
+        "type": "string"
       }
     ]
   },
@@ -7212,14 +8242,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7232,7 +8263,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7245,7 +8277,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7258,7 +8291,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7271,7 +8305,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7284,7 +8319,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7297,7 +8333,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7310,7 +8347,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7323,7 +8361,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7336,7 +8375,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7349,7 +8389,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7365,7 +8406,8 @@ export const Blocks: Block[] =
           "invalid",
           "export"
         ],
-        "name": "structure_block_type"
+        "name": "structure_block_type",
+        "type": "string"
       }
     ]
   },
@@ -7377,7 +8419,8 @@ export const Blocks: Block[] =
           "void",
           "air"
         ],
-        "name": "structure_void_type"
+        "name": "structure_void_type",
+        "type": "string"
       }
     ]
   },
@@ -7386,16 +8429,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -7409,7 +8453,8 @@ export const Blocks: Block[] =
           "fern",
           "snow"
         ],
-        "name": "tall_grass_type"
+        "name": "tall_grass_type",
+        "type": "string"
       }
     ]
   },
@@ -7426,17 +8471,19 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "allow_underwater_bit"
+        "name": "allow_underwater_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "explode_bit"
+        "name": "explode_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7452,7 +8499,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -7461,26 +8509,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7489,14 +8540,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7505,31 +8557,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "attached_bit"
+        "name": "attached_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "disarmed_bit"
+        "name": "disarmed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "powered_bit"
+        "name": "powered_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "suspended_bit"
+        "name": "suspended_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7538,26 +8594,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "attached_bit"
+        "name": "attached_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "powered_bit"
+        "name": "powered_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7574,7 +8633,8 @@ export const Blocks: Block[] =
           "cracked",
           "max_cracked"
         ],
-        "name": "cracked_state"
+        "name": "cracked_state",
+        "type": "string"
       },
       {
         "values": [
@@ -7583,7 +8643,8 @@ export const Blocks: Block[] =
           "three_egg",
           "four_egg"
         ],
-        "name": "turtle_egg_count"
+        "name": "turtle_egg_count",
+        "type": "string"
       }
     ]
   },
@@ -7592,34 +8653,52 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "twisting_vines_age"
+        "name": "twisting_vines_age",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "id": "minecraft:underwater_torch",
+    "states": [
+      {
+        "values": [
+          "unknown",
+          "west",
+          "east",
+          "north",
+          "south",
+          "top"
+        ],
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -7643,7 +8722,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": "string"
       }
     ]
   },
@@ -7652,26 +8732,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "output_lit_bit"
+        "name": "output_lit_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "output_subtract_bit"
+        "name": "output_subtract_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7680,21 +8763,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "repeater_delay"
+        "name": "repeater_delay",
+        "type": "int"
       }
     ]
   },
@@ -7703,24 +8788,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "vine_direction_bits"
+        "name": "vine_direction_bits",
+        "type": "int"
       }
     ]
   },
@@ -7729,14 +8815,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7745,14 +8832,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7761,21 +8849,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -7784,33 +8874,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7819,10 +8913,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7835,26 +8930,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "in_wall_bit"
+        "name": "in_wall_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7871,7 +8969,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7888,24 +8987,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -7918,10 +9018,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -7930,19 +9031,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -7951,24 +9054,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "ground_sign_direction"
+        "name": "ground_sign_direction",
+        "type": "int"
       }
     ]
   },
@@ -7981,7 +9085,8 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       }
     ]
   },
@@ -7990,26 +9095,29 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8018,14 +9126,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -8038,24 +9147,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "liquid_depth"
+        "name": "liquid_depth",
+        "type": "int"
       }
     ]
   },
@@ -8076,10 +9186,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8088,19 +9199,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -8109,10 +9222,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8129,10 +9243,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8141,19 +9256,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -8162,10 +9279,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8182,10 +9300,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8194,19 +9313,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -8215,10 +9336,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8235,10 +9357,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8247,19 +9370,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -8268,10 +9393,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8288,10 +9414,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8300,19 +9427,21 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upside_down_bit"
+        "name": "upside_down_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "weirdo_direction"
+        "name": "weirdo_direction",
+        "type": "int"
       }
     ]
   },
@@ -8321,10 +9450,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8337,34 +9467,35 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
         ],
-        "name": "weeping_vines_age"
+        "name": "weeping_vines_age",
+        "type": "int"
       }
     ]
   },
@@ -8373,16 +9504,17 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
         ],
-        "name": "growth"
+        "name": "growth",
+        "type": "int"
       }
     ]
   },
@@ -8391,14 +9523,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -8415,14 +9548,16 @@ export const Blocks: Block[] =
           "x",
           "z"
         ],
-        "name": "pillar_axis"
+        "name": "pillar_axis",
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "stripped_bit"
+        "name": "stripped_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -8433,7 +9568,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "wood_type"
+        "name": "wood_type",
+        "type": "string"
       }
     ]
   },
@@ -8442,21 +9578,23 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "button_pressed_bit"
+        "name": "button_pressed_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   },
@@ -8465,33 +9603,37 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": "int"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "door_hinge_bit"
+        "name": "door_hinge_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "open_bit"
+        "name": "open_bit",
+        "type": "byte"
       },
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "upper_block_bit"
+        "name": "upper_block_bit",
+        "type": "byte"
       }
     ]
   },
@@ -8500,24 +9642,25 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
         ],
-        "name": "redstone_signal"
+        "name": "redstone_signal",
+        "type": "int"
       }
     ]
   },
@@ -8526,10 +9669,11 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1"
+          0,
+          1
         ],
-        "name": "top_slot_bit"
+        "name": "top_slot_bit",
+        "type": "byte"
       },
       {
         "values": [
@@ -8540,7 +9684,8 @@ export const Blocks: Block[] =
           "acacia",
           "dark_oak"
         ],
-        "name": "wood_type"
+        "name": "wood_type",
+        "type": "string"
       }
     ]
   },
@@ -8566,7 +9711,8 @@ export const Blocks: Block[] =
           "red",
           "black"
         ],
-        "name": "color"
+        "name": "color",
+        "type": "string"
       }
     ]
   },
@@ -8579,14 +9725,15 @@ export const Blocks: Block[] =
     "states": [
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ],
-        "name": "facing_direction"
+        "name": "facing_direction",
+        "type": "int"
       }
     ]
   }

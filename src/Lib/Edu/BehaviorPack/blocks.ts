@@ -21,7 +21,8 @@ export const Blocks: Block[] =
           "element_constructor",
           "lab_table"
         ],
-        "name": "chemistry_table_type"
+        "name": "chemistry_table_type",
+        "type": ""
       },
       {
         "values": [
@@ -30,7 +31,8 @@ export const Blocks: Block[] =
           "2",
           "3"
         ],
-        "name": "direction"
+        "name": "direction",
+        "type": ""
       }
     ]
   },
@@ -526,7 +528,8 @@ export const Blocks: Block[] =
           "south",
           "top"
         ],
-        "name": "torch_facing_direction"
+        "name": "torch_facing_direction",
+        "type": ""
       }
     ]
   }

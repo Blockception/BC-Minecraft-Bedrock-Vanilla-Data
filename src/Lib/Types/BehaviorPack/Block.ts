@@ -8,10 +8,16 @@ export interface BlockState {
    *
    */
   name: string;
+
   /**
    *
    */
-  values: string[];
+  type: "byte" | "int" | "string";
+
+  /**
+   *
+   */
+  values: (string | number)[];
 }
 
 /**
