@@ -40,6 +40,20 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:axolotl",
+    "animations": [
+      "idle_float",
+      "idle_floor",
+      "idle_floor_water",
+      "swim",
+      "walk_floor",
+      "walk_floor_water",
+      "play_dead",
+      "swim_angle",
+      "look_at_target"
+    ]
+  },
+  {
     "id": "minecraft:bat",
     "animations": [
       "resting",
@@ -285,6 +299,22 @@ export const Entities: Entity[] =
     "animations": [
       "move",
       "scale"
+    ]
+  },
+  {
+    "id": "minecraft:glow_squid",
+    "animations": [
+      "move",
+      "squid_rotate"
+    ]
+  },
+  {
+    "id": "minecraft:goat",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "attack",
+      "ram_attack"
     ]
   },
   {

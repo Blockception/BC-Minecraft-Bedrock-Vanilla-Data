@@ -1172,6 +1172,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:glow_berries",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:glowingobsidian",
     "max_damage": 0
   },

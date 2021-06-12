@@ -53,6 +53,7 @@ export const Fogs: string[] =
   "minecraft:fog_mushroom_island_shore",
   "minecraft:fog_ocean",
   "minecraft:fog_plains",
+  "minecraft:fog_powder_snow",
   "minecraft:fog_river",
   "minecraft:fog_roofed_forest",
   "minecraft:fog_savanna",

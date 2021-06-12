@@ -22,6 +22,21 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:axolotl",
+    "events": [
+      "minecraft:entity_spawned",
+      "attack_cooldown_complete_event",
+      "killed_enemy_event",
+      "minecraft:entity_born",
+      "minecraft:ageable_grow_up",
+      "stop_drying_out",
+      "start_drying_out",
+      "dried_out",
+      "recover_after_dried_out",
+      "enter_water"
+    ]
+  },
+  {
     "id": "minecraft:bat",
     "events": []
   },
@@ -254,6 +269,24 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:ghast",
     "events": []
+  },
+  {
+    "id": "minecraft:glow_squid",
+    "events": [
+      "minecraft:entity_spawned"
+    ]
+  },
+  {
+    "id": "minecraft:goat",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:entity_born",
+      "minecraft:born_default",
+      "minecraft:born_screamer",
+      "minecraft:ageable_grow_up",
+      "start_event",
+      "attack_cooldown_complete_event"
+    ]
   },
   {
     "id": "minecraft:guardian",

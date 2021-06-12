@@ -73,6 +73,8 @@ export const LootTables: string[] =
   "loot_tables/entities/fox_equipment.json",
   "loot_tables/entities/ghast.json",
   "loot_tables/entities/giant.json",
+  "loot_tables/entities/glow_squid.json",
+  "loot_tables/entities/goat.json",
   "loot_tables/entities/guardian.json",
   "loot_tables/entities/hoglin.json",
   "loot_tables/entities/horse.json",

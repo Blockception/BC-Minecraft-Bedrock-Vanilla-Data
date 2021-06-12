@@ -4,8 +4,8 @@
   {
     "id": "minecraft:chemistry_table",
     "states": [
-      { "name": "chemistry_table_type", "values": ["compound_creator", "material_reducer", "element_constructor", "lab_table"] },
-      { "name": "direction", "values": ["0", "1", "2", "3"] }
+      { "name": "chemistry_table_type", "type": "string", "values": ["compound_creator", "material_reducer", "element_constructor", "lab_table"] },
+      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
     ]
   },
   { "id": "minecraft:element_0", "states": [] },
@@ -127,9 +127,6 @@
   { "id": "minecraft:element_97", "states": [] },
   { "id": "minecraft:element_98", "states": [] },
   { "id": "minecraft:element_99", "states": [] },
-  {
-    "id": "minecraft:underwater_torch",
-    "states": [{ "name": "torch_facing_direction", "values": ["unknown", "west", "east", "north", "south", "top"] }]
-  },
+  { "id": "minecraft:underwater_torch", "states": [{ "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
   { "id": "minecraft:underwater_tnt", "states": [] }
 ]

@@ -22,17 +22,17 @@ export const Blocks: Block[] =
           "lab_table"
         ],
         "name": "chemistry_table_type",
-        "type": ""
+        "type": "string"
       },
       {
         "values": [
-          "0",
-          "1",
-          "2",
-          "3"
+          0,
+          1,
+          2,
+          3
         ],
         "name": "direction",
-        "type": ""
+        "type": "int"
       }
     ]
   },
@@ -529,7 +529,7 @@ export const Blocks: Block[] =
           "top"
         ],
         "name": "torch_facing_direction",
-        "type": ""
+        "type": "string"
       }
     ]
   }
