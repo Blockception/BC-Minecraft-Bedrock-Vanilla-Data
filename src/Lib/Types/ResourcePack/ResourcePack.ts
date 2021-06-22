@@ -1,34 +1,43 @@
+import { Animation } from "./Animation";
+import { AnimationController } from "./AnimationController";
 import { Entity } from "./Entity";
+import { Fog } from "./Fog";
+import { Material } from "./Material";
+import { Model } from "./Model";
+import { Particle } from "./Particle";
+import { RenderController } from "./RenderController";
+import { Sound } from "./Sound";
+import { Texture } from "./Texture";
 
 /**The interface that stores vanilla resource pack data*/
 export interface ResourcePack {
   /**The collection of animation controllers*/
-  readonly animation_controllers: string[];
+  readonly animation_controllers: AnimationController[];
 
   /**The collection of animations*/
-  readonly animations: string[];
+  readonly animations: Animation[];
 
   /**The collection of entities*/
   readonly entities: Entity[];
 
   /**The collection of fogs*/
-  readonly fogs: string[];
+  readonly fogs: Fog[];
 
   /**The collection of materials*/
-  readonly materials: string[];
+  readonly materials: Material[];
 
   /**The collection of models*/
-  readonly models: string[];
+  readonly models: Model[];
 
   /**The collection of particles*/
-  readonly particles: string[];
+  readonly particles: Particle[];
 
   /**The collection of render controllers*/
-  readonly render_controllers: string[];
+  readonly render_controllers: RenderController[];
 
   /**The collection of sounds*/
-  readonly sounds: string[];
+  readonly sounds: Sound[];
 
   /**The collection of textures*/
-  readonly textures: string[];
+  readonly textures: Texture[];
 }
