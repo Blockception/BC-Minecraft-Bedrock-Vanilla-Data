@@ -1,5 +1,3 @@
-import { AnimationController } from "./AnimationController";
-import { Animation } from "./Animation";
 import { Block } from "./Block";
 import { Entity } from "./Entity";
 import { Item } from "./Item";
@@ -8,12 +6,6 @@ import { Trading } from "./Trading";
 
 /**The interface that stores vanilla behavior pack data*/
 export interface BehaviorPack {
-  /**The collection of animation controllers*/
-  readonly animation_controllers: AnimationController[];
-
-  /**The collection of animations*/
-  readonly animations: Animation[];
-
   /**The collection of blocks*/
   readonly blocks: Block[];
 
