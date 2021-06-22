@@ -1,5 +1,4 @@
-export const AnimationControllers: string[] = 
-[
+export const AnimationControllers: string[] = [
   "controller.animation.agent.move",
   "controller.animation.armor_stand.pose",
   "controller.animation.armor_stand.wiggle",
@@ -123,5 +122,5 @@ export const AnimationControllers: string[] =
   "controller.animation.wolf.sitting",
   "controller.animation.wolf.tail_default",
   "controller.animation.zombie.attack_bare_hand",
-  "controller.animation.zombie.swimming"
-]
+  "controller.animation.zombie.swimming",
+];

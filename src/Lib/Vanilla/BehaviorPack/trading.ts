@@ -1,5 +1,4 @@
-export const Trading: string[] = 
-[
+export const Trading: string[] = [
   "trading/armorer_trades.json",
   "trading/butcher_trades.json",
   "trading/cartographer_trades.json",
@@ -26,5 +25,5 @@ export const Trading: string[] =
   "trading/shepherd_trades.json",
   "trading/stone_mason_trades.json",
   "trading/tool_smith_trades.json",
-  "trading/weapon_smith_trades.json"
-]
+  "trading/weapon_smith_trades.json",
+];
