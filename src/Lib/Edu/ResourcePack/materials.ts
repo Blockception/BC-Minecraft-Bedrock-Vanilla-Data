@@ -1,2 +1,1 @@
-export const Materials: string[] = 
-[]
+export const Materials: string[] = [];

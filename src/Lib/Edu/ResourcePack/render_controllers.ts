@@ -1,2 +1,1 @@
-export const RenderControllers: string[] = 
-[]
+export const RenderControllers: string[] = [];

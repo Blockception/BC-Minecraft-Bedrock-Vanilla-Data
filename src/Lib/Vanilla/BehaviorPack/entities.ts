@@ -477,7 +477,14 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:pufferfish",
-    events: ["minecraft:entity_spawned", "minecraft:to_full_puff", "minecraft:on_full_puff", "minecraft:from_full_puff", "minecraft:on_deflate", "minecraft:on_normal_puff"],
+    events: [
+      "minecraft:entity_spawned",
+      "minecraft:to_full_puff",
+      "minecraft:on_full_puff",
+      "minecraft:from_full_puff",
+      "minecraft:on_deflate",
+      "minecraft:on_normal_puff",
+    ],
   },
   {
     id: "minecraft:rabbit",
@@ -507,7 +514,14 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:sheep",
-    events: ["minecraft:entity_spawned", "minecraft:entity_born", "minecraft:ageable_grow_up", "minecraft:on_sheared", "minecraft:on_eat_block", "wololo"],
+    events: [
+      "minecraft:entity_spawned",
+      "minecraft:entity_born",
+      "minecraft:ageable_grow_up",
+      "minecraft:on_sheared",
+      "minecraft:on_eat_block",
+      "wololo",
+    ],
   },
   {
     id: "minecraft:shulker",
@@ -640,7 +654,14 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:turtle",
-    events: ["minecraft:entity_spawned", "minecraft:entity_born", "minecraft:ageable_grow_up", "minecraft:become_pregnant", "minecraft:go_lay_egg", "minecraft:laid_egg"],
+    events: [
+      "minecraft:entity_spawned",
+      "minecraft:entity_born",
+      "minecraft:ageable_grow_up",
+      "minecraft:become_pregnant",
+      "minecraft:go_lay_egg",
+      "minecraft:laid_egg",
+    ],
   },
   {
     id: "minecraft:vex",
@@ -771,7 +792,14 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:zombie",
-    events: ["minecraft:entity_spawned", "minecraft:as_adult", "minecraft:as_baby", "minecraft:start_transforming", "minecraft:stop_transforming", "minecraft:convert_to_drowned"],
+    events: [
+      "minecraft:entity_spawned",
+      "minecraft:as_adult",
+      "minecraft:as_baby",
+      "minecraft:start_transforming",
+      "minecraft:stop_transforming",
+      "minecraft:convert_to_drowned",
+    ],
   },
   {
     id: "minecraft:zombie_horse",
