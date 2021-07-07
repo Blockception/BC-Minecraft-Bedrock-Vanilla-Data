@@ -1,5 +1,4 @@
-export const Textures: string[] = 
-[
+export const Textures: string[] = [
   "textures/blocks/acacia_trapdoor",
   "textures/blocks/amethyst_block",
   "textures/blocks/amethyst_cluster",
@@ -3171,5 +3170,5 @@ export const Textures: string[] =
   "textures/ui/XTab",
   "textures/ui/xyz_axis",
   "textures/ui/yellow_banner",
-  "textures/ui/yellowExclamation"
-]
+  "textures/ui/yellowExclamation",
+];

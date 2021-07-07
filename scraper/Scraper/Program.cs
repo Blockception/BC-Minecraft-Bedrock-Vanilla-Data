@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Scraper {
     public class Program {
         private static void Main(String[] args) {
             Context Context = Utillity.GetFolders();
+
+            var SW = new Stopwatch();
+            SW.Start();
 
             //Loads the base set
             var Out = Output.Load(Utillity.BaseFolder);
@@ -20,6 +24,11 @@ namespace Scraper {
 
             //Save
             Out.Save(Utillity.OutputFolder);
+
+            SW.Stop();
+
+            Console.WriteLine($"ms: {SW.ElapsedMilliseconds}, ticks: {SW.ElapsedTicks}");
+            Console.ReadLine();
         }
     }
 }

@@ -1,5 +1,4 @@
-export const Animations: string[] = 
-[
+export const Animations: string[] = [
   "animation.actor.billboard",
   "animation.agent.move",
   "animation.agent.swing_arms",
@@ -370,5 +369,5 @@ export const Animations: string[] =
   "animation.wolf.sitting",
   "animation.wolf.tail_default",
   "animation.zombie.attack_bare_hand",
-  "animation.zombie.swimming"
-]
+  "animation.zombie.swimming",
+];

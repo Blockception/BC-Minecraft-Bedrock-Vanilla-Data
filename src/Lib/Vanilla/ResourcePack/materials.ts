@@ -1,5 +1,4 @@
-export const Materials: string[] = 
-[
+export const Materials: string[] = [
   "agent",
   "alpha_block",
   "alpha_block_color",
@@ -363,5 +362,5 @@ export const Materials: string[] =
   "zombie",
   "zombie_villager",
   "zombie_villager_v2",
-  "zombie_villager_v2_masked"
-]
+  "zombie_villager_v2_masked",
+];

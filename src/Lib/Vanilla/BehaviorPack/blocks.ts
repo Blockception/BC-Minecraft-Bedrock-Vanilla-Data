@@ -4,16 +4,8 @@ export const Blocks: Block[] = [
   {
     id: "minecraft:acacia_button",
     states: [
-      {
-        values: [0, 1],
-        name: "button_pressed_bit",
-        type: "byte",
-      },
-      {
-        values: [0, 1, 2, 3, 4, 5],
-        name: "facing_direction",
-        type: "int",
-      },
+      { values: [0, 1], name: "button_pressed_bit", type: "byte" },
+      { values: [0, 1, 2, 3, 4, 5], name: "facing_direction", type: "int" },
     ],
   },
   {

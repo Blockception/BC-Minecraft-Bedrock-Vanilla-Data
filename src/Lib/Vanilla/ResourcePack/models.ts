@@ -1,5 +1,4 @@
-export const Models: string[] = 
-[
+export const Models: string[] = [
   "geometry.agent",
   "geometry.armor_stand",
   "geometry.arrow",
@@ -163,5 +162,5 @@ export const Models: string[] =
   "geometry.zombie.v1.8",
   "geometry.zombie.villager",
   "geometry.zombie.villager_v2",
-  "geometry.zombie.villager.v1.8"
-]
+  "geometry.zombie.villager.v1.8",
+];
