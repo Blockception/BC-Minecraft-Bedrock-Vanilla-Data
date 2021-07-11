@@ -21,6 +21,7 @@ namespace Scraper {
 
             //TODO prune education from vanilla
             Out.Clean();
+            Out.Prune();
 
             //Save
             Out.Save(Utillity.OutputFolder);

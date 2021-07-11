@@ -1,8 +1,8 @@
 import { expect } from "chai";
 import { MinecraftData } from "../../../src/main";
 
-describe("Lib", () => {
-  it("entity 1", () => {
+suite("Lib", () => {
+  test("entity 1", () => {
     const entity = MinecraftData.BehaviorPack.getEntity("minecraft:creeper");
 
     if (!entity) {
@@ -10,7 +10,7 @@ describe("Lib", () => {
     }
   });
 
-  it("entity edu", () => {
+  test("entity edu", () => {
     const entity = MinecraftData.BehaviorPack.getEntity("minecraft:agent", true);
 
     if (!entity) {
@@ -18,7 +18,7 @@ describe("Lib", () => {
     }
   });
 
-  it("entity edu fail", () => {
+  test("entity edu fail", () => {
     const entity = MinecraftData.BehaviorPack.getEntity("minecraft:agent", false);
 
     if (entity) {

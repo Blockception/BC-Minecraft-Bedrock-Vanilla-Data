@@ -2,10 +2,6 @@ import { Entity } from "../../Types/ResourcePack/Entity";
 
 export const Entities: Entity[] = [
   {
-    id: "minecraft:agent",
-    animations: ["move", "look_at_target", "swing_arms", "move_controller"],
-  },
-  {
     id: "minecraft:armor_stand",
     animations: [
       "default_pose",
@@ -32,17 +28,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:axolotl",
-    animations: [
-      "idle_float",
-      "idle_floor",
-      "idle_floor_water",
-      "swim",
-      "walk_floor",
-      "walk_floor_water",
-      "play_dead",
-      "swim_angle",
-      "look_at_target",
-    ],
+    animations: ["idle_float", "idle_floor", "idle_floor_water", "swim", "walk_floor", "walk_floor_water", "play_dead", "swim_angle", "look_at_target"],
   },
   {
     id: "minecraft:bat",
@@ -280,10 +266,6 @@ export const Entities: Entity[] = [
   {
     id: "minecraft:mule",
     animations: [],
-  },
-  {
-    id: "minecraft:npc",
-    animations: ["general", "look_at_target", "move", "baby_transform"],
   },
   {
     id: "minecraft:ocelot",
@@ -559,10 +541,6 @@ export const Entities: Entity[] = [
     animations: ["move"],
   },
   {
-    id: "minecraft:tripod_camera",
-    animations: ["neutral"],
-  },
-  {
     id: "minecraft:tropicalfish",
     animations: ["flop", "swim"],
   },
@@ -661,17 +639,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:wolf",
-    animations: [
-      "wolf_setup",
-      "wolf_baby_scaling",
-      "wolf_look_at",
-      "wolf_head_rot_z",
-      "wolf_tail_default",
-      "wolf_angry",
-      "wolf_sitting",
-      "wolf_shaking",
-      "wolf_leg_default",
-    ],
+    animations: ["wolf_setup", "wolf_baby_scaling", "wolf_look_at", "wolf_head_rot_z", "wolf_tail_default", "wolf_angry", "wolf_sitting", "wolf_shaking", "wolf_leg_default"],
   },
   {
     id: "minecraft:xp_bottle",
