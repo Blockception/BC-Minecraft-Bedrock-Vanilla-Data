@@ -88,7 +88,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:donkey",
-    animations: [],
+    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
   },
   {
     id: "minecraft:dragon_fireball",
@@ -126,8 +126,12 @@ export const Entities: Entity[] = [
     animations: ["setup", "spikes", "swim", "look_at_target", "move_eye"],
   },
   {
+    id: "minecraft:ender_crystal",
+    animations: ["move"],
+  },
+  {
     id: "minecraft:ender_dragon",
-    animations: [],
+    animations: ["setup", "jaw_movement", "neck_head_movement", "wings_limbs_movement", "tail_movement"],
   },
   {
     id: "minecraft:ender_pearl",
@@ -206,7 +210,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:horse",
-    animations: [],
+    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
   },
   {
     id: "minecraft:husk",
@@ -265,7 +269,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:mule",
-    animations: [],
+    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
   },
   {
     id: "minecraft:ocelot",
@@ -473,7 +477,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:skeleton_horse",
-    animations: [],
+    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
   },
   {
     id: "minecraft:skull",
@@ -678,7 +682,7 @@ export const Entities: Entity[] = [
   },
   {
     id: "minecraft:zombie_horse",
-    animations: [],
+    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
   },
   {
     id: "minecraft:zombie_pigman",

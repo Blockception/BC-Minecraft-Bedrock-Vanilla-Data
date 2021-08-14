@@ -24,6 +24,8 @@ export const Textures: string[] = [
   "textures/ui/icon_open_book",
   "textures/ui/icon_pages",
   "textures/ui/joincode_button_background",
+  "textures/ui/lesson_complete/certificate_preview",
+  "textures/ui/library/lessons/computer_science/icon_hoc",
   "textures/ui/signin_demo_header",
   "textures/ui/signin_full_header",
   "textures/ui/title_edu",

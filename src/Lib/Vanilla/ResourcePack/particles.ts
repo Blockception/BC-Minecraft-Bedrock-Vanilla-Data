@@ -19,6 +19,7 @@ export const Particles: string[] = [
   "minecraft:camera_shoot_explosion",
   "minecraft:campfire_smoke_particle",
   "minecraft:campfire_tall_smoke_particle",
+  "minecraft:candle_flame_particle",
   "minecraft:cauldron_bubble_particle",
   "minecraft:cauldron_explosion_emitter",
   "minecraft:cauldron_spell_emitter",
