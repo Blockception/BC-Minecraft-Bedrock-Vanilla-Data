@@ -4,8 +4,14 @@
 name: Npm Package & Publish
 
 on:
+  workflow_dispatch:
+  
   release:
     types: [published]
+  workflow_run:
+    workflows: ["tagged-release"]
+    types:
+    - completed
 
 jobs:
   build:
