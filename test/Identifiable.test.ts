@@ -1,4 +1,5 @@
 import { fail } from "assert";
+import { expect } from "chai";
 import { assert } from "console";
 import { Identifiable } from "../src/Lib/Types/Identifiable";
 
@@ -13,6 +14,15 @@ export function Test_Identifiable(data: Identifiable) {
 export function Check_Identifiable(data: (Identifiable | string)[]): void {
   data.forEach((item) => {
     assert(count(data, item) === 1, "found duplicate items");
+  });
+}
+
+export function Check_IsFunction<T extends Identifiable>(items: T[], check: (value: any) => value is T) {
+  items.forEach((item) => {
+    if (check(item)) {
+    } else {
+      expect.fail(`'${item.id}' Did not pass the is function check: ${check.name}`);
+    }
   });
 }
 
