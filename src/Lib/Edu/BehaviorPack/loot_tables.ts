@@ -1,1 +1,2 @@
-export const LootTables: string[] = [];
+export const LootTables: string[] = 
+[]

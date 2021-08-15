@@ -17,7 +17,7 @@ export interface BlockState {
   /**
    *
    */
-  values: (string | number)[];
+  values: string[];
 }
 
 /**
@@ -31,7 +31,7 @@ export namespace BlockState {
    */
   export function is(value: any): value is BlockState {
     if (value) {
-      if (typeof value.name === "string" && Array.isArray(value.values)) return true;
+      if (typeof value.name === "string" && typeof value.type === "string" && Array.isArray(value.values)) return true;
     }
 
     return false;
