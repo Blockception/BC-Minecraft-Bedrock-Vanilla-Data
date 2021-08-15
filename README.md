@@ -7,6 +7,6 @@
 
 A Typescript library that provides vanilla minecraft bedrock data
 
-```
-  const entity = MinecraftData.BehaviorPack.getEntity("minecraft:creeper");
+```ts
+const entity = MinecraftData.BehaviorPack.getEntity("minecraft:creeper");
 ```
