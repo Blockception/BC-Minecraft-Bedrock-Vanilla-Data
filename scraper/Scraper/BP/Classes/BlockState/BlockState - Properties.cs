@@ -11,7 +11,7 @@ namespace Scraper.BP {
         /// 
         /// </summary>
         [JsonPropertyName("values")]
-        public List<Object> Values { get; set; }
+        public List<string> Values { get; set; }
 
         /// <summary>
         /// 

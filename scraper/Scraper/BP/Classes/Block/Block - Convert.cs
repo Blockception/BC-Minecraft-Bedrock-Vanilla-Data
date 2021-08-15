@@ -29,7 +29,9 @@ namespace Scraper.BP {
                         };
 
                         foreach (JsonElement Value in Item.Value.EnumerateArray()) {
-                            State.Values.Add(Value.GetString());
+                            String Temp = Value.GetString();
+
+                            State.Values.Add(Temp);
                         }
 
                         Out.States.Add(State);

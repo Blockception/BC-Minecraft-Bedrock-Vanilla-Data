@@ -8,7 +8,7 @@ namespace Scraper.BP {
         public BlockState() {
             this.Name = String.Empty;
             this.Type = String.Empty;
-            this.Values = new List<Object>();
+            this.Values = new List<string>();
         }
     }
 }

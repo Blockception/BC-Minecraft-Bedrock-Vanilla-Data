@@ -5,7 +5,7 @@
     "id": "minecraft:chemistry_table",
     "states": [
       { "name": "chemistry_table_type", "type": "string", "values": ["compound_creator", "material_reducer", "element_constructor", "lab_table"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:element_0", "states": [] },
