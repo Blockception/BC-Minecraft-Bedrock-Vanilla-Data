@@ -25,7 +25,9 @@
   },
   {
     "id": "minecraft:acacia_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:acacia_stairs",
@@ -36,7 +38,13 @@
   },
   {
     "id": "minecraft:acacia_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   {
     "id": "minecraft:acacia_trapdoor",
@@ -179,7 +187,9 @@
   },
   {
     "id": "minecraft:birch_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:birch_stairs",
@@ -190,7 +200,13 @@
   },
   {
     "id": "minecraft:birch_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   {
     "id": "minecraft:birch_trapdoor",
@@ -263,11 +279,20 @@
   { "id": "minecraft:brown_mushroom", "states": [] },
   {
     "id": "minecraft:brown_mushroom_block",
-    "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "huge_mushroom_bits",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:bubble_column", "states": [{ "name": "drag_down", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:budding_amethyst", "states": [] },
-  { "id": "minecraft:cactus", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  {
+    "id": "minecraft:cactus",
+    "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:cake", "states": [{ "name": "bite_counter", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6"] }] },
   { "id": "minecraft:calcite", "states": [] },
   {
@@ -283,7 +308,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -303,7 +345,34 @@
       {
         "name": "growing_plant_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -313,7 +382,34 @@
       {
         "name": "growing_plant_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -323,7 +419,34 @@
       {
         "name": "growing_plant_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -423,14 +546,34 @@
       { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
-  { "id": "minecraft:composter", "states": [{ "name": "composter_fill_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8"] }] },
+  {
+    "id": "minecraft:composter",
+    "states": [{ "name": "composter_fill_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8"] }]
+  },
   {
     "id": "minecraft:concrete",
     "states": [
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -440,7 +583,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -536,7 +696,9 @@
   { "id": "minecraft:crimson_planks", "states": [] },
   {
     "id": "minecraft:crimson_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:crimson_roots", "states": [] },
   { "id": "minecraft:crimson_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
@@ -549,7 +711,13 @@
   },
   {
     "id": "minecraft:crimson_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:crimson_stem", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   {
@@ -598,7 +766,9 @@
   },
   {
     "id": "minecraft:dark_oak_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:dark_oak_stairs",
@@ -624,16 +794,26 @@
   },
   {
     "id": "minecraft:darkoak_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:darkoak_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:daylight_detector",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:daylight_detector_inverted",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:deadbush", "states": [] },
   { "id": "minecraft:deepslate", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
@@ -736,7 +916,16 @@
       {
         "name": "stone_slab_type_2",
         "type": "string",
-        "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ]
       },
       { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
@@ -747,7 +936,16 @@
       {
         "name": "stone_slab_type_3",
         "type": "string",
-        "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ]
       },
       { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
@@ -827,17 +1025,24 @@
       { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:fire", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  {
+    "id": "minecraft:fire",
+    "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:fletching_table", "states": [] },
   { "id": "minecraft:flower_pot", "states": [{ "name": "update_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:flowering_azalea", "states": [] },
   {
     "id": "minecraft:flowing_lava",
-    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:flowing_water",
-    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:frame",
@@ -972,7 +1177,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -982,7 +1204,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -996,7 +1235,9 @@
   },
   {
     "id": "minecraft:heavy_weighted_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:honey_block", "states": [] },
   { "id": "minecraft:honeycomb_block", "states": [] },
@@ -1066,7 +1307,9 @@
   },
   {
     "id": "minecraft:jungle_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:jungle_stairs",
@@ -1077,7 +1320,13 @@
   },
   {
     "id": "minecraft:jungle_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   {
     "id": "minecraft:jungle_trapdoor",
@@ -1094,7 +1343,34 @@
       {
         "name": "kelp_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -1105,7 +1381,9 @@
   { "id": "minecraft:large_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:lava",
-    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:lava_cauldron",
@@ -1150,12 +1428,19 @@
   },
   {
     "id": "minecraft:light_block",
-    "states": [{ "name": "block_light_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "block_light_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
-  { "id": "minecraft:light_blue_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:light_blue_glazed_terracotta",
+    "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }]
+  },
   {
     "id": "minecraft:light_weighted_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:lightning_rod", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:lime_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
@@ -1182,7 +1467,10 @@
     ]
   },
   { "id": "minecraft:loom", "states": [{ "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }] },
-  { "id": "minecraft:magenta_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:magenta_glazed_terracotta",
+    "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }]
+  },
   { "id": "minecraft:magma", "states": [] },
   { "id": "minecraft:medium_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:melon_block", "states": [] },
@@ -1329,7 +1617,9 @@
   { "id": "minecraft:polished_blackstone_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:polished_blackstone_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:polished_blackstone_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
@@ -1465,7 +1755,19 @@
       {
         "name": "flower_type",
         "type": "string",
-        "values": ["poppy", "orchid", "allium", "houstonia", "tulip_red", "tulip_orange", "tulip_white", "tulip_pink", "oxeye", "cornflower", "lily_of_the_valley"]
+        "values": [
+          "poppy",
+          "orchid",
+          "allium",
+          "houstonia",
+          "tulip_red",
+          "tulip_orange",
+          "tulip_white",
+          "tulip_pink",
+          "oxeye",
+          "cornflower",
+          "lily_of_the_valley"
+        ]
       }
     ]
   },
@@ -1473,7 +1775,13 @@
   { "id": "minecraft:red_mushroom", "states": [] },
   {
     "id": "minecraft:red_mushroom_block",
-    "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "huge_mushroom_bits",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:red_nether_brick", "states": [] },
   {
@@ -1503,9 +1811,14 @@
   },
   {
     "id": "minecraft:redstone_wire",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
-  { "id": "minecraft:reeds", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  {
+    "id": "minecraft:reeds",
+    "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:repeating_command_block",
     "states": [
@@ -1555,7 +1868,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1616,7 +1946,10 @@
       { "name": "extinguished", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:soul_fire", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  {
+    "id": "minecraft:soul_fire",
+    "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:soul_lantern", "states": [{ "name": "hanging", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:soul_sand", "states": [] },
   { "id": "minecraft:soul_soil", "states": [] },
@@ -1652,7 +1985,9 @@
   },
   {
     "id": "minecraft:spruce_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:spruce_stairs",
@@ -1663,7 +1998,13 @@
   },
   {
     "id": "minecraft:spruce_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   {
     "id": "minecraft:spruce_trapdoor",
@@ -1680,7 +2021,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1690,7 +2048,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
@@ -1700,17 +2075,46 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
   {
     "id": "minecraft:standing_banner",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   {
     "id": "minecraft:standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:sticky_piston", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:stickyPistonArmCollision", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
@@ -1740,7 +2144,9 @@
   },
   {
     "id": "minecraft:stone_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:stone_slab",
@@ -1759,7 +2165,16 @@
       {
         "name": "stone_slab_type_2",
         "type": "string",
-        "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ]
       },
       { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
@@ -1770,7 +2185,16 @@
       {
         "name": "stone_slab_type_3",
         "type": "string",
-        "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ]
       },
       { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
@@ -1869,7 +2293,34 @@
       {
         "name": "twisting_vines_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -1897,7 +2348,13 @@
   },
   {
     "id": "minecraft:vine",
-    "states": [{ "name": "vine_direction_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "vine_direction_bits",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:wall_banner", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
@@ -1933,7 +2390,9 @@
   { "id": "minecraft:warped_planks", "states": [] },
   {
     "id": "minecraft:warped_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:warped_roots", "states": [] },
   { "id": "minecraft:warped_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
@@ -1946,7 +2405,13 @@
   },
   {
     "id": "minecraft:warped_standing_sign",
-    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      {
+        "name": "ground_sign_direction",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    ]
   },
   { "id": "minecraft:warped_stem", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   {
@@ -1961,7 +2426,9 @@
   { "id": "minecraft:warped_wart_block", "states": [] },
   {
     "id": "minecraft:water",
-    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   { "id": "minecraft:waterlily", "states": [] },
   { "id": "minecraft:waxed_copper", "states": [] },
@@ -2026,7 +2493,34 @@
       {
         "name": "weeping_vines_age",
         "type": "int",
-        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ]
       }
     ]
   },
@@ -2059,7 +2553,9 @@
   },
   {
     "id": "minecraft:wooden_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+    "states": [
+      { "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }
+    ]
   },
   {
     "id": "minecraft:wooden_slab",
@@ -2074,7 +2570,24 @@
       {
         "name": "color",
         "type": "string",
-        "values": ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+        "values": [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
       }
     ]
   },
