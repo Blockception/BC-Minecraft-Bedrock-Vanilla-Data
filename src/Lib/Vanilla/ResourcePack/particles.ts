@@ -1,5 +1,4 @@
-export const Particles: string[] = 
-[
+export const Particles: string[] = [
   "minecraft:arrow_spell_emitter",
   "minecraft:balloon_gas_particle",
   "minecraft:basic_bubble_particle",
@@ -130,5 +129,5 @@ export const Particles: string[] =
   "minecraft:water_splash_particle_manual",
   "minecraft:water_wake_particle",
   "minecraft:wax_particle",
-  "minecraft:wither_boss_invulnerable"
-]
+  "minecraft:wither_boss_invulnerable",
+];

@@ -1,2 +1,1 @@
-export const Sounds: string[] = 
-[]
+export const Sounds: string[] = [];

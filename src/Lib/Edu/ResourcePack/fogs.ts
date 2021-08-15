@@ -1,2 +1,1 @@
-export const Fogs: string[] = 
-[]
+export const Fogs: string[] = [];

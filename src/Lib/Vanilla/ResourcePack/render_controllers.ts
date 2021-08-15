@@ -1,5 +1,4 @@
-export const RenderControllers: string[] = 
-[
+export const RenderControllers: string[] = [
   "controller.render.agent",
   "controller.render.armor",
   "controller.render.armor_stand",
@@ -125,5 +124,5 @@ export const RenderControllers: string[] =
   "controller.render.zombie_pigman",
   "controller.render.zombie_villager",
   "controller.render.zombie_villager_v2_base",
-  "controller.render.zombie_villager_v2_masked"
-]
+  "controller.render.zombie_villager_v2_masked",
+];

@@ -1,5 +1,4 @@
-export const Textures: string[] = 
-[
+export const Textures: string[] = [
   "textures/ui/animation_code_shuffle0",
   "textures/ui/animation_code_shuffle1",
   "textures/ui/animation_code_shuffle2",
@@ -31,5 +30,5 @@ export const Textures: string[] =
   "textures/ui/signin_full_header",
   "textures/ui/title_edu",
   "textures/ui/view_library_background",
-  "textures/ui/view_worlds_background"
-]
+  "textures/ui/view_worlds_background",
+];
