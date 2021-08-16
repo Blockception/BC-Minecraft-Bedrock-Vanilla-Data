@@ -9,4 +9,10 @@ A Typescript library that provides vanilla minecraft bedrock data
 
 ```ts
 const entity = MinecraftData.BehaviorPack.getEntity("minecraft:creeper");
+
+MinecraftData.General.Effect.includes("speed");
+MinecraftData.ResourcePack.getAnimation("...");
+
+MinecraftData.vanilla.ResourcePack.animations.foreach(Animation=>...);
+MinecraftData.edu.ResourcePack.animations.foreach(Animation=>...);
 ```
