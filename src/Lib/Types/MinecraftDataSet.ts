@@ -2,24 +2,16 @@ import { BehaviorPack } from "./BehaviorPack/BehaviorPack";
 import { Identifiable } from "./Identifiable";
 import { ResourcePack } from "./ResourcePack/ResourcePack";
 
-/**
- *
- */
+/**A dataset of minecraft data*/
 export interface MinecraftDataSet {
-  /**
-   *
-   */
+  /**The behavior pack data*/
   readonly BehaviorPack: BehaviorPack;
 
-  /**
-   *
-   */
+  /**The resource pack data*/
   readonly ResourcePack: ResourcePack;
 }
 
-/**
- *
- */
+/**The namespace governing minecraft data sets*/
 export namespace MinecraftDataSet {
   /**
    *
