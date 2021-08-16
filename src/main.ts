@@ -1,5 +1,5 @@
 import { MinecraftDataSet } from "./Lib/Types/MinecraftDataSet";
-import { Vanilla, Edu, Types } from "./Lib/include";
+import { Vanilla, Edu, Types, General as G } from "./Lib/include";
 import { Identifiable } from "./Lib/Types/Identifiable";
 export { MinecraftDataSet, Vanilla, Edu, Types };
 
@@ -53,7 +53,7 @@ export namespace MinecraftData {
 
   export namespace General {
     /** */
-    export const Effects: string[] = General.Effects;
+    export const Effects: string[] = G.Effects;
   }
 
   /**Access to behaviorpack vanilla data*/
