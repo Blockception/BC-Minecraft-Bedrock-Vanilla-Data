@@ -51,6 +51,11 @@ export namespace MinecraftData {
     },
   };
 
+  export namespace General {
+    /** */
+    export const Effects: string[] = General.Effects;
+  }
+
   /**Access to behaviorpack vanilla data*/
   export namespace BehaviorPack {
     /**Gets the block by the given identification
