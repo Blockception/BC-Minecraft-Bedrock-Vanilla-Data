@@ -14,6 +14,11 @@ namespace Scraper {
         /// <summary>
         /// 
         /// </summary>
+        public General General { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         public OutputSet Edu { get; set; }
     }
 }

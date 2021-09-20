@@ -5,6 +5,7 @@
         public Output() {
             this.Edu = new OutputSet();
             this.Vanilla = new OutputSet();
+            this.General = new General();
         }
     }
 }

@@ -33,16 +33,16 @@ namespace Scraper.RP {
         public void Save(String Folder) {
             Directory.CreateDirectory(Folder);
 
-            Typescript.Save("string",null, nameof(this.AnimationControllers), this.AnimationControllers, Path.Join(Folder, "animation_controllers.ts"));
-            Typescript.Save("string", null, nameof(this.Animations), this.Animations, Path.Join(Folder, "animations.ts"));
-            Typescript.Save("Entity", "../../Types/ResourcePack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
-            Typescript.Save("string", null, nameof(this.Fogs), this.Fogs, Path.Join(Folder, "fogs.ts"));
-            Typescript.Save("string", null, nameof(this.Materials), this.Materials, Path.Join(Folder, "materials.ts"));
-            Typescript.Save("string", null, nameof(this.Models), this.Models, Path.Join(Folder, "models.ts"));
-            Typescript.Save("string", null, nameof(this.Particles), this.Particles, Path.Join(Folder, "particles.ts"));
-            Typescript.Save("string", null, nameof(this.RenderControllers), this.RenderControllers, Path.Join(Folder, "render_controllers.ts"));
-            Typescript.Save("string", null, nameof(this.Sounds), this.Sounds, Path.Join(Folder, "sounds.ts"));
-            Typescript.Save("string", null, nameof(this.Textures), this.Textures, Path.Join(Folder, "textures.ts"));
+            Typescript.SaveArray("string",null, nameof(this.AnimationControllers), this.AnimationControllers, Path.Join(Folder, "animation_controllers.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Animations), this.Animations, Path.Join(Folder, "animations.ts"));
+            Typescript.SaveArray("Entity", "../../Types/ResourcePack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Fogs), this.Fogs, Path.Join(Folder, "fogs.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Materials), this.Materials, Path.Join(Folder, "materials.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Models), this.Models, Path.Join(Folder, "models.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Particles), this.Particles, Path.Join(Folder, "particles.ts"));
+            Typescript.SaveArray("string", null, nameof(this.RenderControllers), this.RenderControllers, Path.Join(Folder, "render_controllers.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Sounds), this.Sounds, Path.Join(Folder, "sounds.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Textures), this.Textures, Path.Join(Folder, "textures.ts"));
         }
     }
 }

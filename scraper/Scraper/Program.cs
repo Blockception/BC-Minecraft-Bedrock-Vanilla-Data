@@ -23,6 +23,9 @@ namespace Scraper {
             Out.Clean();
             Out.Prune();
 
+            //Process collected data into general data for quick lookup of things like entities families and events
+            Out.General.Scrape(Out);
+
             //Save
             Out.Save(Utillity.OutputFolder);
 

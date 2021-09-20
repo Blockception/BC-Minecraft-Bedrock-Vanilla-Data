@@ -16,7 +16,8 @@ namespace Scraper {
         /// </summary>
         public static JsonSerializerOptions WriteOptions = new JsonSerializerOptions() {
             WriteIndented = true,
-            PropertyNamingPolicy = new snake_case()
+            PropertyNamingPolicy = new snake_case(),
+            AllowTrailingCommas = false
         };
     }
 

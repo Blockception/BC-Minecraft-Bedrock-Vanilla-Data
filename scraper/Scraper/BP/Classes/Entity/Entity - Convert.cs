@@ -30,8 +30,8 @@ namespace Scraper.BP {
                 }
 
                 //Check components
-                if(Def.TryGetProperty("components", out JsonElement Comps))
-                CheckComponents(Comps, Out);
+                if (Def.TryGetProperty("components", out JsonElement Comps))
+                    CheckComponents(Comps, Out);
 
                 if (Def.TryGetProperty("component_groups", out JsonElement Groups)) {
                     foreach (JsonProperty Group in Groups.EnumerateObject()) {
@@ -53,7 +53,8 @@ namespace Scraper.BP {
                         String FStr = F.GetString();
 
                         if (!String.IsNullOrEmpty(FStr))
-                            Receiver.Families.Add(FStr);
+                            if (!Receiver.Families.Contains(FStr))
+                                Receiver.Families.Add(FStr);
                     }
                 }
             }

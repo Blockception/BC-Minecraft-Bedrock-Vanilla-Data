@@ -28,11 +28,11 @@ namespace Scraper.BP {
         public void Save(String Folder) {
             Directory.CreateDirectory(Folder);
 
-            Typescript.Save("Block", "../../Types/BehaviorPack/Block", nameof(this.Blocks), this.Blocks, Path.Join(Folder, "blocks.ts"));
-            Typescript.Save("Entity", "../../Types/BehaviorPack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
-            Typescript.Save("Item", "../../Types/BehaviorPack/Item", nameof(this.Items), this.Items, Path.Join(Folder, "items.ts"));
-            Typescript.Save("string", null, nameof(this.LootTables), this.LootTables, Path.Join(Folder, "loot_tables.ts"));
-            Typescript.Save("string", null, nameof(this.Trading), this.Trading, Path.Join(Folder, "trading.ts"));
+            Typescript.SaveArray("Block", "../../Types/BehaviorPack/Block", nameof(this.Blocks), this.Blocks, Path.Join(Folder, "blocks.ts"));
+            Typescript.SaveArray("Entity", "../../Types/BehaviorPack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
+            Typescript.SaveArray("Item", "../../Types/BehaviorPack/Item", nameof(this.Items), this.Items, Path.Join(Folder, "items.ts"));
+            Typescript.SaveArray("string", null, nameof(this.LootTables), this.LootTables, Path.Join(Folder, "loot_tables.ts"));
+            Typescript.SaveArray("string", null, nameof(this.Trading), this.Trading, Path.Join(Folder, "trading.ts"));
         }
     }
 }

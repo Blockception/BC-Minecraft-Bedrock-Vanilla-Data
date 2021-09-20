@@ -24,6 +24,8 @@ namespace Scraper {
         public void Save(String Folder) {
             this.Edu.Save(Path.Join(Folder, "Edu"));
             this.Vanilla.Save(Path.Join(Folder, "Vanilla"));
+
+            this.General.Save(Path.Join(Folder, "General"));
         }
     }
 }
