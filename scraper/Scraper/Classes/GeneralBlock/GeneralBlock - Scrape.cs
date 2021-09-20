@@ -19,7 +19,7 @@ namespace Scraper {
         }
 
         public void Clean() {
-            this.BlockStates.Sort();
+            this.BlockStates.Sort((x, y)=>x.Name.CompareTo(y.Name));
         }
     }
 }

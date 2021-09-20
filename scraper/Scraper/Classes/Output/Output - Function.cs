@@ -6,6 +6,7 @@
         public void Clean() {
             this.Edu.Clean();
             this.Vanilla.Clean();
+            this.General.Clean();
         }
 
         /// <summary>

@@ -19,12 +19,13 @@ namespace Scraper {
             RP.Scraper.Scrape(Context.EduRP, Out.Edu.ResourePack);
             RP.Scraper.Scrape(Context.VanillaRP, Out.Vanilla.ResourePack);
 
-            //TODO prune education from vanilla
-            Out.Clean();
-            Out.Prune();
 
             //Process collected data into general data for quick lookup of things like entities families and events
             Out.General.Scrape(Out);
+
+            //TODO prune education from vanilla
+            Out.Clean();
+            Out.Prune();
 
             //Save
             Out.Save(Utillity.OutputFolder);
