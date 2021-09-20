@@ -8,6 +8,7 @@ namespace Scraper.BP {
         public Entity() {
             this.ID = String.Empty;
             this.Events = new List<String>();
+            this.Families = new List<string>();
         }
     }
 }

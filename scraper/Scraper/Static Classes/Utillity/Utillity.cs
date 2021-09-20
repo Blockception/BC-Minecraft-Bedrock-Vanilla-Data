@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace Scraper {
+
     ///DOLATER <summary>add description for class: Utillity</summary>
     public static partial class Utillity {
         /// <summary>
@@ -19,10 +21,11 @@ namespace Scraper {
 
             Console.WriteLine("start\tdownloading: " + uri);
             var client = new WebClient();
-
             client.DownloadFile(uri, Filepath);
             Console.WriteLine("done\tdownloading: " + uri);
         }
+
+
 
         /// <summary>
         /// 
@@ -52,6 +55,16 @@ namespace Scraper {
             }
 
             return null;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="Uri"></param>
+        /// <returns></returns>
+        public static Task<String> DownloadUnpackAsync(String Name, String Uri) {
+            return Task.Run<String>(() => DownloadUnpack(Name, Uri));
         }
 
         public static Context GetFolders() {

@@ -21,13 +21,41 @@ namespace Scraper.BP {
                     ID = ID
                 };
 
+                Receiver.Add(Out);
+
                 if (Def.TryGetProperty("events", out JsonElement Events)) {
                     foreach (JsonProperty Property in Events.EnumerateObject()) {
                         Out.Events.Add(Property.Name);
                     }
                 }
 
-                Receiver.Add(Out);
+                //Check components
+                if(Def.TryGetProperty("components", out JsonElement Comps))
+                CheckComponents(Comps, Out);
+
+                if (Def.TryGetProperty("component_groups", out JsonElement Groups)) {
+                    foreach (JsonProperty Group in Groups.EnumerateObject()) {
+                        CheckComponents(Group.Value, Out);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Comps"></param>
+        /// <param name="Receiver"></param>
+        public static void CheckComponents(JsonElement Comps, Entity Receiver) {
+            if (Comps.TryGetProperty("minecraft:type_family", out JsonElement families)) {
+                if (families.TryGetProperty("family", out JsonElement farray)) {
+                    foreach (JsonElement F in farray.EnumerateArray()) {
+                        String FStr = F.GetString();
+
+                        if (!String.IsNullOrEmpty(FStr))
+                            Receiver.Families.Add(FStr);
+                    }
+                }
             }
         }
     }

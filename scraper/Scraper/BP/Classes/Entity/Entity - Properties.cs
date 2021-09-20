@@ -15,5 +15,11 @@ namespace Scraper.BP {
         /// </summary>
         [JsonPropertyName("events")]
         public List<String> Events { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [JsonPropertyName("families")]
+        public List<String> Families { get; set; }
     }
 }
