@@ -1,6 +1,6 @@
 /*	Auto generated	*/
 
-export * from "./Effects";
+export * from "./effects";
 export * from "./blocks";
 export * from "./entities";
 export * from "./format";

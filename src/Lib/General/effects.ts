@@ -1,4 +1,3 @@
-/** */
 export const Effects: string[] = [
   "speed",
   "slowness",
