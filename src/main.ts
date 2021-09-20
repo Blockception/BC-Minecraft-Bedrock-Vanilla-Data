@@ -51,9 +51,16 @@ export namespace MinecraftData {
     },
   };
 
+  /**The generalised data set for minecraft*/
   export namespace General {
-    /** */
+    /**The summarized data set for blocks*/
+    export const Blocks = G.BlockData;
+
+    /**The summarized data set of effects*/
     export const Effects: string[] = G.Effects;
+
+    /**The summarized data set for entities*/
+    export const Entities = G.EntityData;
   }
 
   /**Access to behaviorpack vanilla data*/
