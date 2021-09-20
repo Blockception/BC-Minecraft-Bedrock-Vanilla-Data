@@ -2,10 +2,6 @@ import { Item } from "../../Types/BehaviorPack/Item";
 
 export const Items: Item[] = [
   {
-    id: "minecraft:",
-    max_damage: 0,
-  },
-  {
     id: "minecraft:acacia_boat",
     max_damage: 0,
   },

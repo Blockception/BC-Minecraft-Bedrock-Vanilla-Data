@@ -8,6 +8,11 @@ export interface Entity extends Identifiable {
    *
    */
   events: string[];
+
+  /**
+   *
+   */
+  families: string[];
 }
 
 /**
