@@ -2,90 +2,96 @@
   {
     "id": "minecraft:acacia_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:acacia_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:acacia_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:acacia_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:acacia_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:acacia_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:acacia_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:acacia_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:acacia_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:acacia_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:acacia_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:activator_rail",
     "states": [
-      { "name": "rail_data_bit", "type": "byte", "values": [0, 1] },
-      { "name": "rail_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "rail_data_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "rail_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   { "id": "minecraft:air", "states": [] },
   { "id": "minecraft:allow", "states": [] },
   { "id": "minecraft:amethyst_block", "states": [] },
-  { "id": "minecraft:amethyst_cluster", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:amethyst_cluster", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:ancient_debris", "states": [] },
   {
     "id": "minecraft:andesite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:anvil",
     "states": [
       { "name": "damage", "type": "string", "values": ["undamaged", "slightly_damaged", "very_damaged", "broken"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:azalea", "states": [] },
   {
     "id": "minecraft:azalea_leaves",
     "states": [
-      { "name": "persistent_bit", "type": "byte", "values": [0, 1] },
-      { "name": "update_bit", "type": "byte", "values": [0, 1] }
+      { "name": "persistent_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "update_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:azalea_leaves_flowered",
     "states": [
-      { "name": "persistent_bit", "type": "byte", "values": [0, 1] },
-      { "name": "update_bit", "type": "byte", "values": [0, 1] }
+      { "name": "persistent_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "update_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:bamboo",
     "states": [
-      { "name": "age_bit", "type": "byte", "values": [0, 1] },
+      { "name": "age_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "bamboo_leaf_size", "type": "string", "values": ["no_leaves", "small_leaves", "large_leaves"] },
       { "name": "bamboo_stalk_thickness", "type": "string", "values": ["thin", "thick"] }
     ]
@@ -93,15 +99,15 @@
   {
     "id": "minecraft:bamboo_sapling",
     "states": [
-      { "name": "age_bit", "type": "byte", "values": [0, 1] },
+      { "name": "age_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "sapling_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }
     ]
   },
   {
     "id": "minecraft:barrel",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:barrier", "states": [] },
@@ -110,94 +116,108 @@
   {
     "id": "minecraft:bed",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "head_piece_bit", "type": "byte", "values": [0, 1] },
-      { "name": "occupied_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "head_piece_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "occupied_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:bedrock", "states": [{ "name": "infiniburn_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:bedrock", "states": [{ "name": "infiniburn_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:bee_nest",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "honey_level", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "honey_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:beehive",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "honey_level", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "honey_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
-  { "id": "minecraft:beetroot", "states": [{ "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
+  { "id": "minecraft:beetroot", "states": [{ "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
   {
     "id": "minecraft:bell",
     "states": [
       { "name": "attachment", "type": "string", "values": ["standing", "hanging", "side", "multiple"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "toggle_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "toggle_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:big_dripleaf",
     "states": [
-      { "name": "big_dripleaf_head", "type": "byte", "values": [0, 1] },
+      { "name": "big_dripleaf_head", "type": "byte", "values": ["0", "1"] },
       { "name": "big_dripleaf_tilt", "type": "string", "values": ["none", "unstable", "partial_tilt", "full_tilt"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:birch_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:birch_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:birch_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:birch_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:birch_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:birch_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:birch_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:birch_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:birch_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:birch_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:black_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:birch_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:black_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:black_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:black_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:blackstone", "states": [] },
-  { "id": "minecraft:blackstone_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:blackstone_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:blackstone_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:blackstone_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:blackstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -207,16 +227,24 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:blast_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:blue_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:blast_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:blue_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:blue_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:blue_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:blue_ice", "states": [] },
   {
     "id": "minecraft:bone_block",
     "states": [
-      { "name": "deprecated", "type": "int", "values": [0, 1, 2, 3] },
+      { "name": "deprecated", "type": "int", "values": ["0", "1", "2", "3"] },
       { "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }
     ]
   },
@@ -228,41 +256,60 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:brewing_stand",
     "states": [
-      { "name": "brewing_stand_slot_a_bit", "type": "byte", "values": [0, 1] },
-      { "name": "brewing_stand_slot_b_bit", "type": "byte", "values": [0, 1] },
-      { "name": "brewing_stand_slot_c_bit", "type": "byte", "values": [0, 1] }
+      { "name": "brewing_stand_slot_a_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "brewing_stand_slot_b_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "brewing_stand_slot_c_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:brick_block", "states": [] },
   {
     "id": "minecraft:brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:brown_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:brown_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:brown_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:brown_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:brown_mushroom", "states": [] },
-  { "id": "minecraft:brown_mushroom_block", "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:bubble_column", "states": [{ "name": "drag_down", "type": "byte", "values": [0, 1] }] },
+  {
+    "id": "minecraft:brown_mushroom_block",
+    "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:bubble_column", "states": [{ "name": "drag_down", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:budding_amethyst", "states": [] },
-  { "id": "minecraft:cactus", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:cake", "states": [{ "name": "bite_counter", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6] }] },
+  { "id": "minecraft:cactus", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  { "id": "minecraft:cake", "states": [{ "name": "bite_counter", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6"] }] },
   { "id": "minecraft:calcite", "states": [] },
   { "id": "minecraft:camera", "states": [] },
   {
     "id": "minecraft:campfire",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "extinguished", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "extinguished", "type": "byte", "values": ["0", "1"] }
     ]
   },
+  {
+    "id": "minecraft:candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:carpet",
     "states": [
@@ -273,34 +320,52 @@
       }
     ]
   },
-  { "id": "minecraft:carrots", "states": [{ "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
+  { "id": "minecraft:carrots", "states": [{ "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
   { "id": "minecraft:cartography_table", "states": [] },
-  { "id": "minecraft:carved_pumpkin", "states": [{ "name": "direction", "type": "int", "values": [0, 1, 2, 3] }] },
+  { "id": "minecraft:carved_pumpkin", "states": [{ "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }] },
   {
     "id": "minecraft:cauldron",
     "states": [
       { "name": "cauldron_liquid", "type": "string", "values": ["water", "lava", "powder_snow"] },
-      { "name": "fill_level", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6] }
+      { "name": "fill_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6"] }
     ]
   },
   {
     "id": "minecraft:cave_vines",
-    "states": [{ "name": "growing_plant_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "growing_plant_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
   {
     "id": "minecraft:cave_vines_body_with_berries",
-    "states": [{ "name": "growing_plant_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "growing_plant_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
   {
     "id": "minecraft:cave_vines_head_with_berries",
-    "states": [{ "name": "growing_plant_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "growing_plant_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
   { "id": "minecraft:chain", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   {
     "id": "minecraft:chain_command_block",
     "states": [
-      { "name": "conditional_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "conditional_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   { "id": "minecraft:chemical_heat", "states": [] },
@@ -308,26 +373,26 @@
     "id": "minecraft:chemistry_table",
     "states": [
       { "name": "chemistry_table_type", "type": "string", "values": ["compound_creator", "material_reducer", "element_constructor", "lab_table"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:chest", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:chest", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:chiseled_deepslate", "states": [] },
   { "id": "minecraft:chiseled_nether_bricks", "states": [] },
   { "id": "minecraft:chiseled_polished_blackstone", "states": [] },
-  { "id": "minecraft:chorus_flower", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:chorus_flower", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:chorus_plant", "states": [] },
   { "id": "minecraft:clay", "states": [] },
   { "id": "minecraft:coal_block", "states": [] },
   { "id": "minecraft:coal_ore", "states": [] },
   { "id": "minecraft:cobbled_deepslate", "states": [] },
-  { "id": "minecraft:cobbled_deepslate_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:cobbled_deepslate_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:cobbled_deepslate_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:cobbled_deepslate_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:cobbled_deepslate_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -337,7 +402,7 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:cobblestone", "states": [] },
@@ -368,38 +433,38 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:cocoa",
     "states": [
-      { "name": "age", "type": "int", "values": [0, 1, 2] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "age", "type": "int", "values": ["0", "1", "2"] },
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:colored_torch_bp",
     "states": [
-      { "name": "color_bit", "type": "byte", "values": [0, 1] },
+      { "name": "color_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }
     ]
   },
   {
     "id": "minecraft:colored_torch_rg",
     "states": [
-      { "name": "color_bit", "type": "byte", "values": [0, 1] },
+      { "name": "color_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }
     ]
   },
   {
     "id": "minecraft:command_block",
     "states": [
-      { "name": "conditional_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "conditional_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
-  { "id": "minecraft:composter", "states": [{ "name": "composter_fill_level", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8] }] },
+  { "id": "minecraft:composter", "states": [{ "name": "composter_fill_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8"] }] },
   {
     "id": "minecraft:concrete",
     "states": [
@@ -427,52 +492,52 @@
     "id": "minecraft:coral",
     "states": [
       { "name": "coral_color", "type": "string", "values": ["blue", "pink", "purple", "red", "yellow"] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_block",
     "states": [
       { "name": "coral_color", "type": "string", "values": ["blue", "pink", "purple", "red", "yellow"] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_fan",
     "states": [
       { "name": "coral_color", "type": "string", "values": ["blue", "pink", "purple", "red", "yellow"] },
-      { "name": "coral_fan_direction", "type": "int", "values": [0, 1] }
+      { "name": "coral_fan_direction", "type": "int", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_fan_dead",
     "states": [
       { "name": "coral_color", "type": "string", "values": ["blue", "pink", "purple", "red", "yellow"] },
-      { "name": "coral_fan_direction", "type": "int", "values": [0, 1] }
+      { "name": "coral_fan_direction", "type": "int", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_fan_hang",
     "states": [
-      { "name": "coral_direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "coral_hang_type_bit", "type": "byte", "values": [0, 1] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "coral_direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "coral_hang_type_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_fan_hang2",
     "states": [
-      { "name": "coral_direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "coral_hang_type_bit", "type": "byte", "values": [0, 1] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "coral_direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "coral_hang_type_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:coral_fan_hang3",
     "states": [
-      { "name": "coral_direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "coral_hang_type_bit", "type": "byte", "values": [0, 1] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "coral_direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "coral_hang_type_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:cracked_deepslate_bricks", "states": [] },
@@ -483,125 +548,151 @@
   {
     "id": "minecraft:crimson_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:crimson_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:crimson_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:crimson_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:crimson_fence", "states": [] },
   {
     "id": "minecraft:crimson_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:crimson_fungus", "states": [] },
   { "id": "minecraft:crimson_hyphae", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:crimson_nylium", "states": [] },
   { "id": "minecraft:crimson_planks", "states": [] },
-  { "id": "minecraft:crimson_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:crimson_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:crimson_roots", "states": [] },
-  { "id": "minecraft:crimson_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:crimson_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:crimson_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:crimson_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:crimson_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:crimson_stem", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   {
     "id": "minecraft:crimson_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:crimson_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:crimson_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:crying_obsidian", "states": [] },
   { "id": "minecraft:cut_copper", "states": [] },
-  { "id": "minecraft:cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:cyan_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:cyan_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:cyan_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:cyan_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:dark_oak_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:dark_oak_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:dark_oak_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:dark_oak_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:dark_oak_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:dark_oak_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:dark_oak_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:dark_prismarine_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:darkoak_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:darkoak_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:daylight_detector", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:daylight_detector_inverted", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:darkoak_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:darkoak_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:daylight_detector",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  {
+    "id": "minecraft:daylight_detector_inverted",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:deadbush", "states": [] },
   { "id": "minecraft:deepslate", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
-  { "id": "minecraft:deepslate_brick_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:deepslate_brick_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:deepslate_brick_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:deepslate_brick_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:deepslate_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -611,7 +702,7 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:deepslate_bricks", "states": [] },
@@ -623,13 +714,13 @@
   { "id": "minecraft:deepslate_iron_ore", "states": [] },
   { "id": "minecraft:deepslate_lapis_ore", "states": [] },
   { "id": "minecraft:deepslate_redstone_ore", "states": [] },
-  { "id": "minecraft:deepslate_tile_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:deepslate_tile_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:deepslate_tile_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:deepslate_tile_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:deepslate_tile_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -639,7 +730,7 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:deepslate_tiles", "states": [] },
@@ -647,8 +738,8 @@
   {
     "id": "minecraft:detector_rail",
     "states": [
-      { "name": "rail_data_bit", "type": "byte", "values": [0, 1] },
-      { "name": "rail_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "rail_data_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "rail_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   { "id": "minecraft:diamond_block", "states": [] },
@@ -656,8 +747,8 @@
   {
     "id": "minecraft:diorite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:dirt", "states": [{ "name": "dirt_type", "type": "string", "values": ["normal", "coarse"] }] },
@@ -665,23 +756,23 @@
   {
     "id": "minecraft:dispenser",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "triggered_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "triggered_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:double_plant",
     "states": [
       { "name": "double_plant_type", "type": "string", "values": ["sunflower", "syringa", "grass", "fern", "rose", "paeonia"] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:double_stone_slab",
     "states": [
       { "name": "stone_slab_type", "type": "string", "values": ["smooth_stone", "sandstone", "wood", "cobblestone", "brick", "stone_brick", "quartz", "nether_brick"] },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
@@ -692,7 +783,7 @@
         "type": "string",
         "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
       },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
@@ -703,20 +794,20 @@
         "type": "string",
         "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
       },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:double_stone_slab4",
     "states": [
       { "name": "stone_slab_type_4", "type": "string", "values": ["mossy_stone_brick", "smooth_quartz", "stone", "cut_sandstone", "cut_red_sandstone"] },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:double_wooden_slab",
     "states": [
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "wood_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }
     ]
   },
@@ -726,8 +817,8 @@
   {
     "id": "minecraft:dropper",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "triggered_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "triggered_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:element_0", "states": [] },
@@ -855,8 +946,8 @@
   {
     "id": "minecraft:end_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:end_bricks", "states": [] },
@@ -865,57 +956,65 @@
   {
     "id": "minecraft:end_portal_frame",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "end_portal_eye_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "end_portal_eye_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:end_rod", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:end_rod", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:end_stone", "states": [] },
-  { "id": "minecraft:ender_chest", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:ender_chest", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:exposed_copper", "states": [] },
   { "id": "minecraft:exposed_cut_copper", "states": [] },
-  { "id": "minecraft:exposed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:exposed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:exposed_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:exposed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:farmland", "states": [{ "name": "moisturized_amount", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
+  { "id": "minecraft:exposed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:farmland", "states": [{ "name": "moisturized_amount", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
   { "id": "minecraft:fence", "states": [{ "name": "wood_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }] },
   {
     "id": "minecraft:fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:fire", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  { "id": "minecraft:fire", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
   { "id": "minecraft:fletching_table", "states": [] },
-  { "id": "minecraft:flower_pot", "states": [{ "name": "update_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:flower_pot", "states": [{ "name": "update_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:flowering_azalea", "states": [] },
-  { "id": "minecraft:flowing_lava", "states": [{ "name": "liquid_depth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:flowing_water", "states": [{ "name": "liquid_depth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:flowing_lava",
+    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  {
+    "id": "minecraft:flowing_water",
+    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:frame",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "item_frame_map_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "item_frame_map_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "item_frame_photo_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:frosted_ice", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3] }] },
-  { "id": "minecraft:furnace", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:frosted_ice", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3"] }] },
+  { "id": "minecraft:furnace", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:gilded_blackstone", "states": [] },
   { "id": "minecraft:glass", "states": [] },
   { "id": "minecraft:glass_pane", "states": [] },
   {
     "id": "minecraft:glow_frame",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "item_frame_map_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "item_frame_map_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "item_frame_photo_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
@@ -925,8 +1024,70 @@
         "name": "multi_face_direction_bits",
         "type": "int",
         "values": [
-          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
-          45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63"
         ]
       }
     ]
@@ -938,27 +1099,43 @@
   {
     "id": "minecraft:golden_rail",
     "states": [
-      { "name": "rail_data_bit", "type": "byte", "values": [0, 1] },
-      { "name": "rail_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "rail_data_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "rail_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:granite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:grass", "states": [] },
   { "id": "minecraft:grass_path", "states": [] },
   { "id": "minecraft:gravel", "states": [] },
-  { "id": "minecraft:gray_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:green_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:gray_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:gray_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:gray_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:green_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:green_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:green_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:grindstone",
     "states": [
       { "name": "attachment", "type": "string", "values": ["standing", "hanging", "side", "multiple"] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:hanging_roots", "states": [] },
@@ -988,18 +1165,21 @@
   {
     "id": "minecraft:hay_block",
     "states": [
-      { "name": "deprecated", "type": "int", "values": [0, 1, 2, 3] },
+      { "name": "deprecated", "type": "int", "values": ["0", "1", "2", "3"] },
       { "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }
     ]
   },
-  { "id": "minecraft:heavy_weighted_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:heavy_weighted_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:honey_block", "states": [] },
   { "id": "minecraft:honeycomb_block", "states": [] },
   {
     "id": "minecraft:hopper",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "toggle_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "toggle_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:ice", "states": [] },
@@ -1012,130 +1192,175 @@
   {
     "id": "minecraft:iron_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:iron_ore", "states": [] },
   {
     "id": "minecraft:iron_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:jigsaw",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "rotation", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "rotation", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:jukebox", "states": [] },
   {
     "id": "minecraft:jungle_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:jungle_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:jungle_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:jungle_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:jungle_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:jungle_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:jungle_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:jungle_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:jungle_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:jungle_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:jungle_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:kelp",
-    "states": [{ "name": "kelp_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "kelp_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
-  { "id": "minecraft:ladder", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:lantern", "states": [{ "name": "hanging", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:ladder", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:lantern", "states": [{ "name": "hanging", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:lapis_block", "states": [] },
   { "id": "minecraft:lapis_ore", "states": [] },
-  { "id": "minecraft:large_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:lava", "states": [{ "name": "liquid_depth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  { "id": "minecraft:large_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:lava",
+    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:lava_cauldron",
     "states": [
       { "name": "cauldron_liquid", "type": "string", "values": ["water", "lava", "powder_snow"] },
-      { "name": "fill_level", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6] }
+      { "name": "fill_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6"] }
     ]
   },
   {
     "id": "minecraft:leaves",
     "states": [
       { "name": "old_leaf_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle"] },
-      { "name": "persistent_bit", "type": "byte", "values": [0, 1] },
-      { "name": "update_bit", "type": "byte", "values": [0, 1] }
+      { "name": "persistent_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "update_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:leaves2",
     "states": [
       { "name": "new_leaf_type", "type": "string", "values": ["acacia", "dark_oak"] },
-      { "name": "persistent_bit", "type": "byte", "values": [0, 1] },
-      { "name": "update_bit", "type": "byte", "values": [0, 1] }
+      { "name": "persistent_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "update_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:lectern",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "powered_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "powered_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:lever",
     "states": [
       { "name": "lever_direction", "type": "string", "values": ["down_east_west", "east", "west", "south", "north", "up_north_south", "up_east_west", "down_north_south"] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:light_block", "states": [{ "name": "block_light_level", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:light_blue_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:light_weighted_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:lightning_rod", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:lime_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:lit_blast_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:light_block",
+    "states": [{ "name": "block_light_level", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  {
+    "id": "minecraft:light_blue_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:light_blue_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:light_blue_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:light_gray_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:light_gray_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  {
+    "id": "minecraft:light_weighted_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:lightning_rod", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  {
+    "id": "minecraft:lime_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:lime_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:lime_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:lit_blast_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:lit_deepslate_redstone_ore", "states": [] },
-  { "id": "minecraft:lit_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:lit_pumpkin", "states": [{ "name": "direction", "type": "int", "values": [0, 1, 2, 3] }] },
+  { "id": "minecraft:lit_furnace", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:lit_pumpkin", "states": [{ "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }] },
   { "id": "minecraft:lit_redstone_lamp", "states": [] },
   { "id": "minecraft:lit_redstone_ore", "states": [] },
-  { "id": "minecraft:lit_smoker", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:lit_smoker", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:lodestone", "states": [] },
   {
     "id": "minecraft:log",
@@ -1151,16 +1376,24 @@
       { "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }
     ]
   },
-  { "id": "minecraft:loom", "states": [{ "name": "direction", "type": "int", "values": [0, 1, 2, 3] }] },
-  { "id": "minecraft:magenta_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:loom", "states": [{ "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }] },
+  {
+    "id": "minecraft:magenta_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:magenta_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:magenta_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:magma", "states": [] },
-  { "id": "minecraft:medium_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:medium_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:melon_block", "states": [] },
   {
     "id": "minecraft:melon_stem",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }
     ]
   },
   { "id": "minecraft:mob_spawner", "states": [] },
@@ -1176,15 +1409,15 @@
   {
     "id": "minecraft:mossy_cobblestone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:mossy_stone_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:movingBlock", "states": [] },
@@ -1194,13 +1427,13 @@
   {
     "id": "minecraft:nether_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:nether_gold_ore", "states": [] },
   { "id": "minecraft:nether_sprouts", "states": [] },
-  { "id": "minecraft:nether_wart", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3] }] },
+  { "id": "minecraft:nether_wart", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3"] }] },
   { "id": "minecraft:nether_wart_block", "states": [] },
   { "id": "minecraft:netherite_block", "states": [] },
   { "id": "minecraft:netherrack", "states": [] },
@@ -1208,67 +1441,83 @@
   {
     "id": "minecraft:normal_stone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:noteblock", "states": [] },
   {
     "id": "minecraft:oak_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:observer",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "powered_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "powered_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:obsidian", "states": [] },
-  { "id": "minecraft:orange_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:orange_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:orange_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:orange_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:oxidized_copper", "states": [] },
   { "id": "minecraft:oxidized_cut_copper", "states": [] },
-  { "id": "minecraft:oxidized_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:oxidized_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:oxidized_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:oxidized_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:oxidized_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:packed_ice", "states": [] },
-  { "id": "minecraft:pink_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:piston", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:pistonArmCollision", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:pink_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:pink_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:pink_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:piston", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:pistonArmCollision", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:planks", "states": [{ "name": "wood_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }] },
   { "id": "minecraft:podzol", "states": [] },
   {
     "id": "minecraft:pointed_dripstone",
     "states": [
       { "name": "dripstone_thickness", "type": "string", "values": ["tip", "frustum", "middle", "base", "merge"] },
-      { "name": "hanging", "type": "byte", "values": [0, 1] }
+      { "name": "hanging", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:polished_andesite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:polished_basalt", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:polished_blackstone", "states": [] },
-  { "id": "minecraft:polished_blackstone_brick_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:polished_blackstone_brick_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:polished_blackstone_brick_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:polished_blackstone_brick_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:polished_blackstone_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -1278,28 +1527,28 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:polished_blackstone_bricks", "states": [] },
   {
     "id": "minecraft:polished_blackstone_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
-  { "id": "minecraft:polished_blackstone_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:polished_blackstone_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:polished_blackstone_pressure_plate",
-    "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }]
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
   },
-  { "id": "minecraft:polished_blackstone_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:polished_blackstone_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:polished_blackstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -1309,17 +1558,17 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:polished_deepslate", "states": [] },
-  { "id": "minecraft:polished_deepslate_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
-  { "id": "minecraft:polished_deepslate_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:polished_deepslate_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:polished_deepslate_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:polished_deepslate_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -1329,65 +1578,73 @@
       { "name": "wall_connection_type_north", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_south", "type": "string", "values": ["none", "short", "tall"] },
       { "name": "wall_connection_type_west", "type": "string", "values": ["none", "short", "tall"] },
-      { "name": "wall_post_bit", "type": "byte", "values": [0, 1] }
+      { "name": "wall_post_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:polished_diorite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:polished_granite_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:portal", "states": [{ "name": "portal_axis", "type": "string", "values": ["unknown", "x", "z"] }] },
-  { "id": "minecraft:potatoes", "states": [{ "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
+  { "id": "minecraft:potatoes", "states": [{ "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
   { "id": "minecraft:powder_snow", "states": [] },
   {
     "id": "minecraft:powered_comparator",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "output_lit_bit", "type": "byte", "values": [0, 1] },
-      { "name": "output_subtract_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "output_lit_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "output_subtract_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:powered_repeater",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "repeater_delay", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "repeater_delay", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:prismarine", "states": [{ "name": "prismarine_block_type", "type": "string", "values": ["default", "dark", "bricks"] }] },
   {
     "id": "minecraft:prismarine_bricks_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:prismarine_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:pumpkin", "states": [{ "name": "direction", "type": "int", "values": [0, 1, 2, 3] }] },
+  { "id": "minecraft:pumpkin", "states": [{ "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] }] },
   {
     "id": "minecraft:pumpkin_stem",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }
     ]
   },
-  { "id": "minecraft:purple_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:purple_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:purple_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:purple_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:purpur_block",
     "states": [
@@ -1398,8 +1655,8 @@
   {
     "id": "minecraft:purpur_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
@@ -1414,14 +1671,22 @@
   {
     "id": "minecraft:quartz_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:rail", "states": [{ "name": "rail_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }] },
+  { "id": "minecraft:rail", "states": [{ "name": "rail_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] }] },
   { "id": "minecraft:raw_copper_block", "states": [] },
   { "id": "minecraft:raw_gold_block", "states": [] },
   { "id": "minecraft:raw_iron_block", "states": [] },
+  {
+    "id": "minecraft:red_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:red_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:red_flower",
     "states": [
@@ -1432,69 +1697,153 @@
       }
     ]
   },
-  { "id": "minecraft:red_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:red_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:red_mushroom", "states": [] },
-  { "id": "minecraft:red_mushroom_block", "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:red_mushroom_block",
+    "states": [{ "name": "huge_mushroom_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:red_nether_brick", "states": [] },
   {
     "id": "minecraft:red_nether_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:red_sandstone", "states": [{ "name": "sand_stone_type", "type": "string", "values": ["default", "heiroglyphs", "cut", "smooth"] }] },
   {
     "id": "minecraft:red_sandstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:redstone_block", "states": [] },
   { "id": "minecraft:redstone_lamp", "states": [] },
   { "id": "minecraft:redstone_ore", "states": [] },
   { "id": "minecraft:redstone_torch", "states": [{ "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
-  { "id": "minecraft:redstone_wire", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:reeds", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:redstone_wire",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:reeds", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
   {
     "id": "minecraft:repeating_command_block",
     "states": [
-      { "name": "conditional_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "conditional_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   { "id": "minecraft:reserved6", "states": [] },
-  { "id": "minecraft:respawn_anchor", "states": [{ "name": "respawn_anchor_charge", "type": "int", "values": [0, 1, 2, 3, 4] }] },
+  { "id": "minecraft:respawn_anchor", "states": [{ "name": "respawn_anchor_charge", "type": "int", "values": ["0", "1", "2", "3", "4"] }] },
   { "id": "minecraft:sand", "states": [{ "name": "sand_type", "type": "string", "values": ["normal", "red"] }] },
   { "id": "minecraft:sandstone", "states": [{ "name": "sand_stone_type", "type": "string", "values": ["default", "heiroglyphs", "cut", "smooth"] }] },
   {
     "id": "minecraft:sandstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:sapling",
     "states": [
-      { "name": "age_bit", "type": "byte", "values": [0, 1] },
+      { "name": "age_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "sapling_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }
     ]
   },
   {
     "id": "minecraft:scaffolding",
     "states": [
-      { "name": "stability", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] },
-      { "name": "stability_check", "type": "byte", "values": [0, 1] }
+      { "name": "stability", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] },
+      { "name": "stability_check", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:sculk_sensor", "states": [{ "name": "powered_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:sculk", "states": [] },
+  { "id": "minecraft:sculk_catalyst", "states": [] },
+  { "id": "minecraft:sculk_sensor", "states": [{ "name": "powered_bit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:sculk_shrieker", "states": [{ "name": "active", "type": "byte", "values": ["0", "1"] }] },
+  {
+    "id": "minecraft:sculk_vein",
+    "states": [
+      {
+        "name": "multi_face_direction_bits",
+        "type": "int",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63"
+        ]
+      }
+    ]
+  },
   {
     "id": "minecraft:sea_pickle",
     "states": [
-      { "name": "cluster_count", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "dead_bit", "type": "byte", "values": [0, 1] }
+      { "name": "cluster_count", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "dead_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:seagrass", "states": [{ "name": "sea_grass_type", "type": "string", "values": ["default", "double_top", "double_bot"] }] },
@@ -1510,45 +1859,45 @@
       }
     ]
   },
-  { "id": "minecraft:silver_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:silver_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:skull",
     "states": [
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] },
-      { "name": "no_drop_bit", "type": "byte", "values": [0, 1] }
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] },
+      { "name": "no_drop_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:slime", "states": [] },
-  { "id": "minecraft:small_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:small_amethyst_bud", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:small_dripleaf_block",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:smithing_table", "states": [] },
-  { "id": "minecraft:smoker", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:smoker", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:smooth_basalt", "states": [] },
   {
     "id": "minecraft:smooth_quartz_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:smooth_red_sandstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:smooth_sandstone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:smooth_stone", "states": [] },
@@ -1556,19 +1905,19 @@
   {
     "id": "minecraft:snow_layer",
     "states": [
-      { "name": "covered_bit", "type": "byte", "values": [0, 1] },
-      { "name": "height", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }
+      { "name": "covered_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "height", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }
     ]
   },
   {
     "id": "minecraft:soul_campfire",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "extinguished", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "extinguished", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:soul_fire", "states": [{ "name": "age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:soul_lantern", "states": [{ "name": "hanging", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:soul_fire", "states": [{ "name": "age", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }] },
+  { "id": "minecraft:soul_lantern", "states": [{ "name": "hanging", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:soul_sand", "states": [] },
   { "id": "minecraft:soul_soil", "states": [] },
   { "id": "minecraft:soul_torch", "states": [{ "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
@@ -1577,45 +1926,51 @@
   {
     "id": "minecraft:spruce_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:spruce_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:spruce_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:spruce_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:spruce_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:spruce_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:spruce_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:spruce_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:spruce_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:spruce_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:spruce_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:stained_glass",
     "states": [
@@ -1646,10 +2001,16 @@
       }
     ]
   },
-  { "id": "minecraft:standing_banner", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:sticky_piston", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:stickyPistonArmCollision", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:standing_banner",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  {
+    "id": "minecraft:standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:sticky_piston", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:stickyPistonArmCollision", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:stone",
     "states": [{ "name": "stone_type", "type": "string", "values": ["stone", "granite", "granite_smooth", "diorite", "diorite_smooth", "andesite", "andesite_smooth"] }]
@@ -1657,23 +2018,26 @@
   {
     "id": "minecraft:stone_brick_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   {
     "id": "minecraft:stone_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
-  { "id": "minecraft:stone_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:stone_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:stone_slab",
     "states": [
       { "name": "stone_slab_type", "type": "string", "values": ["smooth_stone", "sandstone", "wood", "cobblestone", "brick", "stone_brick", "quartz", "nether_brick"] },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
@@ -1684,7 +2048,7 @@
         "type": "string",
         "values": ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"]
       },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
@@ -1695,26 +2059,26 @@
         "type": "string",
         "values": ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"]
       },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:stone_slab4",
     "states": [
       { "name": "stone_slab_type_4", "type": "string", "values": ["mossy_stone_brick", "smooth_quartz", "stone", "cut_sandstone", "cut_red_sandstone"] },
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] }
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:stone_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
   { "id": "minecraft:stonebrick", "states": [{ "name": "stone_brick_type", "type": "string", "values": ["default", "mossy", "cracked", "chiseled", "smooth"] }] },
   { "id": "minecraft:stonecutter", "states": [] },
-  { "id": "minecraft:stonecutter_block", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:stonecutter_block", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:stripped_acacia_log", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:stripped_birch_log", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:stripped_crimson_hyphae", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
@@ -1727,42 +2091,42 @@
   { "id": "minecraft:stripped_warped_stem", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:structure_block", "states": [{ "name": "structure_block_type", "type": "string", "values": ["data", "save", "load", "corner", "invalid", "export"] }] },
   { "id": "minecraft:structure_void", "states": [{ "name": "structure_void_type", "type": "string", "values": ["void", "air"] }] },
-  { "id": "minecraft:sweet_berry_bush", "states": [{ "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
+  { "id": "minecraft:sweet_berry_bush", "states": [{ "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
   { "id": "minecraft:tallgrass", "states": [{ "name": "tall_grass_type", "type": "string", "values": ["default", "tall", "fern", "snow"] }] },
   { "id": "minecraft:target", "states": [] },
   { "id": "minecraft:tinted_glass", "states": [] },
   {
     "id": "minecraft:tnt",
     "states": [
-      { "name": "allow_underwater_bit", "type": "byte", "values": [0, 1] },
-      { "name": "explode_bit", "type": "byte", "values": [0, 1] }
+      { "name": "allow_underwater_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "explode_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:torch", "states": [{ "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
   {
     "id": "minecraft:trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:trapped_chest", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:trapped_chest", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:tripWire",
     "states": [
-      { "name": "attached_bit", "type": "byte", "values": [0, 1] },
-      { "name": "disarmed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "powered_bit", "type": "byte", "values": [0, 1] },
-      { "name": "suspended_bit", "type": "byte", "values": [0, 1] }
+      { "name": "attached_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "disarmed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "powered_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "suspended_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:tripwire_hook",
     "states": [
-      { "name": "attached_bit", "type": "byte", "values": [0, 1] },
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "powered_bit", "type": "byte", "values": [0, 1] }
+      { "name": "attached_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "powered_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:tuff", "states": [] },
@@ -1775,7 +2139,13 @@
   },
   {
     "id": "minecraft:twisting_vines",
-    "states": [{ "name": "twisting_vines_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "twisting_vines_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
   { "id": "minecraft:underwater_torch", "states": [{ "name": "torch_facing_direction", "type": "string", "values": ["unknown", "west", "east", "north", "south", "top"] }] },
   { "id": "minecraft:undyed_shulker_box", "states": [] },
@@ -1784,167 +2154,196 @@
   {
     "id": "minecraft:unpowered_comparator",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "output_lit_bit", "type": "byte", "values": [0, 1] },
-      { "name": "output_subtract_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "output_lit_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "output_subtract_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   {
     "id": "minecraft:unpowered_repeater",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "repeater_delay", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "repeater_delay", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:vine", "states": [{ "name": "vine_direction_bits", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
-  { "id": "minecraft:wall_banner", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
-  { "id": "minecraft:wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  {
+    "id": "minecraft:vine",
+    "states": [{ "name": "vine_direction_bits", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
+  { "id": "minecraft:wall_banner", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
+  { "id": "minecraft:wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   {
     "id": "minecraft:warped_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:warped_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:warped_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:warped_double_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:warped_fence", "states": [] },
   {
     "id": "minecraft:warped_fence_gate",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "in_wall_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "in_wall_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
   { "id": "minecraft:warped_fungus", "states": [] },
   { "id": "minecraft:warped_hyphae", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   { "id": "minecraft:warped_nylium", "states": [] },
   { "id": "minecraft:warped_planks", "states": [] },
-  { "id": "minecraft:warped_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:warped_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:warped_roots", "states": [] },
-  { "id": "minecraft:warped_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:warped_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:warped_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:warped_standing_sign", "states": [{ "name": "ground_sign_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:warped_standing_sign",
+    "states": [{ "name": "ground_sign_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:warped_stem", "states": [{ "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] }] },
   {
     "id": "minecraft:warped_trapdoor",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:warped_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:warped_wall_sign", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:warped_wart_block", "states": [] },
-  { "id": "minecraft:water", "states": [{ "name": "liquid_depth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:water",
+    "states": [{ "name": "liquid_depth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   { "id": "minecraft:waterlily", "states": [] },
   { "id": "minecraft:waxed_copper", "states": [] },
   { "id": "minecraft:waxed_cut_copper", "states": [] },
-  { "id": "minecraft:waxed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:waxed_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:waxed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:waxed_exposed_copper", "states": [] },
   { "id": "minecraft:waxed_exposed_cut_copper", "states": [] },
-  { "id": "minecraft:waxed_exposed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_exposed_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:waxed_exposed_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:waxed_exposed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_exposed_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:waxed_oxidized_copper", "states": [] },
   { "id": "minecraft:waxed_oxidized_cut_copper", "states": [] },
-  { "id": "minecraft:waxed_oxidized_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_oxidized_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:waxed_oxidized_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:waxed_oxidized_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_oxidized_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:waxed_weathered_copper", "states": [] },
   { "id": "minecraft:waxed_weathered_cut_copper", "states": [] },
-  { "id": "minecraft:waxed_weathered_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_weathered_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:waxed_weathered_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:waxed_weathered_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:waxed_weathered_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:weathered_copper", "states": [] },
   { "id": "minecraft:weathered_cut_copper", "states": [] },
-  { "id": "minecraft:weathered_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:weathered_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   {
     "id": "minecraft:weathered_cut_copper_stairs",
     "states": [
-      { "name": "upside_down_bit", "type": "byte", "values": [0, 1] },
-      { "name": "weirdo_direction", "type": "int", "values": [0, 1, 2, 3] }
+      { "name": "upside_down_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "weirdo_direction", "type": "int", "values": ["0", "1", "2", "3"] }
     ]
   },
-  { "id": "minecraft:weathered_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": [0, 1] }] },
+  { "id": "minecraft:weathered_double_cut_copper_slab", "states": [{ "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:web", "states": [] },
   {
     "id": "minecraft:weeping_vines",
-    "states": [{ "name": "weeping_vines_age", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] }]
+    "states": [
+      {
+        "name": "weeping_vines_age",
+        "type": "int",
+        "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      }
+    ]
   },
-  { "id": "minecraft:wheat", "states": [{ "name": "growth", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7] }] },
-  { "id": "minecraft:white_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] },
+  { "id": "minecraft:wheat", "states": [{ "name": "growth", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7"] }] },
+  {
+    "id": "minecraft:white_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:white_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
+  { "id": "minecraft:white_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] },
   { "id": "minecraft:wither_rose", "states": [] },
   {
     "id": "minecraft:wood",
     "states": [
       { "name": "pillar_axis", "type": "string", "values": ["y", "x", "z"] },
-      { "name": "stripped_bit", "type": "byte", "values": [0, 1] },
+      { "name": "stripped_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "wood_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }
     ]
   },
   {
     "id": "minecraft:wooden_button",
     "states": [
-      { "name": "button_pressed_bit", "type": "byte", "values": [0, 1] },
-      { "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }
+      { "name": "button_pressed_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }
     ]
   },
   {
     "id": "minecraft:wooden_door",
     "states": [
-      { "name": "direction", "type": "int", "values": [0, 1, 2, 3] },
-      { "name": "door_hinge_bit", "type": "byte", "values": [0, 1] },
-      { "name": "open_bit", "type": "byte", "values": [0, 1] },
-      { "name": "upper_block_bit", "type": "byte", "values": [0, 1] }
+      { "name": "direction", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "door_hinge_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "open_bit", "type": "byte", "values": ["0", "1"] },
+      { "name": "upper_block_bit", "type": "byte", "values": ["0", "1"] }
     ]
   },
-  { "id": "minecraft:wooden_pressure_plate", "states": [{ "name": "redstone_signal", "type": "int", "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }] },
+  {
+    "id": "minecraft:wooden_pressure_plate",
+    "states": [{ "name": "redstone_signal", "type": "int", "values": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"] }]
+  },
   {
     "id": "minecraft:wooden_slab",
     "states": [
-      { "name": "top_slot_bit", "type": "byte", "values": [0, 1] },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] },
       { "name": "wood_type", "type": "string", "values": ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] }
     ]
   },
@@ -1958,6 +2357,14 @@
       }
     ]
   },
+  {
+    "id": "minecraft:yellow_candle",
+    "states": [
+      { "name": "candles", "type": "int", "values": ["0", "1", "2", "3"] },
+      { "name": "lit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  { "id": "minecraft:yellow_candle_cake", "states": [{ "name": "lit", "type": "byte", "values": ["0", "1"] }] },
   { "id": "minecraft:yellow_flower", "states": [] },
-  { "id": "minecraft:yellow_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": [0, 1, 2, 3, 4, 5] }] }
+  { "id": "minecraft:yellow_glazed_terracotta", "states": [{ "name": "facing_direction", "type": "int", "values": ["0", "1", "2", "3", "4", "5"] }] }
 ]
