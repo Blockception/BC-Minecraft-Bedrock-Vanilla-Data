@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import { assert } from "console";
 import { Entity } from "../../../src/Lib/Types/ResourcePack/Entity";
 import { MinecraftData } from "../../../src/main";
@@ -7,6 +8,8 @@ describe("rp content", () => {
   it("animation controllers", () => {
     Check_Identifiable(MinecraftData.edu.ResourcePack.animation_controllers);
     Check_Identifiable(MinecraftData.vanilla.ResourcePack.animation_controllers);
+
+    expect(MinecraftData.ResourcePack.getAnimationController("controller.animation.wolf.shaking")).to.not.be.undefined;
   });
 
   it("animations", () => {
