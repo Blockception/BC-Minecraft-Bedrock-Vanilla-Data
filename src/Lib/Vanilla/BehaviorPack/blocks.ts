@@ -535,6 +535,31 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:black_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:black_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:black_glazed_terracotta",
     states: [
       {
@@ -620,6 +645,31 @@ export const Blocks: Block[] = [
         values: ["0", "1", "2", "3", "4", "5"],
         name: "facing_direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:blue_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:blue_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -726,6 +776,31 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:brown_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:brown_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:brown_glazed_terracotta",
     states: [
       {
@@ -803,10 +878,52 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:carpet",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -855,7 +972,34 @@ export const Blocks: Block[] = [
     id: "minecraft:cave_vines",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "growing_plant_age",
         type: "int",
       },
@@ -865,7 +1009,34 @@ export const Blocks: Block[] = [
     id: "minecraft:cave_vines_body_with_berries",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "growing_plant_age",
         type: "int",
       },
@@ -875,7 +1046,34 @@ export const Blocks: Block[] = [
     id: "minecraft:cave_vines_head_with_berries",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "growing_plant_age",
         type: "int",
       },
@@ -1151,7 +1349,24 @@ export const Blocks: Block[] = [
     id: "minecraft:concrete",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -1161,7 +1376,24 @@ export const Blocks: Block[] = [
     id: "minecraft:concretePowder",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -1534,6 +1766,31 @@ export const Blocks: Block[] = [
         values: ["0", "1", "2", "3"],
         name: "weirdo_direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:cyan_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:cyan_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -2006,7 +2263,16 @@ export const Blocks: Block[] = [
     id: "minecraft:double_stone_slab2",
     states: [
       {
-        values: ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"],
+        values: [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick",
+        ],
         name: "stone_slab_type_2",
         type: "string",
       },
@@ -2021,7 +2287,16 @@ export const Blocks: Block[] = [
     id: "minecraft:double_stone_slab3",
     states: [
       {
-        values: ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"],
+        values: [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite",
+        ],
         name: "stone_slab_type_3",
         type: "string",
       },
@@ -2311,6 +2586,11 @@ export const Blocks: Block[] = [
         name: "item_frame_map_bit",
         type: "byte",
       },
+      {
+        values: ["0", "1"],
+        name: "item_frame_photo_bit",
+        type: "byte",
+      },
     ],
   },
   {
@@ -2356,6 +2636,11 @@ export const Blocks: Block[] = [
       {
         values: ["0", "1"],
         name: "item_frame_map_bit",
+        type: "byte",
+      },
+      {
+        values: ["0", "1"],
+        name: "item_frame_photo_bit",
         type: "byte",
       },
     ],
@@ -2494,12 +2779,62 @@ export const Blocks: Block[] = [
     states: [],
   },
   {
+    id: "minecraft:gray_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:gray_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:gray_glazed_terracotta",
     states: [
       {
         values: ["0", "1", "2", "3", "4", "5"],
         name: "facing_direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:green_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:green_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -2544,7 +2879,24 @@ export const Blocks: Block[] = [
     id: "minecraft:hard_stained_glass",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -2554,7 +2906,24 @@ export const Blocks: Block[] = [
     id: "minecraft:hard_stained_glass_pane",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -2843,7 +3212,34 @@ export const Blocks: Block[] = [
     id: "minecraft:kelp",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "kelp_age",
         type: "int",
       },
@@ -2993,12 +3389,62 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:light_blue_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:light_blue_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:light_blue_glazed_terracotta",
     states: [
       {
         values: ["0", "1", "2", "3", "4", "5"],
         name: "facing_direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:light_gray_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:light_gray_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -3019,6 +3465,31 @@ export const Blocks: Block[] = [
         values: ["0", "1", "2", "3", "4", "5"],
         name: "facing_direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:lime_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:lime_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -3125,6 +3596,31 @@ export const Blocks: Block[] = [
         values: ["0", "1", "2", "3"],
         name: "direction",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:magenta_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:magenta_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -3346,6 +3842,31 @@ export const Blocks: Block[] = [
     states: [],
   },
   {
+    id: "minecraft:orange_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:orange_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:orange_glazed_terracotta",
     states: [
       {
@@ -3401,6 +3922,31 @@ export const Blocks: Block[] = [
   {
     id: "minecraft:packed_ice",
     states: [],
+  },
+  {
+    id: "minecraft:pink_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:pink_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
   },
   {
     id: "minecraft:pink_glazed_terracotta",
@@ -3873,6 +4419,31 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:purple_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:purple_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:purple_glazed_terracotta",
     states: [
       {
@@ -3973,10 +4544,47 @@ export const Blocks: Block[] = [
     states: [],
   },
   {
+    id: "minecraft:red_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:red_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
     id: "minecraft:red_flower",
     states: [
       {
-        values: ["poppy", "orchid", "allium", "houstonia", "tulip_red", "tulip_orange", "tulip_white", "tulip_pink", "oxeye", "cornflower", "lily_of_the_valley"],
+        values: [
+          "poppy",
+          "orchid",
+          "allium",
+          "houstonia",
+          "tulip_red",
+          "tulip_orange",
+          "tulip_white",
+          "tulip_pink",
+          "oxeye",
+          "cornflower",
+          "lily_of_the_valley",
+        ],
         name: "flower_type",
         type: "string",
       },
@@ -4187,12 +4795,105 @@ export const Blocks: Block[] = [
     ],
   },
   {
+    id: "minecraft:sculk",
+    states: [],
+  },
+  {
+    id: "minecraft:sculk_catalyst",
+    states: [],
+  },
+  {
     id: "minecraft:sculk_sensor",
     states: [
       {
         values: ["0", "1"],
         name: "powered_bit",
         type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:sculk_shrieker",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "active",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:sculk_vein",
+    states: [
+      {
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+        ],
+        name: "multi_face_direction_bits",
+        type: "int",
       },
     ],
   },
@@ -4233,7 +4934,24 @@ export const Blocks: Block[] = [
     id: "minecraft:shulker_box",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -4575,7 +5293,24 @@ export const Blocks: Block[] = [
     id: "minecraft:stained_glass",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -4585,7 +5320,24 @@ export const Blocks: Block[] = [
     id: "minecraft:stained_glass_pane",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -4595,7 +5347,24 @@ export const Blocks: Block[] = [
     id: "minecraft:stained_hardened_clay",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
       },
@@ -4710,7 +5479,16 @@ export const Blocks: Block[] = [
     id: "minecraft:stone_slab2",
     states: [
       {
-        values: ["red_sandstone", "purpur", "prismarine_rough", "prismarine_dark", "prismarine_brick", "mossy_cobblestone", "smooth_sandstone", "red_nether_brick"],
+        values: [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick",
+        ],
         name: "stone_slab_type_2",
         type: "string",
       },
@@ -4725,7 +5503,16 @@ export const Blocks: Block[] = [
     id: "minecraft:stone_slab3",
     states: [
       {
-        values: ["end_stone_brick", "smooth_red_sandstone", "polished_andesite", "andesite", "diorite", "polished_diorite", "granite", "polished_granite"],
+        values: [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite",
+        ],
         name: "stone_slab_type_3",
         type: "string",
       },
@@ -5061,7 +5848,34 @@ export const Blocks: Block[] = [
     id: "minecraft:twisting_vines",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "twisting_vines_age",
         type: "int",
       },
@@ -5576,7 +6390,34 @@ export const Blocks: Block[] = [
     id: "minecraft:weeping_vines",
     states: [
       {
-        values: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"],
+        values: [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+        ],
         name: "weeping_vines_age",
         type: "int",
       },
@@ -5589,6 +6430,31 @@ export const Blocks: Block[] = [
         values: ["0", "1", "2", "3", "4", "5", "6", "7"],
         name: "growth",
         type: "int",
+      },
+    ],
+  },
+  {
+    id: "minecraft:white_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:white_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },
@@ -5695,9 +6561,51 @@ export const Blocks: Block[] = [
     id: "minecraft:wool",
     states: [
       {
-        values: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "silver", "cyan", "purple", "blue", "brown", "green", "red", "black"],
+        values: [
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "silver",
+          "cyan",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black",
+        ],
         name: "color",
         type: "string",
+      },
+    ],
+  },
+  {
+    id: "minecraft:yellow_candle",
+    states: [
+      {
+        values: ["0", "1", "2", "3"],
+        name: "candles",
+        type: "int",
+      },
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
+      },
+    ],
+  },
+  {
+    id: "minecraft:yellow_candle_cake",
+    states: [
+      {
+        values: ["0", "1"],
+        name: "lit",
+        type: "byte",
       },
     ],
   },

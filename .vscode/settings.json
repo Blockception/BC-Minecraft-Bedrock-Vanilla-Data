@@ -6,6 +6,11 @@
     "source.fixAll.eslint": true
   },
 
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "json.schemas": [
     { "fileMatch": ["src/**/blocks.json"], "url": "./.vscode/schemas/blocks.json" },
     { "fileMatch": ["src/**/items.json"], "url": "./.vscode/schemas/items.json" }

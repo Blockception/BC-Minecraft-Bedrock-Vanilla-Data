@@ -2486,6 +2486,22 @@ export const Items: Item[] = [
     max_damage: 0,
   },
   {
+    id: "minecraft:sculk_catalyst",
+    max_damage: 0,
+  },
+  {
+    id: "minecraft:sculk_sensor",
+    max_damage: 0,
+  },
+  {
+    id: "minecraft:sculk_shrieker",
+    max_damage: 0,
+  },
+  {
+    id: "minecraft:sculk_vein",
+    max_damage: 0,
+  },
+  {
     id: "minecraft:scute",
     max_damage: 0,
   },
