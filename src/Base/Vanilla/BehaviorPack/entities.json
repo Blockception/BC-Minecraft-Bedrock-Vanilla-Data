@@ -3,5 +3,10 @@
     "id": "minecraft:item",
     "events": [],
     "families": []
+  },
+  {
+    "id": "minecraft:falling_block",
+    "events": [],
+    "families": []
   }
 ]
