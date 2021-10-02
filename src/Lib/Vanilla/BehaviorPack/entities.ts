@@ -213,6 +213,11 @@ export const Entities: Entity[] = [
     families: [],
   },
   {
+    id: "minecraft:falling_block",
+    events: [],
+    families: [],
+  },
+  {
     id: "minecraft:fireball",
     events: ["minecraft:explode"],
     families: [],
