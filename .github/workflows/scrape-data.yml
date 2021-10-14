@@ -20,7 +20,7 @@ jobs:
       run: dotnet build scraper/Scraper/Scraper.csproj
       
     - name: Scrape
-      run: dotnet run scraper\Scraper\Scraper.csproj
+      run: dotnet run scraper/Scraper/Scraper.csproj
       
     - name: Commit changes
       continue-on-error: true
@@ -29,5 +29,5 @@ jobs:
         git config --global user.email "Bot@Blockception.com"
         git config --global user.name "Blockception Bot"
         git add .
-        git commit -m "auto: Generated Json Schemas"
+        git commit -m "auto: Scraped data"
         git push
