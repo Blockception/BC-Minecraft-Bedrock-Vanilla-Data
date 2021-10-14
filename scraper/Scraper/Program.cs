@@ -33,7 +33,7 @@ namespace Scraper {
             SW.Stop();
 
             Console.WriteLine($"ms: {SW.ElapsedMilliseconds}, ticks: {SW.ElapsedTicks}");
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }
