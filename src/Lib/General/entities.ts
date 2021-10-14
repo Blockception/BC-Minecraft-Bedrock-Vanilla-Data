@@ -1,7 +1,9 @@
-import { GeneralEntity } from "./format";
+import { GeneralEntity } from './format';
 
-export const EntityData: GeneralEntity = {
-  families: [
+
+export const EntityData: GeneralEntity = 
+{
+  "families": [
     "adult_piglin",
     "animal",
     "armor_stand",
@@ -120,9 +122,9 @@ export const EntityData: GeneralEntity = {
     "zombie",
     "zombie_pigman",
     "zombie_villager",
-    "zombiehorse",
+    "zombiehorse"
   ],
-  events: [
+  "events": [
     "abort_sheltering",
     "admire_item_started_event",
     "admire_item_stopped_event",
@@ -424,6 +426,6 @@ export const EntityData: GeneralEntity = {
     "switch_to_melee",
     "switch_to_ranged",
     "villager_converted",
-    "wololo",
-  ],
-};
+    "wololo"
+  ]
+}

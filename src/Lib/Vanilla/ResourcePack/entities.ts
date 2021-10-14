@@ -1,9 +1,11 @@
-import { Entity } from "../../Types/ResourcePack/Entity";
+import { Entity } from '../../Types/ResourcePack/Entity';
 
-export const Entities: Entity[] = [
+
+export const Entities: Entity[] = 
+[
   {
-    id: "minecraft:armor_stand",
-    animations: [
+    "id": "minecraft:armor_stand",
+    "animations": [
       "default_pose",
       "no_pose",
       "solemn_pose",
@@ -19,16 +21,18 @@ export const Entities: Entity[] = [
       "hero_pose",
       "wiggle",
       "controller.pose",
-      "controller.wiggling",
-    ],
+      "controller.wiggling"
+    ]
   },
   {
-    id: "minecraft:arrow",
-    animations: ["move"],
+    "id": "minecraft:arrow",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:axolotl",
-    animations: [
+    "id": "minecraft:axolotl",
+    "animations": [
       "idle_float",
       "idle_floor",
       "idle_floor_water",
@@ -37,76 +41,136 @@ export const Entities: Entity[] = [
       "walk_floor_water",
       "play_dead",
       "swim_angle",
+      "look_at_target"
+    ]
+  },
+  {
+    "id": "minecraft:bat",
+    "animations": [
+      "resting",
+      "flying"
+    ]
+  },
+  {
+    "id": "minecraft:bed",
+    "animations": []
+  },
+  {
+    "id": "minecraft:bee",
+    "animations": [
+      "flying",
+      "drip",
+      "controller_bee_sting",
+      "bee_sting",
+      "bee_no_stinger",
+      "bee_fly_bobbing",
+      "bee_root_controller"
+    ]
+  },
+  {
+    "id": "minecraft:blaze",
+    "animations": [
       "look_at_target",
-    ],
+      "move"
+    ]
   },
   {
-    id: "minecraft:bat",
-    animations: ["resting", "flying"],
+    "id": "minecraft:boat",
+    "animations": []
   },
   {
-    id: "minecraft:bed",
-    animations: [],
+    "id": "minecraft:cat",
+    "animations": [
+      "sneak",
+      "walk",
+      "sprint",
+      "sit",
+      "look_at_target",
+      "baby_transform",
+      "lie_down"
+    ]
   },
   {
-    id: "minecraft:bee",
-    animations: ["flying", "drip", "controller_bee_sting", "bee_sting", "bee_no_stinger", "bee_fly_bobbing", "bee_root_controller"],
+    "id": "minecraft:cave_spider",
+    "animations": [
+      "default_leg_pose",
+      "look_at_target",
+      "walk"
+    ]
   },
   {
-    id: "minecraft:blaze",
-    animations: ["look_at_target", "move"],
+    "id": "minecraft:chest_minecart",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:boat",
-    animations: [],
+    "id": "minecraft:chicken",
+    "animations": [
+      "move",
+      "general",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:cat",
-    animations: ["sneak", "walk", "sprint", "sit", "look_at_target", "baby_transform", "lie_down"],
+    "id": "minecraft:cod",
+    "animations": [
+      "flop",
+      "swim"
+    ]
   },
   {
-    id: "minecraft:cave_spider",
-    animations: ["default_leg_pose", "look_at_target", "walk"],
+    "id": "minecraft:command_block_minecart",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:chest_minecart",
-    animations: ["move"],
+    "id": "minecraft:cow",
+    "animations": [
+      "setup",
+      "walk",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:chicken",
-    animations: ["move", "general", "look_at_target", "baby_transform"],
+    "id": "minecraft:creeper",
+    "animations": [
+      "creeper_head",
+      "creeper_legs",
+      "creeper_swelling"
+    ]
   },
   {
-    id: "minecraft:cod",
-    animations: ["flop", "swim"],
+    "id": "minecraft:dolphin",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:command_block_minecart",
-    animations: ["move"],
+    "id": "minecraft:donkey",
+    "animations": [
+      "setup",
+      "baby_transform",
+      "walk",
+      "eat",
+      "stand",
+      "shake_tail",
+      "mouth",
+      "look_at_player"
+    ]
   },
   {
-    id: "minecraft:cow",
-    animations: ["setup", "walk", "look_at_target", "baby_transform"],
+    "id": "minecraft:dragon_fireball",
+    "animations": [
+      "face_player"
+    ]
   },
   {
-    id: "minecraft:creeper",
-    animations: ["creeper_head", "creeper_legs", "creeper_swelling"],
-  },
-  {
-    id: "minecraft:dolphin",
-    animations: ["move"],
-  },
-  {
-    id: "minecraft:donkey",
-    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
-  },
-  {
-    id: "minecraft:dragon_fireball",
-    animations: ["face_player"],
-  },
-  {
-    id: "minecraft:drowned",
-    animations: [
+    "id": "minecraft:drowned",
+    "animations": [
       "humanoid_big_head",
       "look_at_target",
       "look_at_target_default",
@@ -124,32 +188,50 @@ export const Entities: Entity[] = [
       "attack_controller",
       "zombie_attack_bare_hand",
       "attack_rotations",
-      "swimming",
-    ],
+      "swimming"
+    ]
   },
   {
-    id: "minecraft:egg",
-    animations: ["flying"],
+    "id": "minecraft:egg",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:elder_guardian",
-    animations: ["setup", "spikes", "swim", "look_at_target", "move_eye"],
+    "id": "minecraft:elder_guardian",
+    "animations": [
+      "setup",
+      "spikes",
+      "swim",
+      "look_at_target",
+      "move_eye"
+    ]
   },
   {
-    id: "minecraft:ender_crystal",
-    animations: ["move"],
+    "id": "minecraft:ender_crystal",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:ender_dragon",
-    animations: ["setup", "jaw_movement", "neck_head_movement", "wings_limbs_movement", "tail_movement"],
+    "id": "minecraft:ender_dragon",
+    "animations": [
+      "setup",
+      "jaw_movement",
+      "neck_head_movement",
+      "wings_limbs_movement",
+      "tail_movement"
+    ]
   },
   {
-    id: "minecraft:ender_pearl",
-    animations: ["flying"],
+    "id": "minecraft:ender_pearl",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:enderman",
-    animations: [
+    "id": "minecraft:enderman",
+    "animations": [
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -159,72 +241,135 @@ export const Entities: Entity[] = [
       "base_pose",
       "arms_legs",
       "carrying",
-      "scary_face",
-    ],
+      "scary_face"
+    ]
   },
   {
-    id: "minecraft:endermite",
-    animations: ["move"],
+    "id": "minecraft:endermite",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:evocation_fang",
-    animations: ["bite"],
+    "id": "minecraft:evocation_fang",
+    "animations": [
+      "bite"
+    ]
   },
   {
-    id: "minecraft:evocation_illager",
-    animations: ["general", "casting", "look_at_target", "move", "celebrating", "controller_general", "controller_move"],
+    "id": "minecraft:evocation_illager",
+    "animations": [
+      "general",
+      "casting",
+      "look_at_target",
+      "move",
+      "celebrating",
+      "controller_general",
+      "controller_move"
+    ]
   },
   {
-    id: "minecraft:eye_of_ender_signal",
-    animations: ["flying"],
+    "id": "minecraft:eye_of_ender_signal",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:fireball",
-    animations: ["face_player"],
+    "id": "minecraft:fireball",
+    "animations": [
+      "face_player"
+    ]
   },
   {
-    id: "minecraft:fireworks_rocket",
-    animations: ["move"],
+    "id": "minecraft:fireworks_rocket",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:fishing_hook",
-    animations: [],
+    "id": "minecraft:fishing_hook",
+    "animations": []
   },
   {
-    id: "minecraft:fox",
-    animations: ["walk", "look_at_target", "baby_transform", "crouch", "sleep", "setup", "sit", "wiggle", "stuck", "pounce", "move"],
+    "id": "minecraft:fox",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "baby_transform",
+      "crouch",
+      "sleep",
+      "setup",
+      "sit",
+      "wiggle",
+      "stuck",
+      "pounce",
+      "move"
+    ]
   },
   {
-    id: "minecraft:ghast",
-    animations: ["move", "scale"],
+    "id": "minecraft:ghast",
+    "animations": [
+      "move",
+      "scale"
+    ]
   },
   {
-    id: "minecraft:glow_squid",
-    animations: ["move", "squid_rotate"],
+    "id": "minecraft:glow_squid",
+    "animations": [
+      "move",
+      "squid_rotate"
+    ]
   },
   {
-    id: "minecraft:goat",
-    animations: ["walk", "look_at_target", "attack", "ram_attack"],
+    "id": "minecraft:goat",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "attack",
+      "ram_attack"
+    ]
   },
   {
-    id: "minecraft:guardian",
-    animations: ["setup", "spikes", "swim", "look_at_target", "move_eye"],
+    "id": "minecraft:guardian",
+    "animations": [
+      "setup",
+      "spikes",
+      "swim",
+      "look_at_target",
+      "move_eye"
+    ]
   },
   {
-    id: "minecraft:hoglin",
-    animations: ["walk", "look_at_target", "attack", "hoglin_baby_scaling"],
+    "id": "minecraft:hoglin",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "attack",
+      "hoglin_baby_scaling"
+    ]
   },
   {
-    id: "minecraft:hopper_minecart",
-    animations: ["move"],
+    "id": "minecraft:hopper_minecart",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:horse",
-    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
+    "id": "minecraft:horse",
+    "animations": [
+      "setup",
+      "baby_transform",
+      "walk",
+      "eat",
+      "stand",
+      "shake_tail",
+      "mouth",
+      "look_at_player"
+    ]
   },
   {
-    id: "minecraft:husk",
-    animations: [
+    "id": "minecraft:husk",
+    "animations": [
       "humanoid_big_head",
       "look_at_target_default",
       "look_at_target_gliding",
@@ -242,68 +387,133 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "use_item_progress",
       "zombie_attack_bare_hand",
-      "swimming",
-    ],
+      "swimming"
+    ]
   },
   {
-    id: "minecraft:iron_golem",
-    animations: ["walk", "move", "attack", "flower", "look_at_target"],
+    "id": "minecraft:iron_golem",
+    "animations": [
+      "walk",
+      "move",
+      "attack",
+      "flower",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:leash_knot",
-    animations: [],
+    "id": "minecraft:leash_knot",
+    "animations": []
   },
   {
-    id: "minecraft:lingering_potion",
-    animations: ["flying"],
+    "id": "minecraft:lingering_potion",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:llama",
-    animations: ["setup", "walk", "look_at_target", "baby_transform"],
+    "id": "minecraft:llama",
+    "animations": [
+      "setup",
+      "walk",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:llama_spit",
-    animations: ["setup"],
+    "id": "minecraft:llama_spit",
+    "animations": [
+      "setup"
+    ]
   },
   {
-    id: "minecraft:magma_cube",
-    animations: ["move"],
+    "id": "minecraft:magma_cube",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:minecart",
-    animations: ["move"],
+    "id": "minecraft:minecart",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:mooshroom",
-    animations: ["setup", "walk", "look_at_target", "baby_transform"],
+    "id": "minecraft:mooshroom",
+    "animations": [
+      "setup",
+      "walk",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:mule",
-    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
+    "id": "minecraft:mule",
+    "animations": [
+      "setup",
+      "baby_transform",
+      "walk",
+      "eat",
+      "stand",
+      "shake_tail",
+      "mouth",
+      "look_at_player"
+    ]
   },
   {
-    id: "minecraft:ocelot",
-    animations: ["sneak", "walk", "sprint", "sit", "look_at_target", "baby_transform"],
+    "id": "minecraft:ocelot",
+    "animations": [
+      "sneak",
+      "walk",
+      "sprint",
+      "sit",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:panda",
-    animations: ["unhappy", "sneezing", "walk", "look_at_target", "baby_transform", "sitting", "rolling", "lying"],
+    "id": "minecraft:panda",
+    "animations": [
+      "unhappy",
+      "sneezing",
+      "walk",
+      "look_at_target",
+      "baby_transform",
+      "sitting",
+      "rolling",
+      "lying"
+    ]
   },
   {
-    id: "minecraft:parrot",
-    animations: ["moving", "base", "dance", "sitting", "flying", "standing", "look_at_target"],
+    "id": "minecraft:parrot",
+    "animations": [
+      "moving",
+      "base",
+      "dance",
+      "sitting",
+      "flying",
+      "standing",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:phantom",
-    animations: ["phantom_base_pose", "move"],
+    "id": "minecraft:phantom",
+    "animations": [
+      "phantom_base_pose",
+      "move"
+    ]
   },
   {
-    id: "minecraft:pig",
-    animations: ["setup", "walk", "look_at_target", "baby_transform"],
+    "id": "minecraft:pig",
+    "animations": [
+      "setup",
+      "walk",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:piglin",
-    animations: [
+    "id": "minecraft:piglin",
+    "animations": [
       "move",
       "bob",
       "humanoid_big_head",
@@ -321,12 +531,12 @@ export const Entities: Entity[] = [
       "hand_attack",
       "riding_controller",
       "riding.arms",
-      "riding.legs",
-    ],
+      "riding.legs"
+    ]
   },
   {
-    id: "minecraft:piglin_brute",
-    animations: [
+    "id": "minecraft:piglin_brute",
+    "animations": [
       "move",
       "bob",
       "humanoid_big_head",
@@ -341,12 +551,12 @@ export const Entities: Entity[] = [
       "hand_attack",
       "riding_controller",
       "riding.arms",
-      "riding.legs",
-    ],
+      "riding.legs"
+    ]
   },
   {
-    id: "minecraft:pillager",
-    animations: [
+    "id": "minecraft:pillager",
+    "animations": [
       "humanoid_base_pose",
       "look_at_target_default",
       "look_at_target_gliding",
@@ -367,12 +577,12 @@ export const Entities: Entity[] = [
       "controller_attack",
       "controller_bob",
       "controller_pillager_attack",
-      "pillager_root_controller",
-    ],
+      "pillager_root_controller"
+    ]
   },
   {
-    id: "minecraft:player",
-    animations: [
+    "id": "minecraft:player",
+    "animations": [
       "root",
       "base_controller",
       "hudplayer",
@@ -424,48 +634,88 @@ export const Entities: Entity[] = [
       "crossbow_controller",
       "shield_block_main_hand",
       "shield_block_off_hand",
-      "blink",
-    ],
+      "blink"
+    ]
   },
   {
-    id: "minecraft:polar_bear",
-    animations: ["walk", "move", "look_at_target", "baby_transform"],
+    "id": "minecraft:polar_bear",
+    "animations": [
+      "walk",
+      "move",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:pufferfish",
-    animations: ["flop", "swim", "general"],
+    "id": "minecraft:pufferfish",
+    "animations": [
+      "flop",
+      "swim",
+      "general"
+    ]
   },
   {
-    id: "minecraft:rabbit",
-    animations: ["move", "baby_transform", "look_at_target"],
+    "id": "minecraft:rabbit",
+    "animations": [
+      "move",
+      "baby_transform",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:ravager",
-    animations: ["walk", "look_at_target", "idle_mouth", "stunned", "roaring", "move", "head", "biting"],
+    "id": "minecraft:ravager",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "idle_mouth",
+      "stunned",
+      "roaring",
+      "move",
+      "head",
+      "biting"
+    ]
   },
   {
-    id: "minecraft:salmon",
-    animations: ["flop", "swim"],
+    "id": "minecraft:salmon",
+    "animations": [
+      "flop",
+      "swim"
+    ]
   },
   {
-    id: "minecraft:sheep",
-    animations: ["setup", "grazing", "walk", "look_at_target", "baby_transform", "move"],
+    "id": "minecraft:sheep",
+    "animations": [
+      "setup",
+      "grazing",
+      "walk",
+      "look_at_target",
+      "baby_transform",
+      "move"
+    ]
   },
   {
-    id: "minecraft:shulker",
-    animations: ["facing", "move", "look_at_target"],
+    "id": "minecraft:shulker",
+    "animations": [
+      "facing",
+      "move",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:shulker_bullet",
-    animations: ["move"],
+    "id": "minecraft:shulker_bullet",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:silverfish",
-    animations: ["move"],
+    "id": "minecraft:silverfish",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:skeleton",
-    animations: [
+    "id": "minecraft:skeleton",
+    "animations": [
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -482,48 +732,128 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "swimming",
       "use_item_progress",
-      "skeleton_attack",
-    ],
+      "skeleton_attack"
+    ]
   },
   {
-    id: "minecraft:skeleton_horse",
-    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
+    "id": "minecraft:skeleton_horse",
+    "animations": [
+      "setup",
+      "baby_transform",
+      "walk",
+      "eat",
+      "stand",
+      "shake_tail",
+      "mouth",
+      "look_at_player"
+    ]
   },
   {
-    id: "minecraft:skull",
-    animations: [],
+    "id": "minecraft:skull",
+    "animations": []
   },
   {
-    id: "minecraft:slime",
-    animations: [],
+    "id": "minecraft:slime",
+    "animations": []
   },
   {
-    id: "minecraft:small_fireball",
-    animations: ["face_player"],
+    "id": "minecraft:small_fireball",
+    "animations": [
+      "face_player"
+    ]
   },
   {
-    id: "minecraft:snow_golem",
-    animations: ["move", "look_at_target"],
+    "id": "minecraft:snow_golem",
+    "animations": [
+      "move",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:snowball",
-    animations: ["flying"],
+    "id": "minecraft:snowball",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:spider",
-    animations: ["default_leg_pose", "look_at_target", "walk"],
+    "id": "minecraft:spider",
+    "animations": [
+      "default_leg_pose",
+      "look_at_target",
+      "walk"
+    ]
   },
   {
-    id: "minecraft:splash_potion",
-    animations: ["flying"],
+    "id": "minecraft:splash_potion",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:squid",
-    animations: ["move", "squid_rotate"],
+    "id": "minecraft:squid",
+    "animations": [
+      "move",
+      "squid_rotate"
+    ]
   },
   {
-    id: "minecraft:stray",
-    animations: [
+    "id": "minecraft:stray",
+    "animations": [
+      "look_at_target_default",
+      "look_at_target_gliding",
+      "look_at_target_swimming",
+      "move",
+      "riding.arms",
+      "riding.legs",
+      "holding",
+      "brandish_spear",
+      "charging",
+      "attack.rotations",
+      "sneaking",
+      "bob",
+      "damage_nearby_mobs",
+      "bow_and_arrow",
+      "swimming",
+      "use_item_progress"
+    ]
+  },
+  {
+    "id": "minecraft:strider",
+    "animations": [
+      "look_at_target",
+      "walk",
+      "bristle_flow"
+    ]
+  },
+  {
+    "id": "minecraft:thrown_trident",
+    "animations": []
+  },
+  {
+    "id": "minecraft:tnt_minecart",
+    "animations": [
+      "move"
+    ]
+  },
+  {
+    "id": "minecraft:tropicalfish",
+    "animations": [
+      "flop",
+      "swim"
+    ]
+  },
+  {
+    "id": "minecraft:turtle",
+    "animations": [
+      "general",
+      "move",
+      "ground_move",
+      "look_at_target"
+    ]
+  },
+  {
+    "id": "minecraft:vex",
+    "animations": [
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -540,61 +870,32 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "swimming",
       "use_item_progress",
-    ],
+      "vex_move"
+    ]
   },
   {
-    id: "minecraft:strider",
-    animations: ["look_at_target", "walk", "bristle_flow"],
-  },
-  {
-    id: "minecraft:thrown_trident",
-    animations: [],
-  },
-  {
-    id: "minecraft:tnt_minecart",
-    animations: ["move"],
-  },
-  {
-    id: "minecraft:tropicalfish",
-    animations: ["flop", "swim"],
-  },
-  {
-    id: "minecraft:turtle",
-    animations: ["general", "move", "ground_move", "look_at_target"],
-  },
-  {
-    id: "minecraft:vex",
-    animations: [
-      "look_at_target_default",
-      "look_at_target_gliding",
-      "look_at_target_swimming",
+    "id": "minecraft:villager",
+    "animations": [
+      "general",
+      "look_at_target",
       "move",
-      "riding.arms",
-      "riding.legs",
-      "holding",
-      "brandish_spear",
-      "charging",
-      "attack.rotations",
-      "sneaking",
-      "bob",
-      "damage_nearby_mobs",
-      "bow_and_arrow",
-      "swimming",
-      "use_item_progress",
-      "vex_move",
-    ],
+      "baby_transform"
+    ]
   },
   {
-    id: "minecraft:villager",
-    animations: ["general", "look_at_target", "move", "baby_transform"],
+    "id": "minecraft:villager_v2",
+    "animations": [
+      "general",
+      "look_at_target",
+      "move",
+      "raise_arms",
+      "baby_transform",
+      "get_in_bed"
+    ]
   },
   {
-    id: "minecraft:villager_v2",
-    animations: ["general", "look_at_target", "move", "raise_arms", "baby_transform", "get_in_bed"],
-  },
-  {
-    id: "minecraft:vindicator",
-    animations: [
+    "id": "minecraft:vindicator",
+    "animations": [
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -606,24 +907,38 @@ export const Entities: Entity[] = [
       "celebrating",
       "controller_look_at_target",
       "controller_vindicator_base",
-      "controller_riding",
-    ],
+      "controller_riding"
+    ]
   },
   {
-    id: "minecraft:wandering_trader",
-    animations: ["general", "look_at_target", "raise_arms", "move"],
+    "id": "minecraft:wandering_trader",
+    "animations": [
+      "general",
+      "look_at_target",
+      "raise_arms",
+      "move"
+    ]
   },
   {
-    id: "minecraft:witch",
-    animations: ["villager_general", "look_at_target", "move", "general"],
+    "id": "minecraft:witch",
+    "animations": [
+      "villager_general",
+      "look_at_target",
+      "move",
+      "general"
+    ]
   },
   {
-    id: "minecraft:wither",
-    animations: ["scale", "move", "look_at_target"],
+    "id": "minecraft:wither",
+    "animations": [
+      "scale",
+      "move",
+      "look_at_target"
+    ]
   },
   {
-    id: "minecraft:wither_skeleton",
-    animations: [
+    "id": "minecraft:wither_skeleton",
+    "animations": [
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -640,20 +955,24 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "use_item_progress",
       "wither_skeleton_attack",
-      "swimming",
-    ],
+      "swimming"
+    ]
   },
   {
-    id: "minecraft:wither_skull",
-    animations: ["move"],
+    "id": "minecraft:wither_skull",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:wither_skull_dangerous",
-    animations: ["move"],
+    "id": "minecraft:wither_skull_dangerous",
+    "animations": [
+      "move"
+    ]
   },
   {
-    id: "minecraft:wolf",
-    animations: [
+    "id": "minecraft:wolf",
+    "animations": [
       "wolf_setup",
       "wolf_baby_scaling",
       "wolf_look_at",
@@ -662,24 +981,33 @@ export const Entities: Entity[] = [
       "wolf_angry",
       "wolf_sitting",
       "wolf_shaking",
-      "wolf_leg_default",
-    ],
+      "wolf_leg_default"
+    ]
   },
   {
-    id: "minecraft:xp_bottle",
-    animations: ["flying"],
+    "id": "minecraft:xp_bottle",
+    "animations": [
+      "flying"
+    ]
   },
   {
-    id: "minecraft:xp_orb",
-    animations: ["face_player"],
+    "id": "minecraft:xp_orb",
+    "animations": [
+      "face_player"
+    ]
   },
   {
-    id: "minecraft:zoglin",
-    animations: ["walk", "look_at_target", "attack", "hoglin_baby_scaling"],
+    "id": "minecraft:zoglin",
+    "animations": [
+      "walk",
+      "look_at_target",
+      "attack",
+      "hoglin_baby_scaling"
+    ]
   },
   {
-    id: "minecraft:zombie",
-    animations: [
+    "id": "minecraft:zombie",
+    "animations": [
       "humanoid_big_head",
       "look_at_target_default",
       "look_at_target_gliding",
@@ -697,40 +1025,25 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "use_item_progress",
       "zombie_attack_bare_hand",
-      "swimming",
-    ],
+      "swimming"
+    ]
   },
   {
-    id: "minecraft:zombie_horse",
-    animations: ["setup", "baby_transform", "walk", "eat", "stand", "shake_tail", "mouth", "look_at_player"],
+    "id": "minecraft:zombie_horse",
+    "animations": [
+      "setup",
+      "baby_transform",
+      "walk",
+      "eat",
+      "stand",
+      "shake_tail",
+      "mouth",
+      "look_at_player"
+    ]
   },
   {
-    id: "minecraft:zombie_pigman",
-    animations: [
-      "humanoid_big_head",
-      "humanoid_base_pose",
-      "look_at_target_default",
-      "look_at_target_gliding",
-      "look_at_target_swimming",
-      "move",
-      "riding.arms",
-      "riding.legs",
-      "holding",
-      "brandish_spear",
-      "charging",
-      "attack.rotations",
-      "sneaking",
-      "bob",
-      "damage_nearby_mobs",
-      "bow_and_arrow",
-      "swimming",
-      "use_item_progress",
-      "zombie_attack_bare_hand",
-    ],
-  },
-  {
-    id: "minecraft:zombie_villager",
-    animations: [
+    "id": "minecraft:zombie_pigman",
+    "animations": [
       "humanoid_big_head",
       "humanoid_base_pose",
       "look_at_target_default",
@@ -747,14 +1060,14 @@ export const Entities: Entity[] = [
       "bob",
       "damage_nearby_mobs",
       "bow_and_arrow",
-      "use_item_progress",
-      "zombie_attack_bare_hand",
       "swimming",
-    ],
+      "use_item_progress",
+      "zombie_attack_bare_hand"
+    ]
   },
   {
-    id: "minecraft:zombie_villager_v2",
-    animations: [
+    "id": "minecraft:zombie_villager",
+    "animations": [
       "humanoid_big_head",
       "humanoid_base_pose",
       "look_at_target_default",
@@ -773,7 +1086,31 @@ export const Entities: Entity[] = [
       "bow_and_arrow",
       "use_item_progress",
       "zombie_attack_bare_hand",
-      "swimming",
-    ],
+      "swimming"
+    ]
   },
-];
+  {
+    "id": "minecraft:zombie_villager_v2",
+    "animations": [
+      "humanoid_big_head",
+      "humanoid_base_pose",
+      "look_at_target_default",
+      "look_at_target_gliding",
+      "look_at_target_swimming",
+      "move",
+      "riding.arms",
+      "riding.legs",
+      "holding",
+      "brandish_spear",
+      "charging",
+      "attack.rotations",
+      "sneaking",
+      "bob",
+      "damage_nearby_mobs",
+      "bow_and_arrow",
+      "use_item_progress",
+      "zombie_attack_bare_hand",
+      "swimming"
+    ]
+  }
+]

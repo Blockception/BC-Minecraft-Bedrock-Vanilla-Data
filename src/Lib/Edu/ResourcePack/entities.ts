@@ -1,3 +1,5 @@
-import { Entity } from "../../Types/ResourcePack/Entity";
+import { Entity } from '../../Types/ResourcePack/Entity';
 
-export const Entities: Entity[] = [];
+
+export const Entities: Entity[] = 
+[]

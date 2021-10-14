@@ -1,1 +1,2 @@
-export const AnimationControllers: string[] = [];
+export const AnimationControllers: string[] = 
+[]
