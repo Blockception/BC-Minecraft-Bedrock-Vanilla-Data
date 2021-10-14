@@ -26,7 +26,7 @@ jobs:
       continue-on-error: true
       run: |
         cd ${{github.workspace}}
-        git config --global user.email "Bot@Blockception.com"
+        git config --global user.email "bot@Blockception.com"
         git config --global user.name "Blockception Bot"
         git add .
         git commit -m "auto: Scraped data"
