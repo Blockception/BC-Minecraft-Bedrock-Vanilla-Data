@@ -20,7 +20,7 @@ jobs:
       run: dotnet build scraper/Scraper/Scraper.csproj
       
     - name: Scrape
-      run: dotnet run scraper/Scraper/Scraper.csproj
+      run: dotnet run --project scraper/Scraper/Scraper.csproj 
       
     - name: Commit changes
       continue-on-error: true
