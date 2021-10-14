@@ -101,7 +101,7 @@ namespace Scraper {
             Int32 Count = Data.Count;
             var Out = new List<T>(Data.Count);
 
-            for (Int32 I = Count - 1; I > 0; I--) {
+            for (Int32 I = Count - 1; I >= 0; I--) {
                 T Item = Data[I];
                 String ID = Item.ID;
 
@@ -130,7 +130,7 @@ namespace Scraper {
             Int32 Count = Data.Count;
             var Out = new List<T>(Data.Count);
 
-            for (Int32 I = Count - 1; I > 0; I--) {
+            for (Int32 I = Count - 1; I >= 0; I--) {
                 T Item = Data[I];
                 String ID = Item.ID;
 
