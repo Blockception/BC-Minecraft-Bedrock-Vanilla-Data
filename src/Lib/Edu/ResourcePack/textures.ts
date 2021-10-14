@@ -33,6 +33,7 @@ export const Textures: string[] =
   "textures/ui/icon_history",
   "textures/ui/icon_open_book",
   "textures/ui/icon_pages",
+  "textures/ui/icon_sel",
   "textures/ui/joincode_button_background",
   "textures/ui/left_split_panel_default",
   "textures/ui/left_split_panel_hover",
