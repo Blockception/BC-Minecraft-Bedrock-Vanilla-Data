@@ -23,8 +23,8 @@ namespace Scraper {
         }
 
         public void Clean() {
-            this.Events.Sort();
-            this.Families.Sort();
+            this.Events.Sort(Sort.String);
+            this.Families.Sort(Sort.String);
         }
     }
 }

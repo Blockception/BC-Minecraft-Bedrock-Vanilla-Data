@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Scraper.BP {
-    public partial class BlockState {
+    public partial class BlockState : INamed {
         /// <summary>
         /// 
         /// </summary>

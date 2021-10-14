@@ -26,7 +26,7 @@ namespace Scraper {
         }
 
         public void Clean() {
-            this.BlockStates.Sort((x, y) => x.Name.CompareTo(y.Name));
+            this.BlockStates.Sort(Sort.SortNamed<BP.BlockState>());
         }
     }
 }

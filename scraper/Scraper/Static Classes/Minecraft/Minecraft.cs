@@ -20,5 +20,15 @@ namespace Scraper {
 
             return _InstallationFolder;
         }
+
+        public static String EduInstallationFolder() {
+            String _InstallationFolder = @"C:\Program Files (x86)\Microsoft Studios\Minecraft Education Edition\";
+
+            if (Directory.Exists(_InstallationFolder)) {
+                return _InstallationFolder;
+            }
+
+            return null;
+        }
     }
 }

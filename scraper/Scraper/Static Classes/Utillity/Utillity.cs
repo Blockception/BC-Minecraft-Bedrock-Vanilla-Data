@@ -71,6 +71,18 @@ namespace Scraper {
             Directory.CreateDirectory(Utillity.WorkFolder);
             var Out = new Context();
 
+            //Edu
+            var EduInstall = Minecraft.EduInstallationFolder();
+
+            if (EduInstall != null) {
+                String BPS = Path.Join(EduInstall, "data", "behavior_packs", "education");
+                String RPS = Path.Join(EduInstall, "data", "resource_packs", "education");
+
+                Existsif(Out.EduBP, BPS);
+                Existsif(Out.EduRP, RPS);
+            }
+
+            //Vanilla
             String Install = Minecraft.InstallationFolder();
 
             if (Install != null) {
