@@ -395,9 +395,13 @@ export const Entities: Entity[] =
     "animations": [
       "walk",
       "move",
+      "walk_to_target",
+      "move_to_target",
       "attack",
       "flower",
-      "look_at_target"
+      "look_at_target",
+      "move_controller",
+      "arm_controller"
     ]
   },
   {
@@ -499,6 +503,7 @@ export const Entities: Entity[] =
     "id": "minecraft:phantom",
     "animations": [
       "phantom_base_pose",
+      "phantom_base_pose_controller",
       "move"
     ]
   },
@@ -602,6 +607,7 @@ export const Entities: Entity[] =
       "riding.legs",
       "holding",
       "brandish_spear",
+      "holding_spyglass",
       "charging",
       "attack.positions",
       "attack.rotations",
@@ -617,7 +623,6 @@ export const Entities: Entity[] =
       "first_person_swap_item",
       "first_person_attack_controller",
       "first_person_attack_rotation",
-      "first_person_attack_rotation_item",
       "first_person_vr_attack_rotation",
       "first_person_walk",
       "first_person_map_controller",
@@ -626,8 +631,6 @@ export const Entities: Entity[] =
       "first_person_map_hold_off_hand",
       "first_person_map_hold_main_hand",
       "first_person_crossbow_equipped",
-      "first_person_crossbow_hold",
-      "first_person_breathing_bob",
       "third_person_crossbow_equipped",
       "third_person_bow_equipped",
       "crossbow_hold",
@@ -814,7 +817,8 @@ export const Entities: Entity[] =
       "damage_nearby_mobs",
       "bow_and_arrow",
       "swimming",
-      "use_item_progress"
+      "use_item_progress",
+      "skeleton_attack"
     ]
   },
   {
@@ -903,6 +907,7 @@ export const Entities: Entity[] =
       "riding.legs",
       "vindicator_base",
       "vindicator_attack",
+      "vindicator_hand_attack",
       "vindicator_walk",
       "celebrating",
       "controller_look_at_target",

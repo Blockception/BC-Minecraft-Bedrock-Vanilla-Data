@@ -83,7 +83,12 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:blaze",
-    "events": [],
+    "events": [
+      "minecraft:entity_spawned",
+      "switch_to_melee",
+      "switch_to_ranged",
+      "minecraft:on_hurt_event"
+    ],
     "families": [
       "blaze",
       "monster",
@@ -92,7 +97,12 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:boat",
-    "events": [],
+    "events": [
+      "minecraft:entered_bubble_column_down",
+      "minecraft:entered_bubble_column_up",
+      "minecraft:exited_bubble_column",
+      "minecraft:sink"
+    ],
     "families": [
       "boat",
       "inanimate"
@@ -145,7 +155,8 @@ export const Entities: Entity[] =
       "from_egg",
       "minecraft:entity_spawned",
       "minecraft:entity_born",
-      "minecraft:ageable_grow_up"
+      "minecraft:ageable_grow_up",
+      "minecraft:spawn_adult"
     ],
     "families": [
       "chicken",
@@ -178,7 +189,8 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:entity_transformed",
-      "minecraft:ageable_grow_up"
+      "minecraft:ageable_grow_up",
+      "minecraft:spawn_adult"
     ],
     "families": [
       "cow",
@@ -203,14 +215,15 @@ export const Entities: Entity[] =
     "id": "minecraft:dolphin",
     "events": [
       "minecraft:entity_spawned",
-      "minecraft:ageable_grow_up",
-      "minecraft:become_angry",
-      "minecraft:on_calm",
-      "minecraft:stop_dryingout",
-      "minecraft:start_dryingout",
-      "minecraft:dried_out",
-      "minecraft:navigation_on_land",
-      "minecraft:navigation_off_land"
+      "ageable_grow_up",
+      "become_angry",
+      "on_calm",
+      "stop_dryingout",
+      "start_dryingout",
+      "dried_out",
+      "recover_after_dried_out",
+      "navigation_on_land",
+      "navigation_off_land"
     ],
     "families": [
       "dolphin",
@@ -318,6 +331,7 @@ export const Entities: Entity[] =
       "endermite",
       "arthropod",
       "monster",
+      "lightweight",
       "mob"
     ]
   },
@@ -382,6 +396,7 @@ export const Entities: Entity[] =
     ],
     "families": [
       "fox",
+      "lightweight",
       "mob"
     ]
   },
@@ -549,7 +564,10 @@ export const Entities: Entity[] =
       "minecraft:defend_wandering_trader",
       "minecraft:become_angry",
       "minecraft:on_calm",
-      "minecraft:on_chest"
+      "minecraft:on_chest",
+      "minecraft:add_attributes",
+      "minecraft:spawn_baby",
+      "minecraft:spawn_adult"
     ],
     "families": [
       "llama",
@@ -694,7 +712,8 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
-      "minecraft:on_saddled"
+      "minecraft:on_saddled",
+      "minecraft:spawn_adult"
     ],
     "families": [
       "pig",
@@ -803,6 +822,9 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:to_full_puff",
+      "minecraft:start_half_puff",
+      "minecraft:on_half_puff",
+      "minecraft:start_full_puff",
       "minecraft:on_full_puff",
       "minecraft:from_full_puff",
       "minecraft:on_deflate",
@@ -824,6 +846,7 @@ export const Entities: Entity[] =
     ],
     "families": [
       "rabbit",
+      "lightweight",
       "mob"
     ]
   },
@@ -865,6 +888,8 @@ export const Entities: Entity[] =
     "id": "minecraft:sheep",
     "events": [
       "minecraft:entity_spawned",
+      "spawn_adult",
+      "spawn_baby",
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
       "minecraft:on_sheared",
@@ -918,6 +943,7 @@ export const Entities: Entity[] =
     "families": [
       "silverfish",
       "monster",
+      "lightweight",
       "mob",
       "arthropod"
     ]
@@ -926,6 +952,9 @@ export const Entities: Entity[] =
     "id": "minecraft:skeleton",
     "events": [
       "minecraft:entity_spawned",
+      "become_stray_event",
+      "got_in_powder_snow",
+      "got_out_of_powder_snow",
       "minecraft:spring_trap",
       "minecraft:melee_mode",
       "minecraft:ranged_mode"
@@ -1402,7 +1431,8 @@ export const Entities: Entity[] =
       "minecraft:entity_transformed",
       "minecraft:entity_spawned",
       "minecraft:on_calm",
-      "minecraft:become_angry"
+      "minecraft:become_angry",
+      "minecraft:spawn_as_strider_jockey"
     ],
     "families": [
       "zombie_pigman",
@@ -1445,9 +1475,11 @@ export const Entities: Entity[] =
     "events": [
       "villager_converted",
       "minecraft:entity_spawned",
+      "minecraft:spawn_skilled_adult",
       "minecraft:entity_transformed",
       "minecraft:become_cleric",
-      "from_village"
+      "from_village",
+      "minecraft:add_biome_and_skin"
     ],
     "families": [
       "unskilled",
@@ -1469,7 +1501,7 @@ export const Entities: Entity[] =
       "toolsmith",
       "butcher",
       "leatherworker",
-      "mason"
+      "stone_mason"
     ]
   }
 ]
