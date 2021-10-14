@@ -500,14 +500,6 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:camera",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:portfolio",
-    "max_damage": 0
-  },
-  {
     "id": "portfolio",
     "max_damage": 0
   },
