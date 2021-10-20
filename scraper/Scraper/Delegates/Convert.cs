@@ -54,11 +54,15 @@ namespace Scraper {
                 return;
             }
 
+            Console.WriteLine("::group::" + Folder);
+
             String[] Files = Directory.GetFiles(Folder, "*.json", SearchOption.AllDirectories);
 
             foreach (String Filepath in Files) {
                 Func(Filepath, Receiver);
             }
+
+            Console.WriteLine("::endgroup::" + Folder);
         }
 
         /// <summary>
@@ -70,6 +74,8 @@ namespace Scraper {
         public static void FromFile<T>([DisallowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Filepath) {
             JsonDocument Doc = null;
             Stream Reader = null;
+
+            Console.WriteLine(Filepath);
 
             var Options = new JsonDocumentOptions() {
                 AllowTrailingCommas = true,

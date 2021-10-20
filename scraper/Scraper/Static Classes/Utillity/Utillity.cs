@@ -72,7 +72,7 @@ namespace Scraper {
             var Out = new Context();
 
             //Edu
-            var EduInstall = Minecraft.EduInstallationFolder();
+            String EduInstall = Minecraft.EduInstallationFolder();
 
             if (EduInstall != null) {
                 String BPS = Path.Join(EduInstall, "data", "behavior_packs", "education");
