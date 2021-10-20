@@ -87,7 +87,7 @@ namespace Scraper {
                 Doc = JsonDocument.Parse(Reader, Options);
             }
             catch (Exception ex) {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
             }
             finally {
                 if (Reader != null) { Reader.Close(); }
