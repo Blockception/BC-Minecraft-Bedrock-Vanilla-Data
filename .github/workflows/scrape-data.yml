@@ -22,9 +22,13 @@ jobs:
     - name: Scrape
       run: dotnet run --project scraper/Scraper/Scraper.csproj 
       
-    - name: Check Files
+    - name: Check RP Files
       run: dir
-      working-directory: scraper/Scraper/bin/Debug/net5.0/
+      working-directory: scraper/Scraper/bin/Debug/net5.0/work/VanillaRP
+      
+    - name: Check BP Files
+      run: dir
+      working-directory: scraper/Scraper/bin/Debug/net5.0/work/VanillaBP
       
     - name: Commit changes
       continue-on-error: true
