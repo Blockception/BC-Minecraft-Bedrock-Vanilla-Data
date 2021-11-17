@@ -618,7 +618,7 @@
   { "id": "minecraft:leaves2", "max_damage": 0 },
   { "id": "minecraft:lectern", "max_damage": 0 },
   { "id": "minecraft:lever", "max_damage": 0 },
-  { "id": "minecraft:light_block", "max_damage": 0 },
+  { "id": "minecraft:light_block", "max_damage": 15 },
   { "id": "minecraft:light_blue_candle", "max_damage": 0 },
   { "id": "minecraft:light_blue_candle_cake", "max_damage": 0 },
   { "id": "minecraft:light_blue_dye", "max_damage": 0 },
