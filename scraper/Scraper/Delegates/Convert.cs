@@ -75,8 +75,6 @@ namespace Scraper {
             JsonDocument Doc = null;
             Stream Reader = null;
 
-            Console.WriteLine(Filepath);
-
             var Options = new JsonDocumentOptions() {
                 AllowTrailingCommas = true,
                 CommentHandling = JsonCommentHandling.Skip
