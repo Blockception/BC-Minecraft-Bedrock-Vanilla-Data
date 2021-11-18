@@ -2501,7 +2501,7 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:light_block",
-    "max_damage": 0
+    "max_damage": 15
   },
   {
     "id": "minecraft:light_blue_candle",
