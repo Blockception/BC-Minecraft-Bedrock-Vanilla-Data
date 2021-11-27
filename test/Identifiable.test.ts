@@ -18,10 +18,10 @@ export function Check_Identifiable(data: (Identifiable | string)[]): void {
 }
 
 export function Check_IsFunction<T extends Identifiable>(items: T[], check: (value: any) => value is T) {
-  items.forEach((item) => {
+  items.forEach((item, index) => {
     if (check(item)) {
     } else {
-      expect.fail(`'${item.id}' Did not pass the is function check: ${check.name}`);
+      expect.fail(`at '${index}', Did not pass the is function check: ${check.name}`);
     }
   });
 }
