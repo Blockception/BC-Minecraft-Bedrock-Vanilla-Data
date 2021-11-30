@@ -2756,6 +2756,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:music_disc_otherside",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:music_disc_pigstep",
     "max_damage": 0
   },
