@@ -340,7 +340,8 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:spawn_for_raid",
       "minecraft:start_celebrating",
-      "minecraft:stop_celebrating"
+      "minecraft:stop_celebrating",
+      "minecraft:raid_expired"
     ],
     "families": [
       "evocation_illager",
@@ -780,6 +781,7 @@ export const Entities: Entity[] =
       "minecraft:ranged_mode",
       "minecraft:start_celebrating",
       "minecraft:stop_celebrating",
+      "minecraft:raid_expired",
       "minecraft:calm"
     ],
     "families": [
@@ -865,7 +867,8 @@ export const Entities: Entity[] =
       "minecraft:start_roar",
       "minecraft:end_roar",
       "minecraft:start_celebrating",
-      "minecraft:stop_celebrating"
+      "minecraft:stop_celebrating",
+      "minecraft:raid_expired"
     ],
     "families": [
       "monster",
@@ -1278,7 +1281,8 @@ export const Entities: Entity[] =
       "minecraft:promote_to_illager_captain",
       "minecraft:promote_to_patrol_captain",
       "minecraft:start_celebrating",
-      "minecraft:stop_celebrating"
+      "minecraft:stop_celebrating",
+      "minecraft:raid_expired"
     ],
     "families": [
       "vindicator",
@@ -1306,7 +1310,8 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:spawn_for_raid",
       "minecraft:start_celebrating",
-      "minecraft:stop_celebrating"
+      "minecraft:stop_celebrating",
+      "minecraft:raid_expired"
     ],
     "families": [
       "witch",
