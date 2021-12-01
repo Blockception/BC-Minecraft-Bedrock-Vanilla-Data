@@ -1748,6 +1748,10 @@ export const Blocks: Block[] =
     "states": []
   },
   {
+    "id": "minecraft:client_request_placeholder_block",
+    "states": []
+  },
+  {
     "id": "minecraft:coal_block",
     "states": []
   },
@@ -5625,6 +5629,14 @@ export const Blocks: Block[] =
     "states": []
   },
   {
+    "id": "minecraft:mysterious_frame",
+    "states": []
+  },
+  {
+    "id": "minecraft:mysterious_frame_slot",
+    "states": []
+  },
+  {
     "id": "minecraft:nether_brick",
     "states": []
   },
@@ -7255,7 +7267,16 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:sculk_catalyst",
-    "states": []
+    "states": [
+      {
+        "values": [
+          "0",
+          "1"
+        ],
+        "name": "bloom",
+        "type": "byte"
+      }
+    ]
   },
   {
     "id": "minecraft:sculk_sensor",

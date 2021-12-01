@@ -143,6 +143,14 @@ export const BlockData: GeneralBlock =
         "0",
         "1"
       ],
+      "name": "bloom",
+      "type": "byte"
+    },
+    {
+      "values": [
+        "0",
+        "1"
+      ],
       "name": "brewing_stand_slot_a_bit",
       "type": "byte"
     },
