@@ -1884,6 +1884,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:frog_egg",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:frosted_ice",
     "max_damage": 0
   },
@@ -2940,6 +2944,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:ochre_froglight",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:orange_candle",
     "max_damage": 0
   },
@@ -2993,6 +3001,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:parrot_spawn_egg",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pearlescent_froglight",
     "max_damage": 0
   },
   {
@@ -3993,6 +4005,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:unpowered_repeater",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:verdant_froglight",
     "max_damage": 0
   },
   {

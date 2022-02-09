@@ -5900,6 +5900,10 @@ export const Blocks: Block[] =
     "states": []
   },
   {
+    "id": "minecraft:pearlescent_froglight",
+    "states": []
+  },
+  {
     "id": "minecraft:pink_candle",
     "states": [
       {
@@ -8929,6 +8933,10 @@ export const Blocks: Block[] =
         "type": "int"
       }
     ]
+  },
+  {
+    "id": "minecraft:verdant_froglight",
+    "states": []
   },
   {
     "id": "minecraft:vine",
