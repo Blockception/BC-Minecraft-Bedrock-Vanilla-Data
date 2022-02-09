@@ -386,17 +386,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:iron_golem",
-    "animations": [
-      "walk",
-      "move",
-      "walk_to_target",
-      "move_to_target",
-      "attack",
-      "flower",
-      "look_at_target",
-      "move_controller",
-      "arm_controller"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:leash_knot",
@@ -614,6 +604,7 @@ export const Entities: Entity[] =
       "first_person_base_pose",
       "first_person_empty_hand",
       "first_person_swap_item",
+      "first_person_shield_block",
       "first_person_attack_controller",
       "first_person_attack_rotation",
       "first_person_vr_attack_rotation",

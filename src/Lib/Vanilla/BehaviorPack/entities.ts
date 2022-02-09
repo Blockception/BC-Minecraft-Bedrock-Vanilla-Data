@@ -584,6 +584,9 @@ export const Entities: Entity[] =
     "id": "minecraft:magma_cube",
     "events": [
       "minecraft:entity_spawned",
+      "spawn_small",
+      "spawn_medium",
+      "spawn_large",
       "minecraft:become_calm",
       "minecraft:become_aggressive"
     ],
@@ -986,6 +989,9 @@ export const Entities: Entity[] =
     "id": "minecraft:slime",
     "events": [
       "minecraft:entity_spawned",
+      "spawn_small",
+      "spawn_medium",
+      "spawn_large",
       "minecraft:become_calm",
       "minecraft:become_aggressive"
     ],
@@ -1181,7 +1187,9 @@ export const Entities: Entity[] =
       "minecraft:spawn_armorer",
       "minecraft:spawn_butcher",
       "minecraft:ageable_grow_up",
-      "minecraft:become_cleric"
+      "minecraft:become_cleric",
+      "minecraft:start_celebrating",
+      "minecraft:stop_celebrating"
     ],
     "families": [
       "villager",
@@ -1242,7 +1250,9 @@ export const Entities: Entity[] =
       "minecraft:schedule_work_farmer",
       "minecraft:schedule_work_fisher",
       "minecraft:schedule_work_librarian",
-      "minecraft:resupply_trades"
+      "minecraft:resupply_trades",
+      "minecraft:start_celebrating",
+      "minecraft:stop_celebrating"
     ],
     "families": [
       "villager",

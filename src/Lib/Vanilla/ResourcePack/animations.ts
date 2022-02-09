@@ -250,6 +250,7 @@ export const Animations: string[] =
   "animation.player.first_person.map_hold_attack",
   "animation.player.first_person.map_hold_main_hand",
   "animation.player.first_person.map_hold_off_hand",
+  "animation.player.first_person.shield_block",
   "animation.player.first_person.swap_item",
   "animation.player.first_person.vr_attack_rotation",
   "animation.player.first_person.walk",
