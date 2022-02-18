@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace Scraper.BP {
-    ///DOLATER <summary>add description for class: Block</summary>
+    /// <summary>The class that represent the block data in behaviourpacksw</summary>
     public partial class Block {
         /// <summary>Creates a new instance of <see cref="Block"/></summary>
         public Block() {
