@@ -665,6 +665,11 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:painting",
+    "events": [],
+    "families": []
+  },
+  {
     "id": "minecraft:panda",
     "events": [
       "minecraft:entity_spawned",
