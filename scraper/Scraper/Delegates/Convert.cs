@@ -21,10 +21,16 @@ namespace Scraper {
     /// <param name="Receiver"></param>
     public delegate void ConvertFile<T>([DisallowNull] String Filepath, [DisallowNull] List<T> Receiver);
 
+
     /// <summary>
     /// 
     /// </summary>
     public static partial class ConvertJsonExtension {
+        static readonly public JsonDocumentOptions JsonOptions = new JsonDocumentOptions() {
+            AllowTrailingCommas = true,
+            CommentHandling = JsonCommentHandling.Skip
+        };
+
         /// <summary>
         /// 
         /// </summary>
@@ -55,11 +61,15 @@ namespace Scraper {
             }
 
             Console.WriteLine("::group::" + Folder);
-
             String[] Files = Directory.GetFiles(Folder, "*.json", SearchOption.AllDirectories);
 
             foreach (String Filepath in Files) {
-                Func(Filepath, Receiver);
+                try {
+                    Func(Filepath, Receiver);
+                }
+                catch (Exception ex) {
+                    Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
+                }                
             }
 
             Console.WriteLine("::endgroup::" + Folder);
@@ -75,14 +85,9 @@ namespace Scraper {
             JsonDocument Doc = null;
             Stream Reader = null;
 
-            var Options = new JsonDocumentOptions() {
-                AllowTrailingCommas = true,
-                CommentHandling = JsonCommentHandling.Skip
-            };
-
             try {
                 Reader = new FileStream(Filepath, FileMode.Open, FileAccess.Read);
-                Doc = JsonDocument.Parse(Reader, Options);
+                Doc = JsonDocument.Parse(Reader, JsonOptions);
             }
             catch (Exception ex) {
                 Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
@@ -91,8 +96,13 @@ namespace Scraper {
                 if (Reader != null) { Reader.Close(); }
             }
 
-            if (Doc != null) {
-                Func(Doc, Receiver);
+            try {
+                if (Doc != null) {
+                    Func(Doc, Receiver);
+                }
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
             }
         }
     }

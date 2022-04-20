@@ -13,7 +13,6 @@ namespace Scraper.BP {
             JsonElement Root = Doc.RootElement;
 
             JsonElement Def = Root.GetProperty("minecraft:entity");
-
             String ID = Def.GetProperty("description").GetProperty("identifier").GetString();
 
             if (ID != null) {
