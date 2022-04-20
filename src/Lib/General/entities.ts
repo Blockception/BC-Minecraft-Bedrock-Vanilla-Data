@@ -63,7 +63,6 @@ export const EntityData: GeneralEntity =
     "mule",
     "mushroomcow",
     "nitwit",
-    "npc",
     "ocelot",
     "pacified",
     "panda",
