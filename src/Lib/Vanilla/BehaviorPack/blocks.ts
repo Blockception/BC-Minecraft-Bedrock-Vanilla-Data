@@ -3411,6 +3411,111 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:double_stone_block_slab",
+    "states": [
+      {
+        "values": [
+          "smooth_stone",
+          "sandstone",
+          "wood",
+          "cobblestone",
+          "brick",
+          "stone_brick",
+          "quartz",
+          "nether_brick"
+        ],
+        "name": "stone_slab_type",
+        "type": "string"
+      },
+      {
+        "values": [
+          "0",
+          "1"
+        ],
+        "name": "top_slot_bit",
+        "type": "byte"
+      }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab2",
+    "states": [
+      {
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ],
+        "name": "stone_slab_type_2",
+        "type": "string"
+      },
+      {
+        "values": [
+          "0",
+          "1"
+        ],
+        "name": "top_slot_bit",
+        "type": "byte"
+      }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab3",
+    "states": [
+      {
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ],
+        "name": "stone_slab_type_3",
+        "type": "string"
+      },
+      {
+        "values": [
+          "0",
+          "1"
+        ],
+        "name": "top_slot_bit",
+        "type": "byte"
+      }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab4",
+    "states": [
+      {
+        "values": [
+          "mossy_stone_brick",
+          "smooth_quartz",
+          "stone",
+          "cut_sandstone",
+          "cut_red_sandstone"
+        ],
+        "name": "stone_slab_type_4",
+        "type": "string"
+      },
+      {
+        "values": [
+          "0",
+          "1"
+        ],
+        "name": "top_slot_bit",
+        "type": "byte"
+      }
+    ]
+  },
+  {
     "id": "minecraft:double_stone_slab",
     "states": [
       {

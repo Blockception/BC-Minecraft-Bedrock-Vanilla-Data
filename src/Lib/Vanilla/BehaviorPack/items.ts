@@ -12,6 +12,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:acacia_chest_boat",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:acacia_door",
     "max_damage": 0
   },
@@ -53,6 +57,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:air",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:allay_spawn_egg",
     "max_damage": 0
   },
   {
@@ -216,6 +224,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:birch_chest_boat",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:birch_door",
     "max_damage": 0
   },
@@ -369,10 +381,6 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:brewing_stand",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:brewingstandblock",
     "max_damage": 0
   },
   {
@@ -537,6 +545,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:chest",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:chest_boat",
     "max_damage": 0
   },
   {
@@ -924,6 +936,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:dark_oak_chest_boat",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:dark_oak_door",
     "max_damage": 0
   },
@@ -1124,6 +1140,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:disc_fragment_1",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:dispenser",
     "max_damage": 0
   },
@@ -1144,19 +1164,19 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:double_stone_slab",
+    "id": "minecraft:double_stone_block_slab",
     "max_damage": 0
   },
   {
-    "id": "minecraft:double_stone_slab2",
+    "id": "minecraft:double_stone_block_slab2",
     "max_damage": 0
   },
   {
-    "id": "minecraft:double_stone_slab3",
+    "id": "minecraft:double_stone_block_slab3",
     "max_damage": 0
   },
   {
-    "id": "minecraft:double_stone_slab4",
+    "id": "minecraft:double_stone_block_slab4",
     "max_damage": 0
   },
   {
@@ -1196,487 +1216,15 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:echo_shard",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:egg",
     "max_damage": 0
   },
   {
     "id": "minecraft:elder_guardian_spawn_egg",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_0",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_1",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_10",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_100",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_101",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_102",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_103",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_104",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_105",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_106",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_107",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_108",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_109",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_11",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_110",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_111",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_112",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_113",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_114",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_115",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_116",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_117",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_118",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_12",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_13",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_14",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_15",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_16",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_17",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_18",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_19",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_2",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_20",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_21",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_22",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_23",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_24",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_25",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_26",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_27",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_28",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_29",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_3",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_30",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_31",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_32",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_33",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_34",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_35",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_36",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_37",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_38",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_39",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_4",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_40",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_41",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_42",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_43",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_44",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_45",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_46",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_47",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_48",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_49",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_5",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_50",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_51",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_52",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_53",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_54",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_55",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_56",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_57",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_58",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_59",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_6",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_60",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_61",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_62",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_63",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_64",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_65",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_66",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_67",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_68",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_69",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_7",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_70",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_71",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_72",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_73",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_74",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_75",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_76",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_77",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_78",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_79",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_8",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_80",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_81",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_82",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_83",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_84",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_85",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_86",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_87",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_88",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_89",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_9",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_90",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_91",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_92",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_93",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_94",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_95",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_96",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_97",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_98",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:element_99",
     "max_damage": 0
   },
   {
@@ -1884,7 +1432,11 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:frog_egg",
+    "id": "minecraft:frog_spawn",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:frog_spawn_egg",
     "max_damage": 0
   },
   {
@@ -1921,6 +1473,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:glistering_melon_slice",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:globe_banner_pattern",
     "max_damage": 0
   },
   {
@@ -2192,7 +1748,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:invisiblebedrock",
+    "id": "minecraft:invisible_bedrock",
     "max_damage": 0
   },
   {
@@ -2280,6 +1836,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:item.brewing_stand",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:item.cake",
     "max_damage": 0
   },
@@ -2336,6 +1896,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:item.mangrove_door",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:item.nether_sprouts",
     "max_damage": 0
   },
@@ -2385,6 +1949,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:jungle_button",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:jungle_chest_boat",
     "max_damage": 0
   },
   {
@@ -2644,6 +2212,86 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:mangrove_boat",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_button",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_chest_boat",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_door",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_double_slab",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_fence",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_fence_gate",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_leaves",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_log",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_planks",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_pressure_plate",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_propagule",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_roots",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_sign",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_slab",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_stairs",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_standing_sign",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_trapdoor",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_wall_sign",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mangrove_wood",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:medicine",
     "max_damage": 0
   },
@@ -2716,7 +2364,35 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:movingblock",
+    "id": "minecraft:moving_block",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud_brick_double_slab",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud_brick_slab",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud_brick_stairs",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud_brick_wall",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:mud_bricks",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:muddy_mangrove_roots",
     "max_damage": 0
   },
   {
@@ -2733,6 +2409,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:music_disc_13",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:music_disc_5",
     "max_damage": 0
   },
   {
@@ -2797,14 +2477,6 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:mycelium",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:mysterious_frame",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:mysterious_frame_slot",
     "max_damage": 0
   },
   {
@@ -2924,6 +2596,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:oak_chest_boat",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:oak_sign",
     "max_damage": 0
   },
@@ -2985,6 +2661,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:packed_ice",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:packed_mud",
     "max_damage": 0
   },
   {
@@ -3056,7 +2736,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:pistonarmcollision",
+    "id": "minecraft:piston_arm_collision",
     "max_damage": 0
   },
   {
@@ -3352,19 +3032,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:real_double_stone_slab",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:real_double_stone_slab2",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:real_double_stone_slab3",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:real_double_stone_slab4",
+    "id": "minecraft:recovery_compass",
     "max_damage": 0
   },
   {
@@ -3433,6 +3101,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:redstone_wire",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:reinforced_deepslate",
     "max_damage": 0
   },
   {
@@ -3516,15 +3188,15 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:sea_lantern",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:sea_pickle",
     "max_damage": 0
   },
   {
     "id": "minecraft:seagrass",
-    "max_damage": 0
-  },
-  {
-    "id": "minecraft:sealantern",
     "max_damage": 0
   },
   {
@@ -3700,6 +3372,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:spruce_chest_boat",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:spruce_door",
     "max_damage": 0
   },
@@ -3768,7 +3444,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:stickypistonarmcollision",
+    "id": "minecraft:sticky_piston_arm_collision",
     "max_damage": 0
   },
   {
@@ -3777,6 +3453,22 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:stone_axe",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:stone_block_slab",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:stone_block_slab2",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:stone_block_slab3",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:stone_block_slab4",
     "max_damage": 0
   },
   {
@@ -3860,6 +3552,14 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:stripped_mangrove_log",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:stripped_mangrove_wood",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:stripped_oak_log",
     "max_damage": 0
   },
@@ -3904,6 +3604,14 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:tadpole_bucket",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:tadpole_spawn_egg",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:tallgrass",
     "max_damage": 0
   },
@@ -3944,7 +3652,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:tripwire",
+    "id": "minecraft:trip_wire",
     "max_damage": 0
   },
   {
@@ -4037,6 +3745,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:wandering_trader_spawn_egg",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:warden_spawn_egg",
     "max_damage": 0
   },
   {
