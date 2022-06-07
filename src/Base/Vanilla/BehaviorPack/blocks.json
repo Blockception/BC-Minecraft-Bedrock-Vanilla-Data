@@ -1012,6 +1012,68 @@
     ]
   },
   {
+    "id": "minecraft:double_stone_block_slab",
+    "states": [
+      {
+        "name": "stone_slab_type",
+        "type": "string",
+        "values": ["smooth_stone", "sandstone", "wood", "cobblestone", "brick", "stone_brick", "quartz", "nether_brick"]
+      },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab2",
+    "states": [
+      {
+        "name": "stone_slab_type_2",
+        "type": "string",
+        "values": [
+          "red_sandstone",
+          "purpur",
+          "prismarine_rough",
+          "prismarine_dark",
+          "prismarine_brick",
+          "mossy_cobblestone",
+          "smooth_sandstone",
+          "red_nether_brick"
+        ]
+      },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab3",
+    "states": [
+      {
+        "name": "stone_slab_type_3",
+        "type": "string",
+        "values": [
+          "end_stone_brick",
+          "smooth_red_sandstone",
+          "polished_andesite",
+          "andesite",
+          "diorite",
+          "polished_diorite",
+          "granite",
+          "polished_granite"
+        ]
+      },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  {
+    "id": "minecraft:double_stone_block_slab4",
+    "states": [
+      {
+        "name": "stone_slab_type_4",
+        "type": "string",
+        "values": ["mossy_stone_brick", "smooth_quartz", "stone", "cut_sandstone", "cut_red_sandstone"]
+      },
+      { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] }
+    ]
+  },
+  {
     "id": "minecraft:double_wooden_slab",
     "states": [
       { "name": "top_slot_bit", "type": "byte", "values": ["0", "1"] },
