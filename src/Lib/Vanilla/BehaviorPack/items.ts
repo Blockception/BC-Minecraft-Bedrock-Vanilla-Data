@@ -1140,7 +1140,7 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
-    "id": "minecraft:disc_fragment_1",
+    "id": "minecraft:disc_fragment_5",
     "max_damage": 0
   },
   {
