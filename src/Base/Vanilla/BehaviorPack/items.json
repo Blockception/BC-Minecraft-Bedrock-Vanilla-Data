@@ -280,7 +280,7 @@
   { "id": "minecraft:diorite_stairs", "max_damage": 0 },
   { "id": "minecraft:dirt_with_roots", "max_damage": 0 },
   { "id": "minecraft:dirt", "max_damage": 0 },
-  { "id": "minecraft:disc_fragment_1", "max_damage": 0 },
+  { "id": "minecraft:disc_fragment_5", "max_damage": 0 },
   { "id": "minecraft:dispenser", "max_damage": 0 },
   { "id": "minecraft:dolphin_spawn_egg", "max_damage": 0 },
   { "id": "minecraft:donkey_spawn_egg", "max_damage": 0 },
