@@ -1,6 +1,8 @@
 export const LootTables: string[] = 
 [
   "loot_tables/chests/abandoned_mineshaft.json",
+  "loot_tables/chests/ancient_city_ice_box.json",
+  "loot_tables/chests/ancient_city.json",
   "loot_tables/chests/bastion_bridge.json",
   "loot_tables/chests/bastion_hoglin_stable.json",
   "loot_tables/chests/bastion_other.json",
@@ -71,6 +73,7 @@ export const LootTables: string[] =
   "loot_tables/entities/evocation_illager.json",
   "loot_tables/entities/fish.json",
   "loot_tables/entities/fox_equipment.json",
+  "loot_tables/entities/frog.json",
   "loot_tables/entities/ghast.json",
   "loot_tables/entities/giant.json",
   "loot_tables/entities/glow_squid.json",
@@ -128,6 +131,7 @@ export const LootTables: string[] =
   "loot_tables/entities/vindicator_captain_equipment.json",
   "loot_tables/entities/vindicator_gear.json",
   "loot_tables/entities/vindicator_raid.json",
+  "loot_tables/entities/warden.json",
   "loot_tables/entities/witch.json",
   "loot_tables/entities/wither_boss.json",
   "loot_tables/entities/wither_skeleton_gear.json",

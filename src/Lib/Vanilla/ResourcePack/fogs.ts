@@ -39,6 +39,7 @@ export const Fogs: string[] =
   "minecraft:fog_jungle_hills",
   "minecraft:fog_jungle_mutated",
   "minecraft:fog_lukewarm_ocean",
+  "minecraft:fog_mangrove_swamp",
   "minecraft:fog_mega_spruce_taiga",
   "minecraft:fog_mega_spruce_taiga_mutated",
   "minecraft:fog_mega_taiga",

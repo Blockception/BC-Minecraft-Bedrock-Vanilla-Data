@@ -4,6 +4,14 @@ import { Entity } from '../../Types/ResourcePack/Entity';
 export const Entities: Entity[] = 
 [
   {
+    "id": "minecraft:allay",
+    "animations": [
+      "idle",
+      "fly",
+      "hold_item"
+    ]
+  },
+  {
     "id": "minecraft:armor_stand",
     "animations": [
       "default_pose",
@@ -95,6 +103,10 @@ export const Entities: Entity[] =
       "look_at_target",
       "walk"
     ]
+  },
+  {
+    "id": "minecraft:chest_boat",
+    "animations": []
   },
   {
     "id": "minecraft:chest_minecart",
@@ -298,6 +310,18 @@ export const Entities: Entity[] =
       "stuck",
       "pounce",
       "move"
+    ]
+  },
+  {
+    "id": "minecraft:frog",
+    "animations": [
+      "croak",
+      "jump",
+      "tongue",
+      "walk",
+      "swim",
+      "idle_water",
+      "look_at_target"
     ]
   },
   {
@@ -815,6 +839,12 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:tadpole",
+    "animations": [
+      "swim"
+    ]
+  },
+  {
     "id": "minecraft:thrown_trident",
     "animations": []
   },
@@ -901,6 +931,30 @@ export const Entities: Entity[] =
       "look_at_target",
       "raise_arms",
       "move"
+    ]
+  },
+  {
+    "id": "minecraft:warden",
+    "animations": [
+      "emerge",
+      "sniff",
+      "sniff_controller",
+      "dig",
+      "roar",
+      "roar_controller",
+      "shiver",
+      "shiver_controller",
+      "base_pose",
+      "look_at_target",
+      "move",
+      "melee_attack",
+      "melee_attack_controller",
+      "bob",
+      "swimming",
+      "hurt",
+      "hurt_controller",
+      "sonic_boom",
+      "sonic_boom_controller"
     ]
   },
   {

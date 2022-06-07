@@ -4,6 +4,18 @@ import { Entity } from '../../Types/BehaviorPack/Entity';
 export const Entities: Entity[] = 
 [
   {
+    "id": "minecraft:allay",
+    "events": [
+      "pickup_item_delay",
+      "pickup_item_delay_complete",
+      "minecraft:entity_spawned"
+    ],
+    "families": [
+      "allay",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:area_effect_cloud",
     "events": [],
     "families": []
@@ -139,6 +151,19 @@ export const Entities: Entity[] =
       "monster",
       "arthropod",
       "mob"
+    ]
+  },
+  {
+    "id": "minecraft:chest_boat",
+    "events": [
+      "minecraft:entered_bubble_column_down",
+      "minecraft:entered_bubble_column_up",
+      "minecraft:exited_bubble_column",
+      "minecraft:sink"
+    ],
+    "families": [
+      "boat",
+      "inanimate"
     ]
   },
   {
@@ -402,6 +427,22 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:frog",
+    "events": [
+      "minecraft:entity_spawned",
+      "spawn_temperate",
+      "spawn_cold",
+      "spawn_warm",
+      "minecraft:entity_transformed",
+      "become_pregnant",
+      "laid_egg"
+    ],
+    "families": [
+      "frog",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:ghast",
     "events": [],
     "families": [
@@ -559,6 +600,7 @@ export const Entities: Entity[] =
       "minecraft:from_wandering_trader",
       "minecraft:ageable_grow_up",
       "minecraft:on_tame",
+      "minecraft:remove_persistence",
       "minecraft:join_caravan",
       "minecraft:leave_caravan",
       "minecraft:mad_at_wolf",
@@ -696,7 +738,9 @@ export const Entities: Entity[] =
     "id": "minecraft:parrot",
     "events": [
       "minecraft:entity_spawned",
-      "minecraft:on_tame"
+      "minecraft:on_tame",
+      "minecraft:on_riding_player",
+      "minecraft:on_not_riding_player"
     ],
     "families": [
       "parrot_wild",
@@ -1095,6 +1139,16 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:tadpole",
+    "events": [
+      "ageable_grow_up"
+    ],
+    "families": [
+      "tadpole",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:thrown_trident",
     "events": [],
     "families": []
@@ -1321,6 +1375,19 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:warden",
+    "events": [
+      "minecraft:spawn_emerging",
+      "minecraft:emerged",
+      "minecraft:entity_spawned"
+    ],
+    "families": [
+      "warden",
+      "monster",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:witch",
     "events": [
       "minecraft:spawn_for_raid",
@@ -1398,7 +1465,9 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:xp_orb",
     "events": [],
-    "families": []
+    "families": [
+      "inanimate"
+    ]
   },
   {
     "id": "minecraft:zoglin",

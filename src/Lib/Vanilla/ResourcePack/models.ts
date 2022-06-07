@@ -1,6 +1,7 @@
 export const Models: string[] = 
 [
   "geometry.agent",
+  "geometry.allay",
   "geometry.armor_stand",
   "geometry.arrow",
   "geometry.axolotl",
@@ -48,6 +49,7 @@ export const Models: string[] =
   "geometry.fireworks_rocket",
   "geometry.fishing_hook",
   "geometry.fox",
+  "geometry.frog",
   "geometry.ghast",
   "geometry.glow_squid",
   "geometry.goat",
@@ -138,6 +140,7 @@ export const Models: string[] =
   "geometry.stray.armor",
   "geometry.stray.armor.v1.8",
   "geometry.strider",
+  "geometry.tadpole",
   "geometry.trident",
   "geometry.tripod_camera",
   "geometry.tropicalfish_a",
@@ -152,6 +155,7 @@ export const Models: string[] =
   "geometry.villager.witch.v1.8",
   "geometry.vindicator",
   "geometry.vindicator.v1.8",
+  "geometry.warden",
   "geometry.wither_skull",
   "geometry.witherBoss",
   "geometry.witherBoss.armor",
