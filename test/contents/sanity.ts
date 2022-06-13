@@ -17,7 +17,10 @@ function traverse_for_undefined(data: any, path: string): void {
     const item = data[name];
     const t = typeof item;
 
-    expect(t).to.not.equal(undefined, "found an undefined object in object: " + path + " property: " + name);
+    expect(t).to.not.equal(
+      undefined,
+      "found an undefined object in object: " + path + " property: " + name
+    );
 
     if (t === "object") traverse_for_undefined(item, path + "." + name);
   }
