@@ -1,6 +1,7 @@
 export const AnimationControllers: string[] = 
 [
   "controller.animation.agent.move",
+  "controller.animation.allay.dancing",
   "controller.animation.allay.general",
   "controller.animation.allay.holding",
   "controller.animation.armor_stand.pose",
@@ -117,7 +118,6 @@ export const AnimationControllers: string[] =
   "controller.animation.villager.move",
   "controller.animation.vindicator.base",
   "controller.animation.vindicator.base.v1.0",
-  "controller.animation.warden.hurt",
   "controller.animation.warden.melee_attacking",
   "controller.animation.warden.roar",
   "controller.animation.warden.shiver",

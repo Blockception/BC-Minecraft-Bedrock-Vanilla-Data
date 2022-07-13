@@ -597,14 +597,11 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:entity_born",
-      "minecraft:from_wandering_trader",
       "minecraft:ageable_grow_up",
       "minecraft:on_tame",
-      "minecraft:remove_persistence",
       "minecraft:join_caravan",
       "minecraft:leave_caravan",
       "minecraft:mad_at_wolf",
-      "minecraft:defend_wandering_trader",
       "minecraft:become_angry",
       "minecraft:on_calm",
       "minecraft:on_chest",
@@ -1176,6 +1173,32 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:trader_llama",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:entity_born",
+      "minecraft:from_wandering_trader",
+      "minecraft:ageable_grow_up",
+      "minecraft:on_tame",
+      "minecraft:remove_persistence",
+      "minecraft:join_caravan",
+      "minecraft:leave_caravan",
+      "minecraft:mad_at_wolf",
+      "minecraft:defend_wandering_trader",
+      "minecraft:become_angry",
+      "minecraft:on_calm",
+      "minecraft:on_chest",
+      "minecraft:add_attributes",
+      "minecraft:spawn_baby",
+      "minecraft:spawn_adult"
+    ],
+    "families": [
+      "trader_llama",
+      "llama",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:tropicalfish",
     "events": [
       "minecraft:become_anenonme",
@@ -1379,7 +1402,8 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:spawn_emerging",
       "minecraft:emerged",
-      "minecraft:entity_spawned"
+      "minecraft:entity_spawned",
+      "on_digging_event"
     ],
     "families": [
       "warden",

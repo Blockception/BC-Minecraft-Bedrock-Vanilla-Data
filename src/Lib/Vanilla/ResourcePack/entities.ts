@@ -8,7 +8,8 @@ export const Entities: Entity[] =
     "animations": [
       "idle",
       "fly",
-      "hold_item"
+      "hold_item",
+      "dance"
     ]
   },
   {
@@ -645,7 +646,8 @@ export const Entities: Entity[] =
       "crossbow_controller",
       "shield_block_main_hand",
       "shield_block_off_hand",
-      "blink"
+      "blink",
+      "tooting_goat_horn"
     ]
   },
   {
@@ -855,6 +857,15 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:trader_llama",
+    "animations": [
+      "setup",
+      "walk",
+      "look_at_target",
+      "baby_transform"
+    ]
+  },
+  {
     "id": "minecraft:tropicalfish",
     "animations": [
       "flop",
@@ -951,8 +962,6 @@ export const Entities: Entity[] =
       "melee_attack_controller",
       "bob",
       "swimming",
-      "hurt",
-      "hurt_controller",
       "sonic_boom",
       "sonic_boom_controller"
     ]
