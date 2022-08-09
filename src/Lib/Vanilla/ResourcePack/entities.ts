@@ -9,6 +9,8 @@ export const Entities: Entity[] =
       "idle",
       "fly",
       "hold_item",
+      "hold_item_fly",
+      "look_at_target_default",
       "dance"
     ]
   },

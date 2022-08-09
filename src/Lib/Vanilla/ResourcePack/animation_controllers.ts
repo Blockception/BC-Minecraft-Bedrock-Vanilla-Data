@@ -4,6 +4,7 @@ export const AnimationControllers: string[] =
   "controller.animation.allay.dancing",
   "controller.animation.allay.general",
   "controller.animation.allay.holding",
+  "controller.animation.allay.look_at_target",
   "controller.animation.armor_stand.pose",
   "controller.animation.armor_stand.wiggle",
   "controller.animation.axolotl.general",

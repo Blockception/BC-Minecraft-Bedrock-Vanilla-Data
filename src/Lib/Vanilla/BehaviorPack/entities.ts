@@ -1340,6 +1340,7 @@ export const Entities: Entity[] =
       "villager",
       "mob",
       "peasant",
+      "unskilled",
       "farmer",
       "fisherman",
       "shepherd",

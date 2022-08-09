@@ -2833,6 +2833,8 @@ export const Textures: string[] =
   "textures/ui/mainbanners_transparency",
   "textures/ui/MainBannersHover",
   "textures/ui/mangrove_sign",
+  "textures/ui/marketplace_error_graphic_anim_tree",
+  "textures/ui/marketplace_error_graphic_anim_water",
   "textures/ui/mashup_hangar",
   "textures/ui/mashup_PaintBrush",
   "textures/ui/mashup_world",
