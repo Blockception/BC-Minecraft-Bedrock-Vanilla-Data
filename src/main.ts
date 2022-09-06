@@ -1,5 +1,5 @@
 import { MinecraftDataSet } from "./Lib/Types/MinecraftDataSet";
-import { Vanilla, Edu, Types, General as G } from "./Lib/include";
+import { Vanilla, Edu, Types, General as G } from "./Lib/";
 import { Identifiable } from "./Lib/Types/Identifiable";
 export { MinecraftDataSet, Vanilla, Edu, Types };
 
@@ -94,7 +94,12 @@ export namespace MinecraftData {
      * @param edu Wheter or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getLootTable(id: string, edu: boolean = false): Types.BehaviorPack.LootTable | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.BehaviorPack.loot_tables, MinecraftData.edu.BehaviorPack.loot_tables);
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.loot_tables,
+        MinecraftData.edu.BehaviorPack.loot_tables
+      );
     }
 
     /**Gets the trading by the given identification
@@ -152,8 +157,16 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Wheter or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getAnimationController(id: string, edu: boolean = false): Types.ResourcePack.AnimationController | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.animation_controllers, MinecraftData.edu.ResourcePack.animation_controllers);
+    export function getAnimationController(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.AnimationController | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.animation_controllers,
+        MinecraftData.edu.ResourcePack.animation_controllers
+      );
     }
 
     /**Gets the animation by the given identification
@@ -208,8 +221,16 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Wheter or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getRenderController(id: string, edu: boolean = false): Types.ResourcePack.RenderController | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.render_controllers, MinecraftData.edu.ResourcePack.render_controllers);
+    export function getRenderController(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.RenderController | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.render_controllers,
+        MinecraftData.edu.ResourcePack.render_controllers
+      );
     }
 
     /**Gets the sound by the given identification
