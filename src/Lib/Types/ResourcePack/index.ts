@@ -11,4 +11,3 @@ export * from "./RenderController";
 export * from "./ResourcePack";
 export * from "./Sound";
 export * from "./Texture";
-export * from "./include";
