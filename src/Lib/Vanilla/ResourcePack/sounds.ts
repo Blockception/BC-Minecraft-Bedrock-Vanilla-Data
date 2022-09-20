@@ -57,6 +57,7 @@ export const Sounds: string[] =
   "block.composter.fill",
   "block.composter.fill_success",
   "block.composter.ready",
+  "block.enchanting_table.use",
   "block.end_portal_frame.fill",
   "block.end_portal.spawn",
   "block.false_permissions",

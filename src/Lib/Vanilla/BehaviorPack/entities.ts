@@ -1123,10 +1123,12 @@ export const Entities: Entity[] =
       "spawn_adult_parent_jockey",
       "spawn_adult_piglin_jockey",
       "spawn_baby",
+      "minecraft:spawn_baby_strider_jockey",
       "minecraft:ageable_grow_up",
       "minecraft:on_saddled",
       "start_suffocating",
-      "stop_suffocating"
+      "stop_suffocating",
+      "on_not_riding_parent"
     ],
     "families": [
       "strider",
