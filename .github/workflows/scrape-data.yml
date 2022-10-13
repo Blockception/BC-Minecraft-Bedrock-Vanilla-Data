@@ -1,35 +1,35 @@
 name: scrape-data
 
 on:
-  workflow_dispatch:  
+  workflow_dispatch:
   schedule:
-    - cron: '0 12 1 * *'
+    - cron: "0 12 1 * *"
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-      
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 5.0.x
-      
-    - name: Build
-      run: dotnet build scraper/Scraper/Scraper.csproj
-      
-    - name: Scrape
-      run: dotnet run --project scraper/Scraper/Scraper.csproj
-      
-    - name: Commit changes
-      continue-on-error: true
-      run: |
-        cd ${{github.workspace}}
-        git config --global user.email "bot@Blockception.com"
-        git config --global user.name "Blockception Bot"
-        git add .
-        git commit -m "auto: Scraped data"
-        git push
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Build
+        run: dotnet build scraper/Scraper/Scraper.csproj
+
+      - name: Scrape
+        run: dotnet run --project scraper/Scraper/Scraper.csproj
+
+      - name: Commit changes
+        continue-on-error: true
+        run: |
+          cd ${{github.workspace}}
+          git config --global user.email "bot@Blockception.com"
+          git config --global user.name "Blockception Bot"
+          git add .
+          git commit -m "auto: Scraped data"
+          git push
