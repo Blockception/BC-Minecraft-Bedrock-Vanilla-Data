@@ -921,7 +921,6 @@ export const Entities: Entity[] =
     ],
     "families": [
       "monster",
-      "illager",
       "ravager",
       "mob"
     ]
