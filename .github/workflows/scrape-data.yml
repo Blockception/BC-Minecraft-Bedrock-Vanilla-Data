@@ -24,12 +24,12 @@ jobs:
       - name: Scrape
         run: dotnet run --project scraper/Scraper/Scraper.csproj
 
-      - name: Commit changes
+      - name: ✏️ Commit changes
         continue-on-error: true
         run: |
           cd ${{github.workspace}}
           git config --global user.email "bot@Blockception.com"
-          git config --global user.name "Blockception[bot]"
+          git config --global user.name "Orbi[bot]"
           git add .
           git commit -m "auto: Scraped data"
           git push
