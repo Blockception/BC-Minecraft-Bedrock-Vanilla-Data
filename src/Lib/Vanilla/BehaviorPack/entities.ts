@@ -531,6 +531,7 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:entity_born",
+      "minecraft:spawn_adult",
       "minecraft:on_tame",
       "minecraft:ageable_grow_up",
       "minecraft:horse_saddled",

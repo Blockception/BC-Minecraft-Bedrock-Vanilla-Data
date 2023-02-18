@@ -85,6 +85,7 @@ export const Particles: string[] =
   "minecraft:mob_portal",
   "minecraft:mobflame_emitter",
   "minecraft:mobflame_single",
+  "minecraft:mobspell_ambient",
   "minecraft:mobspell_emitter",
   "minecraft:mycelium_dust_particle",
   "minecraft:nectar_drip_particle",

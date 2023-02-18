@@ -227,13 +227,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:ender_dragon",
-    "animations": [
-      "setup",
-      "jaw_movement",
-      "neck_head_movement",
-      "wings_limbs_movement",
-      "tail_movement"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:ender_pearl",
@@ -274,7 +268,9 @@ export const Entities: Entity[] =
       "general",
       "casting",
       "look_at_target",
-      "move"
+      "move",
+      "riding.legs",
+      "controller_riding"
     ]
   },
   {
@@ -654,12 +650,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:polar_bear",
-    "animations": [
-      "walk",
-      "move",
-      "look_at_target",
-      "baby_transform"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:pufferfish",
