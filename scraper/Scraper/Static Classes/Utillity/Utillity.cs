@@ -98,6 +98,8 @@ namespace Scraper {
       Existsif(Out.VanillaBP, Folder, "behavior_pack");
       Existsif(Out.VanillaRP, Folder, "resource_pack");
 
+      Out.GithubFolder = Folder;
+
       return Out;
     }
 
