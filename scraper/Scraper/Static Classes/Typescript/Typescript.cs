@@ -16,8 +16,10 @@ namespace Scraper {
                 Writer = new FileStream(Filepath, FileMode.Create, FileAccess.ReadWrite);
                 var TextWriter = new StreamWriter(Writer);
 
+                TextWriter.WriteLine("/** Notice: Auto generated file, do not edit */\n\r");
+
                 if (TypeLocation != null) {
-                    TextWriter.WriteLine($"import {{ {Type} }} from '{TypeLocation}';\n\r\n\r");                
+                    TextWriter.WriteLine($"import {{ {Type} }} from '{TypeLocation}';\n\r\n\r");
                 }
 
                 TextWriter.WriteLine($"export const {Name}: {Type}[] = ");
@@ -44,6 +46,8 @@ namespace Scraper {
 
                 Writer = new FileStream(Filepath, FileMode.Create, FileAccess.ReadWrite);
                 var TextWriter = new StreamWriter(Writer);
+
+                TextWriter.WriteLine("/** Notice: Auto generated file, do not edit */\n\r");
 
                 if (TypeLocation != null) {
                     TextWriter.WriteLine($"import {{ {Type} }} from '{TypeLocation}';\n\r\n\r");
