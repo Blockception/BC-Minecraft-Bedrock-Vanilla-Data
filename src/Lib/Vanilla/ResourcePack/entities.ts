@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 import { Entity } from '../../Types/ResourcePack/Entity';
 
 
@@ -769,11 +771,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:snow_golem",
-    "animations": [
-      "move",
-      "arms",
-      "look_at_target"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:snowball",
@@ -970,11 +968,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:wither",
-    "animations": [
-      "scale",
-      "move",
-      "look_at_target"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:wither_skeleton",

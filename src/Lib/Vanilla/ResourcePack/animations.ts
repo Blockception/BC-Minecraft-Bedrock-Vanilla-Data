@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 export const Animations: string[] = 
 [
   "animation.actor.billboard",
@@ -64,6 +66,7 @@ export const Animations: string[] =
   "animation.creeper.legs",
   "animation.creeper.swelling",
   "animation.crossbow.wield",
+  "animation.crossbow.wield_first_person_pull",
   "animation.dolphin.move",
   "animation.drowned.attack.rotations",
   "animation.drowned.attack.rotations.v1.0",

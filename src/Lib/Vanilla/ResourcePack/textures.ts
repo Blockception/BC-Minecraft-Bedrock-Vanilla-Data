@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 export const Textures: string[] = 
 [
   "textures/blocks/acacia_trapdoor",
@@ -2900,6 +2902,7 @@ export const Textures: string[] =
   "textures/ui/NormalButtonThinStroke",
   "textures/ui/normalHeight",
   "textures/ui/not_visible_creeper",
+  "textures/ui/notification_center",
   "textures/ui/numberBGBack",
   "textures/ui/numberBGFront",
   "textures/ui/offline",
@@ -3095,6 +3098,7 @@ export const Textures: string[] =
   "textures/ui/recipe_book_side_toggle_dark",
   "textures/ui/recipe_book_side_toggle_dark_hover",
   "textures/ui/recipe_book_touch_cell_selected",
+  "textures/ui/recolorable_background",
   "textures/ui/red_slash",
   "textures/ui/redX1",
   "textures/ui/refresh",
@@ -3390,6 +3394,7 @@ export const Textures: string[] =
   "textures/ui/underline_focus",
   "textures/ui/undoArrow",
   "textures/ui/unLock",
+  "textures/ui/unread_notifications_background",
   "textures/ui/unsynced_bevel",
   "textures/ui/unsynced_bevel_hover",
   "textures/ui/unsynced_bevel_pressed",

@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 import { GeneralEntity } from './format';
 
 

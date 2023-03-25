@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 export const Sounds: string[] = 
 [
   "ambient.basalt_deltas.additions",
@@ -996,6 +998,7 @@ export const Sounds: string[] =
   "random.glass",
   "random.hurt",
   "random.levelup",
+  "random.lever_click",
   "random.orb",
   "random.pop",
   "random.pop2",
@@ -1004,6 +1007,7 @@ export const Sounds: string[] =
   "random.shulkerboxclosed",
   "random.shulkerboxopen",
   "random.splash",
+  "random.stone_click",
   "random.swim",
   "random.toast",
   "random.totem",

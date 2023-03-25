@@ -1,3 +1,5 @@
+/** Notice: Auto generated file, do not edit */
+
 export const Trading: string[] = 
 [
   "trading/armorer_trades.json",
