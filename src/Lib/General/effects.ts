@@ -28,4 +28,5 @@ export const Effects: string[] = [
   "slow_falling",
   "bad_omen",
   "village_hero",
+  "darkness"
 ];
