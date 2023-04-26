@@ -7,7 +7,7 @@ export function Test_Identifiable(data: Identifiable) {
   if (Identifiable.is(data)) {
     assert(data.id.length > 0, `Not a length on ID: ${JSON.stringify(data)}`);
   } else {
-    fail(`Not a propery Identifiable: ${JSON.stringify(data)}`);
+    fail(`Not a proper Identifiable: ${JSON.stringify(data)}`);
   }
 }
 

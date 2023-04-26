@@ -76,7 +76,7 @@ export namespace Block {
    */
   export function is(value: any): value is Block {
     if (value) {
-      if (typeof value.id === "string" && Array.isArray(value.states)) return true;
+      if (typeof value.id === "string" && Array.isArray(value.properties)) return true;
     }
 
     return false;
