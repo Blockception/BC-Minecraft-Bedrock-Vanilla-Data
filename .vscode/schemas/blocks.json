@@ -6,33 +6,15 @@
     "type": "object",
     "title": "Block",
     "additionalProperties": false,
-    "required": ["id", "states"],
+    "required": ["id", "properties"],
     "properties": {
       "id": { "title": "ID", "type": "string", "pattern": "^minecraft:[a-zA-Z0-9_]*$" },
-      "states": {
+      "properties": {
         "title": "States",
         "type": "array",
         "items": {
-          "type": "object",
-          "title": "State",
-          "additionalProperties": false,
-          "required": ["name", "values", "type"],
-          "properties": {
-            "name": { "type": "string", "title": "Name" },
-            "values": {
-              "type": "array",
-              "title": "Values",
-              "items": {
-                "type": ["string", "integer"],
-                "title": "State Value"
-              }
-            },
-            "type": {
-              "title": "Type",
-              "description": "",
-              "enum": ["int", "byte", "string"]
-            }
-          }
+          "type": "string",
+          "title": "State"
         }
       }
     }
