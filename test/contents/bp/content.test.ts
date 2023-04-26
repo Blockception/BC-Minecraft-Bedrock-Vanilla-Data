@@ -47,8 +47,8 @@ function test_block(Blocks: Block[]) {
   Blocks.forEach((block) => {
     Test_Identifiable(block);
 
-    block.states.forEach((state) => {
-      assert(BlockState.is(state), "Block state is not a propert block state");
+    block.properties.forEach((property) => {
+      assert(BlockState.is(property), "Block property is not a proper block state");
     });
   });
 }

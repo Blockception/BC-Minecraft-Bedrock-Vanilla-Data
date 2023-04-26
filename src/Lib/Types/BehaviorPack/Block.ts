@@ -65,7 +65,7 @@ export namespace BlockState {
 /**The block interface*/
 export interface Block extends Identifiable {
   /**The state of that this block has*/
-  states: BlockState[];
+  properties: BlockState[];
 }
 
 /**The namespace that provides functions for blocks*/
