@@ -1,4 +1,4 @@
-﻿
+
 
 namespace Scraper {
     public partial class General {
@@ -13,7 +13,6 @@ namespace Scraper {
         }
 
         public void Scrape(BP.Container Data) {
-            this.BlockData.Scrape(Data);
             this.EntityData.Scrape(Data);
         }
     }

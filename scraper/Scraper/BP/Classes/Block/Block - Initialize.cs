@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Scraper.BP {
@@ -7,7 +7,7 @@ namespace Scraper.BP {
         /// <summary>Creates a new instance of <see cref="Block"/></summary>
         public Block() {
             this.ID = String.Empty;
-            this.States = new List<BlockState>();
+            this.Properties = new List<String>();
         }
     }
 }

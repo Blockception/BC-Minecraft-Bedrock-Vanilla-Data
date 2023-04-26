@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Scraper {
@@ -101,12 +102,6 @@ namespace Scraper {
       Out.GithubFolder = Folder;
 
       return Out;
-    }
-
-    private static void AddIf(List<String> Receiver, String Item) {
-      if (Item != null) {
-        Receiver.Add(Item);
-      }
     }
 
     private static void Existsif(List<String> Receiver, String Folder) {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 
 namespace Scraper {
@@ -61,7 +61,6 @@ namespace Scraper {
             }
 
             throw new Exception();
-            return null;
         }
     }
 }

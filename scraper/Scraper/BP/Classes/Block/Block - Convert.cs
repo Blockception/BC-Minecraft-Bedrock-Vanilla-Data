@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text.Json;
 
@@ -33,8 +33,6 @@ namespace Scraper.BP {
 
                             State.Values.Add(Temp);
                         }
-
-                        Out.States.Add(State);
                     }
                 }
 

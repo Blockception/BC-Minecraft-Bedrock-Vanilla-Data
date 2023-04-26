@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Text.Json;
@@ -91,7 +91,7 @@ namespace Scraper {
                 Console.WriteLine(ex.ToString());
             }
             finally {
-                if (Reader != null) { Reader.Close(); }
+                Reader?.Close();
             }
 
             return Doc;
