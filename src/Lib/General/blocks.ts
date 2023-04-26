@@ -1,236 +1,140 @@
-/** Notice: Auto generated file, do not edit */
-
-import { GeneralBlock } from './format';
+import { GeneralBlock } from "./format";
 
-
-export const BlockData: GeneralBlock = 
-{
-  "blockstates": [
+export const BlockData: GeneralBlock = {
+  block_states: [
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "active",
-      "type": "byte"
+      name: "active",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "age",
-      "type": "int"
+      name: "age",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "age_bit",
-      "type": "byte"
+      name: "age_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "allow_underwater_bit",
-      "type": "byte"
+      name: "allow_underwater_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "attached_bit",
-      "type": "byte"
+      name: "attached_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "standing",
-        "hanging",
-        "side",
-        "multiple"
-      ],
-      "name": "attachment",
-      "type": "string"
+      name: "attachment",
+      type: "string",
+      values: ["standing", "hanging", "side", "multiple"],
     },
     {
-      "values": [
-        "no_leaves",
-        "small_leaves",
-        "large_leaves"
-      ],
-      "name": "bamboo_leaf_size",
-      "type": "string"
+      name: "bamboo_leaf_size",
+      type: "string",
+      values: ["no_leaves", "small_leaves", "large_leaves"],
     },
     {
-      "values": [
-        "thin",
-        "thick"
-      ],
-      "name": "bamboo_stalk_thickness",
-      "type": "string"
+      name: "bamboo_stalk_thickness",
+      type: "string",
+      values: ["thin", "thick"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "big_dripleaf_head",
-      "type": "byte"
+      name: "big_dripleaf_head",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "none",
-        "unstable",
-        "partial_tilt",
-        "full_tilt"
-      ],
-      "name": "big_dripleaf_tilt",
-      "type": "string"
+      name: "big_dripleaf_tilt",
+      type: "string",
+      values: ["none", "unstable", "partial_tilt", "full_tilt"],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "name": "bite_counter",
-      "type": "int"
+      name: "bite_counter",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "block_light_level",
-      "type": "int"
+      name: "block_light_level",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "bloom",
-      "type": "byte"
+      name: "bloom",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
+      name: "books_stored",
+      type: "int",
+      values: [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
+        58, 59, 60, 61, 62, 63,
       ],
-      "name": "brewing_stand_slot_a_bit",
-      "type": "byte"
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "brewing_stand_slot_b_bit",
-      "type": "byte"
+      name: "brewing_stand_slot_a_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "brewing_stand_slot_c_bit",
-      "type": "byte"
+      name: "brewing_stand_slot_b_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "button_pressed_bit",
-      "type": "byte"
+      name: "brewing_stand_slot_c_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "candles",
-      "type": "int"
+      name: "brushed_progress",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "water",
-        "lava",
-        "powder_snow"
-      ],
-      "name": "cauldron_liquid",
-      "type": "string"
+      name: "button_pressed_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "compound_creator",
-        "material_reducer",
-        "element_constructor",
-        "lab_table"
-      ],
-      "name": "chemistry_table_type",
-      "type": "string"
+      name: "can_summon",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "default",
-        "chiseled",
-        "lines",
-        "smooth"
-      ],
-      "name": "chisel_type",
-      "type": "string"
+      name: "candles",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "cluster_count",
-      "type": "int"
+      name: "cauldron_liquid",
+      type: "string",
+      values: ["water", "lava", "powder_snow"],
     },
     {
-      "values": [
+      name: "chemistry_table_type",
+      type: "string",
+      values: ["compound_creator", "material_reducer", "element_constructor", "lab_table"],
+    },
+    {
+      name: "chisel_type",
+      type: "string",
+      values: ["default", "chiseled", "lines", "smooth"],
+    },
+    {
+      name: "cluster_count",
+      type: "int",
+      values: [0, 1, 2, 3],
+    },
+    {
+      name: "color",
+      type: "string",
+      values: [
         "white",
         "orange",
         "magenta",
@@ -246,240 +150,133 @@ export const BlockData: GeneralBlock =
         "brown",
         "green",
         "red",
-        "black"
+        "black",
       ],
-      "name": "color",
-      "type": "string"
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "color_bit",
-      "type": "byte"
+      name: "color_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "name": "composter_fill_level",
-      "type": "int"
+      name: "composter_fill_level",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "conditional_bit",
-      "type": "byte"
+      name: "conditional_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "blue",
-        "pink",
-        "purple",
-        "red",
-        "yellow"
-      ],
-      "name": "coral_color",
-      "type": "string"
+      name: "coral_color",
+      type: "string",
+      values: ["blue", "pink", "purple", "red", "yellow"],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "coral_direction",
-      "type": "int"
+      name: "coral_direction",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "coral_fan_direction",
-      "type": "int"
+      name: "coral_fan_direction",
+      type: "int",
+      values: [0, 1],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "coral_hang_type_bit",
-      "type": "byte"
+      name: "coral_hang_type_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "covered_bit",
-      "type": "byte"
+      name: "covered_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "no_cracks",
-        "cracked",
-        "max_cracked"
-      ],
-      "name": "cracked_state",
-      "type": "string"
+      name: "cracked_state",
+      type: "string",
+      values: ["no_cracks", "cracked", "max_cracked"],
     },
     {
-      "values": [
-        "undamaged",
-        "slightly_damaged",
-        "very_damaged",
-        "broken"
-      ],
-      "name": "damage",
-      "type": "string"
+      name: "damage",
+      type: "string",
+      values: ["undamaged", "slightly_damaged", "very_damaged", "broken"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "dead_bit",
-      "type": "byte"
+      name: "dead_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "deprecated",
-      "type": "int"
+      name: "deprecated",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "direction",
-      "type": "int"
+      name: "direction",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "normal",
-        "coarse"
-      ],
-      "name": "dirt_type",
-      "type": "string"
+      name: "dirt_type",
+      type: "string",
+      values: ["normal", "coarse"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "disarmed_bit",
-      "type": "byte"
+      name: "disarmed_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "door_hinge_bit",
-      "type": "byte"
+      name: "door_hinge_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "sunflower",
-        "syringa",
-        "grass",
-        "fern",
-        "rose",
-        "paeonia"
-      ],
-      "name": "double_plant_type",
-      "type": "string"
+      name: "double_plant_type",
+      type: "string",
+      values: ["sunflower", "syringa", "grass", "fern", "rose", "paeonia"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "drag_down",
-      "type": "byte"
+      name: "drag_down",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "tip",
-        "frustum",
-        "middle",
-        "base",
-        "merge"
-      ],
-      "name": "dripstone_thickness",
-      "type": "string"
+      name: "dripstone_thickness",
+      type: "string",
+      values: ["tip", "frustum", "middle", "base", "merge"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "end_portal_eye_bit",
-      "type": "byte"
+      name: "end_portal_eye_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "explode_bit",
-      "type": "byte"
+      name: "explode_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "extinguished",
-      "type": "byte"
+      name: "extinguished",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "name": "facing_direction",
-      "type": "int"
+      name: "facing_direction",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "name": "fill_level",
-      "type": "int"
+      name: "fill_level",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6],
     },
     {
-      "values": [
+      name: "flower_type",
+      type: "string",
+      values: [
         "poppy",
         "orchid",
         "allium",
@@ -490,209 +287,78 @@ export const BlockData: GeneralBlock =
         "tulip_pink",
         "oxeye",
         "cornflower",
-        "lily_of_the_valley"
+        "lily_of_the_valley",
       ],
-      "name": "flower_type",
-      "type": "string"
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "ground_sign_direction",
-      "type": "int"
+      name: "ground_sign_direction",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22",
-        "23",
-        "24",
-        "25"
-      ],
-      "name": "growing_plant_age",
-      "type": "int"
+      name: "growing_plant_age",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "name": "growth",
-      "type": "int"
+      name: "growth",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "hanging",
-      "type": "byte"
+      name: "hanging",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "head_piece_bit",
-      "type": "byte"
+      name: "head_piece_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "name": "height",
-      "type": "int"
+      name: "height",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "name": "honey_level",
-      "type": "int"
+      name: "honey_level",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "huge_mushroom_bits",
-      "type": "int"
+      name: "huge_mushroom_bits",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "in_wall_bit",
-      "type": "byte"
+      name: "in_wall_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "infiniburn_bit",
-      "type": "byte"
+      name: "infiniburn_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "item_frame_map_bit",
-      "type": "byte"
+      name: "item_frame_map_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "item_frame_photo_bit",
-      "type": "byte"
+      name: "item_frame_photo_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22",
-        "23",
-        "24",
-        "25"
-      ],
-      "name": "kelp_age",
-      "type": "int"
+      name: "kelp_age",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
     },
     {
-      "values": [
+      name: "lever_direction",
+      type: "string",
+      values: [
         "down_east_west",
         "east",
         "west",
@@ -700,429 +366,209 @@ export const BlockData: GeneralBlock =
         "north",
         "up_north_south",
         "up_east_west",
-        "down_north_south"
+        "down_north_south",
       ],
-      "name": "lever_direction",
-      "type": "string"
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "liquid_depth",
-      "type": "int"
+      name: "liquid_depth",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "lit",
-      "type": "byte"
+      name: "lit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "name": "moisturized_amount",
-      "type": "int"
+      name: "minecraft:cardinal_direction",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
+      name: "minecraft:facing_direction",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5],
+    },
+    {
+      name: "moisturized_amount",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7],
+    },
+    {
+      name: "monster_egg_stone_type",
+      type: "string",
+      values: [
         "stone",
         "cobblestone",
         "stone_brick",
         "mossy_stone_brick",
         "cracked_stone_brick",
-        "chiseled_stone_brick"
+        "chiseled_stone_brick",
       ],
-      "name": "monster_egg_stone_type",
-      "type": "string"
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22",
-        "23",
-        "24",
-        "25",
-        "26",
-        "27",
-        "28",
-        "29",
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45",
-        "46",
-        "47",
-        "48",
-        "49",
-        "50",
-        "51",
-        "52",
-        "53",
-        "54",
-        "55",
-        "56",
-        "57",
-        "58",
-        "59",
-        "60",
-        "61",
-        "62",
-        "63"
+      name: "multi_face_direction_bits",
+      type: "int",
+      values: [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
+        58, 59, 60, 61, 62, 63,
       ],
-      "name": "multi_face_direction_bits",
-      "type": "int"
     },
     {
-      "values": [
-        "acacia",
-        "dark_oak"
-      ],
-      "name": "new_leaf_type",
-      "type": "string"
+      name: "new_leaf_type",
+      type: "string",
+      values: ["acacia", "dark_oak"],
     },
     {
-      "values": [
-        "acacia",
-        "dark_oak"
-      ],
-      "name": "new_log_type",
-      "type": "string"
+      name: "new_log_type",
+      type: "string",
+      values: ["acacia", "dark_oak"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "no_drop_bit",
-      "type": "byte"
+      name: "no_drop_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "occupied_bit",
-      "type": "byte"
+      name: "occupied_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "oak",
-        "spruce",
-        "birch",
-        "jungle"
-      ],
-      "name": "old_leaf_type",
-      "type": "string"
+      name: "old_leaf_type",
+      type: "string",
+      values: ["oak", "spruce", "birch", "jungle"],
     },
     {
-      "values": [
-        "oak",
-        "spruce",
-        "birch",
-        "jungle"
-      ],
-      "name": "old_log_type",
-      "type": "string"
+      name: "old_log_type",
+      type: "string",
+      values: ["oak", "spruce", "birch", "jungle"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "open_bit",
-      "type": "byte"
+      name: "open_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "output_lit_bit",
-      "type": "byte"
+      name: "output_lit_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "output_subtract_bit",
-      "type": "byte"
+      name: "output_subtract_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "persistent_bit",
-      "type": "byte"
+      name: "persistent_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "y",
-        "x",
-        "z"
-      ],
-      "name": "pillar_axis",
-      "type": "string"
+      name: "pillar_axis",
+      type: "string",
+      values: ["y", "x", "z"],
     },
     {
-      "values": [
-        "unknown",
-        "x",
-        "z"
-      ],
-      "name": "portal_axis",
-      "type": "string"
+      name: "portal_axis",
+      type: "string",
+      values: ["unknown", "x", "z"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "powered_bit",
-      "type": "byte"
+      name: "powered_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "default",
-        "dark",
-        "bricks"
-      ],
-      "name": "prismarine_block_type",
-      "type": "string"
+      name: "prismarine_block_type",
+      type: "string",
+      values: ["default", "dark", "bricks"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "rail_data_bit",
-      "type": "byte"
+      name: "propagule_stage",
+      type: "int",
+      values: [0, 1, 2, 3, 4],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
-      ],
-      "name": "rail_direction",
-      "type": "int"
+      name: "rail_data_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "redstone_signal",
-      "type": "int"
+      name: "rail_direction",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "repeater_delay",
-      "type": "int"
+      name: "redstone_signal",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "name": "respawn_anchor_charge",
-      "type": "int"
+      name: "repeater_delay",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "rotation",
-      "type": "int"
+      name: "respawn_anchor_charge",
+      type: "int",
+      values: [0, 1, 2, 3, 4],
     },
     {
-      "values": [
-        "default",
-        "heiroglyphs",
-        "cut",
-        "smooth"
-      ],
-      "name": "sand_stone_type",
-      "type": "string"
+      name: "rotation",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "normal",
-        "red"
-      ],
-      "name": "sand_type",
-      "type": "string"
+      name: "sand_stone_type",
+      type: "string",
+      values: ["default", "heiroglyphs", "cut", "smooth"],
     },
     {
-      "values": [
-        "oak",
-        "spruce",
-        "birch",
-        "jungle",
-        "acacia",
-        "dark_oak"
-      ],
-      "name": "sapling_type",
-      "type": "string"
+      name: "sand_type",
+      type: "string",
+      values: ["normal", "red"],
     },
     {
-      "values": [
-        "default",
-        "double_top",
-        "double_bot"
-      ],
-      "name": "sea_grass_type",
-      "type": "string"
+      name: "sapling_type",
+      type: "string",
+      values: ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"],
     },
     {
-      "values": [
-        "dry",
-        "wet"
-      ],
-      "name": "sponge_type",
-      "type": "string"
+      name: "sea_grass_type",
+      type: "string",
+      values: ["default", "double_top", "double_bot"],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "name": "stability",
-      "type": "int"
+      name: "sponge_type",
+      type: "string",
+      values: ["dry", "wet"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "stability_check",
-      "type": "byte"
+      name: "stability",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7],
     },
     {
-      "values": [
-        "default",
-        "mossy",
-        "cracked",
-        "chiseled",
-        "smooth"
-      ],
-      "name": "stone_brick_type",
-      "type": "string"
+      name: "stability_check",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "smooth_stone",
-        "sandstone",
-        "wood",
-        "cobblestone",
-        "brick",
-        "stone_brick",
-        "quartz",
-        "nether_brick"
-      ],
-      "name": "stone_slab_type",
-      "type": "string"
+      name: "stone_brick_type",
+      type: "string",
+      values: ["default", "mossy", "cracked", "chiseled", "smooth"],
     },
     {
-      "values": [
+      name: "stone_slab_type",
+      type: "string",
+      values: ["smooth_stone", "sandstone", "wood", "cobblestone", "brick", "stone_brick", "quartz", "nether_brick"],
+    },
+    {
+      name: "stone_slab_type_2",
+      type: "string",
+      values: [
         "red_sandstone",
         "purpur",
         "prismarine_rough",
@@ -1130,13 +576,13 @@ export const BlockData: GeneralBlock =
         "prismarine_brick",
         "mossy_cobblestone",
         "smooth_sandstone",
-        "red_nether_brick"
+        "red_nether_brick",
       ],
-      "name": "stone_slab_type_2",
-      "type": "string"
     },
     {
-      "values": [
+      name: "stone_slab_type_3",
+      type: "string",
+      values: [
         "end_stone_brick",
         "smooth_red_sandstone",
         "polished_andesite",
@@ -1144,207 +590,98 @@ export const BlockData: GeneralBlock =
         "diorite",
         "polished_diorite",
         "granite",
-        "polished_granite"
+        "polished_granite",
       ],
-      "name": "stone_slab_type_3",
-      "type": "string"
     },
     {
-      "values": [
-        "mossy_stone_brick",
-        "smooth_quartz",
-        "stone",
-        "cut_sandstone",
-        "cut_red_sandstone"
-      ],
-      "name": "stone_slab_type_4",
-      "type": "string"
+      name: "stone_slab_type_4",
+      type: "string",
+      values: ["mossy_stone_brick", "smooth_quartz", "stone", "cut_sandstone", "cut_red_sandstone"],
     },
     {
-      "values": [
-        "stone",
-        "granite",
-        "granite_smooth",
-        "diorite",
-        "diorite_smooth",
-        "andesite",
-        "andesite_smooth"
-      ],
-      "name": "stone_type",
-      "type": "string"
+      name: "stone_type",
+      type: "string",
+      values: ["stone", "granite", "granite_smooth", "diorite", "diorite_smooth", "andesite", "andesite_smooth"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "stripped_bit",
-      "type": "byte"
+      name: "stripped_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "data",
-        "save",
-        "load",
-        "corner",
-        "invalid",
-        "export"
-      ],
-      "name": "structure_block_type",
-      "type": "string"
+      name: "structure_block_type",
+      type: "string",
+      values: ["data", "save", "load", "corner", "invalid", "export"],
     },
     {
-      "values": [
-        "void",
-        "air"
-      ],
-      "name": "structure_void_type",
-      "type": "string"
+      name: "structure_void_type",
+      type: "string",
+      values: ["void", "air"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "suspended_bit",
-      "type": "byte"
+      name: "suspended_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "default",
-        "tall",
-        "fern",
-        "snow"
-      ],
-      "name": "tall_grass_type",
-      "type": "string"
+      name: "tall_grass_type",
+      type: "string",
+      values: ["default", "tall", "fern", "snow"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "toggle_bit",
-      "type": "byte"
+      name: "toggle_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "top_slot_bit",
-      "type": "byte"
+      name: "top_slot_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "unknown",
-        "west",
-        "east",
-        "north",
-        "south",
-        "top"
-      ],
-      "name": "torch_facing_direction",
-      "type": "string"
+      name: "torch_facing_direction",
+      type: "string",
+      values: ["unknown", "west", "east", "north", "south", "top"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "triggered_bit",
-      "type": "byte"
+      name: "triggered_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "one_egg",
-        "two_egg",
-        "three_egg",
-        "four_egg"
-      ],
-      "name": "turtle_egg_count",
-      "type": "string"
+      name: "turtle_egg_count",
+      type: "string",
+      values: ["one_egg", "two_egg", "three_egg", "four_egg"],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22",
-        "23",
-        "24",
-        "25"
-      ],
-      "name": "twisting_vines_age",
-      "type": "int"
+      name: "twisting_vines_age",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "update_bit",
-      "type": "byte"
+      name: "update_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "upper_block_bit",
-      "type": "byte"
+      name: "upper_block_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "upside_down_bit",
-      "type": "byte"
+      name: "upside_down_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15"
-      ],
-      "name": "vine_direction_bits",
-      "type": "int"
+      name: "vine_direction_bits",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     },
     {
-      "values": [
+      name: "wall_block_type",
+      type: "string",
+      values: [
         "cobblestone",
         "mossy_cobblestone",
         "granite",
@@ -1358,108 +695,48 @@ export const BlockData: GeneralBlock =
         "end_brick",
         "prismarine",
         "red_sandstone",
-        "red_nether_brick"
+        "red_nether_brick",
       ],
-      "name": "wall_block_type",
-      "type": "string"
     },
     {
-      "values": [
-        "none",
-        "short",
-        "tall"
-      ],
-      "name": "wall_connection_type_east",
-      "type": "string"
+      name: "wall_connection_type_east",
+      type: "string",
+      values: ["none", "short", "tall"],
     },
     {
-      "values": [
-        "none",
-        "short",
-        "tall"
-      ],
-      "name": "wall_connection_type_north",
-      "type": "string"
+      name: "wall_connection_type_north",
+      type: "string",
+      values: ["none", "short", "tall"],
     },
     {
-      "values": [
-        "none",
-        "short",
-        "tall"
-      ],
-      "name": "wall_connection_type_south",
-      "type": "string"
+      name: "wall_connection_type_south",
+      type: "string",
+      values: ["none", "short", "tall"],
     },
     {
-      "values": [
-        "none",
-        "short",
-        "tall"
-      ],
-      "name": "wall_connection_type_west",
-      "type": "string"
+      name: "wall_connection_type_west",
+      type: "string",
+      values: ["none", "short", "tall"],
     },
     {
-      "values": [
-        "0",
-        "1"
-      ],
-      "name": "wall_post_bit",
-      "type": "byte"
+      name: "wall_post_bit",
+      type: "bool",
+      values: [false, true],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "22",
-        "23",
-        "24",
-        "25"
-      ],
-      "name": "weeping_vines_age",
-      "type": "int"
+      name: "weeping_vines_age",
+      type: "int",
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
     },
     {
-      "values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "name": "weirdo_direction",
-      "type": "int"
+      name: "weirdo_direction",
+      type: "int",
+      values: [0, 1, 2, 3],
     },
     {
-      "values": [
-        "oak",
-        "spruce",
-        "birch",
-        "jungle",
-        "acacia",
-        "dark_oak"
-      ],
-      "name": "wood_type",
-      "type": "string"
-    }
-  ]
-}
+      name: "wood_type",
+      type: "string",
+      values: ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"],
+    },
+  ],
+};
