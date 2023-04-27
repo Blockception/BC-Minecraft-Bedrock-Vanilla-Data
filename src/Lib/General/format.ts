@@ -1,4 +1,4 @@
-import { BlockState } from "../Types/BehaviorPack/Block";
+import { BlockState } from "../Types/BehaviorPack/BlockState";
 
 /**The summarized data set for blocks in minecraft*/
 export interface GeneralBlock {

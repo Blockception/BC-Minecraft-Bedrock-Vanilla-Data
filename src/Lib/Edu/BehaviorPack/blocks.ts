@@ -15,7 +15,10 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:chemistry_table",
-    "properties": []
+    "properties": [
+      "chemistry_table_type",
+      "direction"
+    ]
   },
   {
     "id": "minecraft:element_0",
@@ -499,6 +502,8 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:underwater_torch",
-    "properties": []
+    "properties": [
+      "torch_facing_direction"
+    ]
   }
 ]

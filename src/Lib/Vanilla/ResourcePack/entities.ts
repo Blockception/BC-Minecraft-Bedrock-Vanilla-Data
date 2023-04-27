@@ -771,7 +771,11 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:snow_golem",
-    "animations": []
+    "animations": [
+      "move",
+      "arms",
+      "look_at_target"
+    ]
   },
   {
     "id": "minecraft:snowball",
@@ -968,7 +972,11 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:wither",
-    "animations": []
+    "animations": [
+      "scale",
+      "move",
+      "look_at_target"
+    ]
   },
   {
     "id": "minecraft:wither_skeleton",
