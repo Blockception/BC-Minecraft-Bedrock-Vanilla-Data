@@ -3,7 +3,7 @@ import { Vanilla, Edu, Types, General as G } from "./Lib/";
 import { Identifiable } from "./Lib/Types/Identifiable";
 export { MinecraftDataSet, Vanilla, Edu, Types };
 
-/**The minecraft vanilla dataof RP and BP data*/
+/**The minecraft vanilla data of RP and BP data*/
 export namespace MinecraftData {
   /**The vanilla data set*/
   export const vanilla: MinecraftDataSet = {
@@ -71,6 +71,13 @@ export namespace MinecraftData {
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getBlock(id: string, edu: boolean = false): Types.BehaviorPack.Block | undefined {
       return get(id, edu, MinecraftData.vanilla.BehaviorPack.blocks, MinecraftData.edu.BehaviorPack.blocks);
+    }
+
+    /**Gets the block state by the given identification
+     * @param id The block state id
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function getBlockState(id: string): Types.BehaviorPack.BlockState | undefined {
+      return General.Blocks.block_states.find((item) => item.name === id);
     }
 
     /**Gets the entity by the given identification
