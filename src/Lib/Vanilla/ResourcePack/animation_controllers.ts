@@ -113,7 +113,6 @@ export const AnimationControllers: string[] =
   "controller.animation.turtle.move",
   "controller.animation.vex.charge",
   "controller.animation.vex.idle",
-  "controller.animation.vex.move",
   "controller.animation.villager_v2.baby",
   "controller.animation.villager_v2.general",
   "controller.animation.villager_v2.move",
