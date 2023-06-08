@@ -2742,6 +2742,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:pitcher_pod",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:planks",
     "max_damage": 0
   },
@@ -3635,6 +3639,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:torch",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:torchflower_seeds",
     "max_damage": 0
   },
   {

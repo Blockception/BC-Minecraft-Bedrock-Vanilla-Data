@@ -90,6 +90,18 @@ export const Entities: Entity[] =
     "animations": []
   },
   {
+    "id": "minecraft:camel",
+    "animations": [
+      "moving",
+      "sit_down",
+      "sitting",
+      "stand_up",
+      "look_at_target",
+      "dashing",
+      "idle"
+    ]
+  },
+  {
     "id": "minecraft:cat",
     "animations": [
       "sneak",
@@ -157,6 +169,10 @@ export const Entities: Entity[] =
       "creeper_legs",
       "creeper_swelling"
     ]
+  },
+  {
+    "id": "minecraft:decorated_pot",
+    "animations": []
   },
   {
     "id": "minecraft:dolphin",
@@ -647,7 +663,9 @@ export const Entities: Entity[] =
       "shield_block_main_hand",
       "shield_block_off_hand",
       "blink",
-      "tooting_goat_horn"
+      "tooting_goat_horn",
+      "holding_brush",
+      "brushing"
     ]
   },
   {
@@ -767,6 +785,20 @@ export const Entities: Entity[] =
     "id": "minecraft:small_fireball",
     "animations": [
       "face_player"
+    ]
+  },
+  {
+    "id": "minecraft:sniffer",
+    "animations": [
+      "baby_transform",
+      "walk",
+      "look_at_target",
+      "sniffsniff",
+      "long_sniff",
+      "search",
+      "dig",
+      "stand_up",
+      "feeling_happy"
     ]
   },
   {

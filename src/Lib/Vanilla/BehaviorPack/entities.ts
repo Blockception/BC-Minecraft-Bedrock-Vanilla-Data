@@ -112,6 +112,8 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:boat",
     "events": [
+      "minecraft:entity_spawned",
+      "minecraft:add_can_ride",
       "minecraft:entered_bubble_column_down",
       "minecraft:entered_bubble_column_up",
       "minecraft:exited_bubble_column",
@@ -120,6 +122,23 @@ export const Entities: Entity[] =
     "families": [
       "boat",
       "inanimate"
+    ]
+  },
+  {
+    "id": "minecraft:camel",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:spawn_adult",
+      "minecraft:entity_born",
+      "minecraft:ageable_grow_up",
+      "minecraft:camel_saddled",
+      "minecraft:camel_unsaddled",
+      "minecraft:start_sitting",
+      "minecraft:stop_sitting"
+    ],
+    "families": [
+      "camel",
+      "mob"
     ]
   },
   {
@@ -158,6 +177,8 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:chest_boat",
     "events": [
+      "minecraft:entity_spawned",
+      "minecraft:add_can_ride",
       "minecraft:entered_bubble_column_down",
       "minecraft:entered_bubble_column_up",
       "minecraft:exited_bubble_column",
@@ -658,6 +679,7 @@ export const Entities: Entity[] =
       "minecraft:ate_cornflower",
       "minecraft:ate_lily",
       "minecraft:ate_rose",
+      "minecraft:ate_torchflower",
       "minecraft:ate_orchid",
       "minecraft:ate_daisy",
       "minecraft:ate_tulip",
@@ -1053,6 +1075,29 @@ export const Entities: Entity[] =
     "id": "minecraft:small_fireball",
     "events": [],
     "families": []
+  },
+  {
+    "id": "minecraft:sniffer",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:spawn_adult",
+      "minecraft:entity_born",
+      "on_pregnant",
+      "on_egg_spawned",
+      "minecraft:ageable_grow_up",
+      "on_scenting_success",
+      "on_digging_start",
+      "on_item_found",
+      "on_feeling_happy_end",
+      "on_fail_during_searching",
+      "on_fail_during_digging",
+      "on_search_and_digging_success",
+      "on_rising_end"
+    ],
+    "families": [
+      "sniffer",
+      "mob"
+    ]
   },
   {
     "id": "minecraft:snow_golem",

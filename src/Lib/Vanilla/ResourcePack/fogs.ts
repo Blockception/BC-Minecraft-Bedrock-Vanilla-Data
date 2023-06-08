@@ -8,6 +8,7 @@ export const Fogs: string[] =
   "minecraft:fog_beach",
   "minecraft:fog_birch_forest",
   "minecraft:fog_birch_forest_hills",
+  "minecraft:fog_cherry_grove",
   "minecraft:fog_cold_beach",
   "minecraft:fog_cold_ocean",
   "minecraft:fog_cold_taiga",

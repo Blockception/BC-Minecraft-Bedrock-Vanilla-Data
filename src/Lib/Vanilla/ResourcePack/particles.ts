@@ -27,6 +27,7 @@ export const Particles: string[] =
   "minecraft:cauldron_explosion_emitter",
   "minecraft:cauldron_spell_emitter",
   "minecraft:cauldron_splash_particle",
+  "minecraft:cherry_leaves_particle",
   "minecraft:colored_flame_particle",
   "minecraft:conduit_absorb_particle",
   "minecraft:conduit_attack_emitter",
