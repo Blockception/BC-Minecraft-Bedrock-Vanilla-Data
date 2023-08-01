@@ -98,6 +98,7 @@ export const Entities: Entity[] =
       "stand_up",
       "look_at_target",
       "dashing",
+      "dashing_sound",
       "idle"
     ]
   },
@@ -627,6 +628,8 @@ export const Entities: Entity[] =
       "move.legs",
       "swimming",
       "swimming.legs",
+      "crawling",
+      "crawling.legs",
       "riding.arms",
       "riding.legs",
       "holding",
