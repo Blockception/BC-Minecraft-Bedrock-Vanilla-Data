@@ -1651,7 +1651,6 @@ export const Entities: Entity[] =
       "undead",
       "monster",
       "mob",
-      "nitwit",
       "farmer",
       "fisherman",
       "shepherd",
@@ -1664,7 +1663,8 @@ export const Entities: Entity[] =
       "toolsmith",
       "butcher",
       "leatherworker",
-      "stone_mason"
+      "stone_mason",
+      "nitwit"
     ]
   }
 ]
