@@ -23,14 +23,14 @@ jobs:
       - name: 📦 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js Environment
+      - name: 🏗️ Setup Node.js Environment
         uses: actions/setup-node@v3
         with:
           cache: npm
           cache-dependency-path: package-lock.json
           node-version-file: .nvmrc
 
-      - name: Setup project
+      - name: 🏗️ Setup project
         run: npm ci
 
       - name: 📋 Run Tests
@@ -44,14 +44,14 @@ jobs:
       - name: 📦 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js Environment
+      - name: 🏗️ Setup Node.js Environment
         uses: actions/setup-node@v3
         with:
           cache: npm
           cache-dependency-path: package-lock.json
           node-version-file: .nvmrc
 
-      - name: Setup Project
+      - name: 🏗️ Setup project
         run: npm ci
 
       - name: 🚚 Npm Publish
