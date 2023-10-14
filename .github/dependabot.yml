@@ -23,3 +23,11 @@ updates:
       all:
         patterns:
           - "*"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/scraper" # Location of package manifests
+    schedule:
+      interval: "monthly"
+    groups:
+      all:
+        patterns:
+          - "*"
