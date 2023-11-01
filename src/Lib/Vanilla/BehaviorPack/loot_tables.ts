@@ -156,6 +156,7 @@ export const LootTables: string[] =
   "loot_tables/entities/zombified_piglin_rider_gear.json",
   "loot_tables/equipment/low_tier_items.json",
   "loot_tables/gameplay/entities/mooshroom_milking.json",
+  "loot_tables/gameplay/entities/sniffer_seeds.json",
   "loot_tables/gameplay/fishing.json",
   "loot_tables/gameplay/fishing/fish.json",
   "loot_tables/gameplay/fishing/jungle_fish.json",
