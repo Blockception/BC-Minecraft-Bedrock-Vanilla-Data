@@ -8,6 +8,7 @@ export const Models: string[] =
   "geometry.arrow",
   "geometry.axolotl",
   "geometry.bat",
+  "geometry.bat_v2",
   "geometry.bed",
   "geometry.bee",
   "geometry.blaze",

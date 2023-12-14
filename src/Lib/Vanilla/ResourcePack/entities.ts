@@ -57,10 +57,7 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:bat",
-    "animations": [
-      "resting",
-      "flying"
-    ]
+    "animations": []
   },
   {
     "id": "minecraft:bed",

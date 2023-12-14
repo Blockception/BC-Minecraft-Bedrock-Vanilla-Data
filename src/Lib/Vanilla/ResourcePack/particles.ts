@@ -43,6 +43,7 @@ export const Particles: string[] =
   "minecraft:dragon_death_explosion_emitter",
   "minecraft:dragon_destroy_block",
   "minecraft:dragon_dying_explosion",
+  "minecraft:dust_plume",
   "minecraft:egg_destroy_emitter",
   "minecraft:electric_spark_particle",
   "minecraft:elephant_tooth_paste_vapor_particle",
