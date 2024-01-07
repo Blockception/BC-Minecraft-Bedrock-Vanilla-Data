@@ -51,7 +51,7 @@ export namespace MinecraftData {
     },
   };
 
-  /**The generalised data set for minecraft*/
+  /**The generalized data set for minecraft*/
   export namespace General {
     /**The summarized data set for blocks*/
     export const Blocks = G.BlockData;
