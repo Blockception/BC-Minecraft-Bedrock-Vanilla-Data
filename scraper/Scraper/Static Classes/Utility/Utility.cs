@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Scraper {
 
-  ///DOLATER <summary>add description for class: Utillity</summary>
-  public static partial class Utillity {
+  ///DOLATER <summary>add description for class: Utility</summary>
+  public static partial class Utility {
     /// <summary>
     /// 
     /// </summary>
@@ -67,7 +67,7 @@ namespace Scraper {
     }
 
     public static Context GetFolders() {
-      Directory.CreateDirectory(Utillity.WorkFolder);
+      Directory.CreateDirectory(Utility.WorkFolder);
       var Out = new Context();
 
       //Edu
@@ -77,8 +77,8 @@ namespace Scraper {
         String BPS = Path.Join(EduInstall, "data", "behavior_packs", "education");
         String RPS = Path.Join(EduInstall, "data", "resource_packs", "education");
 
-        Existsif(Out.EduBP, BPS);
-        Existsif(Out.EduRP, RPS);
+        ExistsIf(Out.EduBP, BPS);
+        ExistsIf(Out.EduRP, RPS);
       }
 
       //Vanilla
@@ -88,31 +88,31 @@ namespace Scraper {
         String BPS = Path.Join(Install, "data", "behavior_packs");
         String RPS = Path.Join(Install, "data", "resource_packs");
 
-        Existsif(Out.VanillaBP, BPS, "vanilla");
-        Existsif(Out.EduBP, BPS, "education");
+        ExistsIf(Out.VanillaBP, BPS, "vanilla");
+        ExistsIf(Out.EduBP, BPS, "education");
 
-        Existsif(Out.VanillaRP, RPS, "vanilla");
-        Existsif(Out.EduRP, RPS, "education");
+        ExistsIf(Out.VanillaRP, RPS, "vanilla");
+        ExistsIf(Out.EduRP, RPS, "education");
       }
 
       String Folder = Path.Join(DownloadUnpack("Samples", "https://github.com/Mojang/bedrock-samples/archive/refs/heads/main.zip"), "bedrock-samples-main");
-      Existsif(Out.VanillaBP, Folder, "behavior_pack");
-      Existsif(Out.VanillaRP, Folder, "resource_pack");
+      ExistsIf(Out.VanillaBP, Folder, "behavior_pack");
+      ExistsIf(Out.VanillaRP, Folder, "resource_pack");
 
       Out.GithubFolder = Folder;
 
       return Out;
     }
 
-    private static void Existsif(List<String> Receiver, String Folder) {
+    private static void ExistsIf(List<String> Receiver, String Folder) {
       if (Directory.Exists(Folder)) {
         Receiver.Add(Folder);
       }
     }
 
-    private static void Existsif(List<String> Receiver, String Folder, String SubFolder) {
+    private static void ExistsIf(List<String> Receiver, String Folder, String SubFolder) {
       Folder = Path.Join(Folder, SubFolder);
-      Existsif(Receiver, Folder);
+      ExistsIf(Receiver, Folder);
     }
   }
 }

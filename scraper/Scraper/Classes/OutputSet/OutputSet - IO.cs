@@ -11,7 +11,7 @@ namespace Scraper {
         public static OutputSet Load(String Folder) {
             var Out = new OutputSet {
                 BehaviorPack = BP.Container.Load(Path.Join(Folder, "BehaviorPack")),
-                ResourePack = RP.Container.Load(Path.Join(Folder, "ResourcePack"))
+                ResourcePack = RP.Container.Load(Path.Join(Folder, "ResourcePack"))
             };
 
             return Out;
@@ -23,7 +23,7 @@ namespace Scraper {
         /// <param name="Folder"></param>
         public void Save(String Folder) {
             this.BehaviorPack.Save(Path.Join(Folder, "BehaviorPack"));
-            this.ResourePack.Save(Path.Join(Folder, "ResourcePack"));
+            this.ResourcePack.Save(Path.Join(Folder, "ResourcePack"));
         }
     }
 }

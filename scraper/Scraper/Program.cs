@@ -4,21 +4,20 @@ using System.Diagnostics;
 namespace Scraper {
   public class Program {
     private static void Main(String[] args) {
-      Context Context = Utillity.GetFolders();
+      Context context = Utility.GetFolders();
 
-      var SW = new Stopwatch();
-      SW.Start();
+      var sw = new Stopwatch();
+      sw.Start();
 
       //Loads the base set
-      var Out = Output.Load(Utillity.BaseFolder);
+      var Out = Output.Load(Utility.BaseFolder);
 
       //Scrape data sets
-      BP.Scraper.Scrape(Context.EduBP, Out.Edu.BehaviorPack);
-      BP.Scraper.Scrape(Context.VanillaBP, Out.Vanilla.BehaviorPack);
+      BP.Scraper.Scrape(context.EduBP, Out.Edu.BehaviorPack);
+      BP.Scraper.Scrape(context.VanillaBP, Out.Vanilla.BehaviorPack);
 
-      RP.Scraper.Scrape(Context.EduRP, Out.Edu.ResourePack);
-      RP.Scraper.Scrape(Context.VanillaRP, Out.Vanilla.ResourePack);
-
+      RP.Scraper.Scrape(context.EduRP, Out.Edu.ResourcePack);
+      RP.Scraper.Scrape(context.VanillaRP, Out.Vanilla.ResourcePack);
 
       //Process collected data into general data for quick lookup of things like entities families and events
       Out.General.Scrape(Out);
@@ -28,13 +27,14 @@ namespace Scraper {
       Out.Prune();
 
       //Save
-      Out.Save(Utillity.OutputFolder);
+      Out.Save(Utility.OutputFolder);
 
-      Vanilla.GithubLinks(Context, Utillity.OutputFolder);
+      Vanilla.GithubLinks(context, Utility.OutputFolder);
+      FormatVersions.GetVersions(context, Utility.OutputFolder);
 
-      SW.Stop();
+      sw.Stop();
 
-      Console.WriteLine($"ms: {SW.ElapsedMilliseconds}, ticks: {SW.ElapsedTicks}");
+      Console.WriteLine($"ms: {sw.ElapsedMilliseconds}, ticks: {sw.ElapsedTicks}");
       //Console.ReadLine();
     }
   }

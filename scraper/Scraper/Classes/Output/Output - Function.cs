@@ -16,7 +16,7 @@
             //Remove edu entities from vanilla
             this.Edu.BehaviorPack.Entities.ForEach((entity) => {
                 this.Vanilla.BehaviorPack.Entities.RemoveAll((x) => x.ID == entity.ID);
-                this.Vanilla.ResourePack.Entities.RemoveAll((x) => x.ID == entity.ID);
+                this.Vanilla.ResourcePack.Entities.RemoveAll((x) => x.ID == entity.ID);
             });
 
             //Remove edu block from vanilla

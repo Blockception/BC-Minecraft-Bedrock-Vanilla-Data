@@ -14,6 +14,6 @@ namespace Scraper {
         /// <summary>
         /// 
         /// </summary>
-        public RP.Container ResourePack { get; set; }
+        public RP.Container ResourcePack { get; set; }
     }
 }

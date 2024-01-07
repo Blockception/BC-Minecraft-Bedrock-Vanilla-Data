@@ -7,7 +7,7 @@
         /// <returns></returns>
         public void Clean() {
             this.BehaviorPack.Clean();
-            this.ResourePack.Clean();
+            this.ResourcePack.Clean();
         }
     }
 }

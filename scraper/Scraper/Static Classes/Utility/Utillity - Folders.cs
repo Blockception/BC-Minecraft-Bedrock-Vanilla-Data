@@ -2,8 +2,8 @@ using System;
 using System.IO;
 
 namespace Scraper {
-    ///DOLATER <summary>add description for class: Utillity</summary>
-    public static partial class Utillity {
+    ///DOLATER <summary>add description for class: Utility</summary>
+    public static partial class Utility {
         /// <summary>
         /// 
         /// </summary>
