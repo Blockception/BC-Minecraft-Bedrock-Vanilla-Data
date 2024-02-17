@@ -1556,6 +1556,7 @@ export const Entities: Entity[] =
       "zoglin",
       "zoglin_baby",
       "undead",
+      "monster",
       "mob",
       "zoglin_adult"
     ]

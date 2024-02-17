@@ -1228,6 +1228,8 @@ export const Sounds: string[] =
   "tilt_down.big_dripleaf",
   "tilt_up.big_dripleaf",
   "ui.cartography_table.take_result",
+  "ui.drawer_close",
+  "ui.drawer_open",
   "ui.loom.select_pattern",
   "ui.loom.take_result",
   "ui.stonecutter.take_result",
