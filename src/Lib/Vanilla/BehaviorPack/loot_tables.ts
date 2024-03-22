@@ -2,7 +2,6 @@
 
 export const LootTables: string[] = 
 [
-  "loot_tables/blocks/tallgrass.json",
   "loot_tables/chests/abandoned_mineshaft.json",
   "loot_tables/chests/ancient_city_ice_box.json",
   "loot_tables/chests/ancient_city.json",
