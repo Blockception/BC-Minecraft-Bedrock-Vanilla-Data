@@ -1,4 +1,7 @@
 /** Notice: Auto generated file, do not edit */
 
-export const Models: string[] = 
+import { Model } from '../../Types/ResourcePack/Model';
+
+
+export const Models: Model[] = 
 []

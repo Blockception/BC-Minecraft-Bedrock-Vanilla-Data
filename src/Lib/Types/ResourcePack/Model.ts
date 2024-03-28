@@ -1,4 +1,7 @@
 /**
  *
  */
-export type Model = string;
+export interface Model {
+  id: string;
+  bones: string[];
+}
