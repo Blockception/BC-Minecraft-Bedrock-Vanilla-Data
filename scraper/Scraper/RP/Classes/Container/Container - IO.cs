@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -38,7 +38,7 @@ namespace Scraper.RP {
             Typescript.SaveArray("Entity", "../../Types/ResourcePack/Entity", nameof(this.Entities), this.Entities, Path.Join(Folder, "entities.ts"));
             Typescript.SaveArray("string", null, nameof(this.Fogs), this.Fogs, Path.Join(Folder, "fogs.ts"));
             Typescript.SaveArray("string", null, nameof(this.Materials), this.Materials, Path.Join(Folder, "materials.ts"));
-            Typescript.SaveArray("string", null, nameof(this.Models), this.Models, Path.Join(Folder, "models.ts"));
+            Typescript.SaveArray("Model", "../../Types/ResourcePack/Model", nameof(this.Models), this.Models, Path.Join(Folder, "models.ts"));
             Typescript.SaveArray("string", null, nameof(this.Particles), this.Particles, Path.Join(Folder, "particles.ts"));
             Typescript.SaveArray("string", null, nameof(this.RenderControllers), this.RenderControllers, Path.Join(Folder, "render_controllers.ts"));
             Typescript.SaveArray("string", null, nameof(this.Sounds), this.Sounds, Path.Join(Folder, "sounds.ts"));

@@ -1,56 +1,72 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text.Json;
 
-namespace Scraper.RP {
-    public partial class Model {
-        public static void Convert(JsonDocument Doc, List<Model> Receiver) {
-            JsonElement Root = Doc.RootElement;
+namespace Scraper.RP;
+public partial class Model {
+    public static void Convert(JsonDocument Doc, List<Model> Receiver) {
+        JsonElement Root = Doc.RootElement;
 
-            String format = Root.GetProperty("format_version").GetString();
-
-            switch (format) {
-                case "1.10.0":
-                case "1.8.0":
-                    Convert180(Root, Receiver);
-                    break;
-
-                default:
-                    Convert(Root, Receiver);
-                    break;
+        foreach (JsonProperty property in Root.EnumerateObject()) {
+            if (property.Name.StartsWith("geometry.")) {
+                Convert180(property, Receiver);
             }
         }
 
-        internal static void Convert180(JsonElement Root, List<Model> Receiver) {
-            foreach (JsonProperty Geo in Root.EnumerateObject()) {
-                if (Geo.Name.StartsWith("geometry")) {
-                    String ID = Geo.Name;
+        if (Root.TryGetProperty("minecraft:geometry", out JsonElement _)) {
+            Convert(Root, Receiver);
+        }
+    }
 
-                    Int32 Index = ID.IndexOf(":");
+    internal static void Convert180(JsonProperty Root, List<Model> Receiver) {
+        JsonElement geo = Root.Value;
+        String ID = Root.Name;
 
-                    if (Index >= 0) {
-                        ID = ID[..Index];
-                    }
+        Int32 Index = ID.IndexOf(":");
 
-                    var Item = new Model {
-                        ID = ID
-                    };
+        if (Index >= 0) {
+            ID = ID[..Index];
+        }
 
-                    Receiver.Add(Item);
+        var Item = new Model {
+            ID = ID
+        };
+
+        Receiver.Add(Item);
+
+        if (geo.TryGetProperty("bones", out JsonElement Bones)) {
+            HarvestBones(Bones, Item.Bones);
+        }
+    }
+
+    internal static void Convert(JsonElement Root, List<Model> Receiver) {
+        JsonElement Geos = Root.GetProperty("minecraft:geometry");
+
+        foreach (JsonElement Geo in Geos.EnumerateArray()) {
+            String Identifier = Geo.GetProperty("description").GetProperty("identifier").GetString();
+            var Item = new Model {
+                ID = Identifier
+            };
+
+            Receiver.Add(Item);
+
+            if (Geo.TryGetProperty("bones", out JsonElement Bones)) {
+                HarvestBones(Bones, Item.Bones);
+            }
+        }
+    }
+
+    internal static void HarvestBones(JsonElement Root, List<String> Bones) {
+        if (Root.ValueKind != JsonValueKind.Array) {
+            return;
+        }
+
+        foreach (JsonElement Bone in Root.EnumerateArray()) {
+            if (Bone.TryGetProperty("name", out JsonElement Name)) {
+                String n = Name.GetString();
+                if (n is not null && !Bones.Contains(n)) {
+                    Bones.Add(n);
                 }
-            }
-        }
-
-        internal static void Convert(JsonElement Root, List<Model> Receiver) {
-            JsonElement Geos = Root.GetProperty("minecraft:geometry");
-
-            foreach (JsonElement Geo in Geos.EnumerateArray()) {
-                String Identifier = Geo.GetProperty("description").GetProperty("identifier").GetString();
-                var Item = new Model {
-                    ID = Identifier
-                };
-
-                Receiver.Add(Item);
             }
         }
     }

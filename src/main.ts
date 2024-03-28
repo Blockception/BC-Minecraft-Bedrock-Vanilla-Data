@@ -213,7 +213,7 @@ export namespace MinecraftData {
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getModel(id: string, edu: boolean = false): Types.ResourcePack.Model | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.models, MinecraftData.edu.ResourcePack.models);
+      return get(id, edu, MinecraftData.vanilla.ResourcePack.models, MinecraftData.edu.ResourcePack.models);
     }
 
     /**Gets the particle by the given identification
