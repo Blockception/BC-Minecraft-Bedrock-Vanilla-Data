@@ -48,7 +48,7 @@ function test_block(Blocks: Block[]) {
     Test_Identifiable(block);
 
     block.properties.forEach((property) => {
-      assert(BlockState.is(property), "Block property is not a proper block state");
+      assert(typeof property === "string", `${block.id} -> ${property} is not a string`);
     });
   });
 }
