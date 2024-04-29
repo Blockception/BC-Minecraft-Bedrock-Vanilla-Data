@@ -4,6 +4,7 @@ export const RenderControllers: string[] =
 [
   "controller.render.agent",
   "controller.render.allay",
+  "controller.render.armadillo",
   "controller.render.armor",
   "controller.render.armor_stand",
   "controller.render.armor.leather",
@@ -134,6 +135,7 @@ export const RenderControllers: string[] =
   "controller.render.wither_skeleton",
   "controller.render.wither_skull",
   "controller.render.wolf",
+  "controller.render.wolf_armor",
   "controller.render.zoglin",
   "controller.render.zombie",
   "controller.render.zombie_horse.v1.and.v2",

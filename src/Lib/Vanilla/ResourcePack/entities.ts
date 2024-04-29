@@ -11,9 +11,24 @@ export const Entities: Entity[] =
       "idle",
       "fly",
       "hold_item",
+      "dance",
       "hold_item_fly",
-      "look_at_target_default",
-      "dance"
+      "look_at_target_default"
+    ]
+  },
+  {
+    "id": "minecraft:armadillo",
+    "animations": [
+      "look_at_target",
+      "look_at_target_controller",
+      "walk",
+      "walk_controller",
+      "roll_up",
+      "rolled_up",
+      "peek",
+      "unroll",
+      "unroll_fast",
+      "roll_up_controller"
     ]
   },
   {
@@ -57,7 +72,10 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:bat",
-    "animations": []
+    "animations": [
+      "resting",
+      "flying"
+    ]
   },
   {
     "id": "minecraft:bed",
@@ -243,7 +261,13 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:ender_dragon",
-    "animations": []
+    "animations": [
+      "setup",
+      "jaw_movement",
+      "neck_head_movement",
+      "wings_limbs_movement",
+      "tail_movement"
+    ]
   },
   {
     "id": "minecraft:ender_pearl",
@@ -425,7 +449,17 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:iron_golem",
-    "animations": []
+    "animations": [
+      "walk",
+      "move",
+      "attack",
+      "flower",
+      "look_at_target",
+      "walk_to_target",
+      "move_to_target",
+      "move_controller",
+      "arm_controller"
+    ]
   },
   {
     "id": "minecraft:leash_knot",
@@ -525,8 +559,8 @@ export const Entities: Entity[] =
     "id": "minecraft:phantom",
     "animations": [
       "phantom_base_pose",
-      "phantom_base_pose_controller",
-      "move"
+      "move",
+      "phantom_base_pose_controller"
     ]
   },
   {
@@ -625,13 +659,10 @@ export const Entities: Entity[] =
       "move.legs",
       "swimming",
       "swimming.legs",
-      "crawling",
-      "crawling.legs",
       "riding.arms",
       "riding.legs",
       "holding",
       "brandish_spear",
-      "holding_spyglass",
       "charging",
       "attack.positions",
       "attack.rotations",
@@ -645,9 +676,9 @@ export const Entities: Entity[] =
       "first_person_base_pose",
       "first_person_empty_hand",
       "first_person_swap_item",
-      "first_person_shield_block",
       "first_person_attack_controller",
       "first_person_attack_rotation",
+      "first_person_attack_rotation_item",
       "first_person_vr_attack_rotation",
       "first_person_walk",
       "first_person_map_controller",
@@ -656,6 +687,8 @@ export const Entities: Entity[] =
       "first_person_map_hold_off_hand",
       "first_person_map_hold_main_hand",
       "first_person_crossbow_equipped",
+      "first_person_crossbow_hold",
+      "first_person_breathing_bob",
       "third_person_crossbow_equipped",
       "third_person_bow_equipped",
       "crossbow_hold",
@@ -663,14 +696,24 @@ export const Entities: Entity[] =
       "shield_block_main_hand",
       "shield_block_off_hand",
       "blink",
+      "fishing_rod",
+      "holding_spyglass",
+      "first_person_shield_block",
       "tooting_goat_horn",
       "holding_brush",
-      "brushing"
+      "brushing",
+      "crawling",
+      "crawling.legs"
     ]
   },
   {
     "id": "minecraft:polar_bear",
-    "animations": []
+    "animations": [
+      "walk",
+      "move",
+      "look_at_target",
+      "baby_transform"
+    ]
   },
   {
     "id": "minecraft:pufferfish",
@@ -803,7 +846,11 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:snow_golem",
-    "animations": []
+    "animations": [
+      "move",
+      "arms",
+      "look_at_target"
+    ]
   },
   {
     "id": "minecraft:snowball",
@@ -985,6 +1032,8 @@ export const Entities: Entity[] =
       "melee_attack_controller",
       "bob",
       "swimming",
+      "hurt",
+      "hurt_controller",
       "sonic_boom",
       "sonic_boom_controller"
     ]
@@ -1000,7 +1049,11 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:wither",
-    "animations": []
+    "animations": [
+      "scale",
+      "move",
+      "look_at_target"
+    ]
   },
   {
     "id": "minecraft:wither_skeleton",

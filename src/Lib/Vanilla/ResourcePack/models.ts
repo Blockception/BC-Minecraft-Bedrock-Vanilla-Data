@@ -31,6 +31,21 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.armadillo",
+    "bones": [
+      "body",
+      "tail",
+      "head",
+      "right_ear",
+      "left_ear",
+      "right_hind_leg",
+      "left_hind_leg",
+      "right_front_leg",
+      "left_front_leg",
+      "body_rolled_up"
+    ]
+  },
+  {
     "id": "geometry.armor_stand",
     "bones": [
       "baseplate",
@@ -1970,6 +1985,19 @@ export const Models: Model[] =
   },
   {
     "id": "geometry.wolf",
+    "bones": [
+      "head",
+      "body",
+      "upperBody",
+      "leg0",
+      "leg1",
+      "leg2",
+      "leg3",
+      "tail"
+    ]
+  },
+  {
+    "id": "geometry.wolf.armor",
     "bones": [
       "head",
       "body",
