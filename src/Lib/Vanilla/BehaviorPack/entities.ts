@@ -23,6 +23,27 @@ export const Entities: Entity[] =
     "families": []
   },
   {
+    "id": "minecraft:armadillo",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:entity_born",
+      "minecraft:spawn_adult",
+      "minecraft:spawn_baby",
+      "minecraft:ageable_grow_up",
+      "minecraft:no_threat_detected",
+      "minecraft:threat_detected",
+      "minecraft:unroll",
+      "minecraft:roll_up",
+      "minecraft:start_peeking",
+      "minecraft:stop_peeking",
+      "minecraft:start_unrolling"
+    ],
+    "families": [
+      "armadillo",
+      "mob"
+    ]
+  },
+  {
     "id": "minecraft:armor_stand",
     "events": [],
     "families": [
@@ -1521,16 +1542,27 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:entity_born",
+      "minecraft:spawn_wild_pale",
+      "minecraft:spawn_wild_ashen",
+      "minecraft:spawn_wild_black",
+      "minecraft:spawn_wild_chestnut",
+      "minecraft:spawn_wild_rusty",
+      "minecraft:spawn_wild_snowy",
+      "minecraft:spawn_wild_spotted",
+      "minecraft:spawn_wild_striped",
+      "minecraft:spawn_wild_woods",
+      "minecraft:spawn_wild_baby_or_adult",
       "minecraft:spawn_wild_baby",
-      "minecraft:spawn_tame_baby",
       "minecraft:spawn_wild_adult",
+      "minecraft:spawn_tame_baby",
       "minecraft:spawn_tame_adult",
       "minecraft:ageable_grow_up",
       "minecraft:ageable_set_baby",
       "minecraft:on_tame",
       "minecraft:increase_max_health",
       "minecraft:become_angry",
-      "minecraft:on_calm"
+      "minecraft:on_calm",
+      "minecraft:become_armorable"
     ],
     "families": [
       "wolf",

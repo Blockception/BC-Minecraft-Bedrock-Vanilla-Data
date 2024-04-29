@@ -48,6 +48,7 @@ export const LootTables: string[] =
   "loot_tables/chests/village/village_weaponsmith.json",
   "loot_tables/chests/woodland_mansion.json",
   "loot_tables/empty.json",
+  "loot_tables/entities/armadillo_brush.json",
   "loot_tables/entities/armor_set_chain.json",
   "loot_tables/entities/armor_set_diamond.json",
   "loot_tables/entities/armor_set_gold.json",
