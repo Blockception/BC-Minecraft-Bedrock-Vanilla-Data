@@ -1,4 +1,7 @@
 /** Notice: Auto generated file, do not edit */
-
-export const AnimationControllers: string[] = 
+
+import { AnimationController } from '../../Types/ResourcePack/AnimationController';
+
+
+export const AnimationControllers: AnimationController[] = 
 []

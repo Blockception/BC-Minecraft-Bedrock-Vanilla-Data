@@ -16,27 +16,26 @@ namespace Scraper.BP {
             JsonElement Desc = Def.GetProperty("description");
 
             String ID = Desc.GetProperty("identifier").GetString();
+            if (String.IsNullOrWhiteSpace(ID)) {
+                return;
+            }
+            var Out = new Block {
+                ID = ID
+            };
+            Receiver.Add(Out);
 
-            if (ID != null) {
-                var Out = new Block {
-                    ID = ID
-                };
+            if (Desc.TryGetProperty("properties", out JsonElement properties)) {
+                foreach (JsonProperty Item in properties.EnumerateObject()) {
+                    var State = new BlockState {
+                        Name = Item.Name
+                    };
 
-                if (Desc.TryGetProperty("properties", out JsonElement properties)) {
-                    foreach (JsonProperty Item in properties.EnumerateObject()) {
-                        var State = new BlockState {
-                            Name = Item.Name
-                        };
+                    foreach (JsonElement Value in Item.Value.EnumerateArray()) {
+                        String Temp = Value.GetString();
 
-                        foreach (JsonElement Value in Item.Value.EnumerateArray()) {
-                            String Temp = Value.GetString();
-
-                            State.Values.Add(Temp);
-                        }
+                        State.Values.Add(Temp);
                     }
                 }
-
-                Receiver.Add(Out);
             }
         }
     }

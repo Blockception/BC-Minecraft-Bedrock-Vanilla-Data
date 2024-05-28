@@ -1,4 +1,10 @@
+import { Identifiable } from '../Identifiable';
+
 /**
  *
  */
-export type AnimationController = string;
+export interface AnimationController extends Identifiable {
+    animations: string[];
+    particles: string[];
+    sounds: string[];
+}
