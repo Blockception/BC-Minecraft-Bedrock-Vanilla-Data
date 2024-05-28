@@ -1,4 +1,10 @@
+import { Identifiable } from '../Identifiable';
+
 /**
  *
  */
-export type Animation = string;
+export interface Animation extends Identifiable {
+    bones: string[];
+    particles: string[];
+    sounds: string[];
+}
