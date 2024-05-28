@@ -168,7 +168,7 @@ export namespace MinecraftData {
       id: string,
       edu: boolean = false
     ): Types.ResourcePack.AnimationController | undefined {
-      return getStr(
+      return get(
         id,
         edu,
         MinecraftData.vanilla.ResourcePack.animation_controllers,
@@ -181,7 +181,7 @@ export namespace MinecraftData {
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getAnimation(id: string, edu: boolean = false): Types.ResourcePack.Animation | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.animations, MinecraftData.edu.ResourcePack.animations);
+      return get(id, edu, MinecraftData.vanilla.ResourcePack.animations, MinecraftData.edu.ResourcePack.animations);
     }
 
     /**Gets the animation controller by the given identification

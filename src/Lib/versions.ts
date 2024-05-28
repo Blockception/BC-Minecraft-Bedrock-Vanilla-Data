@@ -1,8 +1,8 @@
 /** Notice: Auto generated file, do not edit */
-
+
 import { FormatVersionData } from './General';
 
-
+
 export const Versions: FormatVersionData = 
 {
   "latest": "1.20.80.5",

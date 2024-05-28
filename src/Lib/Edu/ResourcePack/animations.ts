@@ -1,4 +1,7 @@
 /** Notice: Auto generated file, do not edit */
-
-export const Animations: string[] = 
+
+import { Animation } from '../../Types/ResourcePack/Animation';
+
+
+export const Animations: Animation[] = 
 []

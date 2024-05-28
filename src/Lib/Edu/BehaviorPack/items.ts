@@ -1,8 +1,8 @@
 /** Notice: Auto generated file, do not edit */
-
+
 import { Item } from '../../Types/BehaviorPack/Item';
 
-
+
 export const Items: Item[] = 
 [
   {
