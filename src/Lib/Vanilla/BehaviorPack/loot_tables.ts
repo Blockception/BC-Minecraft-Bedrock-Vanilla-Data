@@ -1,5 +1,5 @@
 /** Notice: Auto generated file, do not edit */
-
+
 export const LootTables: string[] = 
 [
   "loot_tables/chests/abandoned_mineshaft.json",
