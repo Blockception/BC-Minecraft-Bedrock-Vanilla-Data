@@ -1,4 +1,8 @@
 [
-  "controller.animation.player.hudplayer",
-  "controller.animation.player.base"
+  {
+    "id": "controller.animation.player.hudplayer"
+  },
+  {
+    "id": "controller.animation.player.base"
+  }
 ]

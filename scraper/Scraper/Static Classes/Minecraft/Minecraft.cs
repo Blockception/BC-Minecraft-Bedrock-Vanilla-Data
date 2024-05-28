@@ -10,7 +10,11 @@ namespace Scraper {
         private static String _InstallationFolder;
 
         public static String InstallationFolder() {
-            if (_InstallationFolder == null) {
+            if (_InstallationFolder is null) {
+                if (!Directory.Exists(@"C:\Program Files\WindowsApps\")) {
+                    return _InstallationFolder;
+                }
+
                 String[] Directories = Directory.GetDirectories(@"C:\Program Files\WindowsApps\", "Microsoft.Minecraft*");
 
                 if (Directories.Length >= 1) {

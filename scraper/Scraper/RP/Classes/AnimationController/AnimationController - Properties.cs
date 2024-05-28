@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace Scraper.RP {
     public partial class AnimationController : IIdentifier {
@@ -12,5 +9,23 @@ namespace Scraper.RP {
         /// </summary>
         [JsonPropertyName("id")]
         public String ID { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [JsonPropertyName("animations")]
+        public List<String> Animations { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [JsonPropertyName("particles")]
+        public List<String> Particles { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [JsonPropertyName("sounds")]
+        public List<String> Sounds { get; set; }
     }
 }
