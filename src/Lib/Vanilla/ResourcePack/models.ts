@@ -151,6 +151,20 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.bogged.armor",
+    "bones": [
+      "body",
+      "waist",
+      "head",
+      "hat",
+      "rightArm",
+      "rightItem",
+      "leftArm",
+      "rightLeg",
+      "leftLeg"
+    ]
+  },
+  {
     "id": "geometry.bow_pulling_0",
     "bones": [
       "rightitem"
@@ -172,6 +186,68 @@ export const Models: Model[] =
     "id": "geometry.bow_standby",
     "bones": [
       "rightitem"
+    ]
+  },
+  {
+    "id": "geometry.breeze",
+    "bones": [
+      "body",
+      "rods",
+      "head",
+      "eyes",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top"
+    ]
+  },
+  {
+    "id": "geometry.breeze_eyes",
+    "bones": [
+      "body",
+      "rods",
+      "head",
+      "eyes",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top"
+    ]
+  },
+  {
+    "id": "geometry.breeze_wind_bottom",
+    "bones": [
+      "body",
+      "rods",
+      "head",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top"
+    ]
+  },
+  {
+    "id": "geometry.breeze_wind_mid",
+    "bones": [
+      "body",
+      "rods",
+      "head",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top"
+    ]
+  },
+  {
+    "id": "geometry.breeze_wind_top",
+    "bones": [
+      "body",
+      "rods",
+      "head",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top"
     ]
   },
   {
@@ -1538,6 +1614,22 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.skeleton.bogged",
+    "bones": [
+      "body",
+      "waist",
+      "head",
+      "mushrooms",
+      "hat",
+      "rightArm",
+      "rightItem",
+      "leftArm",
+      "leftItem",
+      "rightLeg",
+      "leftLeg"
+    ]
+  },
+  {
     "id": "geometry.skeleton.stray",
     "bones": [
       "body",
@@ -1942,6 +2034,15 @@ export const Models: Model[] =
       "left_arm",
       "right_leg",
       "left_leg"
+    ]
+  },
+  {
+    "id": "geometry.wind_charge",
+    "bones": [
+      "bone",
+      "projectile",
+      "wind",
+      "wind_charge"
     ]
   },
   {

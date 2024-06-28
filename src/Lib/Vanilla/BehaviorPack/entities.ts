@@ -147,6 +147,42 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:bogged",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:melee_mode",
+      "minecraft:ranged_mode",
+      "be_sheared"
+    ],
+    "families": [
+      "bogged",
+      "skeleton",
+      "monster",
+      "mob",
+      "undead"
+    ]
+  },
+  {
+    "id": "minecraft:breeze",
+    "events": [
+      "minecraft:start_playing_idle_ground_sound",
+      "minecraft:stop_playing_idle_ground_sound"
+    ],
+    "families": [
+      "breeze",
+      "monster",
+      "mob"
+    ]
+  },
+  {
+    "id": "minecraft:breeze_wind_charge_projectile",
+    "events": [],
+    "families": [
+      "wind_charge",
+      "wind_charge_projectile"
+    ]
+  },
+  {
     "id": "minecraft:camel",
     "events": [
       "minecraft:entity_spawned",
@@ -577,6 +613,7 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:spawn_adult",
+      "minecraft:spawn_tame_adult",
       "minecraft:on_tame",
       "minecraft:ageable_grow_up",
       "minecraft:horse_saddled",
@@ -653,7 +690,8 @@ export const Entities: Entity[] =
       "minecraft:on_chest",
       "minecraft:add_attributes",
       "minecraft:spawn_baby",
-      "minecraft:spawn_adult"
+      "minecraft:spawn_adult",
+      "minecraft:spawn_tame_adult"
     ],
     "families": [
       "llama",
@@ -749,6 +787,11 @@ export const Entities: Entity[] =
       "ocelot",
       "mob"
     ]
+  },
+  {
+    "id": "minecraft:ominous_item_spawner",
+    "events": [],
+    "families": []
   },
   {
     "id": "minecraft:painting",
@@ -890,8 +933,8 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:player",
     "events": [
-      "minecraft:gain_bad_omen",
-      "minecraft:clear_add_bad_omen",
+      "minecraft:gain_raid_omen",
+      "minecraft:clear_add_raid_omen",
       "minecraft:trigger_raid",
       "minecraft:remove_raid_trigger"
     ],
@@ -1481,6 +1524,14 @@ export const Entities: Entity[] =
       "warden",
       "monster",
       "mob"
+    ]
+  },
+  {
+    "id": "minecraft:wind_charge_projectile",
+    "events": [],
+    "families": [
+      "wind_charge",
+      "wind_charge_projectile"
     ]
   },
   {

@@ -382,6 +382,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:breeze_rod",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:brewing_stand",
     "max_damage": 0
   },
@@ -2626,6 +2630,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:ominous_trial_key",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:orange_candle",
     "max_damage": 0
   },
@@ -3658,6 +3666,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:trial_key",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:trident",
     "max_damage": 0
   },
@@ -3983,6 +3995,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:white_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:wind_charge",
     "max_damage": 0
   },
   {

@@ -182,6 +182,70 @@ export const AnimationControllers: AnimationController[] =
     "sounds": []
   },
   {
+    "id": "controller.animation.breeze.ground_particles",
+    "animations": [
+      "idle_ground_particles",
+      "slide_ground_particles"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.breeze.idle",
+    "animations": [
+      "idle"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.breeze.idle_ground_sound",
+    "animations": [
+      "idle_ground_sound"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.breeze.jump",
+    "animations": [
+      "jump"
+    ],
+    "particles": [],
+    "sounds": [
+      "effect"
+    ]
+  },
+  {
+    "id": "controller.animation.breeze.look_at",
+    "animations": [
+      "look_at"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.breeze.move",
+    "animations": [
+      "whirl_sound",
+      "slide"
+    ],
+    "particles": [],
+    "sounds": [
+      "effect"
+    ]
+  },
+  {
+    "id": "controller.animation.breeze.shoot",
+    "animations": [
+      "shoot"
+    ],
+    "particles": [],
+    "sounds": [
+      "effect"
+    ]
+  },
+  {
     "id": "controller.animation.camel.general",
     "animations": [
       "moving",
