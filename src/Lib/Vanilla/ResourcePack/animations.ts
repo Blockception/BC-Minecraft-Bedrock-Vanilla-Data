@@ -669,6 +669,88 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
+    "id": "animation.breeze.idle",
+    "bones": [
+      "tornado_top",
+      "tornado_mid",
+      "head",
+      "rods"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.idle_ground_particles",
+    "bones": [],
+    "particles": [
+      "ground_particles"
+    ],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.idle_ground_sound",
+    "bones": [],
+    "particles": [],
+    "sounds": [
+      "idle_ground_sound"
+    ]
+  },
+  {
+    "id": "animation.breeze.jump",
+    "bones": [
+      "body",
+      "head",
+      "tornado_body",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top",
+      "rods"
+    ],
+    "particles": [
+      "ground_particles"
+    ],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.shoot",
+    "bones": [
+      "head",
+      "tornado_bottom",
+      "tornado_mid",
+      "tornado_top",
+      "body",
+      "rods"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.slide",
+    "bones": [
+      "body",
+      "tornado_mid",
+      "tornado_top"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.slide_ground_particles",
+    "bones": [],
+    "particles": [
+      "ground_particles"
+    ],
+    "sounds": []
+  },
+  {
+    "id": "animation.breeze.whirl_sound",
+    "bones": [],
+    "particles": [],
+    "sounds": [
+      "whirl"
+    ]
+  },
+  {
     "id": "animation.camel.dash",
     "bones": [
       "body",
@@ -4874,6 +4956,15 @@ export const Animations: Animation[] =
       "head",
       "right_arm",
       "left_arm"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.wind_charge.rotate",
+    "bones": [
+      "wind",
+      "wind_charge"
     ],
     "particles": [],
     "sounds": []

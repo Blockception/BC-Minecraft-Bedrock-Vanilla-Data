@@ -105,6 +105,55 @@ export const Entities: Entity[] =
     "animations": []
   },
   {
+    "id": "minecraft:bogged",
+    "animations": [
+      "look_at_target_default",
+      "look_at_target_gliding",
+      "look_at_target_swimming",
+      "move",
+      "riding.arms",
+      "riding.legs",
+      "holding",
+      "brandish_spear",
+      "charging",
+      "attack.rotations",
+      "sneaking",
+      "bob",
+      "damage_nearby_mobs",
+      "bow_and_arrow",
+      "swimming",
+      "use_item_progress",
+      "skeleton_attack"
+    ]
+  },
+  {
+    "id": "minecraft:breeze",
+    "animations": [
+      "look_at",
+      "idle",
+      "jump",
+      "shoot",
+      "slide",
+      "idle_ground_particles",
+      "slide_ground_particles",
+      "whirl_sound",
+      "idle_ground_sound",
+      "look_at_controller",
+      "idle_controller",
+      "move_controller",
+      "ground_particles_controller",
+      "shoot_controller",
+      "jump_controller",
+      "idle_ground_sound_controller"
+    ]
+  },
+  {
+    "id": "minecraft:breeze_wind_charge_projectile",
+    "animations": [
+      "rotate"
+    ]
+  },
+  {
     "id": "minecraft:camel",
     "animations": [
       "moving",
@@ -936,6 +985,10 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:trial_spawner",
+    "animations": []
+  },
+  {
     "id": "minecraft:tropicalfish",
     "animations": [
       "flop",
@@ -1036,6 +1089,12 @@ export const Entities: Entity[] =
       "hurt_controller",
       "sonic_boom",
       "sonic_boom_controller"
+    ]
+  },
+  {
+    "id": "minecraft:wind_charge_projectile",
+    "animations": [
+      "rotate"
     ]
   },
   {
