@@ -1635,6 +1635,8 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:zoglin",
     "events": [
+      "become_angry_event",
+      "become_calm_event",
       "minecraft:entity_transformed",
       "minecraft:entity_spawned",
       "minecraft:as_adult",
