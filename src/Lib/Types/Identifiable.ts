@@ -25,10 +25,10 @@ export namespace Identifiable {
    * @param find
    */
   export function find(items: Identifiable[], findID: string | Identifiable): number {
-    let id = typeof findID === "string" ? findID : findID.id;
+    const id = typeof findID === "string" ? findID : findID.id;
 
-    for (var I = 0; I < items.length; I++) {
-      if (items[I].id === id) return I;
+    for (let index = 0; index < items.length; index++) {
+      if (items[index].id === id) return index;
     }
 
     return -1;
@@ -49,10 +49,10 @@ export namespace Identifiable {
    * @param find
    */
   export function get<T extends Identifiable>(items: T[], findID: string | Identifiable): T | undefined {
-    let id = typeof findID === "string" ? findID : findID.id;
+    const id = typeof findID === "string" ? findID : findID.id;
 
-    for (var I = 0; I < items.length; I++) {
-      if (items[I].id === id) return items[I];
+    for (let index = 0; index < items.length; index++) {
+      if (items[index].id === id) return items[index];
     }
 
     return undefined;

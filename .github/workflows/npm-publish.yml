@@ -3,6 +3,7 @@
 name: 📦 Npm Package & Publish
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  FORCE_COLOR: true
 
 on:
   workflow_dispatch:
@@ -35,6 +36,9 @@ jobs:
 
       - name: 📋 Run Tests
         run: npm run test
+
+      - name: 🔍 Linting
+        run: npm run lint
 
   publish-npm:
     needs: test
