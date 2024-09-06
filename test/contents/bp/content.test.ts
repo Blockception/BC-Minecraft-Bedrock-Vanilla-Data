@@ -1,9 +1,9 @@
 import { assert } from "console";
-import { Block, BlockState } from "../../../src/Lib/Types/BehaviorPack";
+import { Block } from "../../../src/Lib/Types/BehaviorPack";
 import { Entity } from "../../../src/Lib/Types/BehaviorPack/Entity";
 import { Item } from "../../../src/Lib/Types/BehaviorPack/Item";
 import { MinecraftData } from "../../../src/main";
-import { Check_Identifiable, Check_IsFunction, Test_Identifiable } from "../../Identifiable.test";
+import { Check_Identifiable, Check_IsFunction, Test_Identifiable } from "../../identifiable";
 
 describe("bp content", () => {
   it("blocks", () => {

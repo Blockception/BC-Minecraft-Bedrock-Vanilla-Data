@@ -1,5 +1,4 @@
 import { fail } from "assert";
-import { expect } from "chai";
 import { assert } from "console";
 import { Identifiable } from "../src/Lib/Types/Identifiable";
 
@@ -20,16 +19,17 @@ export function Check_Identifiable(data: (Identifiable | string)[]): void {
 export function Check_IsFunction<T extends Identifiable>(items: T[], check: (value: any) => value is T) {
   items.forEach((item, index) => {
     if (check(item)) {
+      // do nothing
     } else {
-      expect.fail(`at '${index}', Did not pass the is function check: ${check.name}`);
+      throw new Error(`at '${index}', Did not pass the is function check: ${check.name}`);
     }
   });
 }
 
 function count(data: (Identifiable | string)[], id: Identifiable | string): number {
-  var out = 0;
+  let out = 0;
 
-  var find = typeof id === "string" ? id : id.id;
+  const find = typeof id === "string" ? id : id.id;
 
   data.forEach((item) => {
     if (typeof item !== "string") item = item.id;

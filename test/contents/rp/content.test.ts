@@ -1,15 +1,14 @@
-import { expect } from 'chai';
 import { assert } from "console";
 import { Entity } from "../../../src/Lib/Types/ResourcePack/Entity";
 import { MinecraftData } from "../../../src/main";
-import { Check_Identifiable, Check_IsFunction, Test_Identifiable } from "../../Identifiable.test";
+import { Check_Identifiable, Check_IsFunction, Test_Identifiable } from "../../identifiable";
 
 describe("rp content", () => {
   it("animation controllers", () => {
     Check_Identifiable(MinecraftData.edu.ResourcePack.animation_controllers);
     Check_Identifiable(MinecraftData.vanilla.ResourcePack.animation_controllers);
 
-    expect(MinecraftData.ResourcePack.getAnimationController("controller.animation.wolf.shaking")).to.not.be.undefined;
+    expect(MinecraftData.ResourcePack.getAnimationController("controller.animation.wolf.shaking")).toBeDefined();
   });
 
   it("animations", () => {

@@ -1,4 +1,6 @@
 name: 📑 Release Page
+env:
+  FORCE_COLOR: true
 
 on:
   push:
