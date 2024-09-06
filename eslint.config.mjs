@@ -4,13 +4,7 @@ import tseslint from "typescript-eslint";
 export default tseslint.config(
   {
     files: ["**/*.ts"],
-    ignores: [
-      "client/out/**/*",
-      "shared/out/**/*",
-      "server/out/**/*",
-      "node_modules/**/*",
-      "minecraft-bedrock-schemas/**/*",
-    ],
+    ignores: ["coverage/**/*", "node_modules/**/*"],
     extends: [eslint.configs.recommended, ...tseslint.configs.recommended],
     plugins: {
       jest: {},
