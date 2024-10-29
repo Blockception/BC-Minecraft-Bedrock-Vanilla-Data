@@ -1616,8 +1616,8 @@ export const Models: Model[] =
   {
     "id": "geometry.skeleton.bogged",
     "bones": [
-      "body",
       "waist",
+      "body",
       "head",
       "mushrooms",
       "hat",

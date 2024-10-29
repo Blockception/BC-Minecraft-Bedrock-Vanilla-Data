@@ -127,6 +127,7 @@ export const Particles: string[] =
   "minecraft:small_soul_fire_flame",
   "minecraft:smash_ground_particle",
   "minecraft:smash_ground_particle_center",
+  "minecraft:sneeze",
   "minecraft:snowflake_particle",
   "minecraft:sonic_explosion",
   "minecraft:soul_particle",
@@ -168,5 +169,6 @@ export const Particles: string[] =
   "minecraft:wind_charged_ambient",
   "minecraft:wind_charged_emitter",
   "minecraft:wind_explosion_emitter",
+  "minecraft:witchspell_emitter",
   "minecraft:wither_boss_invulnerable"
 ]
