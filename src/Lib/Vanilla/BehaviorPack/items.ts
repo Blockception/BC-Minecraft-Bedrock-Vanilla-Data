@@ -262,6 +262,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:black_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:black_candle",
     "max_damage": 0
   },
@@ -315,6 +319,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:bleach",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:blue_bundle",
     "max_damage": 0
   },
   {
@@ -402,6 +410,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:brown_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:brown_candle",
     "max_damage": 0
   },
@@ -435,6 +447,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:budding_amethyst",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:bundle",
     "max_damage": 0
   },
   {
@@ -915,6 +931,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:cut_copper_stairs",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cyan_bundle",
     "max_damage": 0
   },
   {
@@ -1614,6 +1634,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:gray_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:gray_candle",
     "max_damage": 0
   },
@@ -1627,6 +1651,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:gray_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:green_bundle",
     "max_damage": 0
   },
   {
@@ -2082,6 +2110,10 @@ export const Items: Item[] =
     "max_damage": 15
   },
   {
+    "id": "minecraft:light_blue_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:light_blue_candle",
     "max_damage": 0
   },
@@ -2095,6 +2127,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:light_blue_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:light_gray_bundle",
     "max_damage": 0
   },
   {
@@ -2115,6 +2151,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:lightning_rod",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:lime_bundle",
     "max_damage": 0
   },
   {
@@ -2187,6 +2227,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:loom",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:magenta_bundle",
     "max_damage": 0
   },
   {
@@ -2634,6 +2678,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:orange_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:orange_candle",
     "max_damage": 0
   },
@@ -2723,6 +2771,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:pillager_spawn_egg",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pink_bundle",
     "max_damage": 0
   },
   {
@@ -2946,6 +2998,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:purple_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:purple_candle",
     "max_damage": 0
   },
@@ -3047,6 +3103,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:recovery_compass",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:red_bundle",
     "max_damage": 0
   },
   {
@@ -3982,6 +4042,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:white_bundle",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:white_candle",
     "max_damage": 0
   },
@@ -4067,6 +4131,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:written_book",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:yellow_bundle",
     "max_damage": 0
   },
   {
