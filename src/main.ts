@@ -254,7 +254,7 @@ export namespace MinecraftData {
      * @param file The filename of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getSoundFile(file: string, edu: boolean = false): Types.ResourcePack.Sound | undefined {
+    export function getSoundFile(file: string, edu: boolean = false): string | undefined {
       return getStr(
         file,
         edu,
@@ -341,6 +341,14 @@ export namespace MinecraftData {
      * @returns A object with the specified id or undefined if nothing was found*/
     export function hasSound(id: string, edu: boolean = false): boolean {
       return getSound(id, edu) !== undefined;
+    }
+
+    /**Returns true or false if the given file exists
+     * @param file The identification of the object to find
+     * @param edu Whether or not to include education data
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function hasSoundFile(file: string, edu: boolean = false): boolean {
+      return getSound(file, edu) !== undefined;
     }
 
     /**Returns true or false if the given identification exists
