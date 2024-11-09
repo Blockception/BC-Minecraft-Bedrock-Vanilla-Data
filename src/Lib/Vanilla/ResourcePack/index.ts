@@ -9,4 +9,5 @@ export * from "./models";
 export * from "./particles";
 export * from "./render_controllers";
 export * from "./sounds";
+export * from "./sounds_files";
 export * from "./textures";

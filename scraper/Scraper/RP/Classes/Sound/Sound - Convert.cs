@@ -29,7 +29,7 @@ public partial class Sound {
                 Receiver.Add(Item);
 
                 if (Def.Value.TryGetProperty("sounds", out JsonElement Sounds)) {
-
+                    ConvertSounds(Sounds, SoundFiles);
                 }
             }
         }

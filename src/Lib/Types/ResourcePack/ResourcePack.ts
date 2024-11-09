@@ -38,6 +38,9 @@ export interface ResourcePack {
   /**The collection of sounds*/
   readonly sounds: Sound[];
 
+  /**The collection of sounds files*/
+  readonly sound_files: string[];
+
   /**The collection of textures*/
   readonly textures: Texture[];
 }

@@ -24,6 +24,7 @@ export namespace MinecraftData {
       particles: Vanilla.ResourcePack.Particles,
       render_controllers: Vanilla.ResourcePack.RenderControllers,
       sounds: Vanilla.ResourcePack.Sounds,
+      sound_files: Vanilla.ResourcePack.SoundFiles,
       textures: Vanilla.ResourcePack.Textures,
     },
   };
@@ -47,6 +48,7 @@ export namespace MinecraftData {
       particles: Edu.ResourcePack.Particles,
       render_controllers: Edu.ResourcePack.RenderControllers,
       sounds: Edu.ResourcePack.Sounds,
+      sound_files: Edu.ResourcePack.SoundFiles,
       textures: Edu.ResourcePack.Textures,
     },
   };
@@ -246,6 +248,19 @@ export namespace MinecraftData {
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getSound(id: string, edu: boolean = false): Types.ResourcePack.Sound | undefined {
       return getStr(id, edu, MinecraftData.vanilla.ResourcePack.sounds, MinecraftData.edu.ResourcePack.sounds);
+    }
+
+    /**Gets the sound file by the given identification
+     * @param file The filename of the object to find
+     * @param edu Whether or not to include education data
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function getSoundFile(file: string, edu: boolean = false): Types.ResourcePack.Sound | undefined {
+      return getStr(
+        file,
+        edu,
+        MinecraftData.vanilla.ResourcePack.sound_files,
+        MinecraftData.edu.ResourcePack.sound_files
+      );
     }
 
     /**Gets the texture by the given identification
