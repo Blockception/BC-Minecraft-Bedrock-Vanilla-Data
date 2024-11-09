@@ -42,6 +42,7 @@ namespace Scraper.RP {
             Typescript.SaveArray("string", null, nameof(this.Particles), this.Particles, Path.Join(Folder, "particles.ts"));
             Typescript.SaveArray("string", null, nameof(this.RenderControllers), this.RenderControllers, Path.Join(Folder, "render_controllers.ts"));
             Typescript.SaveArray("string", null, nameof(this.Sounds), this.Sounds, Path.Join(Folder, "sounds.ts"));
+            Typescript.SaveArray("string", null, nameof(this.SoundFiles), this.SoundFiles, Path.Join(Folder, "sounds_files.ts"));
             Typescript.SaveArray("string", null, nameof(this.Textures), this.Textures, Path.Join(Folder, "textures.ts"));
         }
     }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -33,7 +33,7 @@ namespace Scraper.RP {
             Scraper.RenderControllers.FromFolder(container.RenderControllers, Path.Join(Source, "render_controllers"));
 
             Scraper.Materials(Source, container.Materials);
-            Scraper.Sounds(Source, container.Sounds);
+            Scraper.Sounds(Source, container.Sounds, container.SoundFiles);
             Scraper.Textures(Source, container.Textures);
         }
     }

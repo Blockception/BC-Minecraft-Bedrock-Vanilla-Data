@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Scraper.RP {
@@ -12,7 +12,7 @@ namespace Scraper.RP {
         public static readonly ConvertJson<Model> Models = Model.Convert;
         public static readonly ConvertJson<Particle> Particles = Particle.Convert;
         public static readonly ConvertJson<RenderController> RenderControllers = RenderController.Convert;
-        public static readonly Action<String, List<Sound>> Sounds = Sound.Convert;
+        public static readonly Action<String, List<Sound>, List<String>> Sounds = Sound.Convert;
         public static readonly Action<String, List<Texture>> Textures = Texture.Convert;
     }
 }
