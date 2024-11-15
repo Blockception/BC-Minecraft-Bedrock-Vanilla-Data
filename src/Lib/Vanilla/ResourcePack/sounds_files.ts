@@ -1,6 +1,7 @@
 /** Notice: Auto generated file, do not edit */
-
-export const SoundFiles: string[] = [
+
+export const SoundFiles: string[] = 
+[
   "music/game/bromeliad",
   "music/game/hal1",
   "music/game/hal2",
@@ -5809,5 +5810,5 @@ export const SoundFiles: string[] = [
   "sounds/vr/turn2",
   "sounds/vr/turn3",
   "sounds/vr/turn4",
-  "sounds/vr/turn5",
-];
+  "sounds/vr/turn5"
+]
