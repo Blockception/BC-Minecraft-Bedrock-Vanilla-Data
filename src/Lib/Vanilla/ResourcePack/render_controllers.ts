@@ -26,6 +26,8 @@ export const RenderControllers: string[] =
   "controller.render.chicken",
   "controller.render.cod",
   "controller.render.cow",
+  "controller.render.creaking",
+  "controller.render.creaking_eyes",
   "controller.render.creeper",
   "controller.render.creeper_armor",
   "controller.render.crossbow",

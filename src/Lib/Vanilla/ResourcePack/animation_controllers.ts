@@ -78,6 +78,14 @@ export const AnimationControllers: AnimationController[] =
     "sounds": []
   },
   {
+    "id": "controller.animation.armor_stand.holding_heavy_core",
+    "animations": [
+      "holding_heavy_core"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
     "id": "controller.animation.armor_stand.pose",
     "animations": [
       "athena_pose",
@@ -199,14 +207,6 @@ export const AnimationControllers: AnimationController[] =
     "sounds": []
   },
   {
-    "id": "controller.animation.breeze.idle_ground_sound",
-    "animations": [
-      "idle_ground_sound"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
     "id": "controller.animation.breeze.jump",
     "animations": [
       "jump"
@@ -289,6 +289,46 @@ export const AnimationControllers: AnimationController[] =
       "sit",
       "sneak",
       "sprint",
+      "walk"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.creaking.attack",
+    "animations": [
+      "attack"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.creaking.look_at_target",
+    "animations": [
+      "look_at_target"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.creaking.sway",
+    "animations": [
+      "sway"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.creaking.twitch",
+    "animations": [
+      "twitch"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.creaking.walk",
+    "animations": [
       "walk"
     ],
     "particles": [],
@@ -977,7 +1017,8 @@ export const AnimationControllers: AnimationController[] =
       "third_person_bow_equipped",
       "tooting_goat_horn",
       "holding_brush",
-      "brushing"
+      "brushing",
+      "holding_heavy_core"
     ],
     "particles": [],
     "sounds": []

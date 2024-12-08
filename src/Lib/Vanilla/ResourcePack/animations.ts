@@ -310,6 +310,14 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
+    "id": "animation.armor_stand.holding_heavy_core",
+    "bones": [
+      "rightitem"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
     "id": "animation.armor_stand.honor_pose",
     "bones": [
       "body",
@@ -688,14 +696,6 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
-    "id": "animation.breeze.idle_ground_sound",
-    "bones": [],
-    "particles": [],
-    "sounds": [
-      "idle_ground_sound"
-    ]
-  },
-  {
     "id": "animation.breeze.jump",
     "bones": [
       "body",
@@ -1012,6 +1012,65 @@ export const Animations: Animation[] =
     "id": "animation.cow.setup.v1.0",
     "bones": [
       "body"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.creaking.attack",
+    "bones": [
+      "upperBody",
+      "head",
+      "rightArm",
+      "leftLeg",
+      "rightLeg",
+      "leftArm"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.creaking.look_at_target",
+    "bones": [
+      "head"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.creaking.sway",
+    "bones": [
+      "upperBody",
+      "rightArm",
+      "leftArm"
+    ],
+    "particles": [],
+    "sounds": [
+      "sway"
+    ]
+  },
+  {
+    "id": "animation.creaking.twitch",
+    "bones": [
+      "upperBody",
+      "rightArm",
+      "leftArm",
+      "head"
+    ],
+    "particles": [],
+    "sounds": [
+      "twitch"
+    ]
+  },
+  {
+    "id": "animation.creaking.walk",
+    "bones": [
+      "upperBody",
+      "head",
+      "rightArm",
+      "leftArm",
+      "leftLeg",
+      "rightLeg"
     ],
     "particles": [],
     "sounds": []
@@ -3353,6 +3412,14 @@ export const Animations: Animation[] =
     "bones": [
       "leftarm",
       "rightarm"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.player.holding_heavy_core",
+    "bones": [
+      "rightItem"
     ],
     "particles": [],
     "sounds": []
