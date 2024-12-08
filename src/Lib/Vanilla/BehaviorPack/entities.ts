@@ -108,7 +108,11 @@ export const Entities: Entity[] =
       "seek_shelter",
       "abort_sheltering",
       "countdown_to_perish_event",
-      "perish_event"
+      "perish_event",
+      "fed_open_eyeblossom",
+      "on_poison_effect_added",
+      "fed_wither_rose",
+      "on_wither_effect_added"
     ],
     "families": [
       "bee",
@@ -304,6 +308,28 @@ export const Entities: Entity[] =
     ],
     "families": [
       "cow",
+      "mob"
+    ]
+  },
+  {
+    "id": "minecraft:creaking",
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:entity_spawned_by_creaking_heart",
+      "minecraft:become_hostile",
+      "minecraft:become_neutral",
+      "minecraft:on_target_start_looking",
+      "minecraft:on_target_stop_looking",
+      "minecraft:start_twitching",
+      "minecraft:crumble",
+      "minecraft:damaged_by_player",
+      "minecraft:damaged_by_entity",
+      "minecraft:increment_swaying_ticks",
+      "minecraft:reset_swaying_ticks"
+    ],
+    "families": [
+      "creaking",
+      "monster",
       "mob"
     ]
   },
@@ -744,6 +770,8 @@ export const Entities: Entity[] =
       "minecraft:ate_lily",
       "minecraft:ate_rose",
       "minecraft:ate_torchflower",
+      "minecraft:ate_open_eyeblossom",
+      "minecraft:ate_closed_eyeblossom",
       "minecraft:ate_orchid",
       "minecraft:ate_daisy",
       "minecraft:ate_tulip",
@@ -1366,7 +1394,10 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:vex",
-    "events": [],
+    "events": [
+      "minecraft:add_damage_timer",
+      "minecraft:add_periodic_damage"
+    ],
     "families": [
       "vex",
       "monster",

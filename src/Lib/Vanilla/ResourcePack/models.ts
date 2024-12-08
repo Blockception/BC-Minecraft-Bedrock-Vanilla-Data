@@ -374,6 +374,19 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.creaking",
+    "bones": [
+      "root",
+      "upperBody",
+      "head",
+      "body",
+      "rightArm",
+      "leftArm",
+      "leftLeg",
+      "rightLeg"
+    ]
+  },
+  {
     "id": "geometry.creeper",
     "bones": [
       "body",
