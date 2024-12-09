@@ -228,6 +228,21 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:creaking",
+    "animations": [
+      "look_at_target",
+      "look_at_target_controller",
+      "walk",
+      "walk_controller",
+      "attack",
+      "attack_controller",
+      "sway",
+      "sway_controller",
+      "twitch",
+      "twitch_controller"
+    ]
+  },
+  {
     "id": "minecraft:creeper",
     "animations": [
       "creeper_head",
@@ -752,7 +767,8 @@ export const Entities: Entity[] =
       "holding_brush",
       "brushing",
       "crawling",
-      "crawling.legs"
+      "crawling.legs",
+      "holding_heavy_core"
     ]
   },
   {
