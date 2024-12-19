@@ -1,8 +1,8 @@
 /** Notice: Auto generated file, do not edit */
-
+
 import { Block } from '../../Types/BehaviorPack/Block';
 
-
+
 export const Blocks: Block[] = 
 [
   {
@@ -154,6 +154,18 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:andesite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:andesite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:andesite_stairs",
     "properties": [
       "upside_down_bit",
@@ -161,9 +173,18 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:andesite_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
     "id": "minecraft:anvil",
     "properties": [
-      "damage",
       "minecraft:cardinal_direction"
     ]
   },
@@ -685,6 +706,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:brain_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:brewing_stand",
     "properties": [
       "brewing_stand_slot_a_bit",
@@ -697,6 +724,12 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:brick_slab",
     "properties": [
       "minecraft:vertical_half"
@@ -707,6 +740,16 @@ export const Blocks: Block[] =
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -788,6 +831,12 @@ export const Blocks: Block[] =
     "id": "minecraft:bubble_coral_fan",
     "properties": [
       "coral_fan_direction"
+    ]
+  },
+  {
+    "id": "minecraft:bubble_coral_wall_fan",
+    "properties": [
+      "coral_direction"
     ]
   },
   {
@@ -999,12 +1048,17 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:cherry_wood",
     "properties": [
-      "pillar_axis",
-      "stripped_bit"
+      "pillar_axis"
     ]
   },
   {
     "id": "minecraft:chest",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
+    "id": "minecraft:chipped_anvil",
     "properties": [
       "minecraft:cardinal_direction"
     ]
@@ -1033,6 +1087,28 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:chiseled_quartz_block",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:chiseled_red_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:chiseled_resin_bricks",
+    "properties": []
+  },
+  {
+    "id": "minecraft:chiseled_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:chiseled_stone_bricks",
+    "properties": []
+  },
+  {
     "id": "minecraft:chiseled_tuff",
     "properties": []
   },
@@ -1055,7 +1131,7 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:client_request_placeholder_block",
+    "id": "minecraft:closed_eyeblossom",
     "properties": []
   },
   {
@@ -1064,6 +1140,10 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:coal_ore",
+    "properties": []
+  },
+  {
+    "id": "minecraft:coarse_dirt",
     "properties": []
   },
   {
@@ -1104,6 +1184,12 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:cobblestone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:cobblestone_slab",
     "properties": [
       "minecraft:vertical_half"
@@ -1112,7 +1198,6 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:cobblestone_wall",
     "properties": [
-      "wall_block_type",
       "wall_connection_type_east",
       "wall_connection_type_north",
       "wall_connection_type_south",
@@ -1128,16 +1213,26 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:colored_torch_bp",
+    "id": "minecraft:colored_torch_blue",
     "properties": [
-      "color_bit",
       "torch_facing_direction"
     ]
   },
   {
-    "id": "minecraft:colored_torch_rg",
+    "id": "minecraft:colored_torch_green",
     "properties": [
-      "color_bit",
+      "torch_facing_direction"
+    ]
+  },
+  {
+    "id": "minecraft:colored_torch_purple",
+    "properties": [
+      "torch_facing_direction"
+    ]
+  },
+  {
+    "id": "minecraft:colored_torch_red",
+    "properties": [
       "torch_facing_direction"
     ]
   },
@@ -1152,6 +1247,12 @@ export const Blocks: Block[] =
     "id": "minecraft:composter",
     "properties": [
       "composter_fill_level"
+    ]
+  },
+  {
+    "id": "minecraft:compound_creator",
+    "properties": [
+      "direction"
     ]
   },
   {
@@ -1195,30 +1296,6 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:coral_fan_hang",
-    "properties": [
-      "coral_direction",
-      "coral_hang_type_bit",
-      "dead_bit"
-    ]
-  },
-  {
-    "id": "minecraft:coral_fan_hang2",
-    "properties": [
-      "coral_direction",
-      "coral_hang_type_bit",
-      "dead_bit"
-    ]
-  },
-  {
-    "id": "minecraft:coral_fan_hang3",
-    "properties": [
-      "coral_direction",
-      "coral_hang_type_bit",
-      "dead_bit"
-    ]
-  },
-  {
     "id": "minecraft:cornflower",
     "properties": []
   },
@@ -1239,6 +1316,10 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:cracked_stone_bricks",
+    "properties": []
+  },
+  {
     "id": "minecraft:crafter",
     "properties": [
       "crafting",
@@ -1249,6 +1330,20 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:crafting_table",
     "properties": []
+  },
+  {
+    "id": "minecraft:creaking_heart",
+    "properties": [
+      "active",
+      "natural",
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:creeper_head",
+    "properties": [
+      "facing_direction"
+    ]
   },
   {
     "id": "minecraft:crimson_button",
@@ -1382,6 +1477,38 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:cut_red_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:cut_red_sandstone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:cut_red_sandstone_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:cut_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:cut_sandstone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:cut_sandstone_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:cyan_candle",
     "properties": [
       "candles",
@@ -1430,6 +1557,16 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:cyan_wool",
+    "properties": []
+  },
+  {
+    "id": "minecraft:damaged_anvil",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
+    "id": "minecraft:dandelion",
     "properties": []
   },
   {
@@ -1532,6 +1669,22 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:dark_prismarine",
+    "properties": []
+  },
+  {
+    "id": "minecraft:dark_prismarine_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:dark_prismarine_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:dark_prismarine_stairs",
     "properties": [
       "upside_down_bit",
@@ -1577,6 +1730,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:dead_brain_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:dead_bubble_coral",
     "properties": []
   },
@@ -1588,6 +1747,12 @@ export const Blocks: Block[] =
     "id": "minecraft:dead_bubble_coral_fan",
     "properties": [
       "coral_fan_direction"
+    ]
+  },
+  {
+    "id": "minecraft:dead_bubble_coral_wall_fan",
+    "properties": [
+      "coral_direction"
     ]
   },
   {
@@ -1605,6 +1770,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:dead_fire_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:dead_horn_coral",
     "properties": []
   },
@@ -1619,6 +1790,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:dead_horn_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:dead_tube_coral",
     "properties": []
   },
@@ -1630,6 +1807,12 @@ export const Blocks: Block[] =
     "id": "minecraft:dead_tube_coral_fan",
     "properties": [
       "coral_fan_direction"
+    ]
+  },
+  {
+    "id": "minecraft:dead_tube_coral_wall_fan",
+    "properties": [
+      "coral_direction"
     ]
   },
   {
@@ -1770,6 +1953,18 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:diorite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:diorite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:diorite_stairs",
     "properties": [
       "upside_down_bit",
@@ -1777,10 +1972,18 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:dirt",
+    "id": "minecraft:diorite_wall",
     "properties": [
-      "dirt_type"
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
+  },
+  {
+    "id": "minecraft:dirt",
+    "properties": []
   },
   {
     "id": "minecraft:dirt_with_roots",
@@ -1800,36 +2003,14 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:double_stone_block_slab",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type"
-    ]
-  },
-  {
-    "id": "minecraft:double_stone_block_slab2",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_2"
-    ]
-  },
-  {
-    "id": "minecraft:double_stone_block_slab3",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_3"
-    ]
-  },
-  {
-    "id": "minecraft:double_stone_block_slab4",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_4"
-    ]
-  },
-  {
     "id": "minecraft:dragon_egg",
     "properties": []
+  },
+  {
+    "id": "minecraft:dragon_head",
+    "properties": [
+      "facing_direction"
+    ]
   },
   {
     "id": "minecraft:dried_kelp_block",
@@ -1844,6 +2025,12 @@ export const Blocks: Block[] =
     "properties": [
       "facing_direction",
       "triggered_bit"
+    ]
+  },
+  {
+    "id": "minecraft:element_constructor",
+    "properties": [
+      "direction"
     ]
   },
   {
@@ -1870,10 +2057,6 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:end_gateway",
-    "properties": []
-  },
-  {
     "id": "minecraft:end_portal",
     "properties": []
   },
@@ -1893,6 +2076,28 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:end_stone",
     "properties": []
+  },
+  {
+    "id": "minecraft:end_stone_brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:end_stone_brick_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:end_stone_brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
   },
   {
     "id": "minecraft:ender_chest",
@@ -1998,6 +2203,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:fire_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:fletching_table",
     "properties": []
   },
@@ -2074,10 +2285,6 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:glowingobsidian",
-    "properties": []
-  },
-  {
     "id": "minecraft:glowstone",
     "properties": []
   },
@@ -2101,10 +2308,32 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:granite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:granite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:granite_stairs",
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:granite_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -2419,7 +2648,25 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:horn_coral_wall_fan",
+    "properties": [
+      "coral_direction"
+    ]
+  },
+  {
     "id": "minecraft:ice",
+    "properties": []
+  },
+  {
+    "id": "minecraft:infested_chiseled_stone_bricks",
+    "properties": []
+  },
+  {
+    "id": "minecraft:infested_cobblestone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:infested_cracked_stone_bricks",
     "properties": []
   },
   {
@@ -2429,15 +2676,15 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:info_update",
+    "id": "minecraft:infested_mossy_stone_bricks",
     "properties": []
   },
   {
-    "id": "minecraft:info_update2",
+    "id": "minecraft:infested_stone",
     "properties": []
   },
   {
-    "id": "minecraft:invisible_bedrock",
+    "id": "minecraft:infested_stone_bricks",
     "properties": []
   },
   {
@@ -2598,6 +2845,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:lab_table",
+    "properties": [
+      "direction"
+    ]
+  },
+  {
     "id": "minecraft:ladder",
     "properties": [
       "facing_direction"
@@ -2650,10 +2903,68 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:light_block",
-    "properties": [
-      "block_light_level"
-    ]
+    "id": "minecraft:light_block_0",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_1",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_10",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_11",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_12",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_13",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_14",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_15",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_2",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_3",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_4",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_5",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_6",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_7",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_8",
+    "properties": []
+  },
+  {
+    "id": "minecraft:light_block_9",
+    "properties": []
   },
   {
     "id": "minecraft:light_blue_candle",
@@ -3038,8 +3349,13 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:mangrove_wood",
     "properties": [
-      "pillar_axis",
-      "stripped_bit"
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:material_reducer",
+    "properties": [
+      "direction"
     ]
   },
   {
@@ -3064,12 +3380,6 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:monster_egg",
-    "properties": [
-      "monster_egg_stone_type"
-    ]
-  },
-  {
     "id": "minecraft:moss_block",
     "properties": []
   },
@@ -3082,10 +3392,44 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:mossy_cobblestone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:mossy_cobblestone_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:mossy_cobblestone_stairs",
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:mossy_cobblestone_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
+    "id": "minecraft:mossy_stone_brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:mossy_stone_brick_slab",
+    "properties": [
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -3096,7 +3440,17 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:moving_block",
+    "id": "minecraft:mossy_stone_brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
+    "id": "minecraft:mossy_stone_bricks",
     "properties": []
   },
   {
@@ -3143,12 +3497,24 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:mushroom_stem",
+    "properties": [
+      "huge_mushroom_bits"
+    ]
+  },
+  {
     "id": "minecraft:mycelium",
     "properties": []
   },
   {
     "id": "minecraft:nether_brick",
     "properties": []
+  },
+  {
+    "id": "minecraft:nether_brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
   },
   {
     "id": "minecraft:nether_brick_fence",
@@ -3165,6 +3531,16 @@ export const Blocks: Block[] =
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:nether_brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -3194,8 +3570,16 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:netherreactor",
-    "properties": []
+    "id": "minecraft:normal_stone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:normal_stone_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
   },
   {
     "id": "minecraft:normal_stone_stairs",
@@ -3285,6 +3669,10 @@ export const Blocks: Block[] =
     "properties": [
       "pillar_axis"
     ]
+  },
+  {
+    "id": "minecraft:open_eyeblossom",
+    "properties": []
   },
   {
     "id": "minecraft:orange_candle",
@@ -3413,6 +3801,137 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:pale_hanging_moss",
+    "properties": [
+      "tip"
+    ]
+  },
+  {
+    "id": "minecraft:pale_moss_block",
+    "properties": []
+  },
+  {
+    "id": "minecraft:pale_moss_carpet",
+    "properties": [
+      "pale_moss_carpet_side_east",
+      "pale_moss_carpet_side_north",
+      "pale_moss_carpet_side_south",
+      "pale_moss_carpet_side_west",
+      "upper_block_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_button",
+    "properties": [
+      "button_pressed_bit",
+      "facing_direction"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_door",
+    "properties": [
+      "direction",
+      "door_hinge_bit",
+      "open_bit",
+      "upper_block_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_fence",
+    "properties": []
+  },
+  {
+    "id": "minecraft:pale_oak_fence_gate",
+    "properties": [
+      "direction",
+      "in_wall_bit",
+      "open_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_hanging_sign",
+    "properties": [
+      "attached_bit",
+      "facing_direction",
+      "ground_sign_direction",
+      "hanging"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_leaves",
+    "properties": [
+      "persistent_bit",
+      "update_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_log",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_planks",
+    "properties": []
+  },
+  {
+    "id": "minecraft:pale_oak_pressure_plate",
+    "properties": [
+      "redstone_signal"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_sapling",
+    "properties": [
+      "age_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_stairs",
+    "properties": [
+      "upside_down_bit",
+      "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_standing_sign",
+    "properties": [
+      "ground_sign_direction"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_trapdoor",
+    "properties": [
+      "direction",
+      "open_bit",
+      "upside_down_bit"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_wall_sign",
+    "properties": [
+      "facing_direction"
+    ]
+  },
+  {
+    "id": "minecraft:pale_oak_wood",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
     "id": "minecraft:pearlescent_froglight",
     "properties": [
       "pillar_axis"
@@ -3425,9 +3944,21 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:petrified_oak_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:petrified_oak_slab",
     "properties": [
       "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:piglin_head",
+    "properties": [
+      "facing_direction"
     ]
   },
   {
@@ -3518,6 +4049,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:player_head",
+    "properties": [
+      "facing_direction"
+    ]
+  },
+  {
     "id": "minecraft:podzol",
     "properties": []
   },
@@ -3531,6 +4068,18 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:polished_andesite",
     "properties": []
+  },
+  {
+    "id": "minecraft:polished_andesite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:polished_andesite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
   },
   {
     "id": "minecraft:polished_andesite_stairs",
@@ -3662,6 +4211,18 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:polished_diorite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:polished_diorite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:polished_diorite_stairs",
     "properties": [
       "upside_down_bit",
@@ -3671,6 +4232,18 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:polished_granite",
     "properties": []
+  },
+  {
+    "id": "minecraft:polished_granite_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:polished_granite_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
   },
   {
     "id": "minecraft:polished_granite_stairs",
@@ -3749,9 +4322,23 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:prismarine",
+    "properties": []
+  },
+  {
+    "id": "minecraft:prismarine_brick_double_slab",
     "properties": [
-      "prismarine_block_type"
+      "minecraft:vertical_half"
     ]
+  },
+  {
+    "id": "minecraft:prismarine_brick_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:prismarine_bricks",
+    "properties": []
   },
   {
     "id": "minecraft:prismarine_bricks_stairs",
@@ -3761,10 +4348,32 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:prismarine_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:prismarine_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:prismarine_stairs",
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:prismarine_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -3834,8 +4443,25 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:purpur_block",
     "properties": [
-      "chisel_type",
       "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:purpur_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:purpur_pillar",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:purpur_slab",
+    "properties": [
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -3848,7 +4474,6 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:quartz_block",
     "properties": [
-      "chisel_type",
       "pillar_axis"
     ]
   },
@@ -3857,8 +4482,20 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:quartz_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:quartz_ore",
     "properties": []
+  },
+  {
+    "id": "minecraft:quartz_pillar",
+    "properties": [
+      "pillar_axis"
+    ]
   },
   {
     "id": "minecraft:quartz_slab",
@@ -3937,6 +4574,18 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:red_nether_brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:red_nether_brick_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:red_nether_brick_stairs",
     "properties": [
       "upside_down_bit",
@@ -3944,9 +4593,33 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:red_sandstone",
+    "id": "minecraft:red_nether_brick_wall",
     "properties": [
-      "sand_stone_type"
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
+    "id": "minecraft:red_sand",
+    "properties": []
+  },
+  {
+    "id": "minecraft:red_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:red_sandstone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:red_sandstone_slab",
+    "properties": [
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -3954,6 +4627,16 @@ export const Blocks: Block[] =
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:red_sandstone_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -4022,8 +4705,47 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:reserved6",
+    "id": "minecraft:resin_block",
     "properties": []
+  },
+  {
+    "id": "minecraft:resin_brick_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:resin_brick_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:resin_brick_stairs",
+    "properties": [
+      "upside_down_bit",
+      "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:resin_brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
+    "id": "minecraft:resin_bricks",
+    "properties": []
+  },
+  {
+    "id": "minecraft:resin_clump",
+    "properties": [
+      "multi_face_direction_bits"
+    ]
   },
   {
     "id": "minecraft:respawn_anchor",
@@ -4039,14 +4761,16 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:sand",
-    "properties": [
-      "sand_type"
-    ]
+    "properties": []
   },
   {
     "id": "minecraft:sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:sandstone_double_slab",
     "properties": [
-      "sand_stone_type"
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -4060,6 +4784,16 @@ export const Blocks: Block[] =
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:sandstone_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
     ]
   },
   {
@@ -4130,7 +4864,7 @@ export const Blocks: Block[] =
     ]
   },
   {
-    "id": "minecraft:skull",
+    "id": "minecraft:skeleton_skull",
     "properties": [
       "facing_direction"
     ]
@@ -4167,6 +4901,24 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:smooth_quartz",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:smooth_quartz_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:smooth_quartz_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:smooth_quartz_stairs",
     "properties": [
       "upside_down_bit",
@@ -4174,10 +4926,42 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:smooth_red_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:smooth_red_sandstone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:smooth_red_sandstone_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
     "id": "minecraft:smooth_red_sandstone_stairs",
     "properties": [
       "upside_down_bit",
       "weirdo_direction"
+    ]
+  },
+  {
+    "id": "minecraft:smooth_sandstone",
+    "properties": []
+  },
+  {
+    "id": "minecraft:smooth_sandstone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
+  },
+  {
+    "id": "minecraft:smooth_sandstone_slab",
+    "properties": [
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -4190,6 +4974,12 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:smooth_stone",
     "properties": []
+  },
+  {
+    "id": "minecraft:smooth_stone_double_slab",
+    "properties": [
+      "minecraft:vertical_half"
+    ]
   },
   {
     "id": "minecraft:smooth_stone_slab",
@@ -4249,9 +5039,7 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:sponge",
-    "properties": [
-      "sponge_type"
-    ]
+    "properties": []
   },
   {
     "id": "minecraft:spore_blossom",
@@ -4397,24 +5185,9 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:stone_block_slab2",
+    "id": "minecraft:stone_brick_double_slab",
     "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_2"
-    ]
-  },
-  {
-    "id": "minecraft:stone_block_slab3",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_3"
-    ]
-  },
-  {
-    "id": "minecraft:stone_block_slab4",
-    "properties": [
-      "minecraft:vertical_half",
-      "stone_slab_type_4"
+      "minecraft:vertical_half"
     ]
   },
   {
@@ -4429,6 +5202,20 @@ export const Blocks: Block[] =
       "upside_down_bit",
       "weirdo_direction"
     ]
+  },
+  {
+    "id": "minecraft:stone_brick_wall",
+    "properties": [
+      "wall_connection_type_east",
+      "wall_connection_type_north",
+      "wall_connection_type_south",
+      "wall_connection_type_west",
+      "wall_post_bit"
+    ]
+  },
+  {
+    "id": "minecraft:stone_bricks",
+    "properties": []
   },
   {
     "id": "minecraft:stone_button",
@@ -4449,16 +5236,6 @@ export const Blocks: Block[] =
       "upside_down_bit",
       "weirdo_direction"
     ]
-  },
-  {
-    "id": "minecraft:stonebrick",
-    "properties": [
-      "stone_brick_type"
-    ]
-  },
-  {
-    "id": "minecraft:stonecutter",
-    "properties": []
   },
   {
     "id": "minecraft:stonecutter_block",
@@ -4569,6 +5346,18 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:stripped_pale_oak_log",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
+    "id": "minecraft:stripped_pale_oak_wood",
+    "properties": [
+      "pillar_axis"
+    ]
+  },
+  {
     "id": "minecraft:stripped_spruce_log",
     "properties": [
       "pillar_axis"
@@ -4600,9 +5389,7 @@ export const Blocks: Block[] =
   },
   {
     "id": "minecraft:structure_void",
-    "properties": [
-      "structure_void_type"
-    ]
+    "properties": []
   },
   {
     "id": "minecraft:sunflower",
@@ -4647,7 +5434,6 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:tnt",
     "properties": [
-      "allow_underwater_bit",
       "explode_bit"
     ]
   },
@@ -4717,6 +5503,12 @@ export const Blocks: Block[] =
     "id": "minecraft:tube_coral_fan",
     "properties": [
       "coral_fan_direction"
+    ]
+  },
+  {
+    "id": "minecraft:tube_coral_wall_fan",
+    "properties": [
+      "coral_direction"
     ]
   },
   {
@@ -5289,6 +6081,10 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:wet_sponge",
+    "properties": []
+  },
+  {
     "id": "minecraft:wheat",
     "properties": [
       "growth"
@@ -5354,6 +6150,12 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:wither_skeleton_skull",
+    "properties": [
+      "facing_direction"
+    ]
+  },
+  {
     "id": "minecraft:wooden_button",
     "properties": [
       "button_pressed_bit",
@@ -5401,10 +6203,6 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
-    "id": "minecraft:yellow_flower",
-    "properties": []
-  },
-  {
     "id": "minecraft:yellow_glazed_terracotta",
     "properties": [
       "facing_direction"
@@ -5429,5 +6227,11 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:yellow_wool",
     "properties": []
+  },
+  {
+    "id": "minecraft:zombie_head",
+    "properties": [
+      "facing_direction"
+    ]
   }
 ]

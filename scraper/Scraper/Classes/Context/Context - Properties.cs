@@ -10,6 +10,8 @@ namespace Scraper {
     public List<String> VanillaBP { get; set; }
     public List<String> EduBP { get; set; }
 
+    public List<String> MetadataFolder { get; set; }
+
     public String GithubFolder { get; set; }
   }
 }

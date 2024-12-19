@@ -10,6 +10,7 @@ namespace Scraper {
             this.EduRP = new List<String>();
             this.VanillaBP = new List<String>();
             this.VanillaRP = new List<String>();
+            this.MetadataFolder = new List<String>();
         }
     }
 }

@@ -98,6 +98,7 @@ namespace Scraper {
       String Folder = Path.Join(DownloadUnpack("Samples", "https://github.com/Mojang/bedrock-samples/archive/refs/heads/main.zip"), "bedrock-samples-main");
       ExistsIf(Out.VanillaBP, Folder, "behavior_pack");
       ExistsIf(Out.VanillaRP, Folder, "resource_pack");
+      ExistsIf(Out.MetadataFolder, Folder, "metadata");
 
       Out.GithubFolder = Folder;
 

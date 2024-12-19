@@ -4,7 +4,8 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Text.Json;
 
-namespace Scraper {
+namespace Scraper
+{
     /// <summary>
     /// 
     /// </summary>
@@ -25,8 +26,10 @@ namespace Scraper {
     /// <summary>
     /// 
     /// </summary>
-    public static partial class ConvertJsonExtension {
-        static readonly public JsonDocumentOptions JsonOptions = new JsonDocumentOptions() {
+    public static partial class ConvertJsonExtension
+    {
+        static readonly public JsonDocumentOptions JsonOptions = new JsonDocumentOptions()
+        {
             AllowTrailingCommas = true,
             CommentHandling = JsonCommentHandling.Skip
         };
@@ -37,14 +40,17 @@ namespace Scraper {
         /// <typeparam name="T"></typeparam>
         /// <param name="Func"></param>
         /// <param name="Folder"></param>
-        public static void FromFolder<T>([AllowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder) {
-            if (Func == null || !Directory.Exists(Folder)) {
+        public static void FromFolder<T>([AllowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder)
+        {
+            if (Func == null || !Directory.Exists(Folder))
+            {
                 return;
             }
 
             String[] Files = Directory.GetFiles(Folder, "*.json", SearchOption.AllDirectories);
 
-            foreach (String Filepath in Files) {
+            foreach (String Filepath in Files)
+            {
                 FromFile<T>(Func, Receiver, Filepath);
             }
         }
@@ -55,24 +61,44 @@ namespace Scraper {
         /// <typeparam name="T"></typeparam>
         /// <param name="Func"></param>
         /// <param name="Folder"></param>
-        public static void FromFolder<T>([AllowNull] this ConvertFile<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder) {
-            if (Func == null || !Directory.Exists(Folder)) {
+        public static void FromFolder<T>([AllowNull] this ConvertFile<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Folder)
+        {
+            if (Func == null || !Directory.Exists(Folder))
+            {
                 return;
             }
 
             Console.WriteLine("::group::" + Folder);
             String[] Files = Directory.GetFiles(Folder, "*.json", SearchOption.AllDirectories);
 
-            foreach (String Filepath in Files) {
-                try {
+            foreach (String Filepath in Files)
+            {
+                try
+                {
                     Func(Filepath, Receiver);
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
-                }                
+                }
             }
 
             Console.WriteLine("::endgroup::" + Folder);
+        }
+
+        public static void FromFile<T>([AllowNull] this ConvertFile<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Filepath)
+        {
+            try
+            {
+                if (File.Exists(Filepath))
+                {
+                    Func(Filepath, Receiver);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
+            }
         }
 
         /// <summary>
@@ -81,27 +107,34 @@ namespace Scraper {
         /// <typeparam name="T"></typeparam>
         /// <param name="Func"></param>
         /// <param name="Filepath"></param>
-        public static void FromFile<T>([DisallowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Filepath) {
+        public static void FromFile<T>([DisallowNull] this ConvertJson<T> Func, [DisallowNull] List<T> Receiver, [DisallowNull] String Filepath)
+        {
             JsonDocument Doc = null;
             Stream Reader = null;
 
-            try {
+            try
+            {
                 Reader = new FileStream(Filepath, FileMode.Open, FileAccess.Read);
                 Doc = JsonDocument.Parse(Reader, JsonOptions);
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
             }
-            finally {
+            finally
+            {
                 if (Reader != null) { Reader.Close(); }
             }
 
-            try {
-                if (Doc != null) {
+            try
+            {
+                if (Doc != null)
+                {
                     Func(Doc, Receiver);
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 Console.WriteLine($"::error file={Filepath},line=0,col=0,endColumn=0::" + ex.ToString());
             }
         }
