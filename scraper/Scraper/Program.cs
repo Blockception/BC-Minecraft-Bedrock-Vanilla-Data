@@ -13,13 +13,13 @@ namespace Scraper {
       var Out = Output.Load(Utility.BaseFolder);
 
       //Scrape data sets
+      Metadata.Scraper.Scrape(context.MetadataFolder, Out.Vanilla.BehaviorPack, Out.General);
+
       BP.Scraper.Scrape(context.EduBP, Out.Edu.BehaviorPack);
       BP.Scraper.Scrape(context.VanillaBP, Out.Vanilla.BehaviorPack);
 
       RP.Scraper.Scrape(context.EduRP, Out.Edu.ResourcePack);
       RP.Scraper.Scrape(context.VanillaRP, Out.Vanilla.ResourcePack);
-
-      Metadata.Scraper.Scrape(context.MetadataFolder, Out.Vanilla.BehaviorPack);
 
       //Process collected data into general data for quick lookup of things like entities families and events
       Out.General.Scrape(Out);
