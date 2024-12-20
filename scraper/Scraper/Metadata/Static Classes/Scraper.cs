@@ -40,6 +40,7 @@ namespace Scraper.Metadata
             Scraper.Enchantments.FromFile(general.Enchantments, Path.Join(vanillaModules, "mojang-enchantments.json"));
             Scraper.Entities.FromFile(bpcontainer.Entities, Path.Join(vanillaModules, "mojang-entities.json"));
             Scraper.Features.FromFile(bpcontainer.Features, Path.Join(vanillaModules, "mojang-features.json"));
+            Scraper.Items.FromFile(bpcontainer.Items, Path.Join(vanillaModules, "mojang-items.json"));
             Scraper.PotionEffects.FromFile(general.PotionEffects, Path.Join(vanillaModules, "mojang-potion-effects.json"));
             Scraper.PotionModifiers.FromFile(general.PotionModifiers, Path.Join(vanillaModules, "mojang-potion-modifiers.json"));
             Scraper.PotionTypes.FromFile(general.PotionTypes, Path.Join(vanillaModules, "mojang-potion-types.json"));

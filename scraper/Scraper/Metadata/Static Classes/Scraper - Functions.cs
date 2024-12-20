@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using Scraper.Metadata;
 
 namespace Scraper.Metadata
 {
@@ -14,6 +12,7 @@ namespace Scraper.Metadata
         public static readonly ConvertFile<String> CooldownCategory = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
         public static readonly ConvertFile<String> Dimensions = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
         public static readonly ConvertFile<String> Effects = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
+        public static readonly ConvertFile<BP.Item> Items = VanillaModule<Item>.Convert(Item.Convert);
         public static readonly ConvertFile<String> Enchantments = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
         public static readonly ConvertFile<String> Features = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
         public static readonly ConvertFile<String> PotionEffects = VanillaModule<NamedObject>.Convert(NamedObject.Convert);
