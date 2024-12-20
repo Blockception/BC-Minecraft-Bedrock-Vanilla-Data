@@ -13,6 +13,8 @@ namespace Scraper {
       var Out = Output.Load(Utility.BaseFolder);
 
       //Scrape data sets
+      Metadata.Scraper.Scrape(context.MetadataFolder, Out.Vanilla.BehaviorPack, Out.General);
+
       BP.Scraper.Scrape(context.EduBP, Out.Edu.BehaviorPack);
       BP.Scraper.Scrape(context.VanillaBP, Out.Vanilla.BehaviorPack);
 
