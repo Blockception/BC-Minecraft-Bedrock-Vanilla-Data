@@ -1,5 +1,6 @@
 import { Block } from "./Block";
 import { Entity } from "./Entity";
+import { Feature } from "./Feature";
 import { Item } from "./Item";
 import { LootTable } from "./LootTable";
 import { Trading } from "./Trading";
@@ -11,6 +12,9 @@ export interface BehaviorPack {
 
   /**The collection of entities*/
   readonly entities: Entity[];
+
+  /**The collection of features*/
+  readonly features: Feature[];
 
   /**The collection of items*/
   readonly items: Item[];

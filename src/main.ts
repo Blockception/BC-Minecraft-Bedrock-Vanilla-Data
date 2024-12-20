@@ -10,6 +10,7 @@ export namespace MinecraftData {
     BehaviorPack: {
       blocks: Vanilla.BehaviorPack.Blocks,
       entities: Vanilla.BehaviorPack.Entities,
+      features: Vanilla.BehaviorPack.Features,
       items: Vanilla.BehaviorPack.Items,
       loot_tables: Vanilla.BehaviorPack.LootTables,
       trading: Vanilla.BehaviorPack.Trading,
@@ -34,6 +35,7 @@ export namespace MinecraftData {
     BehaviorPack: {
       blocks: Edu.BehaviorPack.Blocks,
       entities: Edu.BehaviorPack.Entities,
+      features: Edu.BehaviorPack.Features,
       items: Edu.BehaviorPack.Items,
       loot_tables: Edu.BehaviorPack.LootTables,
       trading: Edu.BehaviorPack.Trading,
@@ -55,14 +57,36 @@ export namespace MinecraftData {
 
   /**The generalized data set for minecraft*/
   export namespace General {
-    /**The summarized data set for blocks*/
+    /** A list of biomes */
+    export const Biomes = G.Biomes;
+
+    /** The summarized data set for blocks*/
     export const Blocks = G.BlockData;
 
-    /**The summarized data set of effects*/
-    export const Effects: string[] = G.Effects;
+    /** A list of camera presets */
+    export const CameraPresets = G.CameraPresets;
 
-    /**The summarized data set for entities*/
+    /** A list of cooldown categories */
+    export const CooldownCategory = G.CooldownCategory;
+
+    /** A list of dimensions */
+    export const Dimensions = G.Dimensions;
+
+    /** The summarized data set of effects*/
+    export const Effects = G.Effects;
+
+    /** The summarized data set for entities*/
     export const Entities = G.EntityData;
+
+    /** A list of enchantments */
+    export const Enchantments = G.Enchantments;
+
+    /** Data for the potions */
+    export const Potions = {
+      Effects: G.PotionEffects,
+      Types: G.PotionTypes,
+      Modifiers: G.PotionModifiers,
+    };
   }
 
   /**Access to behaviorpack vanilla data*/
@@ -71,14 +95,24 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getBlock(id: string, edu: boolean = false): Types.BehaviorPack.Block | undefined {
-      return get(id, edu, MinecraftData.vanilla.BehaviorPack.blocks, MinecraftData.edu.BehaviorPack.blocks);
+    export function getBlock(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.Block | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.blocks,
+        MinecraftData.edu.BehaviorPack.blocks
+      );
     }
 
     /**Gets the block state by the given identification
      * @param id The block state id
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getBlockState(id: string): Types.BehaviorPack.BlockState | undefined {
+    export function getBlockState(
+      id: string
+    ): Types.BehaviorPack.BlockState | undefined {
       return General.Blocks.block_states.find((item) => item.name === id);
     }
 
@@ -86,23 +120,42 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getEntity(id: string, edu: boolean = false): Types.BehaviorPack.Entity | undefined {
-      return get(id, edu, MinecraftData.vanilla.BehaviorPack.entities, MinecraftData.edu.BehaviorPack.entities);
+    export function getEntity(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.Entity | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.entities,
+        MinecraftData.edu.BehaviorPack.entities
+      );
     }
 
     /**Gets the item by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getItem(id: string, edu: boolean = false): Types.BehaviorPack.Item | undefined {
-      return get(id, edu, MinecraftData.vanilla.BehaviorPack.items, MinecraftData.edu.BehaviorPack.items);
+    export function getItem(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.Item | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.items,
+        MinecraftData.edu.BehaviorPack.items
+      );
     }
 
     /**Gets the loot table by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getLootTable(id: string, edu: boolean = false): Types.BehaviorPack.LootTable | undefined {
+    export function getLootTable(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.LootTable | undefined {
       return getStr(
         id,
         edu,
@@ -111,12 +164,36 @@ export namespace MinecraftData {
       );
     }
 
+    /**Gets the loot table by the given identification
+     * @param id The identification of the object to find
+     * @param edu Whether or not to include education data
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function getFeature(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.Feature | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.features,
+        MinecraftData.edu.BehaviorPack.features
+      );
+    }
+
     /**Gets the trading by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getTrading(id: string, edu: boolean = false): Types.BehaviorPack.Trading | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.BehaviorPack.trading, MinecraftData.edu.BehaviorPack.trading);
+    export function getTrading(
+      id: string,
+      edu: boolean = false
+    ): Types.BehaviorPack.Trading | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.BehaviorPack.trading,
+        MinecraftData.edu.BehaviorPack.trading
+      );
     }
 
     /**Returns true or false if the given identification exists
@@ -182,48 +259,96 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getAnimation(id: string, edu: boolean = false): Types.ResourcePack.Animation | undefined {
-      return get(id, edu, MinecraftData.vanilla.ResourcePack.animations, MinecraftData.edu.ResourcePack.animations);
+    export function getAnimation(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Animation | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.animations,
+        MinecraftData.edu.ResourcePack.animations
+      );
     }
 
     /**Gets the animation controller by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getEntity(id: string, edu: boolean = false): Types.ResourcePack.Entity | undefined {
-      return get(id, edu, MinecraftData.vanilla.ResourcePack.entities, MinecraftData.edu.ResourcePack.entities);
+    export function getEntity(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Entity | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.entities,
+        MinecraftData.edu.ResourcePack.entities
+      );
     }
 
     /**Gets the fog by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getFog(id: string, edu: boolean = false): Types.ResourcePack.Fog | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.fogs, MinecraftData.edu.ResourcePack.fogs);
+    export function getFog(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Fog | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.fogs,
+        MinecraftData.edu.ResourcePack.fogs
+      );
     }
 
     /**Gets the material by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getMaterial(id: string, edu: boolean = false): Types.ResourcePack.Material | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.materials, MinecraftData.edu.ResourcePack.materials);
+    export function getMaterial(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Material | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.materials,
+        MinecraftData.edu.ResourcePack.materials
+      );
     }
 
     /**Gets the model by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getModel(id: string, edu: boolean = false): Types.ResourcePack.Model | undefined {
-      return get(id, edu, MinecraftData.vanilla.ResourcePack.models, MinecraftData.edu.ResourcePack.models);
+    export function getModel(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Model | undefined {
+      return get(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.models,
+        MinecraftData.edu.ResourcePack.models
+      );
     }
 
     /**Gets the particle by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getParticle(id: string, edu: boolean = false): Types.ResourcePack.Particle | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.particles, MinecraftData.edu.ResourcePack.particles);
+    export function getParticle(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Particle | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.particles,
+        MinecraftData.edu.ResourcePack.particles
+      );
     }
 
     /**Gets the render controller by the given identification
@@ -246,15 +371,26 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getSound(id: string, edu: boolean = false): Types.ResourcePack.Sound | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.sounds, MinecraftData.edu.ResourcePack.sounds);
+    export function getSound(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Sound | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.sounds,
+        MinecraftData.edu.ResourcePack.sounds
+      );
     }
 
     /**Gets the sound file by the given identification
      * @param file The filename of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getSoundFile(file: string, edu: boolean = false): string | undefined {
+    export function getSoundFile(
+      file: string,
+      edu: boolean = false
+    ): string | undefined {
       return getStr(
         file,
         edu,
@@ -267,15 +403,26 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function getTexture(id: string, edu: boolean = false): Types.ResourcePack.Texture | undefined {
-      return getStr(id, edu, MinecraftData.vanilla.ResourcePack.textures, MinecraftData.edu.ResourcePack.textures);
+    export function getTexture(
+      id: string,
+      edu: boolean = false
+    ): Types.ResourcePack.Texture | undefined {
+      return getStr(
+        id,
+        edu,
+        MinecraftData.vanilla.ResourcePack.textures,
+        MinecraftData.edu.ResourcePack.textures
+      );
     }
 
     /**Returns true or false if the given identification exists
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function hasAnimationController(id: string, edu: boolean = false): boolean {
+    export function hasAnimationController(
+      id: string,
+      edu: boolean = false
+    ): boolean {
       return getAnimationController(id, edu) !== undefined;
     }
 
@@ -331,7 +478,10 @@ export namespace MinecraftData {
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
      * @returns A object with the specified id or undefined if nothing was found*/
-    export function hasRenderController(id: string, edu: boolean = false): boolean {
+    export function hasRenderController(
+      id: string,
+      edu: boolean = false
+    ): boolean {
       return getRenderController(id, edu) !== undefined;
     }
 
@@ -361,7 +511,12 @@ export namespace MinecraftData {
   }
 }
 
-function get<T extends Identifiable>(id: string, includeEdu: boolean, vanilla: T[], edu: T[]): T | undefined {
+function get<T extends Identifiable>(
+  id: string,
+  includeEdu: boolean,
+  vanilla: T[],
+  edu: T[]
+): T | undefined {
   let out = Identifiable.get(vanilla, id);
 
   if (out) return out;
@@ -370,7 +525,12 @@ function get<T extends Identifiable>(id: string, includeEdu: boolean, vanilla: T
   return out;
 }
 
-function getStr(id: string, includeEdu: boolean, vanilla: string[], edu: string[]): string | undefined {
+function getStr(
+  id: string,
+  includeEdu: boolean,
+  vanilla: string[],
+  edu: string[]
+): string | undefined {
   if (vanilla.includes(id)) return id;
   if (includeEdu && edu.includes(id)) return id;
 
