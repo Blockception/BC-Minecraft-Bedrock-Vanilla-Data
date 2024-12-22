@@ -1,8 +1,8 @@
 /** Notice: Auto generated file, do not edit */
-
+
 import { Entity } from '../../Types/ResourcePack/Entity';
 
-
+
 export const Entities: Entity[] = 
 [
   {
@@ -47,11 +47,7 @@ export const Entities: Entity[] =
       "cancan_a_pose",
       "cancan_b_pose",
       "hero_pose",
-      "wiggle",
-      "controller.pose",
-      "controller.wiggling",
-      "holding_heavy_core",
-      "controller.holding_heavy_core"
+      "wiggle"
     ]
   },
   {
@@ -267,13 +263,11 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:donkey",
     "animations": [
-      "setup",
       "baby_transform",
       "walk",
       "eat",
-      "stand",
-      "shake_tail",
-      "mouth",
+      "rear",
+      "tail",
       "look_at_player"
     ]
   },
@@ -287,6 +281,7 @@ export const Entities: Entity[] =
     "id": "minecraft:drowned",
     "animations": [
       "humanoid_big_head",
+      "humanoid_base_pose",
       "look_at_target",
       "look_at_target_default",
       "look_at_target_gliding",
@@ -495,6 +490,7 @@ export const Entities: Entity[] =
     "id": "minecraft:husk",
     "animations": [
       "humanoid_big_head",
+      "humanoid_base_pose",
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -509,9 +505,10 @@ export const Entities: Entity[] =
       "bob",
       "damage_nearby_mobs",
       "bow_and_arrow",
+      "swimming",
       "use_item_progress",
       "zombie_attack_bare_hand",
-      "swimming"
+      "zombie_swimming"
     ]
   },
   {
@@ -577,25 +574,24 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:mule",
     "animations": [
-      "setup",
       "baby_transform",
       "walk",
       "eat",
-      "stand",
-      "shake_tail",
-      "mouth",
+      "rear",
+      "tail",
       "look_at_player"
     ]
   },
   {
     "id": "minecraft:ocelot",
     "animations": [
-      "sneak",
-      "walk",
-      "sprint",
-      "sit",
+      "baby_transform",
       "look_at_target",
-      "baby_transform"
+      "setup",
+      "sit",
+      "sneak",
+      "sprint",
+      "walk"
     ]
   },
   {
@@ -854,6 +850,7 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:skeleton",
     "animations": [
+      "humanoid_base_pose",
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -876,12 +873,12 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:skeleton_horse",
     "animations": [
-      "setup",
       "baby_transform",
       "walk",
       "eat",
-      "stand",
-      "tail"
+      "rear",
+      "tail",
+      "look_at_player"
     ]
   },
   {
@@ -916,6 +913,7 @@ export const Entities: Entity[] =
     "id": "minecraft:snow_golem",
     "animations": [
       "move",
+      "arms",
       "look_at_target"
     ]
   },
@@ -1135,6 +1133,7 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:wither_skeleton",
     "animations": [
+      "humanoid_base_pose",
       "look_at_target_default",
       "look_at_target_gliding",
       "look_at_target_swimming",
@@ -1149,9 +1148,9 @@ export const Entities: Entity[] =
       "bob",
       "damage_nearby_mobs",
       "bow_and_arrow",
+      "swimming",
       "use_item_progress",
-      "wither_skeleton_attack",
-      "swimming"
+      "wither_skeleton_attack"
     ]
   },
   {
@@ -1229,12 +1228,12 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:zombie_horse",
     "animations": [
-      "setup",
       "baby_transform",
       "walk",
       "eat",
-      "stand",
-      "tail"
+      "rear",
+      "tail",
+      "look_at_player"
     ]
   },
   {
@@ -1280,9 +1279,9 @@ export const Entities: Entity[] =
       "bob",
       "damage_nearby_mobs",
       "bow_and_arrow",
+      "swimming",
       "use_item_progress",
-      "zombie_attack_bare_hand",
-      "swimming"
+      "zombie_attack_bare_hand"
     ]
   },
   {
