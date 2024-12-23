@@ -1,5 +1,5 @@
 /** Notice: Auto generated file, do not edit */
-
+
 export const CameraPresets: string[] = 
 [
   "minecraft:first_person",

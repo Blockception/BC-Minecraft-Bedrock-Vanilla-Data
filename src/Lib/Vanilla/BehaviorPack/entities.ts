@@ -1,8 +1,8 @@
 /** Notice: Auto generated file, do not edit */
-
+
 import { Entity } from '../../Types/BehaviorPack/Entity';
 
-
+
 export const Entities: Entity[] = 
 [
   {
