@@ -1,40 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.Json.Serialization;
 
-namespace Scraper.Metadata
-{
-    public partial class VanillaModule<T>
-    {
-        public static ConvertFile<U> Convert<U>(Converter<T, U> mapfn)
-        {
-            return new ConvertFile<U>((String filepath, List<U> receiver) =>
-            {
-                Console.WriteLine("Loading file" + filepath);
-                var obj = Json.Load<VanillaModule<T>>(filepath);
+namespace Scraper.Metadata;
 
-                receiver.AddRange(obj.DataItems.ConvertAll(mapfn));
-            });
-        }
+public partial class VanillaModule<T> {
+    public static ConvertFile<U> Convert<U>(Converter<T, U> mapfn) {
+        return new ConvertFile<U>((String filepath, List<U> receiver) => {
+            Console.WriteLine("Loading file" + filepath);
+            VanillaModule<T> obj = Json.Load<VanillaModule<T>>(filepath);
 
-        public static ConvertFile<U> Convert<U>(Converter<T, List<U>> mapfn)
-        {
-            return new ConvertFile<U>((String filepath, List<U> receiver) =>
-            {
-                Console.WriteLine("Loading file" + filepath);
-                var obj = Json.Load<VanillaModule<T>>(filepath);
-                var items = obj.DataItems.ConvertAll(mapfn);
-                items.ForEach(item => receiver.AddRange(item));
-            });
-        }
+            receiver.AddRange(obj.DataItems.ConvertAll(mapfn));
+        });
+    }
 
-        public static void Convert(String filepath, List<T> receiver)
-        {
-            var obj = Json.Load<VanillaModule<T>>(filepath);
-            receiver.AddRange(obj.DataItems);
-        }
+    public static ConvertFile<U> Convert<U>(Converter<T, List<U>> mapfn) {
+        return new ConvertFile<U>((String filepath, List<U> receiver) => {
+            Console.WriteLine("Loading file" + filepath);
+            VanillaModule<T> obj = Json.Load<VanillaModule<T>>(filepath);
+            List<List<U>> items = obj.DataItems.ConvertAll(mapfn);
+            items.ForEach(item => receiver.AddRange(item));
+        });
+    }
+
+    public static void Convert(String filepath, List<T> receiver) {
+        VanillaModule<T> obj = Json.Load<VanillaModule<T>>(filepath);
+        receiver.AddRange(obj.DataItems);
     }
 }

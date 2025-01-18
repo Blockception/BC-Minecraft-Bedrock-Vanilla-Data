@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace Scraper.BP {
-  public partial class BlockState : INamed {
+namespace Scraper.BP;
+public partial class BlockState : INamed {
     /// <summary>
     /// 
     /// </summary>
@@ -21,5 +21,4 @@ namespace Scraper.BP {
     /// </summary>
     [JsonPropertyName("type")]
     public String Type { get; set; }
-  }
 }

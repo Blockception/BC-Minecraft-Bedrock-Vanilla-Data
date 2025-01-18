@@ -1,13 +1,11 @@
 using System;
-using System.Collections.Generic;
 
-namespace Scraper.BP {
-    /// <summary>The class that represent the block data in behaviourpacksw</summary>
-    public partial class Block {
-        /// <summary>Creates a new instance of <see cref="Block"/></summary>
-        public Block() {
-            this.ID = String.Empty;
-            this.Properties = new List<String>();
-        }
+namespace Scraper.BP;
+/// <summary>The class that represent the block data in behaviourpacksw</summary>
+public partial class Block {
+    /// <summary>Creates a new instance of <see cref="Block"/></summary>
+    public Block() {
+        this.ID = String.Empty;
+        this.Properties = [];
     }
 }
