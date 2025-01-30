@@ -4287,14 +4287,6 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
-    "id": "animation.shield.wield_first_person_blocking",
-    "bones": [
-      "shield"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
     "id": "animation.shield.wield_main_hand_first_person",
     "bones": [
       "shield"
@@ -4782,16 +4774,6 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
-    "id": "animation.vex.attack.rotations.v1.0",
-    "bones": [
-      "body",
-      "leftarm",
-      "rightarm"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
     "id": "animation.vex.charge",
     "bones": [
       "rightarm",
@@ -4809,17 +4791,6 @@ export const Animations: Animation[] =
       "rightwing",
       "rightItem",
       "leftItem"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
-    "id": "animation.vex.move",
-    "bones": [
-      "leftwing",
-      "leg0",
-      "rightarm",
-      "rightwing"
     ],
     "particles": [],
     "sounds": []

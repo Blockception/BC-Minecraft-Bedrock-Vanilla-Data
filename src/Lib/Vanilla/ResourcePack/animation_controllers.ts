@@ -1299,14 +1299,6 @@ export const AnimationControllers: AnimationController[] =
     "sounds": []
   },
   {
-    "id": "controller.animation.vex.move",
-    "animations": [
-      "vex_move"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
     "id": "controller.animation.villager_v2.baby",
     "animations": [
       "baby_transform"
