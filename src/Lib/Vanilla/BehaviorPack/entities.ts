@@ -322,6 +322,7 @@ export const Entities: Entity[] =
       "minecraft:on_target_stop_looking",
       "minecraft:start_twitching",
       "minecraft:crumble",
+      "minecraft:crumble_and_notify_creaking_heart",
       "minecraft:damaged_by_player",
       "minecraft:damaged_by_entity",
       "minecraft:increment_swaying_ticks",
@@ -452,7 +453,9 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:become_angry",
-      "minecraft:on_calm"
+      "minecraft:on_calm",
+      "minecraft:stopped_riding",
+      "minecraft:started_riding"
     ],
     "families": [
       "enderman",

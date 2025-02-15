@@ -1050,6 +1050,20 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.magma_cube_v2",
+    "bones": [
+      "bodyCube_0",
+      "bodyCube_1",
+      "bodyCube_2",
+      "bodyCube_3",
+      "bodyCube_4",
+      "bodyCube_5",
+      "bodyCube_6",
+      "bodyCube_7",
+      "insideCube"
+    ]
+  },
+  {
     "id": "geometry.minecart",
     "bones": [
       "root",
