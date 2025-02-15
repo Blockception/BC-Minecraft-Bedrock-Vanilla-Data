@@ -15,8 +15,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:acacia_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -34,8 +34,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:acacia_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -234,8 +234,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:bamboo_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -253,8 +253,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:bamboo_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -420,8 +420,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:birch_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -439,8 +439,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:birch_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -950,8 +950,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:cherry_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -969,8 +969,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:cherry_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -1273,8 +1273,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -1334,7 +1334,7 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:creaking_heart",
     "properties": [
-      "active",
+      "creaking_heart_state",
       "natural",
       "pillar_axis"
     ]
@@ -1355,8 +1355,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:crimson_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -1374,8 +1374,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:crimson_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -1579,8 +1579,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:dark_oak_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -1598,8 +1598,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:dark_oak_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -2123,8 +2123,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:exposed_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -2173,8 +2173,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -2698,8 +2698,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:iron_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -2737,8 +2737,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:jungle_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -2756,8 +2756,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:jungle_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -3246,8 +3246,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:mangrove_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -3265,8 +3265,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:mangrove_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -3751,8 +3751,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:oxidized_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -3830,8 +3830,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:pale_oak_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -3849,8 +3849,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:pale_oak_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -5055,8 +5055,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:spruce_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -5074,8 +5074,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:spruce_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -5661,8 +5661,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:warped_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -5680,8 +5680,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:warped_fence_gate",
     "properties": [
-      "direction",
       "in_wall_bit",
+      "minecraft:cardinal_direction",
       "open_bit"
     ]
   },
@@ -5793,8 +5793,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:waxed_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -5852,8 +5852,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:waxed_exposed_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -5911,8 +5911,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:waxed_oxidized_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -5970,8 +5970,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:waxed_weathered_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -6029,8 +6029,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:weathered_copper_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
@@ -6165,8 +6165,8 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:wooden_door",
     "properties": [
-      "direction",
       "door_hinge_bit",
+      "minecraft:cardinal_direction",
       "open_bit",
       "upper_block_bit"
     ]
