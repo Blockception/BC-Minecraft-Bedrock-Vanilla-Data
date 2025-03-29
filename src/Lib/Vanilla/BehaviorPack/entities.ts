@@ -74,6 +74,7 @@ export const Entities: Entity[] =
       "enter_water"
     ],
     "families": [
+      "aquatic",
       "axolotl",
       "mob"
     ]
@@ -266,11 +267,12 @@ export const Entities: Entity[] =
   {
     "id": "minecraft:chicken",
     "events": [
-      "from_egg",
       "minecraft:entity_spawned",
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
-      "minecraft:spawn_adult"
+      "minecraft:spawn_adult",
+      "minecraft:hatch_warm",
+      "minecraft:hatch_cold"
     ],
     "families": [
       "chicken",
@@ -281,6 +283,7 @@ export const Entities: Entity[] =
     "id": "minecraft:cod",
     "events": [],
     "families": [
+      "aquatic",
       "cod",
       "fish"
     ]
@@ -363,6 +366,7 @@ export const Entities: Entity[] =
       "navigation_off_land"
     ],
     "families": [
+      "aquatic",
       "dolphin",
       "mob"
     ]
@@ -409,13 +413,18 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:egg",
-    "events": [],
+    "events": [
+      "minecraft:spawn_temperate",
+      "minecraft:spawn_cold",
+      "minecraft:spawn_warm"
+    ],
     "families": []
   },
   {
     "id": "minecraft:elder_guardian",
     "events": [],
     "families": [
+      "aquatic",
       "guardian_elder",
       "monster",
       "mob"
@@ -571,6 +580,7 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned"
     ],
     "families": [
+      "aquatic",
       "squid",
       "mob"
     ]
@@ -598,6 +608,7 @@ export const Entities: Entity[] =
       "minecraft:target_far_enough"
     ],
     "families": [
+      "aquatic",
       "guardian",
       "monster",
       "mob"
@@ -1007,6 +1018,7 @@ export const Entities: Entity[] =
       "minecraft:on_normal_puff"
     ],
     "families": [
+      "aquatic",
       "pufferfish",
       "fish"
     ]
@@ -1056,6 +1068,7 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned"
     ],
     "families": [
+      "aquatic",
       "salmon",
       "fish"
     ]
@@ -1070,7 +1083,10 @@ export const Entities: Entity[] =
       "minecraft:ageable_grow_up",
       "minecraft:on_sheared",
       "minecraft:on_eat_block",
-      "wololo"
+      "wololo",
+      "minecraft:temperate_color",
+      "minecraft:cold_color",
+      "minecraft:warm_color"
     ],
     "families": [
       "sheep",
@@ -1241,6 +1257,7 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned"
     ],
     "families": [
+      "aquatic",
       "squid",
       "mob"
     ]
@@ -1290,6 +1307,7 @@ export const Entities: Entity[] =
       "ageable_grow_up"
     ],
     "families": [
+      "aquatic",
       "tadpole",
       "mob"
     ]
@@ -1375,6 +1393,7 @@ export const Entities: Entity[] =
       "minecraft:entity_spawned"
     ],
     "families": [
+      "aquatic",
       "tropicalfish",
       "fish"
     ]
@@ -1390,6 +1409,7 @@ export const Entities: Entity[] =
       "minecraft:laid_egg"
     ],
     "families": [
+      "aquatic",
       "turtle",
       "baby_turtle",
       "mob"
@@ -1651,7 +1671,8 @@ export const Entities: Entity[] =
       "minecraft:increase_max_health",
       "minecraft:become_angry",
       "minecraft:on_calm",
-      "minecraft:become_armorable"
+      "minecraft:become_armorable",
+      "minecraft:randomize_sound_variant"
     ],
     "families": [
       "wolf",
