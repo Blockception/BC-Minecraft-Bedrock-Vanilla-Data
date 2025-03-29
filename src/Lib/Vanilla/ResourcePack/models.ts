@@ -328,6 +328,19 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.chicken.cold",
+    "bones": [
+      "body",
+      "head",
+      "comb",
+      "beak",
+      "leg0",
+      "leg1",
+      "wing0",
+      "wing1"
+    ]
+  },
+  {
     "id": "geometry.chicken.v1.12",
     "bones": [
       "body",
@@ -363,10 +376,46 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.cow.cold",
+    "bones": [
+      "root",
+      "head",
+      "body",
+      "leg0",
+      "leg1",
+      "leg2",
+      "leg3"
+    ]
+  },
+  {
     "id": "geometry.cow.v1.8",
     "bones": [
       "body",
       "head",
+      "leg0",
+      "leg1",
+      "leg2",
+      "leg3"
+    ]
+  },
+  {
+    "id": "geometry.cow.v2",
+    "bones": [
+      "root",
+      "head",
+      "body",
+      "leg0",
+      "leg1",
+      "leg2",
+      "leg3"
+    ]
+  },
+  {
+    "id": "geometry.cow.warm",
+    "bones": [
+      "root",
+      "head",
+      "body",
       "leg0",
       "leg1",
       "leg2",
@@ -1113,6 +1162,17 @@ export const Models: Model[] =
     ]
   },
   {
+    "id": "geometry.mooshroom.v2",
+    "bones": [
+      "body",
+      "leg0",
+      "leg1",
+      "leg2",
+      "leg3",
+      "head"
+    ]
+  },
+  {
     "id": "geometry.npc",
     "bones": [
       "head",
@@ -1213,6 +1273,18 @@ export const Models: Model[] =
       "leg1",
       "leg2",
       "leg3"
+    ]
+  },
+  {
+    "id": "geometry.pig.v3",
+    "bones": [
+      "root",
+      "head",
+      "body",
+      "leg0",
+      "leg1",
+      "leg3",
+      "leg2"
     ]
   },
   {

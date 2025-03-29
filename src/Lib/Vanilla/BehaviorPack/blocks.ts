@@ -844,10 +844,18 @@ export const Blocks: Block[] =
     "properties": []
   },
   {
+    "id": "minecraft:bush",
+    "properties": []
+  },
+  {
     "id": "minecraft:cactus",
     "properties": [
       "age"
     ]
+  },
+  {
+    "id": "minecraft:cactus_flower",
+    "properties": []
   },
   {
     "id": "minecraft:cake",
@@ -2209,6 +2217,10 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:firefly_bush",
+    "properties": []
+  },
+  {
     "id": "minecraft:fletching_table",
     "properties": []
   },
@@ -2886,6 +2898,13 @@ export const Blocks: Block[] =
     "id": "minecraft:lava",
     "properties": [
       "liquid_depth"
+    ]
+  },
+  {
+    "id": "minecraft:leaf_litter",
+    "properties": [
+      "growth",
+      "minecraft:cardinal_direction"
     ]
   },
   {
@@ -4850,6 +4869,10 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:short_dry_grass",
+    "properties": []
+  },
+  {
     "id": "minecraft:short_grass",
     "properties": []
   },
@@ -5416,6 +5439,10 @@ export const Blocks: Block[] =
     "properties": [
       "growth"
     ]
+  },
+  {
+    "id": "minecraft:tall_dry_grass",
+    "properties": []
   },
   {
     "id": "minecraft:tall_grass",
@@ -6144,6 +6171,13 @@ export const Blocks: Block[] =
   {
     "id": "minecraft:white_wool",
     "properties": []
+  },
+  {
+    "id": "minecraft:wildflowers",
+    "properties": [
+      "growth",
+      "minecraft:cardinal_direction"
+    ]
   },
   {
     "id": "minecraft:wither_rose",
