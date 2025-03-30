@@ -558,6 +558,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:blue_egg",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:blue_glazed_terracotta",
     "max_damage": 0
   },
@@ -718,6 +722,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:brown_egg",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:brown_glazed_terracotta",
     "max_damage": 0
   },
@@ -786,7 +794,15 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:bush",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:cactus",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:cactus_flower",
     "max_damage": 0
   },
   {
@@ -2150,6 +2166,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:firefly_bush",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:firework_rocket",
     "max_damage": 0
   },
@@ -3011,6 +3031,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:lead",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:leaf_litter",
     "max_damage": 0
   },
   {
@@ -4986,6 +5010,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:short_dry_grass",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:short_grass",
     "max_damage": 0
   },
@@ -5551,6 +5579,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:tadpole_spawn_egg",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:tall_dry_grass",
     "max_damage": 0
   },
   {
@@ -6155,6 +6187,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:wild_armor_trim_smithing_template",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:wildflowers",
     "max_damage": 0
   },
   {
