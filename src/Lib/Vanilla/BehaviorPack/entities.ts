@@ -615,6 +615,11 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:happy_ghast",
+    "events": [],
+    "families": []
+  },
+  {
     "id": "minecraft:hoglin",
     "events": [
       "minecraft:entity_spawned",
