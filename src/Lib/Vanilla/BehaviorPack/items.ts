@@ -466,6 +466,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:black_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:black_shulker_box",
     "max_damage": 0
   },
@@ -563,6 +567,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:blue_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:blue_harness",
     "max_damage": 0
   },
   {
@@ -727,6 +735,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:brown_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:brown_harness",
     "max_damage": 0
   },
   {
@@ -1506,6 +1518,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:cyan_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:cyan_shulker_box",
     "max_damage": 0
   },
@@ -1919,6 +1935,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:dragon_head",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:dried_ghast",
     "max_damage": 0
   },
   {
@@ -2466,6 +2486,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:gray_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:gray_shulker_box",
     "max_damage": 0
   },
@@ -2518,6 +2542,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:green_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:green_shulker_box",
     "max_damage": 0
   },
@@ -2559,6 +2587,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:hanging_roots",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:happy_ghast_spawn_egg",
     "max_damage": 0
   },
   {
@@ -3178,6 +3210,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:light_blue_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:light_blue_shulker_box",
     "max_damage": 0
   },
@@ -3223,6 +3259,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:light_gray_dye",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:light_gray_harness",
     "max_damage": 0
   },
   {
@@ -3291,6 +3331,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:lime_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:lime_harness",
     "max_damage": 0
   },
   {
@@ -3403,6 +3447,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:magenta_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:magenta_harness",
     "max_damage": 0
   },
   {
@@ -3994,6 +4042,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:orange_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:orange_shulker_box",
     "max_damage": 0
   },
@@ -4239,6 +4291,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:pink_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:pink_harness",
     "max_damage": 0
   },
   {
@@ -4582,6 +4638,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:purple_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:purple_shulker_box",
     "max_damage": 0
   },
@@ -4743,6 +4803,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:red_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:red_harness",
     "max_damage": 0
   },
   {
@@ -6162,6 +6226,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:white_harness",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:white_shulker_box",
     "max_damage": 0
   },
@@ -6311,6 +6379,10 @@ export const Items: Item[] =
   },
   {
     "id": "minecraft:yellow_glazed_terracotta",
+    "max_damage": 0
+  },
+  {
+    "id": "minecraft:yellow_harness",
     "max_damage": 0
   },
   {

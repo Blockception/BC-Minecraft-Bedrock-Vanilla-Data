@@ -94,6 +94,7 @@ export const Particles: string[] =
   "minecraft:lava_drip_particle",
   "minecraft:lava_particle",
   "minecraft:llama_spit_smoke",
+  "minecraft:magic_critical_hit_emitter",
   "minecraft:magnesium_salts_emitter",
   "minecraft:misc_fire_vapor_particle",
   "minecraft:mob_block_spawn_emitter",

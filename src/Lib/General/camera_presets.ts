@@ -2,6 +2,7 @@
 
 export const CameraPresets: string[] = 
 [
+  "minecraft:control_scheme_camera",
   "minecraft:first_person",
   "minecraft:fixed_boom",
   "minecraft:follow_orbit",

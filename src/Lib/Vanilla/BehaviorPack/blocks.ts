@@ -2021,6 +2021,13 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:dried_ghast",
+    "properties": [
+      "minecraft:cardinal_direction",
+      "rehydration_level"
+    ]
+  },
+  {
     "id": "minecraft:dried_kelp_block",
     "properties": []
   },
