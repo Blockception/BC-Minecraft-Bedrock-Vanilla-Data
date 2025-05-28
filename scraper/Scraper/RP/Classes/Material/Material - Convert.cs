@@ -22,7 +22,7 @@ public partial class Material {
         foreach (String Filepath in Files) {
             JsonDocument Doc = Json.GetDoc(Filepath);
 
-            if (Doc == null) {
+            if (Doc is null) {
                 continue;
             }
 

@@ -35,5 +35,8 @@ public static partial class Scraper {
         Scraper.Materials(Source, container.Materials);
         Scraper.Sounds(Source, container.Sounds, container.SoundFiles);
         Scraper.Textures(Source, container.Textures);
+
+        Scraper.TextureItems(Path.Join(Source, "textures", "item_texture.json"), container.TextureItems);
+        Scraper.TextureTerrain(Path.Join(Source, "textures", "terrain_texture.json"), container.TextureTerrain);
     }
 }

@@ -10,8 +10,10 @@ public partial class Container {
         this.Models = [];
         this.Particles = [];
         this.RenderControllers = [];
-        this.Sounds = [];
-        this.Textures = [];
         this.SoundFiles = [];
+        this.Sounds = [];
+        this.TextureItems = [];
+        this.Textures = [];
+        this.TextureTerrain = [];
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Scraper;
@@ -14,14 +15,15 @@ public static partial class Utility {
     /// </summary>
     /// <param name="Filepath"></param>
     /// <param name="uri"></param>
-    public static void Download(String Filepath, String uri) {
+    public static async void Download(String Filepath, String uri) {
         if (File.Exists(Filepath)) {
             File.Delete(Filepath);
         }
 
         Console.WriteLine("start\tdownloading: " + uri);
-        var client = new WebClient();
-        client.DownloadFile(uri, Filepath);
+        using var client = new HttpClient();
+        var data = await client.GetByteArrayAsync(uri);
+        File.WriteAllBytes(Filepath, data);
         Console.WriteLine("done\tdownloading: " + uri);
     }
 
