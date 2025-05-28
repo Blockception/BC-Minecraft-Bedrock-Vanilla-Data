@@ -11,3 +11,5 @@ export * from "./render_controllers";
 export * from "./sounds";
 export * from "./sounds_files";
 export * from "./textures";
+export * from "./texture-atlas-item";
+export * from "./texture-atlas-terrain";

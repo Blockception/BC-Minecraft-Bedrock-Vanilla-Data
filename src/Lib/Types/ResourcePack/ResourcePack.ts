@@ -8,6 +8,7 @@ import { Particle } from "./Particle";
 import { RenderController } from "./RenderController";
 import { Sound } from "./Sound";
 import { Texture } from "./Texture";
+import { TextureAtlas } from "./TextureAtlas";
 
 /**The interface that stores vanilla resource pack data*/
 export interface ResourcePack {
@@ -43,4 +44,10 @@ export interface ResourcePack {
 
   /**The collection of textures*/
   readonly textures: Texture[];
+
+  /**The collection of definitions from the texture atlas*/
+  readonly texture_atlas_items: TextureAtlas[];
+
+  /**The collection of definitions from the texture atlas*/
+  readonly texture_atlas_terrain: TextureAtlas[];
 }
