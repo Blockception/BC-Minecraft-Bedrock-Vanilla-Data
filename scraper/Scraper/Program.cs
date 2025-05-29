@@ -1,10 +1,12 @@
 using System;
 using System.Diagnostics;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace Scraper;
 public class Program {
-    private static void Main(String[] args) {
-        Context context = Utility.GetFolders();
+    private static async Task Main(String[] args) {
+        Context context = await Utility.GetFolders();
 
         var sw = new Stopwatch();
         sw.Start();

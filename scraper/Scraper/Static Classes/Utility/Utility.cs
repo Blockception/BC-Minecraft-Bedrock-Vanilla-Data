@@ -15,7 +15,7 @@ public static partial class Utility {
     /// </summary>
     /// <param name="Filepath"></param>
     /// <param name="uri"></param>
-    public static async void Download(String Filepath, String uri) {
+    public static async Task Download(String Filepath, String uri) {
         if (File.Exists(Filepath)) {
             File.Delete(Filepath);
         }
@@ -30,11 +30,11 @@ public static partial class Utility {
     /// <summary>
     /// 
     /// </summary>
-    public static String DownloadUnpack(String Name, String Uri) {
+    public static async Task<String> DownloadUnpack(String Name, String Uri) {
         String Filepath = Path.Join(WorkFolder, $"{Name}.zip");
 
         if (!File.Exists(Filepath)) {
-            Download(Filepath, Uri);
+            await Download(Filepath, Uri);
         }
         else {
             Console.WriteLine("Skipping downloading: " + Uri);
@@ -67,8 +67,9 @@ public static partial class Utility {
         return Task.Run<String>(() => DownloadUnpack(Name, Uri));
     }
 
-    public static Context GetFolders() {
+    public static async Task<Context> GetFolders() {
         Directory.CreateDirectory(Utility.WorkFolder);
+        Directory.CreateDirectory(Utility.OutputFolder);
         var Out = new Context();
 
         //Edu
@@ -96,7 +97,8 @@ public static partial class Utility {
             ExistsIf(Out.EduRP, RPS, "education");
         }
 
-        String Folder = Path.Join(DownloadUnpack("Samples", "https://github.com/Mojang/bedrock-samples/archive/refs/heads/main.zip"), "bedrock-samples-main");
+        var df = await DownloadUnpack("Samples", "https://github.com/Mojang/bedrock-samples/archive/refs/heads/main.zip");
+        String Folder = Path.Join(df, "bedrock-samples-main");
         ExistsIf(Out.VanillaBP, Folder, "behavior_pack");
         ExistsIf(Out.VanillaRP, Folder, "resource_pack");
         ExistsIf(Out.MetadataFolder, Folder, "metadata");
