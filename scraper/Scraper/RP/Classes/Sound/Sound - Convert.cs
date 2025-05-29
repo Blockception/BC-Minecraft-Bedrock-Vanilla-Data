@@ -15,7 +15,7 @@ public partial class Sound {
 
         JsonDocument Doc = Json.GetDoc(Filepath);
 
-        if (Doc == null) {
+        if (Doc is null) {
             return;
         }
 

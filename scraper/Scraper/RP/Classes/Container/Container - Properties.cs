@@ -13,5 +13,7 @@ public partial class Container {
     public List<RenderController> RenderControllers { get; set; }
     public List<Sound> Sounds { get; set; }
     public List<Texture> Textures { get; set; }
+    public List<TextureAtlas> TextureItems { get; set; }
+    public List<TextureAtlas> TextureTerrain { get; set; }
     public List<String> SoundFiles { get; set; }
 }

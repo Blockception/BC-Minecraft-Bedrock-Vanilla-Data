@@ -15,6 +15,8 @@ public partial class Container {
         this.RenderControllers = this.RenderControllers.Clean();
         this.Sounds = this.Sounds.Clean();
         this.Textures = this.Textures.Clean();
+        this.TextureItems = this.TextureItems.Clean();
+        this.TextureTerrain = this.TextureTerrain.Clean();
         this.SoundFiles.Sort();
     }
 }
