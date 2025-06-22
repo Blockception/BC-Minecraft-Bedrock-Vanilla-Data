@@ -507,17 +507,25 @@ export const AnimationControllers: AnimationController[] =
     "sounds": []
   },
   {
-    "id": "controller.animation.ghast.scale",
+    "id": "controller.animation.goat.move",
     "animations": [
-      "scale"
+      "walk"
     ],
     "particles": [],
     "sounds": []
   },
   {
-    "id": "controller.animation.goat.move",
+    "id": "controller.animation.happy_ghast.move",
     "animations": [
-      "walk"
+      "move"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "controller.animation.happy_ghast.scale",
+    "animations": [
+      "scale"
     ],
     "particles": [],
     "sounds": []
@@ -647,6 +655,7 @@ export const AnimationControllers: AnimationController[] =
   {
     "id": "controller.animation.humanoid.riding",
     "animations": [
+      "riding.body",
       "riding.arms",
       "riding.legs"
     ],
@@ -656,6 +665,7 @@ export const AnimationControllers: AnimationController[] =
   {
     "id": "controller.animation.humanoid.riding_legs_only",
     "animations": [
+      "riding.body",
       "riding.legs"
     ],
     "particles": [],
@@ -994,6 +1004,7 @@ export const AnimationControllers: AnimationController[] =
       "move.legs",
       "cape",
       "look_at_target",
+      "riding.root",
       "riding.arms",
       "riding.legs",
       "holding",

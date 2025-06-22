@@ -134,6 +134,7 @@ export const LootTables: string[] =
   "loot_tables/entities/rabbit.json",
   "loot_tables/entities/raider_drops.json",
   "loot_tables/entities/ravager.json",
+  "loot_tables/entities/saddle.json",
   "loot_tables/entities/salmon_large.json",
   "loot_tables/entities/salmon_normal.json",
   "loot_tables/entities/sea_turtle.json",

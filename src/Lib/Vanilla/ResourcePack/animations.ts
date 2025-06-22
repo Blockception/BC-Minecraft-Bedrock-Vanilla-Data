@@ -1597,14 +1597,6 @@ export const Animations: Animation[] =
     "sounds": []
   },
   {
-    "id": "animation.ghast.scale",
-    "bones": [
-      "body"
-    ],
-    "particles": [],
-    "sounds": []
-  },
-  {
     "id": "animation.goat.attack",
     "bones": [
       "head"
@@ -1726,6 +1718,30 @@ export const Animations: Animation[] =
       "tailpart0",
       "tailpart1",
       "tailpart2"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.happy_ghast.move",
+    "bones": [
+      "tentacles_0",
+      "tentacles_1",
+      "tentacles_2",
+      "tentacles_3",
+      "tentacles_4",
+      "tentacles_5",
+      "tentacles_6",
+      "tentacles_7",
+      "tentacles_8"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.happy_ghast.scale",
+    "bones": [
+      "body"
     ],
     "particles": [],
     "sounds": []
@@ -2402,6 +2418,14 @@ export const Animations: Animation[] =
     "bones": [
       "leftarm",
       "rightarm"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.humanoid.riding.body",
+    "bones": [
+      "body"
     ],
     "particles": [],
     "sounds": []
@@ -3553,6 +3577,14 @@ export const Animations: Animation[] =
     "bones": [
       "leftleg",
       "rightleg"
+    ],
+    "particles": [],
+    "sounds": []
+  },
+  {
+    "id": "animation.player.riding.root",
+    "bones": [
+      "root"
     ],
     "particles": [],
     "sounds": []

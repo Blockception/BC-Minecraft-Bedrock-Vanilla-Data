@@ -376,6 +376,8 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:entity_born",
+      "minecraft:spawn_adult",
+      "minecraft:spawn_tame_adult",
       "minecraft:on_tame",
       "minecraft:ageable_grow_up",
       "minecraft:on_chest",
@@ -616,8 +618,24 @@ export const Entities: Entity[] =
   },
   {
     "id": "minecraft:happy_ghast",
-    "events": [],
-    "families": []
+    "events": [
+      "minecraft:entity_spawned",
+      "minecraft:spawn_adult",
+      "minecraft:spawn_baby",
+      "minecraft:ageable_grow_up",
+      "minecraft:become_immobile",
+      "minecraft:become_mobile",
+      "minecraft:on_harnessed",
+      "minecraft:on_unharnessed",
+      "minecraft:on_unleashed",
+      "minecraft:on_passenger_mount",
+      "minecraft:on_passenger_dismount",
+      "minecraft:on_stop_tempting"
+    ],
+    "families": [
+      "happy_ghast",
+      "mob"
+    ]
   },
   {
     "id": "minecraft:hoglin",
@@ -736,6 +754,8 @@ export const Entities: Entity[] =
       "minecraft:mad_at_wolf",
       "minecraft:become_angry",
       "minecraft:on_calm",
+      "minecraft:on_leash",
+      "minecraft:on_unleash",
       "minecraft:on_chest",
       "minecraft:add_attributes",
       "minecraft:spawn_baby",
@@ -812,6 +832,8 @@ export const Entities: Entity[] =
     "events": [
       "minecraft:entity_spawned",
       "minecraft:entity_born",
+      "minecraft:spawn_adult",
+      "minecraft:spawn_tame_adult",
       "minecraft:on_tame",
       "minecraft:ageable_grow_up",
       "minecraft:on_chest",
@@ -904,6 +926,7 @@ export const Entities: Entity[] =
       "minecraft:entity_born",
       "minecraft:ageable_grow_up",
       "minecraft:on_saddled",
+      "minecraft:on_unsaddled",
       "minecraft:spawn_adult"
     ],
     "families": [
@@ -1295,6 +1318,7 @@ export const Entities: Entity[] =
       "minecraft:spawn_baby_strider_jockey",
       "minecraft:ageable_grow_up",
       "minecraft:on_saddled",
+      "minecraft:on_unsaddled",
       "start_suffocating",
       "stop_suffocating",
       "on_not_riding_parent"
@@ -1359,6 +1383,8 @@ export const Entities: Entity[] =
       "minecraft:defend_wandering_trader",
       "minecraft:become_angry",
       "minecraft:on_calm",
+      "minecraft:on_leash",
+      "minecraft:on_unleash",
       "minecraft:on_chest",
       "minecraft:add_attributes",
       "minecraft:spawn_baby",

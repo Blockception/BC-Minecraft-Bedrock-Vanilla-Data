@@ -3782,6 +3782,10 @@ export const Items: Item[] =
     "max_damage": 0
   },
   {
+    "id": "minecraft:music_disc_tears",
+    "max_damage": 0
+  },
+  {
     "id": "minecraft:music_disc_wait",
     "max_damage": 0
   },
