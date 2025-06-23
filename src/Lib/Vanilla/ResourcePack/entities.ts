@@ -123,7 +123,8 @@ export const Entities: Entity[] =
       "bow_and_arrow",
       "swimming",
       "use_item_progress",
-      "skeleton_attack"
+      "skeleton_attack",
+      "riding.body"
     ]
   },
   {
@@ -461,6 +462,15 @@ export const Entities: Entity[] =
     ]
   },
   {
+    "id": "minecraft:happy_ghast",
+    "animations": [
+      "move",
+      "move_controller",
+      "scale",
+      "scale_controller"
+    ]
+  },
+  {
     "id": "minecraft:hoglin",
     "animations": [
       "walk",
@@ -656,7 +666,8 @@ export const Entities: Entity[] =
       "hand_attack",
       "riding_controller",
       "riding.arms",
-      "riding.legs"
+      "riding.legs",
+      "riding.body"
     ]
   },
   {
@@ -676,7 +687,8 @@ export const Entities: Entity[] =
       "hand_attack",
       "riding_controller",
       "riding.arms",
-      "riding.legs"
+      "riding.legs",
+      "riding.body"
     ]
   },
   {
@@ -702,7 +714,8 @@ export const Entities: Entity[] =
       "controller_attack",
       "controller_bob",
       "controller_pillager_attack",
-      "pillager_root_controller"
+      "pillager_root_controller",
+      "riding.body"
     ]
   },
   {
@@ -768,7 +781,8 @@ export const Entities: Entity[] =
       "brushing",
       "crawling",
       "crawling.legs",
-      "holding_heavy_core"
+      "holding_heavy_core",
+      "riding.root"
     ]
   },
   {
@@ -1305,7 +1319,8 @@ export const Entities: Entity[] =
       "bow_and_arrow",
       "use_item_progress",
       "zombie_attack_bare_hand",
-      "swimming"
+      "swimming",
+      "riding.body"
     ]
   }
 ]

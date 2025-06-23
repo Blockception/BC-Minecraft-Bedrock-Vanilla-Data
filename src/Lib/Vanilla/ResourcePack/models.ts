@@ -281,8 +281,8 @@ export const Models: Model[] =
   {
     "id": "geometry.cat",
     "bones": [
-      "head",
       "body",
+      "head",
       "tail1",
       "tail2",
       "backLegL",
@@ -518,14 +518,14 @@ export const Models: Model[] =
   {
     "id": "geometry.dolphin",
     "bones": [
-      "head",
       "body",
+      "head",
+      "nose",
       "tail",
       "tail_fin",
       "back_fin",
       "left_fin",
-      "right_fin",
-      "nose"
+      "right_fin"
     ]
   },
   {
@@ -705,6 +705,7 @@ export const Models: Model[] =
   {
     "id": "geometry.ghast",
     "bones": [
+      "body",
       "tentacles_0",
       "tentacles_1",
       "tentacles_2",
@@ -713,8 +714,7 @@ export const Models: Model[] =
       "tentacles_5",
       "tentacles_6",
       "tentacles_7",
-      "tentacles_8",
-      "body"
+      "tentacles_8"
     ]
   },
   {
@@ -786,6 +786,35 @@ export const Models: Model[] =
       "spikepart9",
       "spikepart10",
       "spikepart11"
+    ]
+  },
+  {
+    "id": "geometry.happy_ghast",
+    "bones": [
+      "body",
+      "tentacles_0",
+      "tentacles_1",
+      "tentacles_2",
+      "tentacles_3",
+      "tentacles_4",
+      "tentacles_5",
+      "tentacles_6",
+      "tentacles_7",
+      "tentacles_8"
+    ]
+  },
+  {
+    "id": "geometry.happy_ghast_ropes",
+    "bones": [
+      "body"
+    ]
+  },
+  {
+    "id": "geometry.harness",
+    "bones": [
+      "body",
+      "goggles_up",
+      "goggles"
     ]
   },
   {
@@ -1569,11 +1598,11 @@ export const Models: Model[] =
   {
     "id": "geometry.rabbit.v1.8",
     "bones": [
+      "body",
       "rearFootLeft",
       "rearFootRight",
       "haunchLeft",
       "haunchRight",
-      "body",
       "frontLegLeft",
       "frontLegRight",
       "head",
