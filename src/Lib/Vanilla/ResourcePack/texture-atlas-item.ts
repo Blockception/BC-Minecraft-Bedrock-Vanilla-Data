@@ -303,6 +303,7 @@ export const TextureItems: string[] =
   "record_creator",
   "record_creator_music_box",
   "record_far",
+  "record_lava_chicken",
   "record_mall",
   "record_mellohi",
   "record_otherside",

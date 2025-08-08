@@ -5258,6 +5258,7 @@ export const SoundFiles: string[] =
   "sounds/music/game/records/creator",
   "sounds/music/game/records/creator_music_box",
   "sounds/music/game/records/far",
+  "sounds/music/game/records/lava_chicken",
   "sounds/music/game/records/mall",
   "sounds/music/game/records/mellohi",
   "sounds/music/game/records/otherside",

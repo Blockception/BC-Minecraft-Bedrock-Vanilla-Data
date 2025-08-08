@@ -229,6 +229,8 @@ export const Entities: Entity[] =
     "id": "minecraft:cave_spider",
     "events": [
       "minecraft:entity_spawned",
+      "minecraft:entity_spawned_with_default_jockey",
+      "minecraft:entity_spawned_with_biome_specific_jockey",
       "minecraft:become_hostile",
       "minecraft:become_neutral",
       "minecraft:become_angry",
@@ -299,6 +301,11 @@ export const Entities: Entity[] =
       "minecart",
       "inanimate"
     ]
+  },
+  {
+    "id": "minecraft:copper_golem",
+    "events": [],
+    "families": []
   },
   {
     "id": "minecraft:cow",
@@ -1262,6 +1269,8 @@ export const Entities: Entity[] =
     "id": "minecraft:spider",
     "events": [
       "minecraft:entity_spawned",
+      "minecraft:entity_spawned_with_default_jockey",
+      "minecraft:entity_spawned_with_biome_specific_jockey",
       "minecraft:become_hostile",
       "minecraft:become_neutral",
       "minecraft:become_angry",
@@ -1703,6 +1712,7 @@ export const Entities: Entity[] =
       "minecraft:become_angry",
       "minecraft:on_calm",
       "minecraft:become_armorable",
+      "minecraft:upgrade_to_1_21_100",
       "minecraft:randomize_sound_variant"
     ],
     "families": [
