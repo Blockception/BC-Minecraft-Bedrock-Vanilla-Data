@@ -1279,6 +1279,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
     "id": "minecraft:copper_door",
     "properties": [
       "door_hinge_bit",
@@ -2133,6 +2139,12 @@ export const Blocks: Block[] =
     "properties": [
       "lit",
       "powered_bit"
+    ]
+  },
+  {
+    "id": "minecraft:exposed_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
     ]
   },
   {
@@ -3772,6 +3784,12 @@ export const Blocks: Block[] =
     "properties": [
       "lit",
       "powered_bit"
+    ]
+  },
+  {
+    "id": "minecraft:oxidized_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
     ]
   },
   {
@@ -5825,6 +5843,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:waxed_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
     "id": "minecraft:waxed_copper_door",
     "properties": [
       "door_hinge_bit",
@@ -5881,6 +5905,12 @@ export const Blocks: Block[] =
     "properties": [
       "lit",
       "powered_bit"
+    ]
+  },
+  {
+    "id": "minecraft:waxed_exposed_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
     ]
   },
   {
@@ -5943,6 +5973,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:waxed_oxidized_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
     "id": "minecraft:waxed_oxidized_copper_door",
     "properties": [
       "door_hinge_bit",
@@ -6002,6 +6038,12 @@ export const Blocks: Block[] =
     ]
   },
   {
+    "id": "minecraft:waxed_weathered_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
+    ]
+  },
+  {
     "id": "minecraft:waxed_weathered_copper_door",
     "properties": [
       "door_hinge_bit",
@@ -6058,6 +6100,12 @@ export const Blocks: Block[] =
     "properties": [
       "lit",
       "powered_bit"
+    ]
+  },
+  {
+    "id": "minecraft:weathered_copper_chest",
+    "properties": [
+      "minecraft:cardinal_direction"
     ]
   },
   {

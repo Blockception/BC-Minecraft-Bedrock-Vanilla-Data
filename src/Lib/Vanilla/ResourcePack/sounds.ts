@@ -1337,6 +1337,7 @@ export const Sounds: string[] =
   "record.creator",
   "record.creator_music_box",
   "record.far",
+  "record.lava_chicken",
   "record.mall",
   "record.mellohi",
   "record.otherside",
