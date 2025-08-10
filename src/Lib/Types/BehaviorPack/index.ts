@@ -2,6 +2,7 @@
 
 export * from "./BehaviorPack";
 export * from "./Block";
+export * from "./Biome";
 export * from "./BlockState";
 export * from "./Entity";
 export * from "./Feature";
