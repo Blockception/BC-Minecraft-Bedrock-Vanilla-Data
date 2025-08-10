@@ -1,5 +1,7 @@
 /** Notice: Auto generated file, do not edit */
+
+import { Biome } from '../../Types/BehaviorPack/Biome';
 
-import { Biome } from "../../Types/BehaviorPack/Biome";
-
-export const Biomes: Biome[] = [];
+
+export const Biomes: Biome[] = 
+[]
