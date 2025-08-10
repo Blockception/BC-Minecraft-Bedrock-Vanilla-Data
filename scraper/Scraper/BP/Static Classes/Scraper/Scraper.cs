@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -25,6 +25,7 @@ public static partial class Scraper {
         Console.WriteLine("Scraping BP: " + Source);
 
         Scraper.Block.FromFolder(container.Blocks, Path.Join(Source, "blocks"));
+        Scraper.Biome.FromFolder(container.Biomes, Path.Join(Source, "biomes"));
         Scraper.Entity.FromFolder(container.Entities, Path.Join(Source, "entities"));
         Scraper.Item.FromFolder(container.Items, Path.Join(Source, "items"));
         Scraper.LootTable.FromFolder(container.LootTables, Path.Join(Source, "loot_tables"));
