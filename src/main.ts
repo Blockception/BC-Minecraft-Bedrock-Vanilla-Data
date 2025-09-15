@@ -8,6 +8,7 @@ export namespace MinecraftData {
   /**The vanilla data set*/
   export const vanilla: MinecraftDataSet = {
     BehaviorPack: {
+      biomes: Vanilla.BehaviorPack.Biomes,
       blocks: Vanilla.BehaviorPack.Blocks,
       entities: Vanilla.BehaviorPack.Entities,
       features: Vanilla.BehaviorPack.Features,
@@ -35,6 +36,7 @@ export namespace MinecraftData {
   /**The education data set*/
   export const edu: MinecraftDataSet = {
     BehaviorPack: {
+      biomes: [],
       blocks: Edu.BehaviorPack.Blocks,
       entities: Edu.BehaviorPack.Entities,
       features: Edu.BehaviorPack.Features,
@@ -95,6 +97,14 @@ export namespace MinecraftData {
 
   /**Access to behaviorpack vanilla data*/
   export namespace BehaviorPack {
+    /**Gets the biome by the given identification
+     * @param id The identification of the object to find
+     * @param edu Whether or not to include education data
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function getBiome(id: string, edu: boolean = false): Types.BehaviorPack.Biome | undefined {
+      return get(id, edu, MinecraftData.vanilla.BehaviorPack.biomes, MinecraftData.edu.BehaviorPack.biomes);
+    }
+
     /**Gets the block by the given identification
      * @param id The identification of the object to find
      * @param edu Whether or not to include education data
@@ -153,6 +163,14 @@ export namespace MinecraftData {
      * @returns A object with the specified id or undefined if nothing was found*/
     export function getTrading(id: string, edu: boolean = false): Types.BehaviorPack.Trading | undefined {
       return getStr(id, edu, MinecraftData.vanilla.BehaviorPack.trading, MinecraftData.edu.BehaviorPack.trading);
+    }
+
+    /**Returns true or false if the given identification exists
+     * @param id The identification of the object to find
+     * @param edu Whether or not to include education data
+     * @returns A object with the specified id or undefined if nothing was found*/
+    export function hasBiome(id: string, edu: boolean = false): boolean {
+      return getBiome(id, edu) !== undefined;
     }
 
     /**Returns true or false if the given identification exists
