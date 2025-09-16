@@ -1,5 +1,6 @@
 /*	Auto generated	*/
 
+export * from "./biomes";
 export * from "./blocks";
 export * from "./entities";
 export * from "./features";
